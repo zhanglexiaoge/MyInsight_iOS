@@ -1,0 +1,37 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+use_modular_headers!
+
+target 'MyInsight_Swift' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MyInsight_Swift
+  pod 'Alamofire' # 网络请求工具
+  pod 'SnapKit'   # 代码约束布局
+  # pod 'MMDrawerController' # 抽屉 swift写的
+  pod 'RealmSwift'
+  # 侧边demo MLSideslipView
+  # 侧边demo DrawerViewController
+  
+  # OC
+  pod 'SWRevealViewController'
+  
+  # 数据库
+  #
+  
+  # MarkDown
+#  pod 'MarkdownView'
+  #pod 'EFMarkdown' # 编译不通过 先注释掉
+
+  target 'MyInsight_SwiftTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MyInsight_SwiftUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

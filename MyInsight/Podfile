@@ -1,0 +1,111 @@
+# Uncomment the next line to define a global platform for your project
+#platform :ios, '9.0'
+use_modular_headers!
+
+target 'MyInsight' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for MyInsight
+  pod 'Masonry' # 约束布局
+  pod 'MBProgressHUD' # 菊花加载
+  pod 'SWRevealViewController' # 侧边抽屉
+  #百度地图SDK
+  pod 'BaiduMapKit'
+  # Goole地图 谷歌地图
+  pod 'GoogleMaps' #, '= 2.5.0'
+  # 高德地图
+  #pod 'AMap2DMap'  #3D地图 SDK（2D地图：AMap2DMap NO-IDFA版本：AMap3DMap-NO-IDFA，AMap2DMap-NO-IDFA） 3D地图与2D地图不能同时使用
+  pod 'AMapSearch' # 地图SDK搜索功能
+  pod 'AMapLocation' # 定位SDK
+  pod 'AMapNavi'  #导航 SDK 已包含3D地图，无需单独引入3D地图
+  
+  pod 'BabyBluetooth' # 蓝牙
+  # 网络请求
+  pod 'AFNetworking'
+  # 网络监控
+  pod 'Reachability'
+  #pod 'ReactiveCocoa','~>2.1.8' # 响应式编程
+  
+  #友盟 基础
+  pod 'UMCCommon'
+  pod 'UMCSecurityPlugins'
+  # 友盟 统计 SDK
+  pod 'UMCAnalytics'
+  # 友盟分享
+  pod 'UMCShare/UI' # U-Share SDK UI模块（分享面板，建议添加）
+  pod 'UMCShare/Social/WeChat' # 集成微信(完整版14.4M)
+  pod 'UMCShare/Social/QQ' # 集成QQ/QZone/TIM(完整版7.6M)
+  pod 'UMCShare/Social/Sina' # 集成新浪微博(完整版25.3M)
+  pod 'UMCShare/Social/AlipayShare' # 集成支付宝
+  # 友盟推送
+  pod 'UMCPush'
+
+  # 键盘管理
+  pod 'IQKeyboardManager'
+  
+  # FMDB数据库
+  pod 'FMDB'
+  # 图片加载
+  pod 'SDWebImage'
+  
+  # WEEX跨平台
+  #source 'https://github.com/CocoaPods/Specs.git',
+  pod 'WXDevtool', :configurations => ['Debug']
+  
+  pod 'MQTTClient'
+  #pod 'MQTTClient/Websocket'
+  #pod 'MQTTKit' # 这个框架很久没更新了
+  pod 'SocketRocket'
+  # iOS之MQTT简单使用 https://www.jianshu.com/p/a12cb037dff5
+  # iOS MQTT----MQTTClient实战-看这篇的就够了 https://www.jianshu.com/p/80ea4507ca74
+  
+  #pod 'AsyncDisplayKit'
+  pod 'CocoaAsyncSocket' # socket通信
+  # 免费聊天框架   https://leancloud.cn/docs/
+  #pod 'ChatKit'
+  # 微信第三方登录
+  # pod 'WechatOpenSDK'
+  # AppID:wxd0f6b34b0b7430a4
+  # AppSecret:1e860f261f083d47afcbe5305541d4b6
+  
+  # 二维码
+  pod 'HMQRCodeScanner'
+  # DES加密所需第三方库
+  pod 'GTMBase64'
+  
+  # 支付
+  # 微信支付
+  # 支付宝支付
+  # 银联支付
+  
+  # YYTextDemo
+  
+  # MarkDown工具 https://github.com/EyreFree/EFMarkdown
+  #应用 Swift 静态库的各种坑 https://cloud.tencent.com/developer/news/252403
+  #pod "EFMarkdown" #, :modular_headers => true
+#  pod "MarkdownView"
+
+    # Flurry统计
+    pod 'Flurry-iOS-SDK/FlurrySDK'
+    pod 'Flurry-iOS-SDK/FlurryAds'
+    
+    # Google Protobuf协议
+    pod 'Protobuf'
+    
+  target 'MyInsightTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MyInsightUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+#
+#[CocoaPods使用总结](https://www.jianshu.com/p/e2806f9d9e6f)
+#
+

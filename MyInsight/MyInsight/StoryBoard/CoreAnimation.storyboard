@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ZDTPVC-->
+        <scene sceneID="oiW-k8-UFL">
+            <objects>
+                <viewController storyboardIdentifier="ZDTPVC" id="drV-OG-e46" customClass="ZDTPVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wyg-Lm-M7a">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="小新.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="SXW-ki-NEA">
+                                <rect key="frame" x="87.5" y="367" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="0mF-9c-4Qs"/>
+                                    <constraint firstAttribute="width" constant="200" id="6dv-ZX-GL1"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="小新.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WOk-MK-qUF">
+                                <rect key="frame" x="87.5" y="150" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="BXh-2c-D5o"/>
+                                    <constraint firstAttribute="height" constant="100" id="psn-qG-A4C"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="小新.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YYK-vc-sRw">
+                                <rect key="frame" x="87.5" y="150" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="ehb-xX-RbB"/>
+                                    <constraint firstAttribute="height" constant="100" id="fUa-aG-mGy"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wZJ-T7-9Ew">
+                                <rect key="frame" x="87.5" y="100" width="200" height="200"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Twp-Uv-y0i"/>
+                                    <constraint firstAttribute="height" constant="200" id="oH7-q9-wvV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WOk-MK-qUF" firstAttribute="centerY" secondItem="wZJ-T7-9Ew" secondAttribute="centerY" id="6ek-I0-34h"/>
+                            <constraint firstItem="WOk-MK-qUF" firstAttribute="centerX" secondItem="wZJ-T7-9Ew" secondAttribute="centerX" id="Gbe-f4-alJ"/>
+                            <constraint firstItem="wZJ-T7-9Ew" firstAttribute="centerX" secondItem="wyg-Lm-M7a" secondAttribute="centerX" id="KpI-9I-AGZ"/>
+                            <constraint firstItem="YYK-vc-sRw" firstAttribute="centerX" secondItem="wZJ-T7-9Ew" secondAttribute="centerX" id="NPo-yj-rP8"/>
+                            <constraint firstItem="wZJ-T7-9Ew" firstAttribute="top" secondItem="wyg-Lm-M7a" secondAttribute="top" constant="100" id="V8T-9O-blZ"/>
+                            <constraint firstAttribute="bottom" secondItem="SXW-ki-NEA" secondAttribute="bottom" constant="100" id="iR0-V0-dFh"/>
+                            <constraint firstItem="SXW-ki-NEA" firstAttribute="centerX" secondItem="wyg-Lm-M7a" secondAttribute="centerX" id="k1m-OE-9Ob"/>
+                            <constraint firstItem="YYK-vc-sRw" firstAttribute="centerY" secondItem="wZJ-T7-9Ew" secondAttribute="centerY" id="qNF-Ll-UX7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2v0-H2-aa0"/>
+                    </view>
+                    <connections>
+                        <outlet property="bottomView" destination="YYK-vc-sRw" id="gKe-y0-Iuq"/>
+                        <outlet property="dragView" destination="wZJ-T7-9Ew" id="ycx-IS-4Us"/>
+                        <outlet property="topView" destination="WOk-MK-qUF" id="i5B-Q5-Pzh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nhc-6V-Arw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2466" y="104"/>
+        </scene>
+        <!--LZDHDTVC-->
+        <scene sceneID="Spg-kl-Fc2">
+            <objects>
+                <viewController storyboardIdentifier="LZDHDTVC" id="rub-B4-S9j" customClass="LZDHDTVC" sceneMemberID="viewController">
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="wee-L5-ETT" customClass="LZDHDTDrawView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7l3-cN-S9z">
+                                <rect key="frame" x="29" y="103" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.91764705879999997" green="0.6588235294" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="开始动画"/>
+                                <connections>
+                                    <action selector="startAni:" destination="rub-B4-S9j" eventType="touchUpInside" id="2Qh-B0-BmF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JfL-WJ-mpB">
+                                <rect key="frame" x="45" y="164" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.91764705879999997" green="0.6588235294" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="重绘"/>
+                                <connections>
+                                    <action selector="reDraw:" destination="rub-B4-S9j" eventType="touchUpInside" id="kBJ-z2-dq5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="8bs-po-WCE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="adW-ah-Ipc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3204" y="104"/>
+        </scene>
+        <!--LZDHDTSVC-->
+        <scene sceneID="1pz-x1-jCv">
+            <objects>
+                <viewController storyboardIdentifier="LZDHDTSVC" id="uFD-Je-lUT" customClass="LZDHDTSVC" sceneMemberID="viewController">
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="zI8-gi-Jqn" customClass="LZDHDTSDrawView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="63d-sU-aXs">
+                                <rect key="frame" x="33" y="144" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.91764705879999997" green="0.6588235294" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="开始动画"/>
+                                <connections>
+                                    <action selector="startAni:" destination="uFD-Je-lUT" eventType="touchUpInside" id="cgN-IL-czr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QWG-Fp-S80">
+                                <rect key="frame" x="49" y="205" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.91764705879999997" green="0.6588235294" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="重绘"/>
+                                <connections>
+                                    <action selector="reDraw:" destination="uFD-Je-lUT" eventType="touchUpInside" id="KvT-GS-NA0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Iup-w8-Tzq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6f8-lW-Fey" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3958" y="104"/>
+        </scene>
+        <!--Dao YingVC-->
+        <scene sceneID="0Wr-8g-mH4">
+            <objects>
+                <viewController storyboardIdentifier="DaoYingVC" id="QCv-AB-WIe" customClass="DaoYingVC" sceneMemberID="viewController">
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="TfW-pu-wAb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8yf-M6-dQz" customClass="RepView">
+                                <rect key="frame" x="87.5" y="100" width="200" height="200"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="卡哇伊.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Wc9-ym-x7f">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="1o1-gc-TkG"/>
+                                    <constraint firstItem="Wc9-ym-x7f" firstAttribute="leading" secondItem="8yf-M6-dQz" secondAttribute="leading" id="9hh-Bw-Zqt"/>
+                                    <constraint firstAttribute="bottom" secondItem="Wc9-ym-x7f" secondAttribute="bottom" id="PXb-6R-H73"/>
+                                    <constraint firstAttribute="height" constant="200" id="iG8-cR-V9t"/>
+                                    <constraint firstItem="Wc9-ym-x7f" firstAttribute="top" secondItem="8yf-M6-dQz" secondAttribute="top" id="qYN-tT-wJ3"/>
+                                    <constraint firstAttribute="trailing" secondItem="Wc9-ym-x7f" secondAttribute="trailing" id="stX-G1-omp"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8yf-M6-dQz" firstAttribute="centerX" secondItem="TfW-pu-wAb" secondAttribute="centerX" id="Qid-6s-qwT"/>
+                            <constraint firstItem="8yf-M6-dQz" firstAttribute="top" secondItem="TfW-pu-wAb" secondAttribute="top" constant="100" id="Swe-cf-89S"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="GHc-9j-jvv"/>
+                    </view>
+                    <connections>
+                        <outlet property="repView" destination="8yf-M6-dQz" id="Sfb-0T-ULi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="msr-n9-sgE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4793" y="93"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="卡哇伊.jpg" width="220" height="220"/>
+        <image name="小新.jpg" width="200" height="200"/>
+    </resources>
+</document>

@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  MyInsight
+//
+//  Created by SongMenglong on 2018/1/26.
+//  Copyright © 2018年 SongMenglong. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#ifdef DEBUG
+#define NSLog(...)  NSLog(__VA_ARGS__)
+#else
+#define NSLog(...)
+#endif
+
+
+#endif /* PrefixHeader_pch */
+
+// 颜色HEX值
+#define UIColorFromHex(hex) [UIColor colorWithRed:((float)((hex & 0xFF0000) >> 16))/255.0 green:((float)((hex & 0xFF00) >> 8))/255.0 blue:((float)(hex & 0xFF))/255.0 alpha:1.0]

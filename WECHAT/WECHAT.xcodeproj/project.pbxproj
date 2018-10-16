@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FDD58F77D3189B2CD7D425A /* libPods-WECHAT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 619D3877432605C9EED38464 /* libPods-WECHAT.a */; };
+		401F9324C10BBEDC0CF9CF38 /* libPods-WECHATUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBBD327CA239A3679577977 /* libPods-WECHATUITests.a */; };
+		82087A897FF8BF397CCCC245 /* libPods-WECHATTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CADC19E6C0D5E5C73664D01 /* libPods-WECHATTests.a */; };
+		A21C85DD20620230008DF288 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A21C85DC20620230008DF288 /* AppDelegate.m */; };
+		A21C85E020620230008DF288 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21C85DF20620230008DF288 /* ViewController.m */; };
+		A21C85E320620230008DF288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21C85E120620230008DF288 /* Main.storyboard */; };
+		A21C85E520620230008DF288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21C85E420620230008DF288 /* Assets.xcassets */; };
+		A21C85E820620230008DF288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21C85E620620230008DF288 /* LaunchScreen.storyboard */; };
+		A21C85EB20620230008DF288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A21C85EA20620230008DF288 /* main.m */; };
+		A21C85F520620231008DF288 /* WECHATTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A21C85F420620231008DF288 /* WECHATTests.m */; };
+		A21C860020620231008DF288 /* WECHATUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A21C85FF20620231008DF288 /* WECHATUITests.m */; };
+		A21C861320620BDB008DF288 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = A21C861020620BDB008DF288 /* README.txt */; };
+		A21C861420620BDB008DF288 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A21C861220620BDB008DF288 /* libWeChatSDK.a */; };
+		A21C861720620CFF008DF288 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A21C861620620CFF008DF288 /* libc++.tbd */; };
+		A21C861920620D09008DF288 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A21C861820620D09008DF288 /* libz.tbd */; };
+		A21C861D20620D25008DF288 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21C861C20620D25008DF288 /* SystemConfiguration.framework */; };
+		A21C861F20620D38008DF288 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21C861E20620D38008DF288 /* CoreTelephony.framework */; };
+		A21C862320622F5C008DF288 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21C862220622F5C008DF288 /* Security.framework */; };
+		A21C862520622F6E008DF288 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21C862420622F6E008DF288 /* CFNetwork.framework */; };
+		A21C862620622FB0008DF288 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A21C861A20620D1A008DF288 /* libsqlite3.0.tbd */; };
+		A2E642F921526EB0009CADE9 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E642F821526EB0009CADE9 /* JavaScriptCore.framework */; };
+		A2E642FB21526EC6009CADE9 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E642FA21526EC6009CADE9 /* libicucore.tbd */; };
+		A2E642FE21526ED7009CADE9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E642FC21526ED7009CADE9 /* AVFoundation.framework */; };
+		A2E642FF21526ED7009CADE9 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E642FD21526ED7009CADE9 /* AVKit.framework */; };
+		A2E6430121526EE7009CADE9 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E6430021526EE7009CADE9 /* MediaPlayer.framework */; };
+		A2E6430321526EF5009CADE9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E6430221526EF5009CADE9 /* CoreMedia.framework */; };
+		A2E6430521526F00009CADE9 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E6430421526F00009CADE9 /* ImageIO.framework */; };
+		A2E6430721526F0C009CADE9 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E6430621526F0C009CADE9 /* CoreImage.framework */; };
+		A2E6430921526F2E009CADE9 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E6430821526F2E009CADE9 /* GLKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A21C85F120620230008DF288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A21C85D020620230008DF288 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A21C85D720620230008DF288;
+			remoteInfo = WECHAT;
+		};
+		A21C85FC20620231008DF288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A21C85D020620230008DF288 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A21C85D720620230008DF288;
+			remoteInfo = WECHAT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E3FE76F90D4E6A9BA90954B /* Pods-WECHATUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WECHATUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WECHATUITests/Pods-WECHATUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5CADC19E6C0D5E5C73664D01 /* libPods-WECHATTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WECHATTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		619D3877432605C9EED38464 /* libPods-WECHAT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WECHAT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21C85D820620230008DF288 /* WECHAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WECHAT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21C85DB20620230008DF288 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A21C85DC20620230008DF288 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A21C85DE20620230008DF288 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A21C85DF20620230008DF288 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A21C85E220620230008DF288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A21C85E420620230008DF288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A21C85E720620230008DF288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A21C85E920620230008DF288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A21C85EA20620230008DF288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A21C85F020620230008DF288 /* WECHATTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WECHATTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21C85F420620231008DF288 /* WECHATTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WECHATTests.m; sourceTree = "<group>"; };
+		A21C85F620620231008DF288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A21C85FB20620231008DF288 /* WECHATUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WECHATUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21C85FF20620231008DF288 /* WECHATUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WECHATUITests.m; sourceTree = "<group>"; };
+		A21C860120620231008DF288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A21C860E20620BDB008DF288 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		A21C860F20620BDB008DF288 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		A21C861020620BDB008DF288 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		A21C861120620BDB008DF288 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		A21C861220620BDB008DF288 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		A21C861620620CFF008DF288 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A21C861820620D09008DF288 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A21C861A20620D1A008DF288 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		A21C861C20620D25008DF288 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A21C861E20620D38008DF288 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A21C862020622F1F008DF288 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		A21C862220622F5C008DF288 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A21C862420622F6E008DF288 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A2E642F821526EB0009CADE9 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		A2E642FA21526EC6009CADE9 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		A2E642FC21526ED7009CADE9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A2E642FD21526ED7009CADE9 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		A2E6430021526EE7009CADE9 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A2E6430221526EF5009CADE9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A2E6430421526F00009CADE9 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		A2E6430621526F0C009CADE9 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		A2E6430821526F2E009CADE9 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		A4F813CA6C0DA693D3709C5B /* Pods-WECHAT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WECHAT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WECHAT/Pods-WECHAT.debug.xcconfig"; sourceTree = "<group>"; };
+		B8BAA0990342E915FB541E23 /* Pods-WECHAT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WECHAT.release.xcconfig"; path = "Pods/Target Support Files/Pods-WECHAT/Pods-WECHAT.release.xcconfig"; sourceTree = "<group>"; };
+		D75523FAEA92990B6423F947 /* Pods-WECHATUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WECHATUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WECHATUITests/Pods-WECHATUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECBBD327CA239A3679577977 /* libPods-WECHATUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WECHATUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF899DA4FAF90B56908FCF52 /* Pods-WECHATTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WECHATTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WECHATTests/Pods-WECHATTests.release.xcconfig"; sourceTree = "<group>"; };
+		F5E1B82ED12CB56BB0E0DA02 /* Pods-WECHATTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WECHATTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WECHATTests/Pods-WECHATTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A21C85D520620230008DF288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E6430921526F2E009CADE9 /* GLKit.framework in Frameworks */,
+				A2E6430721526F0C009CADE9 /* CoreImage.framework in Frameworks */,
+				A2E6430521526F00009CADE9 /* ImageIO.framework in Frameworks */,
+				A2E6430321526EF5009CADE9 /* CoreMedia.framework in Frameworks */,
+				A2E6430121526EE7009CADE9 /* MediaPlayer.framework in Frameworks */,
+				A2E642FE21526ED7009CADE9 /* AVFoundation.framework in Frameworks */,
+				A2E642FF21526ED7009CADE9 /* AVKit.framework in Frameworks */,
+				A2E642FB21526EC6009CADE9 /* libicucore.tbd in Frameworks */,
+				A2E642F921526EB0009CADE9 /* JavaScriptCore.framework in Frameworks */,
+				A21C862520622F6E008DF288 /* CFNetwork.framework in Frameworks */,
+				A21C862320622F5C008DF288 /* Security.framework in Frameworks */,
+				A21C861F20620D38008DF288 /* CoreTelephony.framework in Frameworks */,
+				A21C861D20620D25008DF288 /* SystemConfiguration.framework in Frameworks */,
+				A21C861920620D09008DF288 /* libz.tbd in Frameworks */,
+				A21C862620622FB0008DF288 /* libsqlite3.0.tbd in Frameworks */,
+				A21C861720620CFF008DF288 /* libc++.tbd in Frameworks */,
+				A21C861420620BDB008DF288 /* libWeChatSDK.a in Frameworks */,
+				1FDD58F77D3189B2CD7D425A /* libPods-WECHAT.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21C85ED20620230008DF288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82087A897FF8BF397CCCC245 /* libPods-WECHATTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21C85F820620231008DF288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401F9324C10BBEDC0CF9CF38 /* libPods-WECHATUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		343B4880D9759E039A48F400 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4F813CA6C0DA693D3709C5B /* Pods-WECHAT.debug.xcconfig */,
+				B8BAA0990342E915FB541E23 /* Pods-WECHAT.release.xcconfig */,
+				F5E1B82ED12CB56BB0E0DA02 /* Pods-WECHATTests.debug.xcconfig */,
+				EF899DA4FAF90B56908FCF52 /* Pods-WECHATTests.release.xcconfig */,
+				D75523FAEA92990B6423F947 /* Pods-WECHATUITests.debug.xcconfig */,
+				3E3FE76F90D4E6A9BA90954B /* Pods-WECHATUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A21C85CF20620230008DF288 = {
+			isa = PBXGroup;
+			children = (
+				A21C85DA20620230008DF288 /* WECHAT */,
+				A21C85F320620231008DF288 /* WECHATTests */,
+				A21C85FE20620231008DF288 /* WECHATUITests */,
+				A21C85D920620230008DF288 /* Products */,
+				A21C861520620CFE008DF288 /* Frameworks */,
+				343B4880D9759E039A48F400 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A21C85D920620230008DF288 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A21C85D820620230008DF288 /* WECHAT.app */,
+				A21C85F020620230008DF288 /* WECHATTests.xctest */,
+				A21C85FB20620231008DF288 /* WECHATUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A21C85DA20620230008DF288 /* WECHAT */ = {
+			isa = PBXGroup;
+			children = (
+				A21C85DB20620230008DF288 /* AppDelegate.h */,
+				A21C85DC20620230008DF288 /* AppDelegate.m */,
+				A21C85DE20620230008DF288 /* ViewController.h */,
+				A21C85DF20620230008DF288 /* ViewController.m */,
+				A21C860D20620BDB008DF288 /* WechatSDK1.8.2 */,
+				A21C85E120620230008DF288 /* Main.storyboard */,
+				A21C85E420620230008DF288 /* Assets.xcassets */,
+				A21C85E620620230008DF288 /* LaunchScreen.storyboard */,
+				A21C85E920620230008DF288 /* Info.plist */,
+				A21C85EA20620230008DF288 /* main.m */,
+			);
+			path = WECHAT;
+			sourceTree = "<group>";
+		};
+		A21C85F320620231008DF288 /* WECHATTests */ = {
+			isa = PBXGroup;
+			children = (
+				A21C85F420620231008DF288 /* WECHATTests.m */,
+				A21C85F620620231008DF288 /* Info.plist */,
+			);
+			path = WECHATTests;
+			sourceTree = "<group>";
+		};
+		A21C85FE20620231008DF288 /* WECHATUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A21C85FF20620231008DF288 /* WECHATUITests.m */,
+				A21C860120620231008DF288 /* Info.plist */,
+			);
+			path = WECHATUITests;
+			sourceTree = "<group>";
+		};
+		A21C860D20620BDB008DF288 /* WechatSDK1.8.2 */ = {
+			isa = PBXGroup;
+			children = (
+				A21C860E20620BDB008DF288 /* WXApi.h */,
+				A21C860F20620BDB008DF288 /* WXApiObject.h */,
+				A21C861020620BDB008DF288 /* README.txt */,
+				A21C861120620BDB008DF288 /* WechatAuthSDK.h */,
+				A21C861220620BDB008DF288 /* libWeChatSDK.a */,
+			);
+			path = WechatSDK1.8.2;
+			sourceTree = "<group>";
+		};
+		A21C861520620CFE008DF288 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2E6430821526F2E009CADE9 /* GLKit.framework */,
+				A2E6430621526F0C009CADE9 /* CoreImage.framework */,
+				A2E6430421526F00009CADE9 /* ImageIO.framework */,
+				A2E6430221526EF5009CADE9 /* CoreMedia.framework */,
+				A2E6430021526EE7009CADE9 /* MediaPlayer.framework */,
+				A2E642FC21526ED7009CADE9 /* AVFoundation.framework */,
+				A2E642FD21526ED7009CADE9 /* AVKit.framework */,
+				A2E642FA21526EC6009CADE9 /* libicucore.tbd */,
+				A2E642F821526EB0009CADE9 /* JavaScriptCore.framework */,
+				A21C862420622F6E008DF288 /* CFNetwork.framework */,
+				A21C862220622F5C008DF288 /* Security.framework */,
+				A21C862020622F1F008DF288 /* libc++abi.tbd */,
+				A21C861E20620D38008DF288 /* CoreTelephony.framework */,
+				A21C861C20620D25008DF288 /* SystemConfiguration.framework */,
+				A21C861A20620D1A008DF288 /* libsqlite3.0.tbd */,
+				A21C861820620D09008DF288 /* libz.tbd */,
+				A21C861620620CFF008DF288 /* libc++.tbd */,
+				619D3877432605C9EED38464 /* libPods-WECHAT.a */,
+				5CADC19E6C0D5E5C73664D01 /* libPods-WECHATTests.a */,
+				ECBBD327CA239A3679577977 /* libPods-WECHATUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A21C85D720620230008DF288 /* WECHAT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21C860420620231008DF288 /* Build configuration list for PBXNativeTarget "WECHAT" */;
+			buildPhases = (
+				3B5B6A29C691215A229F2234 /* [CP] Check Pods Manifest.lock */,
+				A21C85D420620230008DF288 /* Sources */,
+				A21C85D520620230008DF288 /* Frameworks */,
+				A21C85D620620230008DF288 /* Resources */,
+				2C38A559C98FD77BFEF6BF36 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WECHAT;
+			productName = WECHAT;
+			productReference = A21C85D820620230008DF288 /* WECHAT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A21C85EF20620230008DF288 /* WECHATTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21C860720620231008DF288 /* Build configuration list for PBXNativeTarget "WECHATTests" */;
+			buildPhases = (
+				9ADC7AB34E05018BF59ED3D9 /* [CP] Check Pods Manifest.lock */,
+				A21C85EC20620230008DF288 /* Sources */,
+				A21C85ED20620230008DF288 /* Frameworks */,
+				A21C85EE20620230008DF288 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A21C85F220620230008DF288 /* PBXTargetDependency */,
+			);
+			name = WECHATTests;
+			productName = WECHATTests;
+			productReference = A21C85F020620230008DF288 /* WECHATTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A21C85FA20620231008DF288 /* WECHATUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21C860A20620231008DF288 /* Build configuration list for PBXNativeTarget "WECHATUITests" */;
+			buildPhases = (
+				54AE991441699CD215A7F14D /* [CP] Check Pods Manifest.lock */,
+				A21C85F720620231008DF288 /* Sources */,
+				A21C85F820620231008DF288 /* Frameworks */,
+				A21C85F920620231008DF288 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A21C85FD20620231008DF288 /* PBXTargetDependency */,
+			);
+			name = WECHATUITests;
+			productName = WECHATUITests;
+			productReference = A21C85FB20620231008DF288 /* WECHATUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A21C85D020620230008DF288 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SongMenglong;
+				TargetAttributes = {
+					A21C85D720620230008DF288 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A21C85EF20620230008DF288 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A21C85D720620230008DF288;
+					};
+					A21C85FA20620231008DF288 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A21C85D720620230008DF288;
+					};
+				};
+			};
+			buildConfigurationList = A21C85D320620230008DF288 /* Build configuration list for PBXProject "WECHAT" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A21C85CF20620230008DF288;
+			productRefGroup = A21C85D920620230008DF288 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A21C85D720620230008DF288 /* WECHAT */,
+				A21C85EF20620230008DF288 /* WECHATTests */,
+				A21C85FA20620231008DF288 /* WECHATUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A21C85D620620230008DF288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21C85E820620230008DF288 /* LaunchScreen.storyboard in Resources */,
+				A21C85E520620230008DF288 /* Assets.xcassets in Resources */,
+				A21C861320620BDB008DF288 /* README.txt in Resources */,
+				A21C85E320620230008DF288 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21C85EE20620230008DF288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21C85F920620231008DF288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C38A559C98FD77BFEF6BF36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WECHAT/Pods-WECHAT-resources.sh",
+				"${PODS_ROOT}/WeexSDK/pre-build/native-bundle-main.js",
+				"${PODS_ROOT}/WeexSDK/ios/sdk/WeexSDK/Resources/wx_load_error@3x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/native-bundle-main.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wx_load_error@3x.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WECHAT/Pods-WECHAT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B5B6A29C691215A229F2234 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WECHAT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54AE991441699CD215A7F14D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WECHATUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ADC7AB34E05018BF59ED3D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WECHATTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A21C85D420620230008DF288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21C85E020620230008DF288 /* ViewController.m in Sources */,
+				A21C85EB20620230008DF288 /* main.m in Sources */,
+				A21C85DD20620230008DF288 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21C85EC20620230008DF288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21C85F520620231008DF288 /* WECHATTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21C85F720620231008DF288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21C860020620231008DF288 /* WECHATUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A21C85F220620230008DF288 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A21C85D720620230008DF288 /* WECHAT */;
+			targetProxy = A21C85F120620230008DF288 /* PBXContainerItemProxy */;
+		};
+		A21C85FD20620231008DF288 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A21C85D720620230008DF288 /* WECHAT */;
+			targetProxy = A21C85FC20620231008DF288 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A21C85E120620230008DF288 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A21C85E220620230008DF288 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A21C85E620620230008DF288 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A21C85E720620230008DF288 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A21C860220620231008DF288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A21C860320620231008DF288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A21C860520620231008DF288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F813CA6C0DA693D3709C5B /* Pods-WECHAT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LYW4U2TVKK;
+				INFOPLIST_FILE = WECHAT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WECHAT/WechatSDK1.8.2",
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.happylong.MyInsight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A21C860620620231008DF288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8BAA0990342E915FB541E23 /* Pods-WECHAT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LYW4U2TVKK;
+				INFOPLIST_FILE = WECHAT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WECHAT/WechatSDK1.8.2",
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.happylong.MyInsight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A21C860820620231008DF288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E1B82ED12CB56BB0E0DA02 /* Pods-WECHATTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WECHATTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uascent.WECHATTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WECHAT.app/WECHAT";
+			};
+			name = Debug;
+		};
+		A21C860920620231008DF288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF899DA4FAF90B56908FCF52 /* Pods-WECHATTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WECHATTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uascent.WECHATTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WECHAT.app/WECHAT";
+			};
+			name = Release;
+		};
+		A21C860B20620231008DF288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D75523FAEA92990B6423F947 /* Pods-WECHATUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WECHATUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uascent.WECHATUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WECHAT;
+			};
+			name = Debug;
+		};
+		A21C860C20620231008DF288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E3FE76F90D4E6A9BA90954B /* Pods-WECHATUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WECHATUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uascent.WECHATUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WECHAT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A21C85D320620230008DF288 /* Build configuration list for PBXProject "WECHAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21C860220620231008DF288 /* Debug */,
+				A21C860320620231008DF288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21C860420620231008DF288 /* Build configuration list for PBXNativeTarget "WECHAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21C860520620231008DF288 /* Debug */,
+				A21C860620620231008DF288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21C860720620231008DF288 /* Build configuration list for PBXNativeTarget "WECHATTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21C860820620231008DF288 /* Debug */,
+				A21C860920620231008DF288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21C860A20620231008DF288 /* Build configuration list for PBXNativeTarget "WECHATUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21C860B20620231008DF288 /* Debug */,
+				A21C860C20620231008DF288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A21C85D020620230008DF288 /* Project object */;
+}

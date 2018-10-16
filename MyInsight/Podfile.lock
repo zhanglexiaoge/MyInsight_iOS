@@ -1,0 +1,202 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AMap3DMap (6.4.0):
+    - AMapFoundation (~> 1.5)
+  - AMapFoundation (1.5.4)
+  - AMapLocation (2.6.1):
+    - AMapFoundation (~> 1.4)
+  - AMapNavi (6.3.0):
+    - AMap3DMap (~> 6.4)
+    - AMapFoundation (~> 1.5)
+  - AMapSearch (6.1.1):
+    - AMapFoundation (~> 1.4)
+  - BabyBluetooth (0.7.0)
+  - BaiduMapKit (3.4.2)
+  - CocoaAsyncSocket (7.6.3)
+  - Flurry-iOS-SDK/FlurryAds (9.2.0):
+    - Flurry-iOS-SDK/FlurrySDK
+  - Flurry-iOS-SDK/FlurrySDK (9.2.0)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - GoogleMaps (2.5.0):
+    - GoogleMaps/Maps (= 2.5.0)
+  - GoogleMaps/Base (2.5.0)
+  - GoogleMaps/Maps (2.5.0):
+    - GoogleMaps/Base
+  - GTMBase64 (1.0.1)
+  - HMQRCodeScanner (1.0.6)
+  - IQKeyboardManager (6.1.1)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MQTTClient (0.14.0):
+    - MQTTClient/Core (= 0.14.0)
+  - MQTTClient/Core (0.14.0):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.14.0):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.14.0)
+  - Protobuf (3.6.1)
+  - Reachability (3.2)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SocketRocket (0.5.1)
+  - SWRevealViewController (2.3.0)
+  - UMCAnalytics (5.5.1):
+    - UMCCommon
+  - UMCCommon (1.5.2)
+  - UMCPush (3.2.3):
+    - UMCCommon
+  - UMCSecurityPlugins (1.0.6)
+  - UMCShare/Core (6.9.4):
+    - UMCCommon
+  - UMCShare/Social/AlipayShare (6.9.4):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/QQ (6.9.4):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedQQ
+  - UMCShare/Social/ReducedQQ (6.9.4):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedSina (6.9.4):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedWeChat (6.9.4):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/Sina (6.9.4):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedSina
+  - UMCShare/Social/WeChat (6.9.4):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedWeChat
+  - UMCShare/UI (6.9.4):
+    - UMCCommon
+    - UMCShare/Core
+  - WeexSDK (0.18.0.3)
+  - WXDevtool (0.16.3):
+    - SocketRocket
+    - WeexSDK
+
+DEPENDENCIES:
+  - AFNetworking
+  - AMapLocation
+  - AMapNavi
+  - AMapSearch
+  - BabyBluetooth
+  - BaiduMapKit
+  - CocoaAsyncSocket
+  - Flurry-iOS-SDK/FlurryAds
+  - Flurry-iOS-SDK/FlurrySDK
+  - FMDB
+  - GoogleMaps
+  - GTMBase64
+  - HMQRCodeScanner
+  - IQKeyboardManager
+  - Masonry
+  - MBProgressHUD
+  - MQTTClient
+  - Protobuf
+  - Reachability
+  - SDWebImage
+  - SocketRocket
+  - SWRevealViewController
+  - UMCAnalytics
+  - UMCCommon
+  - UMCPush
+  - UMCSecurityPlugins
+  - UMCShare/Social/AlipayShare
+  - UMCShare/Social/QQ
+  - UMCShare/Social/Sina
+  - UMCShare/Social/WeChat
+  - UMCShare/UI
+  - WXDevtool
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AMap3DMap
+    - AMapFoundation
+    - AMapLocation
+    - AMapNavi
+    - AMapSearch
+    - BabyBluetooth
+    - BaiduMapKit
+    - CocoaAsyncSocket
+    - Flurry-iOS-SDK
+    - FMDB
+    - GoogleMaps
+    - GTMBase64
+    - HMQRCodeScanner
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - MQTTClient
+    - Protobuf
+    - Reachability
+    - SDWebImage
+    - SocketRocket
+    - SWRevealViewController
+    - UMCAnalytics
+    - UMCCommon
+    - UMCPush
+    - UMCSecurityPlugins
+    - UMCShare
+    - WeexSDK
+    - WXDevtool
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AMap3DMap: ebfb4e202c2bee9c3a6c296264e29f12436b6379
+  AMapFoundation: bff8688722e886feda4edd77f1443746ddd7e2e2
+  AMapLocation: cf024b53dc03663efb4ea4bcce27d4cce58bb97a
+  AMapNavi: 03c899c5a0d76e1222dc4c317d2a6a9b72449cff
+  AMapSearch: 3dcbf85c403a2a0fe0eda5318caabc272b31f5e1
+  BabyBluetooth: d50758aecf24d4a0ab9271d69f0f116d6bee51c9
+  BaiduMapKit: f61b19ecf07a3f2deede72b221b366bf698739ed
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  Flurry-iOS-SDK: e5d6ff8cb79b5044710a0c7ae41b12ac651f4315
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  GoogleMaps: c087b8e5dfe87ca6ebf59adb9b4894a4146bec4f
+  GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
+  HMQRCodeScanner: 8db2d317c0e5cbe3b4709fe2b9f26c107d66554e
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MQTTClient: eea2eaaa6ddef852a1019a4dda091e22ad928b58
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+  UMCAnalytics: 0aff87e39008e2a650e5917430db0da2de2f8495
+  UMCCommon: 4392868ac47ff1b101663106bb114ba616fabbad
+  UMCPush: 628b5c61be5a5036cb31eb9b3a3ab8dce7521691
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+  UMCShare: aa233aecad67979930fe43f3a2f676023b669439
+  WeexSDK: 173541f2d0042664168b305952398145c0c6039c
+  WXDevtool: c028138b4e3a8856758acfea2328f708d3adbedd
+
+PODFILE CHECKSUM: c36e25fa9001f04f7afcbe88c968fb79f98d6d55
+
+COCOAPODS: 1.5.3
