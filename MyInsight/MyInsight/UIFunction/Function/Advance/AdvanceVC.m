@@ -23,6 +23,7 @@
 #import "PaymentVC.h" // 支付方式
 #import "SensorVC.h" // 传感器
 #import "HardwareInfoVC.h" // 硬件信息
+#import "SystemServiceVC.h" // 系统服务
 
 @interface AdvanceVC ()<UITableViewDelegate, UITableViewDataSource>
 // 列表
@@ -47,6 +48,7 @@ static const NSString *FileSharedStr = @"文件共享";
 static const NSString *PaymentStr = @"支付方式";
 static const NSString *SensorStr = @"传感器";
 static const NSString *HardwareInfoStr = @"硬件信息";
+static const NSString *SystemServiceStr = @"系统服务:短信邮件等";
 
 @implementation AdvanceVC
 
@@ -84,7 +86,7 @@ static const NSString *HardwareInfoStr = @"硬件信息";
 
 // 处理数据
 - (void)handleTableViewData {
-    self.dataArray = @[TouchIDStr, MapsStr, BlueToothStr, BabyBLEStr, MQTTStr, DataBaseStr, NetWorkStr, QRCodeString, RSAEncryptStr, PushMsgStr, FileSharedStr, PaymentStr, SensorStr, HardwareInfoStr];
+    self.dataArray = @[TouchIDStr, MapsStr, BlueToothStr, BabyBLEStr, MQTTStr, DataBaseStr, NetWorkStr, QRCodeString, RSAEncryptStr, PushMsgStr, FileSharedStr, PaymentStr, SensorStr, HardwareInfoStr, SystemServiceStr];
 }
 
 #pragma mark - 创建TableView
@@ -216,6 +218,13 @@ static const NSString *HardwareInfoStr = @"硬件信息";
         hardwareInfoVC.hidesBottomBarWhenPushed = YES;
         hardwareInfoVC.title = cellString;
         [self.navigationController pushViewController:hardwareInfoVC animated:YES];
+    }
+    if ([cellString isEqual:SystemServiceStr]) {
+        // 系统服务
+        SystemServiceVC *systemServiceVC= [[SystemServiceVC alloc] init];
+        systemServiceVC.hidesBottomBarWhenPushed = YES;
+        systemServiceVC.title = cellString;
+        [self.navigationController pushViewController:systemServiceVC animated:YES];
     }
 }
 

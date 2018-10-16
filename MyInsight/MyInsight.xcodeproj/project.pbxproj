@@ -148,6 +148,8 @@
 		A26CE4AC201971DC0012EC69 /* MapsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A26CE4AB201971DC0012EC69 /* MapsVC.m */; };
 		A26D17302043A4880064DECF /* WelcomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A26D172F2043A4880064DECF /* WelcomeVC.m */; };
 		A26D17342043BDB80064DECF /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A26D17332043BDB80064DECF /* LoginVC.m */; };
+		A26F08552175956C00626B65 /* SystemServiceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A26F08542175956C00626B65 /* SystemServiceVC.m */; };
+		A26F0858217597DD00626B65 /* GameKitBleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A26F0857217597DD00626B65 /* GameKitBleVC.m */; };
 		A27469E2216DDBA30059E2C9 /* UMengVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A27469E1216DDBA30059E2C9 /* UMengVC.m */; };
 		A27469E5216E101D0059E2C9 /* CrossWeexVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A27469E4216E101D0059E2C9 /* CrossWeexVC.m */; };
 		A27469E8216E10F70059E2C9 /* CrossFlutterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A27469E7216E10F70059E2C9 /* CrossFlutterVC.m */; };
@@ -570,6 +572,10 @@
 		A26D172F2043A4880064DECF /* WelcomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomeVC.m; sourceTree = "<group>"; };
 		A26D17322043BDB80064DECF /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
 		A26D17332043BDB80064DECF /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		A26F08532175956C00626B65 /* SystemServiceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemServiceVC.h; sourceTree = "<group>"; };
+		A26F08542175956C00626B65 /* SystemServiceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemServiceVC.m; sourceTree = "<group>"; };
+		A26F0856217597DD00626B65 /* GameKitBleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameKitBleVC.h; sourceTree = "<group>"; };
+		A26F0857217597DD00626B65 /* GameKitBleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameKitBleVC.m; sourceTree = "<group>"; };
 		A27469E0216DDBA30059E2C9 /* UMengVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMengVC.h; sourceTree = "<group>"; };
 		A27469E1216DDBA30059E2C9 /* UMengVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMengVC.m; sourceTree = "<group>"; };
 		A27469E3216E101D0059E2C9 /* CrossWeexVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrossWeexVC.h; sourceTree = "<group>"; };
@@ -1707,6 +1713,7 @@
 			children = (
 				A26CE48D2018A0BE0012EC69 /* AdvanceVC.h */,
 				A26CE48E2018A0BE0012EC69 /* AdvanceVC.m */,
+				A26F08522175955A00626B65 /* SystemService */,
 				A22F008B21717C7D0047FADB /* HardwareInfo */,
 				A22F007D216F90B60047FADB /* Sensor */,
 				A241D22120468E52005A3BC5 /* MQTT */,
@@ -1857,6 +1864,15 @@
 				A26D17332043BDB80064DECF /* LoginVC.m */,
 			);
 			path = User;
+			sourceTree = "<group>";
+		};
+		A26F08522175955A00626B65 /* SystemService */ = {
+			isa = PBXGroup;
+			children = (
+				A26F08532175956C00626B65 /* SystemServiceVC.h */,
+				A26F08542175956C00626B65 /* SystemServiceVC.m */,
+			);
+			path = SystemService;
 			sourceTree = "<group>";
 		};
 		A27469DF216DD9D30059E2C9 /* UMeng */ = {
@@ -2265,6 +2281,8 @@
 				A2930B872106089F006520FF /* BLETool.m */,
 				A2930B8921060BB1006520FF /* BLEModel.h */,
 				A2930B8A21060BB1006520FF /* BLEModel.m */,
+				A26F0856217597DD00626B65 /* GameKitBleVC.h */,
+				A26F0857217597DD00626B65 /* GameKitBleVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -2927,6 +2945,7 @@
 				A2250B1B20E1145600CCBB29 /* BlurViewVC.m in Sources */,
 				A2CDD266208ED1DE006DF86E /* PSBaseView.m in Sources */,
 				A2250B2B20E155ED00CCBB29 /* DrawPaletteVC.m in Sources */,
+				A26F0858217597DD00626B65 /* GameKitBleVC.m in Sources */,
 				A27469E2216DDBA30059E2C9 /* UMengVC.m in Sources */,
 				A288F9842089DB4100DD4CA0 /* VerticalCollectionVC.m in Sources */,
 				A27469E5216E101D0059E2C9 /* CrossWeexVC.m in Sources */,
@@ -3026,6 +3045,7 @@
 				A238AEFF215CB6E900A9959A /* IJKPlayerVC.m in Sources */,
 				A2B9929C2068F40D002A73B1 /* ChatAudioCell.m in Sources */,
 				A241BF4820F739F70099E8A5 /* QuartzLines.m in Sources */,
+				A26F08552175956C00626B65 /* SystemServiceVC.m in Sources */,
 				A2250B1320E10D6800CCBB29 /* NSString+Characters.m in Sources */,
 				A2B992A62068F441002A73B1 /* ChatFileCell.m in Sources */,
 				A26CE48C2018A0AD0012EC69 /* SeniorVC.m in Sources */,
