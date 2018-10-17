@@ -71,7 +71,7 @@
 
 #pragma mark - 处理数据
 - (void)handleData {
-	self.dataArray = @[@"iOS设计模式"];
+	self.dataArray = @[@"iOS设计模式", @"GIT工具"];
 }
 
 
