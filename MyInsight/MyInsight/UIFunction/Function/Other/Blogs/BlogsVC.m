@@ -2,7 +2,7 @@
 //  BlogsVC.m
 //  MyInsight
 //
-//  Created by zhouyugang_mini on 2018/10/17.
+//  Created by SongMenglong on 2018/10/17.
 //  Copyright © 2018 SongMenglong. All rights reserved.
 //
 
@@ -71,7 +71,7 @@
 
 #pragma mark - 处理数据
 - (void)handleData {
-	self.dataArray = @[@"iOS设计模式", @"GIT工具"];
+	self.dataArray = @[@"iOS设计模式", @"GIT工具", @"iOS进制转换", @"iOS第三方库工具"];
 }
 
 

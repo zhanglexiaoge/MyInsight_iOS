@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		187AFE48217730C500C83677 /* iOS进制转换.md in Resources */ = {isa = PBXBuildFile; fileRef = 187AFE47217730C500C83677 /* iOS进制转换.md */; };
 		187BF5DD2176C7F100AEC321 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5D92176C7F000AEC321 /* index.html */; };
 		187BF5DE2176C7F100AEC321 /* MarkdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187BF5DA2176C7F000AEC321 /* MarkdownView.swift */; };
 		187BF5DF2176C7F100AEC321 /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5DB2176C7F000AEC321 /* main.css */; };
@@ -38,6 +39,7 @@
 		187BF6172176C9FF00AEC321 /* BlogsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BF6162176C9FF00AEC321 /* BlogsVC.m */; };
 		187BF61A2176CC6C00AEC321 /* MDBlogsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BF6192176CC6C00AEC321 /* MDBlogsVC.m */; };
 		18DE2D20217713E3005C64C9 /* GIT工具.md in Resources */ = {isa = PBXBuildFile; fileRef = 18DE2D1F217713E3005C64C9 /* GIT工具.md */; };
+		18DE2D2221771D65005C64C9 /* iOS第三方库工具.md in Resources */ = {isa = PBXBuildFile; fileRef = 18DE2D2121771D65005C64C9 /* iOS第三方库工具.md */; };
 		5646242E551402D83E5DDEC4 /* libPods-MyInsightTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1048AA554877EFDC9A3C520A /* libPods-MyInsightTests.a */; };
 		6F9CFB2BFF1D334595CC4C63 /* libPods-MyInsightUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AABD5D3CA8DF36493A18039 /* libPods-MyInsightUITests.a */; };
 		A207108B214D09E8000D1710 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A207108A214D09E8000D1710 /* Student.m */; };
@@ -364,6 +366,7 @@
 /* Begin PBXFileReference section */
 		0AABD5D3CA8DF36493A18039 /* libPods-MyInsightUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyInsightUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1048AA554877EFDC9A3C520A /* libPods-MyInsightTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyInsightTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		187AFE47217730C500C83677 /* iOS进制转换.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS进制转换.md"; sourceTree = "<group>"; };
 		187BF5D92176C7F000AEC321 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		187BF5DA2176C7F000AEC321 /* MarkdownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownView.swift; sourceTree = "<group>"; };
 		187BF5DB2176C7F000AEC321 /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
@@ -397,6 +400,7 @@
 		187BF6182176CC6C00AEC321 /* MDBlogsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDBlogsVC.h; sourceTree = "<group>"; };
 		187BF6192176CC6C00AEC321 /* MDBlogsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDBlogsVC.m; sourceTree = "<group>"; };
 		18DE2D1F217713E3005C64C9 /* GIT工具.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "GIT工具.md"; sourceTree = "<group>"; };
+		18DE2D2121771D65005C64C9 /* iOS第三方库工具.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS第三方库工具.md"; sourceTree = "<group>"; };
 		1EBB57A4D51C93564AD02166 /* Pods-MyInsightUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsightUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsightUITests/Pods-MyInsightUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4075EEE77E46716D6816D005 /* Pods-MyInsight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight/Pods-MyInsight.debug.xcconfig"; sourceTree = "<group>"; };
 		54BB9D4AD19B12DC9B439E91 /* Pods-MyInsightUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsightUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsightUITests/Pods-MyInsightUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -1142,6 +1146,8 @@
 				187BF5FA2176C97F00AEC321 /* SDWebImage原理.md */,
 				187BF5FB2176C97F00AEC321 /* iOS-RunTime.md */,
 				18DE2D1F217713E3005C64C9 /* GIT工具.md */,
+				18DE2D2121771D65005C64C9 /* iOS第三方库工具.md */,
+				187AFE47217730C500C83677 /* iOS进制转换.md */,
 				187BF5EF2176C97F00AEC321 /* image */,
 			);
 			path = MyBlog;
@@ -2954,9 +2960,11 @@
 				A22C4DCB1FFC777A0079F7C2 /* route_pin@2x.png in Resources */,
 				A28ED5411FD2495F00A74551 /* Mine.storyboard in Resources */,
 				187BF5FE2176C97F00AEC321 /* model.md in Resources */,
+				18DE2D2221771D65005C64C9 /* iOS第三方库工具.md in Resources */,
 				A241BF5920F73DB60099E8A5 /* QuartzDraw.storyboard in Resources */,
 				A2CDD258208DD3CA006DF86E /* 卡哇伊.jpg in Resources */,
 				187BF6112176C97F00AEC321 /* AFNetWorking&Alamofire源码详解.md in Resources */,
+				187AFE48217730C500C83677 /* iOS进制转换.md in Resources */,
 				187BF6092176C97F00AEC321 /* 复盘流程.png in Resources */,
 				18DE2D20217713E3005C64C9 /* GIT工具.md in Resources */,
 				A22C4DCA1FFC777A0079F7C2 /* compass48.png in Resources */,
