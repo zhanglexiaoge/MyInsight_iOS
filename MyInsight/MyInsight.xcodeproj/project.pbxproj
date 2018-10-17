@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		187BF5DD2176C7F100AEC321 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5D92176C7F000AEC321 /* index.html */; };
+		187BF5DE2176C7F100AEC321 /* MarkdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187BF5DA2176C7F000AEC321 /* MarkdownView.swift */; };
+		187BF5DF2176C7F100AEC321 /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5DB2176C7F000AEC321 /* main.css */; };
+		187BF5E02176C7F100AEC321 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5DC2176C7F000AEC321 /* main.js */; };
 		5646242E551402D83E5DDEC4 /* libPods-MyInsightTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1048AA554877EFDC9A3C520A /* libPods-MyInsightTests.a */; };
 		6F9CFB2BFF1D334595CC4C63 /* libPods-MyInsightUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AABD5D3CA8DF36493A18039 /* libPods-MyInsightUITests.a */; };
 		A207108B214D09E8000D1710 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A207108A214D09E8000D1710 /* Student.m */; };
@@ -334,6 +338,10 @@
 /* Begin PBXFileReference section */
 		0AABD5D3CA8DF36493A18039 /* libPods-MyInsightUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyInsightUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1048AA554877EFDC9A3C520A /* libPods-MyInsightTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyInsightTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		187BF5D92176C7F000AEC321 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		187BF5DA2176C7F000AEC321 /* MarkdownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownView.swift; sourceTree = "<group>"; };
+		187BF5DB2176C7F000AEC321 /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
+		187BF5DC2176C7F000AEC321 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		1EBB57A4D51C93564AD02166 /* Pods-MyInsightUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsightUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsightUITests/Pods-MyInsightUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4075EEE77E46716D6816D005 /* Pods-MyInsight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight/Pods-MyInsight.debug.xcconfig"; sourceTree = "<group>"; };
 		54BB9D4AD19B12DC9B439E91 /* Pods-MyInsightUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsightUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsightUITests/Pods-MyInsightUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -1038,6 +1046,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		187BF5D82176C7F000AEC321 /* MarkdownView */ = {
+			isa = PBXGroup;
+			children = (
+				187BF5D92176C7F000AEC321 /* index.html */,
+				187BF5DA2176C7F000AEC321 /* MarkdownView.swift */,
+				187BF5DB2176C7F000AEC321 /* main.css */,
+				187BF5DC2176C7F000AEC321 /* main.js */,
+			);
+			path = MarkdownView;
+			sourceTree = "<group>";
+		};
+		187BF5E12176C8C200AEC321 /* Blog */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Blog;
+			sourceTree = "<group>";
+		};
 		6EADE52EE3D33EACA00B1056 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1098,6 +1124,7 @@
 		A20D5D6D1FCFFB37000E191D /* MyInsight */ = {
 			isa = PBXGroup;
 			children = (
+				187BF5E12176C8C200AEC321 /* Blog */,
 				A27E8722201AC471003E712C /* General */,
 				A20D5DF61FD14549000E191D /* UIFunction */,
 				A20D5DF41FD14549000E191D /* StoryBoard */,
@@ -1255,6 +1282,7 @@
 		A22C4D7A1FFB1B680079F7C2 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				187BF5D82176C7F000AEC321 /* MarkdownView */,
 				A27E8726201AC53C003E712C /* Music */,
 				A2E4E69F2004BFDD00EC3D63 /* FFmpeg-iOS */,
 				A22C4DA61FFC77790079F7C2 /* YahooMap */,
@@ -2770,6 +2798,7 @@
 			files = (
 				A262CC42216388A10050D6BC /* 消愁.mp3 in Resources */,
 				A2DDDC5F208B084A00DC7A4A /* FoldTableViewCell.xib in Resources */,
+				187BF5DF2176C7F100AEC321 /* main.css in Resources */,
 				A2B992A72068F441002A73B1 /* ChatFileCell.xib in Resources */,
 				A22F0082216F930B0047FADB /* Advance.storyboard in Resources */,
 				A27E8728201AC53C003E712C /* 1967.mp3 in Resources */,
@@ -2804,7 +2833,9 @@
 				A268BEFC2106E04300CADD8A /* scrollimage4.jpg in Resources */,
 				A2D884A520872322005116A6 /* BluetoothCell.xib in Resources */,
 				A268BEFF2106E04300CADD8A /* scrollimage2.jpg in Resources */,
+				187BF5DD2176C7F100AEC321 /* index.html in Resources */,
 				A22C4DC21FFC777A0079F7C2 /* goal.png in Resources */,
+				187BF5E02176C7F100AEC321 /* main.js in Resources */,
 				A22C4DCB1FFC777A0079F7C2 /* route_pin@2x.png in Resources */,
 				A28ED5411FD2495F00A74551 /* Mine.storyboard in Resources */,
 				A241BF5920F73DB60099E8A5 /* QuartzDraw.storyboard in Resources */,
@@ -3136,6 +3167,7 @@
 				A241BF4720F739F70099E8A5 /* QuartzRendering.m in Sources */,
 				A2930B882106089F006520FF /* BLETool.m in Sources */,
 				A2B992B02069F447002A73B1 /* ChatModel.m in Sources */,
+				187BF5DE2176C7F100AEC321 /* MarkdownView.swift in Sources */,
 				A239CE232085D8990033646A /* MICircleLayout.m in Sources */,
 				A241BFA420FC83E10099E8A5 /* ColorPickerUnitSlider.m in Sources */,
 				A23E0290213923B600FD0767 /* UIColor-Expanded.m in Sources */,
@@ -3428,6 +3460,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 86049EE3A04849AE05357E50 /* Pods-MyInsightTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyInsightTests/Info.plist;
@@ -3443,6 +3476,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B34F5016CAA45D7BD71933A9 /* Pods-MyInsightTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyInsightTests/Info.plist;
@@ -3458,6 +3492,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1EBB57A4D51C93564AD02166 /* Pods-MyInsightUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyInsightUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -3472,6 +3507,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 54BB9D4AD19B12DC9B439E91 /* Pods-MyInsightUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyInsightUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
