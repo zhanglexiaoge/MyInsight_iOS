@@ -16,7 +16,6 @@ class OtherVC: BaseVC {
     // 数组
     var dataArray = Array<String>()
     
-    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         // 抽屉
