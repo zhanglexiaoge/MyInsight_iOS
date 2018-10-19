@@ -26,6 +26,7 @@ PODS:
     - AMapFoundation (~> 1.4)
   - BabyBluetooth (0.7.0)
   - BaiduMapKit (3.4.2)
+  - Bugly (2.5.0)
   - CocoaAsyncSocket (7.6.3)
   - Flurry-iOS-SDK/FlurryAds (9.2.0):
     - Flurry-iOS-SDK/FlurrySDK
@@ -105,6 +106,7 @@ DEPENDENCIES:
   - AMapSearch
   - BabyBluetooth
   - BaiduMapKit
+  - Bugly
   - CocoaAsyncSocket
   - Flurry-iOS-SDK/FlurryAds
   - Flurry-iOS-SDK/FlurrySDK
@@ -142,6 +144,7 @@ SPEC REPOS:
     - AMapSearch
     - BabyBluetooth
     - BaiduMapKit
+    - Bugly
     - CocoaAsyncSocket
     - Flurry-iOS-SDK
     - FMDB
@@ -174,6 +177,7 @@ SPEC CHECKSUMS:
   AMapSearch: 3dcbf85c403a2a0fe0eda5318caabc272b31f5e1
   BabyBluetooth: d50758aecf24d4a0ab9271d69f0f116d6bee51c9
   BaiduMapKit: f61b19ecf07a3f2deede72b221b366bf698739ed
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
   CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
   Flurry-iOS-SDK: e5d6ff8cb79b5044710a0c7ae41b12ac651f4315
   FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
@@ -197,6 +201,6 @@ SPEC CHECKSUMS:
   WeexSDK: 173541f2d0042664168b305952398145c0c6039c
   WXDevtool: c028138b4e3a8856758acfea2328f708d3adbedd
 
-PODFILE CHECKSUM: c36e25fa9001f04f7afcbe88c968fb79f98d6d55
+PODFILE CHECKSUM: e5c902c876be5b51f949607e78db643e7894a543
 
 COCOAPODS: 1.5.3

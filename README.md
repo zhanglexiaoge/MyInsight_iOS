@@ -19,7 +19,7 @@
 
 iOS：
 
-[NSDictionary实现原理](./MyInsight/MyInsight/Blog/MyBlog/NSDictionary实现原理.md)
+[NSDictionary实现原理](./MyInsight/MyInsight/Blog/iOS/NSDictionary实现原理.md)
 
 
 

@@ -15,6 +15,7 @@
 #import <Flurry.h> // 统计
 #import <UMCommon/UMCommon.h> //友盟
 //#import <LCChatKit.h>
+#import <Bugly/Bugly.h> // Bug统计工具
 
 /*
  友盟API
@@ -49,6 +50,15 @@
     [self setupFlurry];
     // 友盟
     [self setupUMeng];
+    
+    //bug统计
+    /*
+     产品名称：有鹿
+     App ID：5b54003dca
+     App Key：8e548e20-1e53-4ec9-a7ca-630df98c12f2
+     文档:https://bugly.qq.com/docs/user-guide/advance-features-ios/?v=20180709165613
+     */
+    [Bugly startWithAppId:@"5b54003dca"];
     
     return YES;
 }

@@ -71,6 +71,7 @@
 		A2250B2520E1554900CCBB29 /* CancasModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A2250B2420E1554900CCBB29 /* CancasModel.m */; };
 		A2250B2820E155A300CCBB29 /* MIBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = A2250B2720E155A300CCBB29 /* MIBezierPath.m */; };
 		A2250B2B20E155ED00CCBB29 /* DrawPaletteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2250B2A20E155ED00CCBB29 /* DrawPaletteVC.m */; };
+		A228FA9B217A1EE500D26F54 /* iOS统计工具.md in Resources */ = {isa = PBXBuildFile; fileRef = A228FA9A217A1EE500D26F54 /* iOS统计工具.md */; };
 		A22C4D7F1FFB1BB00079F7C2 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A22C4D7E1FFB1BB00079F7C2 /* libjpeg.a */; };
 		A22C4D811FFB1C3F0079F7C2 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A22C4D801FFB1C3F0079F7C2 /* libc++.tbd */; };
 		A22C4D831FFB1C4E0079F7C2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22C4D821FFB1C4E0079F7C2 /* AVFoundation.framework */; };
@@ -464,6 +465,7 @@
 		A2250B2720E155A300CCBB29 /* MIBezierPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIBezierPath.m; sourceTree = "<group>"; };
 		A2250B2920E155ED00CCBB29 /* DrawPaletteVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawPaletteVC.h; sourceTree = "<group>"; };
 		A2250B2A20E155ED00CCBB29 /* DrawPaletteVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawPaletteVC.m; sourceTree = "<group>"; };
+		A228FA9A217A1EE500D26F54 /* iOS统计工具.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS统计工具.md"; sourceTree = "<group>"; };
 		A22C4D7E1FFB1BB00079F7C2 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
 		A22C4D801FFB1C3F0079F7C2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		A22C4D821FFB1C4E0079F7C2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -1135,13 +1137,13 @@
 		187BF5E12176C8C200AEC321 /* Blog */ = {
 			isa = PBXGroup;
 			children = (
-				187BF5E22176C97F00AEC321 /* MyBlog */,
+				187BF5E22176C97F00AEC321 /* iOS */,
 				A208251A2179C95200465995 /* CPP设计模式.md */,
 			);
 			path = Blog;
 			sourceTree = "<group>";
 		};
-		187BF5E22176C97F00AEC321 /* MyBlog */ = {
+		187BF5E22176C97F00AEC321 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				187BF5E32176C97F00AEC321 /* NSDictionary实现原理.md */,
@@ -1175,12 +1177,13 @@
 				18E2AD5021788500001BA590 /* iOS跨平台.md */,
 				18E2AD71217897CF001BA590 /* iOS的GitHub接口.md */,
 				A208251C2179CC1F00465995 /* iOS调试技巧.md */,
-				187BF5EF2176C97F00AEC321 /* image */,
+				A228FA9A217A1EE500D26F54 /* iOS统计工具.md */,
+				187BF5EF2176C97F00AEC321 /* image_ios */,
 			);
-			path = MyBlog;
+			path = iOS;
 			sourceTree = "<group>";
 		};
-		187BF5EF2176C97F00AEC321 /* image */ = {
+		187BF5EF2176C97F00AEC321 /* image_ios */ = {
 			isa = PBXGroup;
 			children = (
 				187BF5F02176C97F00AEC321 /* 系统设计题的框架.png */,
@@ -1188,7 +1191,7 @@
 				187BF5F22176C97F00AEC321 /* 面试流程图.png */,
 				187BF5F32176C97F00AEC321 /* 简历的准备.png */,
 			);
-			path = image;
+			path = image_ios;
 			sourceTree = "<group>";
 		};
 		187BF6142176C9E700AEC321 /* Blogs */ = {
@@ -3005,6 +3008,7 @@
 				A22C4DCA1FFC777A0079F7C2 /* compass48.png in Resources */,
 				A268BEFD2106E04300CADD8A /* scrollimage1.jpg in Resources */,
 				18E2AD5121788500001BA590 /* iOS跨平台.md in Resources */,
+				A228FA9B217A1EE500D26F54 /* iOS统计工具.md in Resources */,
 				A2B992982068F3E4002A73B1 /* ChatImageCell.xib in Resources */,
 				A22C4DC31FFC777A0079F7C2 /* pin_green_s.png in Resources */,
 				A22C4DCC1FFC777A0079F7C2 /* goal@2x.png in Resources */,
