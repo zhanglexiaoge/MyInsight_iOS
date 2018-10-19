@@ -18,3 +18,6 @@
 [Weex从入门到超神（二）](https://www.jianshu.com/p/53f69bfcbc50)
 
 [Weex 学习与实践(三)：iOS 原理篇](http://ios.jobbole.com/91348/)
+
+
+[weex-iOS集成](https://www.cnblogs.com/LiLihongqiang/p/6704713.html)
