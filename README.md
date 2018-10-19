@@ -1,10 +1,5 @@
-# MyInsight_iOS
 ## iOS DEMO合集
 ###OC Demo名字**有鹿(A-Deer)**
-
-首先感谢NJHu大神提供的[iOSProject](https://github.com/NJHu/iOSProject)这个demo模版。我在原demo的基础上套用了自己的工程结构，并添加了一些其他的功能如:蓝牙、地图等。
-
-关于iOS知识和功能的DEMO合集，代码语言OC，关于Swift版本的Demo合集尚未整理。
 
 
 
@@ -13,6 +8,28 @@
 
 
 [Swift Demo工程](./MyInsight_Swift/README.md)
+
+
+
+
+
+博客：
+
+
+
+iOS：
+
+[NSDictionary实现原理](./MyInsight/Blog/MyBlog/NSDictionary实现原理)
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -66,4 +83,4 @@ OpenCV、ffmpeg、音频、Socket
 
 
 
-
+[iOSProject](https://github.com/NJHu/iOSProject)

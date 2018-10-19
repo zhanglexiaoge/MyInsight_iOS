@@ -90,6 +90,9 @@ target 'MyInsight' do
     pod 'Flurry-iOS-SDK/FlurrySDK'
     pod 'Flurry-iOS-SDK/FlurryAds'
     
+    # 腾讯bug收集 异常上报
+    pod 'Bugly'
+    
     # Google Protobuf协议
     pod 'Protobuf'
     

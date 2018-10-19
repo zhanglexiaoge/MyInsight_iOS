@@ -1,5 +1,18 @@
 ##  iOS常见报错信息
 
+10.18 晚发现的错误log
+ld: warning: directory not found for option '-L/Users/songmenglong/Desktop/工作源代码SourceCode/weex/ios_v3/sip_smartHome_all_3_ucs/sip/SDK/ACloudLib'
+ld: warning: directory not found for option '-F/Users/songmenglong/Desktop/工作源代码SourceCode/weex/ios_v3/sip_smartHome_all_3_ucs/sip/SDK/GemvarySmartHome'
+ld: warning: directory not found for option '-F/Users/songmenglong/Desktop/工作源代码SourceCode/weex/ios_v3/sip_smartHome_all_3_ucs/sip/SDK/GemvarySH
+
+$(PROJECT_DIR)/sip/SDK/GemvarySH
+GemvarySH
+$(PROJECT_DIR)/sip/SDK/GemvarySDK/GemvaryNetworkSDK
+
+No such module 'GemvaryNetworkSDK'
+
+
+
 
 
 1. 升级到XCode 10.0 原来的程序报错误：library not found for -lstdc++.6.0.9
@@ -26,3 +39,6 @@ clang: error: linker command failed with exit code 1 (use -v to see invocation)
 
 
 
+[关于解决 was built for newer iOS version (10.0) than being linked (8.0)问题](https://www.jianshu.com/p/43d8900c2673)
+
+[【解决方法】ld: warning: directory not found for option](https://blog.csdn.net/zhyl8157121/article/details/48844573)
