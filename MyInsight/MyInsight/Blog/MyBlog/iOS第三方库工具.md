@@ -2,13 +2,32 @@
 
 ### CocoaPods
 
+1. 查看ruby源
+`gem sources -l`
 
+2. 移除掉原有的源
+`gem sources --remove https://rubygems.org/`
 
+3. 添加国内最新的源，ruby-china。之前有用淘宝的源
+`gem sources -a https://gems.ruby-china.org`
 
+4. 检查是否添加成功
+`gem sources -l`
 
+5. 安装cocoapods
+`sudo gem install -n /usr/local/bin cocoapods`
+
+6. 安装完成后查看pod版本
+`pod --version`
+
+7. 添加Podfile文件
+` pod init`
+
+8. 安装第三方库
+`pod install`
 
 更新仓库
-`pod update`
+`pod update` 
 `pod update --verbose`
 更新所有的仓库
 `pod repo update --verbose`
