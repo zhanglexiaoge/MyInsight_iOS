@@ -24,10 +24,6 @@
 		187BF6052176C97F00AEC321 /* Blog.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5EC2176C97F00AEC321 /* Blog.md */; };
 		187BF6062176C97F00AEC321 /* iOS硬件信息.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5ED2176C97F00AEC321 /* iOS硬件信息.md */; };
 		187BF6072176C97F00AEC321 /* 一些.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5EE2176C97F00AEC321 /* 一些.md */; };
-		187BF6082176C97F00AEC321 /* 系统设计题的框架.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5F02176C97F00AEC321 /* 系统设计题的框架.png */; };
-		187BF6092176C97F00AEC321 /* 复盘流程.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5F12176C97F00AEC321 /* 复盘流程.png */; };
-		187BF60A2176C97F00AEC321 /* 面试流程图.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5F22176C97F00AEC321 /* 面试流程图.png */; };
-		187BF60B2176C97F00AEC321 /* 简历的准备.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5F32176C97F00AEC321 /* 简历的准备.png */; };
 		187BF60C2176C97F00AEC321 /* iOS启动流程.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5F42176C97F00AEC321 /* iOS启动流程.md */; };
 		187BF60D2176C97F00AEC321 /* iOS面试之道.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5F52176C97F00AEC321 /* iOS面试之道.md */; };
 		187BF60E2176C97F00AEC321 /* iOS加密.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5F62176C97F00AEC321 /* iOS加密.md */; };
@@ -50,7 +46,6 @@
 		5646242E551402D83E5DDEC4 /* libPods-MyInsightTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1048AA554877EFDC9A3C520A /* libPods-MyInsightTests.a */; };
 		6F9CFB2BFF1D334595CC4C63 /* libPods-MyInsightUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AABD5D3CA8DF36493A18039 /* libPods-MyInsightUITests.a */; };
 		A207108B214D09E8000D1710 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A207108A214D09E8000D1710 /* Student.m */; };
-		A208251B2179C95200465995 /* CPP设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = A208251A2179C95200465995 /* CPP设计模式.md */; };
 		A208251D2179CC1F00465995 /* iOS调试技巧.md in Resources */ = {isa = PBXBuildFile; fileRef = A208251C2179CC1F00465995 /* iOS调试技巧.md */; };
 		A20D5D881FCFFB37000E191D /* MyInsightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D5D871FCFFB37000E191D /* MyInsightTests.m */; };
 		A20D5D931FCFFB37000E191D /* MyInsightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D5D921FCFFB37000E191D /* MyInsightUITests.m */; };
@@ -72,6 +67,18 @@
 		A2250B2820E155A300CCBB29 /* MIBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = A2250B2720E155A300CCBB29 /* MIBezierPath.m */; };
 		A2250B2B20E155ED00CCBB29 /* DrawPaletteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2250B2A20E155ED00CCBB29 /* DrawPaletteVC.m */; };
 		A228FA9B217A1EE500D26F54 /* iOS统计工具.md in Resources */ = {isa = PBXBuildFile; fileRef = A228FA9A217A1EE500D26F54 /* iOS统计工具.md */; };
+		A228FA9E217A227500D26F54 /* CPP设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = A228FA9D217A227500D26F54 /* CPP设计模式.md */; };
+		A228FAA1217A234400D26F54 /* iOS制作Framework.md in Resources */ = {isa = PBXBuildFile; fileRef = A228FAA0217A234400D26F54 /* iOS制作Framework.md */; };
+		A228FAAD217AB2E500D26F54 /* Python算法.md in Resources */ = {isa = PBXBuildFile; fileRef = A228FAAC217AB2E500D26F54 /* Python算法.md */; };
+		A228FAAF217AB37100D26F54 /* Python爬虫.md in Resources */ = {isa = PBXBuildFile; fileRef = A228FAAE217AB37100D26F54 /* Python爬虫.md */; };
+		A228FAB1217AB39100D26F54 /* PythonWeb框架.md in Resources */ = {isa = PBXBuildFile; fileRef = A228FAB0217AB39100D26F54 /* PythonWeb框架.md */; };
+		A228FAB6217AB4F700D26F54 /* Linxu常见指令.md in Resources */ = {isa = PBXBuildFile; fileRef = A228FAB5217AB4F700D26F54 /* Linxu常见指令.md */; };
+		A228FAB8217AB50E00D26F54 /* Java算法.md in Resources */ = {isa = PBXBuildFile; fileRef = A228FAB7217AB50E00D26F54 /* Java算法.md */; };
+		A228FABA217AB52C00D26F54 /* Android学习之旅.md in Resources */ = {isa = PBXBuildFile; fileRef = A228FAB9217AB52C00D26F54 /* Android学习之旅.md */; };
+		A228FAC0217AB62400D26F54 /* 系统设计题的框架.png in Resources */ = {isa = PBXBuildFile; fileRef = A228FABC217AB62400D26F54 /* 系统设计题的框架.png */; };
+		A228FAC1217AB62400D26F54 /* 复盘流程.png in Resources */ = {isa = PBXBuildFile; fileRef = A228FABD217AB62400D26F54 /* 复盘流程.png */; };
+		A228FAC2217AB62400D26F54 /* 面试流程图.png in Resources */ = {isa = PBXBuildFile; fileRef = A228FABE217AB62400D26F54 /* 面试流程图.png */; };
+		A228FAC3217AB62400D26F54 /* 简历的准备.png in Resources */ = {isa = PBXBuildFile; fileRef = A228FABF217AB62400D26F54 /* 简历的准备.png */; };
 		A22C4D7F1FFB1BB00079F7C2 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A22C4D7E1FFB1BB00079F7C2 /* libjpeg.a */; };
 		A22C4D811FFB1C3F0079F7C2 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A22C4D801FFB1C3F0079F7C2 /* libc++.tbd */; };
 		A22C4D831FFB1C4E0079F7C2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22C4D821FFB1C4E0079F7C2 /* AVFoundation.framework */; };
@@ -393,10 +400,6 @@
 		187BF5EC2176C97F00AEC321 /* Blog.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Blog.md; sourceTree = "<group>"; };
 		187BF5ED2176C97F00AEC321 /* iOS硬件信息.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS硬件信息.md"; sourceTree = "<group>"; };
 		187BF5EE2176C97F00AEC321 /* 一些.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "一些.md"; sourceTree = "<group>"; };
-		187BF5F02176C97F00AEC321 /* 系统设计题的框架.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "系统设计题的框架.png"; sourceTree = "<group>"; };
-		187BF5F12176C97F00AEC321 /* 复盘流程.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "复盘流程.png"; sourceTree = "<group>"; };
-		187BF5F22176C97F00AEC321 /* 面试流程图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "面试流程图.png"; sourceTree = "<group>"; };
-		187BF5F32176C97F00AEC321 /* 简历的准备.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "简历的准备.png"; sourceTree = "<group>"; };
 		187BF5F42176C97F00AEC321 /* iOS启动流程.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS启动流程.md"; sourceTree = "<group>"; };
 		187BF5F52176C97F00AEC321 /* iOS面试之道.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS面试之道.md"; sourceTree = "<group>"; };
 		187BF5F62176C97F00AEC321 /* iOS加密.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS加密.md"; sourceTree = "<group>"; };
@@ -425,7 +428,6 @@
 		86049EE3A04849AE05357E50 /* Pods-MyInsightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsightTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsightTests/Pods-MyInsightTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A2071089214D09E8000D1710 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		A207108A214D09E8000D1710 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
-		A208251A2179C95200465995 /* CPP设计模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "CPP设计模式.md"; sourceTree = "<group>"; };
 		A208251C2179CC1F00465995 /* iOS调试技巧.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS调试技巧.md"; sourceTree = "<group>"; };
 		A20D5D6B1FCFFB37000E191D /* MyInsight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyInsight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20D5D831FCFFB37000E191D /* MyInsightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyInsightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -466,6 +468,19 @@
 		A2250B2920E155ED00CCBB29 /* DrawPaletteVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawPaletteVC.h; sourceTree = "<group>"; };
 		A2250B2A20E155ED00CCBB29 /* DrawPaletteVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawPaletteVC.m; sourceTree = "<group>"; };
 		A228FA9A217A1EE500D26F54 /* iOS统计工具.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS统计工具.md"; sourceTree = "<group>"; };
+		A228FA9D217A227500D26F54 /* CPP设计模式.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "CPP设计模式.md"; sourceTree = "<group>"; };
+		A228FA9F217A22C800D26F54 /* CPP算法.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "CPP算法.md"; sourceTree = "<group>"; };
+		A228FAA0217A234400D26F54 /* iOS制作Framework.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS制作Framework.md"; sourceTree = "<group>"; };
+		A228FAAC217AB2E500D26F54 /* Python算法.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Python算法.md"; sourceTree = "<group>"; };
+		A228FAAE217AB37100D26F54 /* Python爬虫.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Python爬虫.md"; sourceTree = "<group>"; };
+		A228FAB0217AB39100D26F54 /* PythonWeb框架.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "PythonWeb框架.md"; sourceTree = "<group>"; };
+		A228FAB5217AB4F700D26F54 /* Linxu常见指令.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Linxu常见指令.md"; sourceTree = "<group>"; };
+		A228FAB7217AB50E00D26F54 /* Java算法.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Java算法.md"; sourceTree = "<group>"; };
+		A228FAB9217AB52C00D26F54 /* Android学习之旅.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Android学习之旅.md"; sourceTree = "<group>"; };
+		A228FABC217AB62400D26F54 /* 系统设计题的框架.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "系统设计题的框架.png"; sourceTree = "<group>"; };
+		A228FABD217AB62400D26F54 /* 复盘流程.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "复盘流程.png"; sourceTree = "<group>"; };
+		A228FABE217AB62400D26F54 /* 面试流程图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "面试流程图.png"; sourceTree = "<group>"; };
+		A228FABF217AB62400D26F54 /* 简历的准备.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "简历的准备.png"; sourceTree = "<group>"; };
 		A22C4D7E1FFB1BB00079F7C2 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
 		A22C4D801FFB1C3F0079F7C2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		A22C4D821FFB1C4E0079F7C2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -1137,8 +1152,13 @@
 		187BF5E12176C8C200AEC321 /* Blog */ = {
 			isa = PBXGroup;
 			children = (
+				A228FAA2217AB15D00D26F54 /* images */,
 				187BF5E22176C97F00AEC321 /* iOS */,
-				A208251A2179C95200465995 /* CPP设计模式.md */,
+				A228FAAB217AB2CE00D26F54 /* Python */,
+				A228FA9C217A227500D26F54 /* CPP */,
+				A228FAB2217AB4B000D26F54 /* Android */,
+				A228FAB3217AB4B000D26F54 /* Java */,
+				A228FAB4217AB4B000D26F54 /* Linux */,
 			);
 			path = Blog;
 			sourceTree = "<group>";
@@ -1146,7 +1166,6 @@
 		187BF5E22176C97F00AEC321 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				187BF5E32176C97F00AEC321 /* NSDictionary实现原理.md */,
 				187BF5E42176C97F00AEC321 /* 一些指令.md */,
 				187BF5E52176C97F00AEC321 /* model.md */,
 				187BF5E62176C97F00AEC321 /* iOS面试题.md */,
@@ -1174,24 +1193,14 @@
 				18E2AD4A217857BD001BA590 /* iOS多target.md */,
 				18E2AD4C21785B2B001BA590 /* iOS的OC和Swift混编.md */,
 				18E2AD4E21786A15001BA590 /* iOS代码块CodeSnippet.md */,
+				187BF5E32176C97F00AEC321 /* NSDictionary实现原理.md */,
 				18E2AD5021788500001BA590 /* iOS跨平台.md */,
 				18E2AD71217897CF001BA590 /* iOS的GitHub接口.md */,
 				A208251C2179CC1F00465995 /* iOS调试技巧.md */,
 				A228FA9A217A1EE500D26F54 /* iOS统计工具.md */,
-				187BF5EF2176C97F00AEC321 /* image_ios */,
+				A228FAA0217A234400D26F54 /* iOS制作Framework.md */,
 			);
 			path = iOS;
-			sourceTree = "<group>";
-		};
-		187BF5EF2176C97F00AEC321 /* image_ios */ = {
-			isa = PBXGroup;
-			children = (
-				187BF5F02176C97F00AEC321 /* 系统设计题的框架.png */,
-				187BF5F12176C97F00AEC321 /* 复盘流程.png */,
-				187BF5F22176C97F00AEC321 /* 面试流程图.png */,
-				187BF5F32176C97F00AEC321 /* 简历的准备.png */,
-			);
-			path = image_ios;
 			sourceTree = "<group>";
 		};
 		187BF6142176C9E700AEC321 /* Blogs */ = {
@@ -1418,6 +1427,68 @@
 				A2250B2720E155A300CCBB29 /* MIBezierPath.m */,
 			);
 			path = DrawingBoard;
+			sourceTree = "<group>";
+		};
+		A228FA9C217A227500D26F54 /* CPP */ = {
+			isa = PBXGroup;
+			children = (
+				A228FA9D217A227500D26F54 /* CPP设计模式.md */,
+				A228FA9F217A22C800D26F54 /* CPP算法.md */,
+			);
+			path = CPP;
+			sourceTree = "<group>";
+		};
+		A228FAA2217AB15D00D26F54 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A228FABB217AB62400D26F54 /* iOS */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A228FAAB217AB2CE00D26F54 /* Python */ = {
+			isa = PBXGroup;
+			children = (
+				A228FAAC217AB2E500D26F54 /* Python算法.md */,
+				A228FAAE217AB37100D26F54 /* Python爬虫.md */,
+				A228FAB0217AB39100D26F54 /* PythonWeb框架.md */,
+			);
+			path = Python;
+			sourceTree = "<group>";
+		};
+		A228FAB2217AB4B000D26F54 /* Android */ = {
+			isa = PBXGroup;
+			children = (
+				A228FAB9217AB52C00D26F54 /* Android学习之旅.md */,
+			);
+			path = Android;
+			sourceTree = "<group>";
+		};
+		A228FAB3217AB4B000D26F54 /* Java */ = {
+			isa = PBXGroup;
+			children = (
+				A228FAB7217AB50E00D26F54 /* Java算法.md */,
+			);
+			path = Java;
+			sourceTree = "<group>";
+		};
+		A228FAB4217AB4B000D26F54 /* Linux */ = {
+			isa = PBXGroup;
+			children = (
+				A228FAB5217AB4F700D26F54 /* Linxu常见指令.md */,
+			);
+			path = Linux;
+			sourceTree = "<group>";
+		};
+		A228FABB217AB62400D26F54 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A228FABC217AB62400D26F54 /* 系统设计题的框架.png */,
+				A228FABD217AB62400D26F54 /* 复盘流程.png */,
+				A228FABE217AB62400D26F54 /* 面试流程图.png */,
+				A228FABF217AB62400D26F54 /* 简历的准备.png */,
+			);
+			path = iOS;
 			sourceTree = "<group>";
 		};
 		A22C4D7A1FFB1B680079F7C2 /* Vendors */ = {
@@ -2929,6 +3000,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				187BF6012176C97F00AEC321 /* 多线程.md in Resources */,
+				A228FAC3217AB62400D26F54 /* 简历的准备.png in Resources */,
 				187BF6132176C97F00AEC321 /* iOS-RunTime.md in Resources */,
 				187BF5FC2176C97F00AEC321 /* NSDictionary实现原理.md in Resources */,
 				A262CC42216388A10050D6BC /* 消愁.mp3 in Resources */,
@@ -2941,6 +3013,8 @@
 				187BF5FF2176C97F00AEC321 /* iOS面试题.md in Resources */,
 				A22F0082216F930B0047FADB /* Advance.storyboard in Resources */,
 				187BF6002176C97F00AEC321 /* iOS蓝牙.md in Resources */,
+				A228FAC2217AB62400D26F54 /* 面试流程图.png in Resources */,
+				A228FAB1217AB39100D26F54 /* PythonWeb框架.md in Resources */,
 				187BF6032176C97F00AEC321 /* iOS传感器.md in Resources */,
 				A27E8728201AC53C003E712C /* 1967.mp3 in Resources */,
 				A268BEFE2106E04300CADD8A /* scrollimage3.jpg in Resources */,
@@ -2954,13 +3028,15 @@
 				A20D5DFC1FD14549000E191D /* Assets.xcassets in Resources */,
 				187BF6022176C97F00AEC321 /* Block底层实现原理.md in Resources */,
 				A22C4DD51FFC777A0079F7C2 /* route_start_pin@2x.png in Resources */,
-				187BF60B2176C97F00AEC321 /* 简历的准备.png in Resources */,
+				A228FAAF217AB37100D26F54 /* Python爬虫.md in Resources */,
 				A2CDD256208DD022006DF86E /* 小新.jpg in Resources */,
 				A22C4DCF1FFC777A0079F7C2 /* pin_head_l.png in Resources */,
 				A22C4DCE1FFC777A0079F7C2 /* route_goal_pin@2x.png in Resources */,
 				A22C4DD41FFC777A0079F7C2 /* via.png in Resources */,
-				187BF6082176C97F00AEC321 /* 系统设计题的框架.png in Resources */,
+				A228FAAD217AB2E500D26F54 /* Python算法.md in Resources */,
 				A28ED53D1FD2494800A74551 /* Home.storyboard in Resources */,
+				A228FAB6217AB4F700D26F54 /* Linxu常见指令.md in Resources */,
+				A228FABA217AB52C00D26F54 /* Android学习之旅.md in Resources */,
 				A22C4DCD1FFC777A0079F7C2 /* via@2x.png in Resources */,
 				A2C84E8220AA7A5A000FD685 /* testPic.jpg in Resources */,
 				A22C4DC61FFC777A0079F7C2 /* route_start_pin.png in Resources */,
@@ -2986,15 +3062,15 @@
 				187BF6122176C97F00AEC321 /* SDWebImage原理.md in Resources */,
 				A268BEFC2106E04300CADD8A /* scrollimage4.jpg in Resources */,
 				A2D884A520872322005116A6 /* BluetoothCell.xib in Resources */,
-				A208251B2179C95200465995 /* CPP设计模式.md in Resources */,
 				A268BEFF2106E04300CADD8A /* scrollimage2.jpg in Resources */,
 				187BF5DD2176C7F100AEC321 /* index.html in Resources */,
 				187BF60F2176C97F00AEC321 /* iOS-NSRunLoop.md in Resources */,
 				A22C4DC21FFC777A0079F7C2 /* goal.png in Resources */,
 				187BF5E02176C7F100AEC321 /* main.js in Resources */,
+				A228FAA1217A234400D26F54 /* iOS制作Framework.md in Resources */,
 				A208251D2179CC1F00465995 /* iOS调试技巧.md in Resources */,
-				187BF60A2176C97F00AEC321 /* 面试流程图.png in Resources */,
 				A22C4DCB1FFC777A0079F7C2 /* route_pin@2x.png in Resources */,
+				A228FAB8217AB50E00D26F54 /* Java算法.md in Resources */,
 				A28ED5411FD2495F00A74551 /* Mine.storyboard in Resources */,
 				187BF5FE2176C97F00AEC321 /* model.md in Resources */,
 				18DE2D2221771D65005C64C9 /* iOS第三方库工具.md in Resources */,
@@ -3003,13 +3079,14 @@
 				A2CDD258208DD3CA006DF86E /* 卡哇伊.jpg in Resources */,
 				187BF6112176C97F00AEC321 /* AFNetWorking&Alamofire源码详解.md in Resources */,
 				187AFE48217730C500C83677 /* iOS进制转换.md in Resources */,
-				187BF6092176C97F00AEC321 /* 复盘流程.png in Resources */,
+				A228FAC0217AB62400D26F54 /* 系统设计题的框架.png in Resources */,
 				18DE2D20217713E3005C64C9 /* GIT工具.md in Resources */,
 				A22C4DCA1FFC777A0079F7C2 /* compass48.png in Resources */,
 				A268BEFD2106E04300CADD8A /* scrollimage1.jpg in Resources */,
 				18E2AD5121788500001BA590 /* iOS跨平台.md in Resources */,
 				A228FA9B217A1EE500D26F54 /* iOS统计工具.md in Resources */,
 				A2B992982068F3E4002A73B1 /* ChatImageCell.xib in Resources */,
+				A228FA9E217A227500D26F54 /* CPP设计模式.md in Resources */,
 				A22C4DC31FFC777A0079F7C2 /* pin_green_s.png in Resources */,
 				A22C4DCC1FFC777A0079F7C2 /* goal@2x.png in Resources */,
 				A22C4DC51FFC777A0079F7C2 /* pin_red_s@2x.png in Resources */,
@@ -3022,6 +3099,7 @@
 				187BF6072176C97F00AEC321 /* 一些.md in Resources */,
 				A2CDD261208EC6D7006DF86E /* CATransition1.png in Resources */,
 				A2CDD260208EC6D7006DF86E /* CATransition3.png in Resources */,
+				A228FAC1217AB62400D26F54 /* 复盘流程.png in Resources */,
 				A2B992932068F3CA002A73B1 /* ChatTextCell.xib in Resources */,
 				A22C4DC41FFC777A0079F7C2 /* pin_purple_s.png in Resources */,
 			);
