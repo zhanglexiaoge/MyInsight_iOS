@@ -42,3 +42,13 @@ clang: error: linker command failed with exit code 1 (use -v to see invocation)
 [关于解决 was built for newer iOS version (10.0) than being linked (8.0)问题](https://www.jianshu.com/p/43d8900c2673)
 
 [【解决方法】ld: warning: directory not found for option](https://blog.csdn.net/zhyl8157121/article/details/48844573)
+
+
+
+内存被过度释放
+*** Incorrect guard value: 0
+sip(724,0x16eacb000) malloc: *** set a breakpoint in malloc_error_break to debug
+sip(724,0x1068eeb80) malloc: *** error for object 0x280dc2c10: pointer being freed was not allocated
+sip(724,0x1068eeb80) malloc: *** set a breakpoint in malloc_error_break to debug
+sip(724,0x16dbab000) malloc: Heap corruption detected, free list is damaged at 0x280dbfff0
+*** Incorrect guard value: 0

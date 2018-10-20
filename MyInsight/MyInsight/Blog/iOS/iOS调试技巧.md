@@ -25,3 +25,5 @@
 [IOS各种调试技巧豪华套餐](https://www.jianshu.com/p/92d949a6d4e7)
 
 [The LLDB Debugger](http://lldb.llvm.org/index.html)
+
+[LLDB 常用命令记录](https://blog.csdn.net/kaihaodir/article/details/51586632)

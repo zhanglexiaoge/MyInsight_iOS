@@ -14,6 +14,54 @@
 数据加密:
 
 
+基础：
+
+生命周期、RunTime、协议
+
+## <a id=""></a>基础
+
+<br>
+
+<img src="./Image/IMG_2442.png" width="40%">|
+
+<br>
+
+<img src="./Image/IMG_2442.png" width="40%">
+<br>
+<br>
+
+进阶：
+
+抽屉、横竖屏切换、蓝牙、地图、网络请求、数据解析
+
+高级：
+
+OpenCV、ffmpeg、音频、Socket
+
+其他：
+
+百思不得姐、糗事百科
+
+<br>
+
+<h3>新华字典</h3>
+<img src="./Image/新华字典.png" width="40%">
+
+[小程序教程](https://www.zhihu.com/question/50907897)
+
+微信第三方登录及其他功能 由于需要企业码 暂时先不实现。
+
+
+常用第三方demo链接汇总：
+[蓝牙]()
+
+[弹幕渲染库](https://github.com/unash/BarrageRenderer)   
+
+
+
+
+
+[iOSProject](https://github.com/NJHu/iOSProject)
 
 
 
@@ -23,28 +71,6 @@
 
 
 
-iOS面试题
-1.写一个block的typedef声明
-
-2.写一个单例
-
-3.NSOperation和GCD
-
-4.frame和bounds有什么不同？
-
-5.#import和#include有何区别，@class呢，#iimport<>和#import""有何区别？
-
-6.写一个函数，输入一个数如38，拆分3*8=24，2*4=8，最后8无法拆分就返回
-
-
-1.介绍下property的关键字及作用？请标明哪些是默认关键字？
-
-2.iOS中的多线程方式有哪些？线程锁死是什么？举个例子
-
-3.
-
-
-4.上传图片的断点上传
 
 
 
