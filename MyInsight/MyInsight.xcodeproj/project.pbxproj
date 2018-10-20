@@ -13,25 +13,25 @@
 		187BF5DF2176C7F100AEC321 /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5DB2176C7F000AEC321 /* main.css */; };
 		187BF5E02176C7F100AEC321 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5DC2176C7F000AEC321 /* main.js */; };
 		187BF5FC2176C97F00AEC321 /* NSDictionary实现原理.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5E32176C97F00AEC321 /* NSDictionary实现原理.md */; };
-		187BF5FD2176C97F00AEC321 /* 一些指令.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5E42176C97F00AEC321 /* 一些指令.md */; };
+		187BF5FD2176C97F00AEC321 /* Mac常见指令.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5E42176C97F00AEC321 /* Mac常见指令.md */; };
 		187BF5FE2176C97F00AEC321 /* model.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5E52176C97F00AEC321 /* model.md */; };
 		187BF5FF2176C97F00AEC321 /* iOS面试题.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5E62176C97F00AEC321 /* iOS面试题.md */; };
 		187BF6002176C97F00AEC321 /* iOS蓝牙.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5E72176C97F00AEC321 /* iOS蓝牙.md */; };
 		187BF6012176C97F00AEC321 /* 多线程.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5E82176C97F00AEC321 /* 多线程.md */; };
 		187BF6022176C97F00AEC321 /* Block底层实现原理.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5E92176C97F00AEC321 /* Block底层实现原理.md */; };
 		187BF6032176C97F00AEC321 /* iOS传感器.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5EA2176C97F00AEC321 /* iOS传感器.md */; };
-		187BF6042176C97F00AEC321 /* Category.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5EB2176C97F00AEC321 /* Category.md */; };
+		187BF6042176C97F00AEC321 /* iOS-Category.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5EB2176C97F00AEC321 /* iOS-Category.md */; };
 		187BF6052176C97F00AEC321 /* Blog.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5EC2176C97F00AEC321 /* Blog.md */; };
 		187BF6062176C97F00AEC321 /* iOS硬件信息.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5ED2176C97F00AEC321 /* iOS硬件信息.md */; };
 		187BF6072176C97F00AEC321 /* 一些.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5EE2176C97F00AEC321 /* 一些.md */; };
 		187BF60C2176C97F00AEC321 /* iOS启动流程.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5F42176C97F00AEC321 /* iOS启动流程.md */; };
 		187BF60D2176C97F00AEC321 /* iOS面试之道.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5F52176C97F00AEC321 /* iOS面试之道.md */; };
 		187BF60E2176C97F00AEC321 /* iOS加密.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5F62176C97F00AEC321 /* iOS加密.md */; };
-		187BF60F2176C97F00AEC321 /* iOS-NSRunLoop.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5F72176C97F00AEC321 /* iOS-NSRunLoop.md */; };
+		187BF60F2176C97F00AEC321 /* OC-NSRunLoop.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5F72176C97F00AEC321 /* OC-NSRunLoop.md */; };
 		187BF6102176C97F00AEC321 /* iOS设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5F82176C97F00AEC321 /* iOS设计模式.md */; };
 		187BF6112176C97F00AEC321 /* AFNetWorking&Alamofire源码详解.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5F92176C97F00AEC321 /* AFNetWorking&Alamofire源码详解.md */; };
 		187BF6122176C97F00AEC321 /* SDWebImage原理.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5FA2176C97F00AEC321 /* SDWebImage原理.md */; };
-		187BF6132176C97F00AEC321 /* iOS-RunTime.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5FB2176C97F00AEC321 /* iOS-RunTime.md */; };
+		187BF6132176C97F00AEC321 /* OC-RunTime.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5FB2176C97F00AEC321 /* OC-RunTime.md */; };
 		187BF6172176C9FF00AEC321 /* BlogsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BF6162176C9FF00AEC321 /* BlogsVC.m */; };
 		187BF61A2176CC6C00AEC321 /* MDBlogsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BF6192176CC6C00AEC321 /* MDBlogsVC.m */; };
 		18C176332178189C00F630E3 /* iOS常见报错.md in Resources */ = {isa = PBXBuildFile; fileRef = 18C176322178189C00F630E3 /* iOS常见报错.md */; };
@@ -269,6 +269,11 @@
 		A2BDD442205F639E008AD133 /* LockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BDD441205F639E008AD133 /* LockVC.m */; };
 		A2BFE05A214FB5220043E665 /* MyThread.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BFE059214FB5220043E665 /* MyThread.m */; };
 		A2C1AB7D2025A1D80085A653 /* alarm4.m4r in Resources */ = {isa = PBXBuildFile; fileRef = A2C1AB7C2025A1D80085A653 /* alarm4.m4r */; };
+		A2C3E780217AB85500D2982F /* iOS区块链.md in Resources */ = {isa = PBXBuildFile; fileRef = A2C3E77F217AB85500D2982F /* iOS区块链.md */; };
+		A2C3E782217ABBCA00D2982F /* SVN工具.md in Resources */ = {isa = PBXBuildFile; fileRef = A2C3E781217ABBCA00D2982F /* SVN工具.md */; };
+		A2C3E784217ABC3A00D2982F /* iOS组件化.md in Resources */ = {isa = PBXBuildFile; fileRef = A2C3E783217ABC3A00D2982F /* iOS组件化.md */; };
+		A2C3E786217ABC8600D2982F /* iOS-OpenCV.md in Resources */ = {isa = PBXBuildFile; fileRef = A2C3E785217ABC8600D2982F /* iOS-OpenCV.md */; };
+		A2C3E788217ACD6500D2982F /* OC-多线程.md in Resources */ = {isa = PBXBuildFile; fileRef = A2C3E787217ACD6500D2982F /* OC-多线程.md */; };
 		A2C84E8020AA78F9000FD685 /* FileSharedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C84E7F20AA78F9000FD685 /* FileSharedVC.m */; };
 		A2C84E8220AA7A5A000FD685 /* testPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2C84E8120AA7A5A000FD685 /* testPic.jpg */; };
 		A2C84E8C20AD3589000FD685 /* BlueToothDataVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C84E8B20AD3589000FD685 /* BlueToothDataVC.m */; };
@@ -389,25 +394,25 @@
 		187BF5DB2176C7F000AEC321 /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
 		187BF5DC2176C7F000AEC321 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		187BF5E32176C97F00AEC321 /* NSDictionary实现原理.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "NSDictionary实现原理.md"; sourceTree = "<group>"; };
-		187BF5E42176C97F00AEC321 /* 一些指令.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "一些指令.md"; sourceTree = "<group>"; };
+		187BF5E42176C97F00AEC321 /* Mac常见指令.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Mac常见指令.md"; sourceTree = "<group>"; };
 		187BF5E52176C97F00AEC321 /* model.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = model.md; sourceTree = "<group>"; };
 		187BF5E62176C97F00AEC321 /* iOS面试题.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS面试题.md"; sourceTree = "<group>"; };
 		187BF5E72176C97F00AEC321 /* iOS蓝牙.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS蓝牙.md"; sourceTree = "<group>"; };
 		187BF5E82176C97F00AEC321 /* 多线程.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "多线程.md"; sourceTree = "<group>"; };
 		187BF5E92176C97F00AEC321 /* Block底层实现原理.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Block底层实现原理.md"; sourceTree = "<group>"; };
 		187BF5EA2176C97F00AEC321 /* iOS传感器.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS传感器.md"; sourceTree = "<group>"; };
-		187BF5EB2176C97F00AEC321 /* Category.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Category.md; sourceTree = "<group>"; };
+		187BF5EB2176C97F00AEC321 /* iOS-Category.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS-Category.md"; sourceTree = "<group>"; };
 		187BF5EC2176C97F00AEC321 /* Blog.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Blog.md; sourceTree = "<group>"; };
 		187BF5ED2176C97F00AEC321 /* iOS硬件信息.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS硬件信息.md"; sourceTree = "<group>"; };
 		187BF5EE2176C97F00AEC321 /* 一些.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "一些.md"; sourceTree = "<group>"; };
 		187BF5F42176C97F00AEC321 /* iOS启动流程.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS启动流程.md"; sourceTree = "<group>"; };
 		187BF5F52176C97F00AEC321 /* iOS面试之道.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS面试之道.md"; sourceTree = "<group>"; };
 		187BF5F62176C97F00AEC321 /* iOS加密.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS加密.md"; sourceTree = "<group>"; };
-		187BF5F72176C97F00AEC321 /* iOS-NSRunLoop.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS-NSRunLoop.md"; sourceTree = "<group>"; };
+		187BF5F72176C97F00AEC321 /* OC-NSRunLoop.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "OC-NSRunLoop.md"; sourceTree = "<group>"; };
 		187BF5F82176C97F00AEC321 /* iOS设计模式.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS设计模式.md"; sourceTree = "<group>"; };
 		187BF5F92176C97F00AEC321 /* AFNetWorking&Alamofire源码详解.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "AFNetWorking&Alamofire源码详解.md"; sourceTree = "<group>"; };
 		187BF5FA2176C97F00AEC321 /* SDWebImage原理.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "SDWebImage原理.md"; sourceTree = "<group>"; };
-		187BF5FB2176C97F00AEC321 /* iOS-RunTime.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS-RunTime.md"; sourceTree = "<group>"; };
+		187BF5FB2176C97F00AEC321 /* OC-RunTime.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "OC-RunTime.md"; sourceTree = "<group>"; };
 		187BF6152176C9FF00AEC321 /* BlogsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlogsVC.h; sourceTree = "<group>"; };
 		187BF6162176C9FF00AEC321 /* BlogsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogsVC.m; sourceTree = "<group>"; };
 		187BF6182176CC6C00AEC321 /* MDBlogsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDBlogsVC.h; sourceTree = "<group>"; };
@@ -799,6 +804,11 @@
 		A2BFE058214FB5220043E665 /* MyThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyThread.h; sourceTree = "<group>"; };
 		A2BFE059214FB5220043E665 /* MyThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyThread.m; sourceTree = "<group>"; };
 		A2C1AB7C2025A1D80085A653 /* alarm4.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = alarm4.m4r; sourceTree = "<group>"; };
+		A2C3E77F217AB85500D2982F /* iOS区块链.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS区块链.md"; sourceTree = "<group>"; };
+		A2C3E781217ABBCA00D2982F /* SVN工具.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "SVN工具.md"; sourceTree = "<group>"; };
+		A2C3E783217ABC3A00D2982F /* iOS组件化.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS组件化.md"; sourceTree = "<group>"; };
+		A2C3E785217ABC8600D2982F /* iOS-OpenCV.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS-OpenCV.md"; sourceTree = "<group>"; };
+		A2C3E787217ACD6500D2982F /* OC-多线程.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "OC-多线程.md"; sourceTree = "<group>"; };
 		A2C84E7E20AA78F9000FD685 /* FileSharedVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileSharedVC.h; sourceTree = "<group>"; };
 		A2C84E7F20AA78F9000FD685 /* FileSharedVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileSharedVC.m; sourceTree = "<group>"; };
 		A2C84E8120AA7A5A000FD685 /* testPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testPic.jpg; sourceTree = "<group>"; };
@@ -1166,27 +1176,28 @@
 		187BF5E22176C97F00AEC321 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				187BF5E42176C97F00AEC321 /* 一些指令.md */,
-				187BF5E52176C97F00AEC321 /* model.md */,
 				187BF5E62176C97F00AEC321 /* iOS面试题.md */,
+				187BF5E42176C97F00AEC321 /* Mac常见指令.md */,
+				187BF5E52176C97F00AEC321 /* model.md */,
 				187BF5E72176C97F00AEC321 /* iOS蓝牙.md */,
-				187BF5E82176C97F00AEC321 /* 多线程.md */,
 				187BF5E92176C97F00AEC321 /* Block底层实现原理.md */,
 				187BF5EA2176C97F00AEC321 /* iOS传感器.md */,
-				187BF5EB2176C97F00AEC321 /* Category.md */,
+				187BF5EB2176C97F00AEC321 /* iOS-Category.md */,
 				187BF5EC2176C97F00AEC321 /* Blog.md */,
-				18E2AD7321789902001BA590 /* iOS-Swift.md */,
 				187BF5ED2176C97F00AEC321 /* iOS硬件信息.md */,
 				187BF5EE2176C97F00AEC321 /* 一些.md */,
 				187BF5F42176C97F00AEC321 /* iOS启动流程.md */,
 				187BF5F52176C97F00AEC321 /* iOS面试之道.md */,
 				187BF5F62176C97F00AEC321 /* iOS加密.md */,
-				187BF5F72176C97F00AEC321 /* iOS-NSRunLoop.md */,
+				187BF5F72176C97F00AEC321 /* OC-NSRunLoop.md */,
+				187BF5FB2176C97F00AEC321 /* OC-RunTime.md */,
+				187BF5E82176C97F00AEC321 /* 多线程.md */,
+				A2C3E787217ACD6500D2982F /* OC-多线程.md */,
 				187BF5F82176C97F00AEC321 /* iOS设计模式.md */,
 				187BF5F92176C97F00AEC321 /* AFNetWorking&Alamofire源码详解.md */,
 				187BF5FA2176C97F00AEC321 /* SDWebImage原理.md */,
-				187BF5FB2176C97F00AEC321 /* iOS-RunTime.md */,
 				18DE2D1F217713E3005C64C9 /* GIT工具.md */,
+				A2C3E781217ABBCA00D2982F /* SVN工具.md */,
 				18DE2D2121771D65005C64C9 /* iOS第三方库工具.md */,
 				187AFE47217730C500C83677 /* iOS进制转换.md */,
 				18C176322178189C00F630E3 /* iOS常见报错.md */,
@@ -1195,10 +1206,14 @@
 				18E2AD4E21786A15001BA590 /* iOS代码块CodeSnippet.md */,
 				187BF5E32176C97F00AEC321 /* NSDictionary实现原理.md */,
 				18E2AD5021788500001BA590 /* iOS跨平台.md */,
+				A2C3E783217ABC3A00D2982F /* iOS组件化.md */,
+				A2C3E785217ABC8600D2982F /* iOS-OpenCV.md */,
 				18E2AD71217897CF001BA590 /* iOS的GitHub接口.md */,
 				A208251C2179CC1F00465995 /* iOS调试技巧.md */,
 				A228FA9A217A1EE500D26F54 /* iOS统计工具.md */,
 				A228FAA0217A234400D26F54 /* iOS制作Framework.md */,
+				A2C3E77F217AB85500D2982F /* iOS区块链.md */,
+				18E2AD7321789902001BA590 /* iOS-Swift.md */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -3001,11 +3016,11 @@
 			files = (
 				187BF6012176C97F00AEC321 /* 多线程.md in Resources */,
 				A228FAC3217AB62400D26F54 /* 简历的准备.png in Resources */,
-				187BF6132176C97F00AEC321 /* iOS-RunTime.md in Resources */,
+				187BF6132176C97F00AEC321 /* OC-RunTime.md in Resources */,
 				187BF5FC2176C97F00AEC321 /* NSDictionary实现原理.md in Resources */,
 				A262CC42216388A10050D6BC /* 消愁.mp3 in Resources */,
 				18E2AD72217897D0001BA590 /* iOS的GitHub接口.md in Resources */,
-				187BF5FD2176C97F00AEC321 /* 一些指令.md in Resources */,
+				187BF5FD2176C97F00AEC321 /* Mac常见指令.md in Resources */,
 				A2DDDC5F208B084A00DC7A4A /* FoldTableViewCell.xib in Resources */,
 				187BF5DF2176C7F100AEC321 /* main.css in Resources */,
 				187BF6062176C97F00AEC321 /* iOS硬件信息.md in Resources */,
@@ -3033,6 +3048,7 @@
 				A22C4DCF1FFC777A0079F7C2 /* pin_head_l.png in Resources */,
 				A22C4DCE1FFC777A0079F7C2 /* route_goal_pin@2x.png in Resources */,
 				A22C4DD41FFC777A0079F7C2 /* via.png in Resources */,
+				A2C3E786217ABC8600D2982F /* iOS-OpenCV.md in Resources */,
 				A228FAAD217AB2E500D26F54 /* Python算法.md in Resources */,
 				A28ED53D1FD2494800A74551 /* Home.storyboard in Resources */,
 				A228FAB6217AB4F700D26F54 /* Linxu常见指令.md in Resources */,
@@ -3046,7 +3062,7 @@
 				A22C4DD21FFC777A0079F7C2 /* pin_purple_s@2x.png in Resources */,
 				A22C4DC01FFC777A0079F7C2 /* route_pin.png in Resources */,
 				A2CDD262208EC6D7006DF86E /* CATransition2.png in Resources */,
-				187BF6042176C97F00AEC321 /* Category.md in Resources */,
+				187BF6042176C97F00AEC321 /* iOS-Category.md in Resources */,
 				187BF6052176C97F00AEC321 /* Blog.md in Resources */,
 				A22C4DC91FFC777A0079F7C2 /* compass48@2x.png in Resources */,
 				18C176332178189C00F630E3 /* iOS常见报错.md in Resources */,
@@ -3064,7 +3080,7 @@
 				A2D884A520872322005116A6 /* BluetoothCell.xib in Resources */,
 				A268BEFF2106E04300CADD8A /* scrollimage2.jpg in Resources */,
 				187BF5DD2176C7F100AEC321 /* index.html in Resources */,
-				187BF60F2176C97F00AEC321 /* iOS-NSRunLoop.md in Resources */,
+				187BF60F2176C97F00AEC321 /* OC-NSRunLoop.md in Resources */,
 				A22C4DC21FFC777A0079F7C2 /* goal.png in Resources */,
 				187BF5E02176C7F100AEC321 /* main.js in Resources */,
 				A228FAA1217A234400D26F54 /* iOS制作Framework.md in Resources */,
@@ -3073,6 +3089,7 @@
 				A228FAB8217AB50E00D26F54 /* Java算法.md in Resources */,
 				A28ED5411FD2495F00A74551 /* Mine.storyboard in Resources */,
 				187BF5FE2176C97F00AEC321 /* model.md in Resources */,
+				A2C3E788217ACD6500D2982F /* OC-多线程.md in Resources */,
 				18DE2D2221771D65005C64C9 /* iOS第三方库工具.md in Resources */,
 				18E2AD4B217857BD001BA590 /* iOS多target.md in Resources */,
 				A241BF5920F73DB60099E8A5 /* QuartzDraw.storyboard in Resources */,
@@ -3088,10 +3105,13 @@
 				A2B992982068F3E4002A73B1 /* ChatImageCell.xib in Resources */,
 				A228FA9E217A227500D26F54 /* CPP设计模式.md in Resources */,
 				A22C4DC31FFC777A0079F7C2 /* pin_green_s.png in Resources */,
+				A2C3E784217ABC3A00D2982F /* iOS组件化.md in Resources */,
 				A22C4DCC1FFC777A0079F7C2 /* goal@2x.png in Resources */,
+				A2C3E780217AB85500D2982F /* iOS区块链.md in Resources */,
 				A22C4DC51FFC777A0079F7C2 /* pin_red_s@2x.png in Resources */,
 				A2930B502104906D006520FF /* meinv.jpg in Resources */,
 				A2C1AB7D2025A1D80085A653 /* alarm4.m4r in Resources */,
+				A2C3E782217ABBCA00D2982F /* SVN工具.md in Resources */,
 				A22C4DC11FFC777A0079F7C2 /* pin_head_s.png in Resources */,
 				A2B9928E2068F3A6002A73B1 /* ChatListCell.xib in Resources */,
 				A20D5E001FD14549000E191D /* Main.storyboard in Resources */,

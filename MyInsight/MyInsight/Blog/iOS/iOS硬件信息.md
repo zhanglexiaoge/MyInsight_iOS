@@ -41,5 +41,5 @@ APP安装时间及更新时间：可用沙盒文件(例如info.plist)创建时�
 ### 参考
 [iOS获取硬件信息(全部)](https://www.jianshu.com/p/6d85416fb494)
 
-
+[ios开发常用硬件信息获取方法汇总](https://www.cnblogs.com/fantasy940155655/p/5708317.html)
 

@@ -1,6 +1,6 @@
 #  iOS第三方库工具
 
-### CocoaPods
+### [CocoaPods]()
 
 1. 查看ruby源
 `gem sources -l`
@@ -34,6 +34,12 @@
 更新制定的仓库
 `pod update ** --verbose --no-repo-update`
 
+更新CocoaPods版本
+
+删除CocoaPods仓库
+
+CocoaPods常见错误
+
 
 
 ### [Carthage](https://github.com/Carthage/Carthage)
@@ -55,6 +61,5 @@
 
 ### 参考：
 [CocoaPods使用总结](https://www.jianshu.com/p/7d0ad4cde012)
-
 
 [Carthage 的使用——iOS第三方库的管理](https://www.jianshu.com/p/f33972b08648)

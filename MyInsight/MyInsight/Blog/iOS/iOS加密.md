@@ -11,4 +11,8 @@
 ### RSA加密
 
 
+### 参考:
+[RSA使用NSString格式公钥加密](https://github.com/muzipiao/RSAEncrypt)       
+[iOS端RSA加密](https://www.jianshu.com/p/54c386275c08)     
+
 
