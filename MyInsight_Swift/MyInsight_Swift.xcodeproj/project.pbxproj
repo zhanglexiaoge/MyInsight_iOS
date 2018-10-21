@@ -10,12 +10,6 @@
 		5292E29C18A01D56A757542E /* Pods_MyInsight_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B695D4DDBCB11B8FBCA2795 /* Pods_MyInsight_SwiftTests.framework */; };
 		54F0EEDE1BBD82A319DED67B /* Pods_MyInsight_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509CB801DC923C2371A0BBEC /* Pods_MyInsight_Swift.framework */; };
 		959EE1C5FEB44C844968DD51 /* Pods_MyInsight_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB4EA70B82CF0E7F97618C5 /* Pods_MyInsight_SwiftUITests.framework */; };
-		A22AAE14216F6F2E00269A1B /* AFNetWorking&Alamofire源码详解.md in Resources */ = {isa = PBXBuildFile; fileRef = A22AAE13216F6F2E00269A1B /* AFNetWorking&Alamofire源码详解.md */; };
-		A22F00882170D5630047FADB /* iOS传感器.md in Resources */ = {isa = PBXBuildFile; fileRef = A22F00872170D5630047FADB /* iOS传感器.md */; };
-		A22F00892170D5680047FADB /* iOS设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = A22F00862170D1820047FADB /* iOS设计模式.md */; };
-		A22F0097217180FF0047FADB /* iOS加密.md in Resources */ = {isa = PBXBuildFile; fileRef = A22F0096217180FF0047FADB /* iOS加密.md */; };
-		A22F0098217181020047FADB /* iOS硬件信息.md in Resources */ = {isa = PBXBuildFile; fileRef = A22F008A217178860047FADB /* iOS硬件信息.md */; };
-		A22F009A2171832E0047FADB /* iOS蓝牙.md in Resources */ = {isa = PBXBuildFile; fileRef = A22F00992171832C0047FADB /* iOS蓝牙.md */; };
 		A241BF8320FC78860099E8A5 /* MyInsight_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A241BF8220FC78860099E8A5 /* MyInsight_SwiftTests.swift */; };
 		A241BF8E20FC78860099E8A5 /* MyInsight_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A241BF8D20FC78860099E8A5 /* MyInsight_SwiftUITests.swift */; };
 		A262CB562160C4B90050D6BC /* Vendors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A262CB552160C4B90050D6BC /* Vendors.swift */; };
@@ -66,27 +60,9 @@
 		A262CC37216104520050D6BC /* MarkdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A262CC33216104520050D6BC /* MarkdownView.swift */; };
 		A262CC38216104520050D6BC /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = A262CC34216104520050D6BC /* main.css */; };
 		A262CC39216104520050D6BC /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = A262CC35216104520050D6BC /* main.js */; };
-		A262CC3C216110870050D6BC /* iOS面试题.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CC3A21610B4D0050D6BC /* iOS面试题.md */; };
-		A262CC3E21621C670050D6BC /* 一些.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CC3D21621C670050D6BC /* 一些.md */; };
 		A262CC4421646F620050D6BC /* MyBlogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A262CC4321646F620050D6BC /* MyBlogVC.swift */; };
-		A27469AF216B725A0059E2C9 /* SDWebImage原理.md in Resources */ = {isa = PBXBuildFile; fileRef = A27469AE216B725A0059E2C9 /* SDWebImage原理.md */; };
-		A27469B1216B75540059E2C9 /* iOS-RunTime.md in Resources */ = {isa = PBXBuildFile; fileRef = A27469B0216B75540059E2C9 /* iOS-RunTime.md */; };
-		A27469B3216B76B20059E2C9 /* iOS启动流程.md in Resources */ = {isa = PBXBuildFile; fileRef = A27469B2216B76B20059E2C9 /* iOS启动流程.md */; };
-		A27469B5216BB2C60059E2C9 /* 一些指令.md in Resources */ = {isa = PBXBuildFile; fileRef = A27469B4216BB2C30059E2C9 /* 一些指令.md */; };
 		A27469B7216C63F00059E2C9 /* RunTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27469B6216C63F00059E2C9 /* RunTimeVC.swift */; };
 		A27469B9216C7A920059E2C9 /* ClosureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27469B8216C7A920059E2C9 /* ClosureVC.swift */; };
-		A27469BB216C8D6F0059E2C9 /* 多线程.md in Resources */ = {isa = PBXBuildFile; fileRef = A27469BA216C8D6F0059E2C9 /* 多线程.md */; };
-		A27469BD216C8DBC0059E2C9 /* model.md in Resources */ = {isa = PBXBuildFile; fileRef = A27469BC216C8DBC0059E2C9 /* model.md */; };
-		A27469BF216C92CD0059E2C9 /* NSDictionary实现原理.md in Resources */ = {isa = PBXBuildFile; fileRef = A27469BE216C92CD0059E2C9 /* NSDictionary实现原理.md */; };
-		A27469C3216C95F40059E2C9 /* Block底层实现原理.md in Resources */ = {isa = PBXBuildFile; fileRef = A27469C2216C95F30059E2C9 /* Block底层实现原理.md */; };
-		A27469C5216C974B0059E2C9 /* Category.md in Resources */ = {isa = PBXBuildFile; fileRef = A27469C4216C974B0059E2C9 /* Category.md */; };
-		A27469C7216CBD730059E2C9 /* Blog.md in Resources */ = {isa = PBXBuildFile; fileRef = A27469C6216CBD730059E2C9 /* Blog.md */; };
-		A27469C9216CBF4E0059E2C9 /* iOS-NSRunLoop.md in Resources */ = {isa = PBXBuildFile; fileRef = A27469C8216CBF4E0059E2C9 /* iOS-NSRunLoop.md */; };
-		A27469CB216CC2AA0059E2C9 /* iOS面试之道.md in Resources */ = {isa = PBXBuildFile; fileRef = A27469CA216CC2AA0059E2C9 /* iOS面试之道.md */; };
-		A27469D9216CC6F00059E2C9 /* 系统设计题的框架.png in Resources */ = {isa = PBXBuildFile; fileRef = A27469D7216CC6F00059E2C9 /* 系统设计题的框架.png */; };
-		A27469DA216CC6F00059E2C9 /* 复盘流程.png in Resources */ = {isa = PBXBuildFile; fileRef = A27469D8216CC6F00059E2C9 /* 复盘流程.png */; };
-		A27469DC216CC8130059E2C9 /* 面试流程图.png in Resources */ = {isa = PBXBuildFile; fileRef = A27469DB216CC8120059E2C9 /* 面试流程图.png */; };
-		A27469DE216CC86F0059E2C9 /* 简历的准备.png in Resources */ = {isa = PBXBuildFile; fileRef = A27469DD216CC86F0059E2C9 /* 简历的准备.png */; };
 		A2930B612104A08E006520FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2930B552104A08E006520FF /* Main.storyboard */; };
 		A2930B622104A08E006520FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2930B572104A08E006520FF /* LaunchScreen.storyboard */; };
 		A2930B632104A08E006520FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2930B582104A08E006520FF /* Assets.xcassets */; };
@@ -127,12 +103,6 @@
 		4714283B2CB4E060EE7E4350 /* Pods-MyInsight_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_Swift/Pods-MyInsight_Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		509CB801DC923C2371A0BBEC /* Pods_MyInsight_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyInsight_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B695D4DDBCB11B8FBCA2795 /* Pods_MyInsight_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyInsight_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A22AAE13216F6F2E00269A1B /* AFNetWorking&Alamofire源码详解.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "AFNetWorking&Alamofire源码详解.md"; sourceTree = "<group>"; };
-		A22F00862170D1820047FADB /* iOS设计模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS设计模式.md"; sourceTree = "<group>"; };
-		A22F00872170D5630047FADB /* iOS传感器.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS传感器.md"; sourceTree = "<group>"; };
-		A22F008A217178860047FADB /* iOS硬件信息.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS硬件信息.md"; sourceTree = "<group>"; };
-		A22F0096217180FF0047FADB /* iOS加密.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS加密.md"; sourceTree = "<group>"; };
-		A22F00992171832C0047FADB /* iOS蓝牙.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS蓝牙.md"; sourceTree = "<group>"; };
 		A241BF6A20FC78840099E8A5 /* MyInsight_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyInsight_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A241BF7E20FC78860099E8A5 /* MyInsight_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyInsight_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A241BF8220FC78860099E8A5 /* MyInsight_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInsight_SwiftTests.swift; sourceTree = "<group>"; };
@@ -188,27 +158,9 @@
 		A262CC33216104520050D6BC /* MarkdownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownView.swift; sourceTree = "<group>"; };
 		A262CC34216104520050D6BC /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
 		A262CC35216104520050D6BC /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
-		A262CC3A21610B4D0050D6BC /* iOS面试题.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS面试题.md"; sourceTree = "<group>"; };
-		A262CC3D21621C670050D6BC /* 一些.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "一些.md"; sourceTree = "<group>"; };
 		A262CC4321646F620050D6BC /* MyBlogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBlogVC.swift; sourceTree = "<group>"; };
-		A27469AE216B725A0059E2C9 /* SDWebImage原理.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "SDWebImage原理.md"; sourceTree = "<group>"; };
-		A27469B0216B75540059E2C9 /* iOS-RunTime.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS-RunTime.md"; sourceTree = "<group>"; };
-		A27469B2216B76B20059E2C9 /* iOS启动流程.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS启动流程.md"; sourceTree = "<group>"; };
-		A27469B4216BB2C30059E2C9 /* 一些指令.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "一些指令.md"; sourceTree = "<group>"; };
 		A27469B6216C63F00059E2C9 /* RunTimeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunTimeVC.swift; sourceTree = "<group>"; };
 		A27469B8216C7A920059E2C9 /* ClosureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureVC.swift; sourceTree = "<group>"; };
-		A27469BA216C8D6F0059E2C9 /* 多线程.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "多线程.md"; sourceTree = "<group>"; };
-		A27469BC216C8DBC0059E2C9 /* model.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = model.md; sourceTree = "<group>"; };
-		A27469BE216C92CD0059E2C9 /* NSDictionary实现原理.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "NSDictionary实现原理.md"; sourceTree = "<group>"; };
-		A27469C2216C95F30059E2C9 /* Block底层实现原理.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Block底层实现原理.md"; sourceTree = "<group>"; };
-		A27469C4216C974B0059E2C9 /* Category.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Category.md; sourceTree = "<group>"; };
-		A27469C6216CBD730059E2C9 /* Blog.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Blog.md; sourceTree = "<group>"; };
-		A27469C8216CBF4E0059E2C9 /* iOS-NSRunLoop.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS-NSRunLoop.md"; sourceTree = "<group>"; };
-		A27469CA216CC2AA0059E2C9 /* iOS面试之道.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS面试之道.md"; sourceTree = "<group>"; };
-		A27469D7216CC6F00059E2C9 /* 系统设计题的框架.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "系统设计题的框架.png"; sourceTree = "<group>"; };
-		A27469D8216CC6F00059E2C9 /* 复盘流程.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "复盘流程.png"; sourceTree = "<group>"; };
-		A27469DB216CC8120059E2C9 /* 面试流程图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "面试流程图.png"; sourceTree = "<group>"; };
-		A27469DD216CC86F0059E2C9 /* 简历的准备.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "简历的准备.png"; sourceTree = "<group>"; };
 		A2930B552104A08E006520FF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A2930B572104A08E006520FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2930B582104A08E006520FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -339,7 +291,6 @@
 		A262CB542160C48E0050D6BC /* BlogMD */ = {
 			isa = PBXGroup;
 			children = (
-				A262CC3B21610E9E0050D6BC /* MyBlog */,
 				A262CB7E2160CD440050D6BC /* C */,
 				A262CBC62160CD440050D6BC /* Python */,
 				A262CB842160CD440050D6BC /* Swift */,
@@ -505,46 +456,6 @@
 				A262CC33216104520050D6BC /* MarkdownView.swift */,
 			);
 			path = MarkdownView;
-			sourceTree = "<group>";
-		};
-		A262CC3B21610E9E0050D6BC /* MyBlog */ = {
-			isa = PBXGroup;
-			children = (
-				A262CC3A21610B4D0050D6BC /* iOS面试题.md */,
-				A262CC3D21621C670050D6BC /* 一些.md */,
-				A27469AE216B725A0059E2C9 /* SDWebImage原理.md */,
-				A27469B2216B76B20059E2C9 /* iOS启动流程.md */,
-				A27469B4216BB2C30059E2C9 /* 一些指令.md */,
-				A27469BA216C8D6F0059E2C9 /* 多线程.md */,
-				A27469BC216C8DBC0059E2C9 /* model.md */,
-				A27469BE216C92CD0059E2C9 /* NSDictionary实现原理.md */,
-				A27469C2216C95F30059E2C9 /* Block底层实现原理.md */,
-				A27469C4216C974B0059E2C9 /* Category.md */,
-				A27469C6216CBD730059E2C9 /* Blog.md */,
-				A27469B0216B75540059E2C9 /* iOS-RunTime.md */,
-				A27469C8216CBF4E0059E2C9 /* iOS-NSRunLoop.md */,
-				A27469CA216CC2AA0059E2C9 /* iOS面试之道.md */,
-				A22AAE13216F6F2E00269A1B /* AFNetWorking&Alamofire源码详解.md */,
-				A22F00862170D1820047FADB /* iOS设计模式.md */,
-				A22F008A217178860047FADB /* iOS硬件信息.md */,
-				A22F0096217180FF0047FADB /* iOS加密.md */,
-				A22F00992171832C0047FADB /* iOS蓝牙.md */,
-				A22F00872170D5630047FADB /* iOS传感器.md */,
-				A27469D6216CC6F00059E2C9 /* image */,
-			);
-			name = MyBlog;
-			path = MyInsight_Swift/BlogMD/MyBlog;
-			sourceTree = SOURCE_ROOT;
-		};
-		A27469D6216CC6F00059E2C9 /* image */ = {
-			isa = PBXGroup;
-			children = (
-				A27469DD216CC86F0059E2C9 /* 简历的准备.png */,
-				A27469DB216CC8120059E2C9 /* 面试流程图.png */,
-				A27469D7216CC6F00059E2C9 /* 系统设计题的框架.png */,
-				A27469D8216CC6F00059E2C9 /* 复盘流程.png */,
-			);
-			path = image;
 			sourceTree = "<group>";
 		};
 		A2930B532104A08E006520FF /* Vendors */ = {
@@ -766,35 +677,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A22F0098217181020047FADB /* iOS硬件信息.md in Resources */,
 				A262CC202160CD440050D6BC /* handle_addr.png in Resources */,
 				A262CC36216104520050D6BC /* index.html in Resources */,
-				A27469D9216CC6F00059E2C9 /* 系统设计题的框架.png in Resources */,
 				A262CC1F2160CD440050D6BC /* STAGE.png in Resources */,
 				A262CB7D2160CCCA0050D6BC /* SDWebImage Source Probe - Manager.md in Resources */,
 				A262CC142160CD440050D6BC /* visit-apple.com.re.png in Resources */,
 				A262CB6D2160CCCA0050D6BC /* AutoLayout 中的线性规划 - Simplex 算法.md in Resources */,
-				A27469BD216C8DBC0059E2C9 /* model.md in Resources */,
-				A27469DE216CC86F0059E2C9 /* 简历的准备.png in Resources */,
 				A262CB762160CCCA0050D6BC /* CFArray 的历史渊源及实现原理.md in Resources */,
 				A262CB772160CCCA0050D6BC /* Run Loop 记录与源码注释.md in Resources */,
-				A27469CB216CC2AA0059E2C9 /* iOS面试之道.md in Resources */,
-				A27469C9216CBF4E0059E2C9 /* iOS-NSRunLoop.md in Resources */,
 				A262CC222160CD440050D6BC /* ss-event-stage-relationship.svg in Resources */,
 				A262CBDE2160CD440050D6BC /* 验证试验 - 探求 fishhook 原理（二）.md in Resources */,
-				A22F00892170D5680047FADB /* iOS设计模式.md in Resources */,
 				A2930B612104A08E006520FF /* Main.storyboard in Resources */,
 				A262CC38216104520050D6BC /* main.css in Resources */,
-				A22AAE14216F6F2E00269A1B /* AFNetWorking&Alamofire源码详解.md in Resources */,
-				A27469BB216C8D6F0059E2C9 /* 多线程.md in Resources */,
-				A27469B1216B75540059E2C9 /* iOS-RunTime.md in Resources */,
-				A27469DC216CC8130059E2C9 /* 面试流程图.png in Resources */,
 				A262CC212160CD440050D6BC /* handle_event.png in Resources */,
 				A262CB792160CCCA0050D6BC /* 从经典问题来看 Copy 方法.md in Resources */,
 				A262CB7B2160CCCA0050D6BC /* SDWebImage Source Probe - Operation.md in Resources */,
-				A262CC3E21621C670050D6BC /* 一些.md in Resources */,
 				A262CC162160CD440050D6BC /* patriotic-networ-2.png in Resources */,
-				A27469AF216B725A0059E2C9 /* SDWebImage原理.md in Resources */,
 				A262CC1C2160CD440050D6BC /* Agreement.png in Resources */,
 				A262CB6F2160CCCA0050D6BC /* objc_msgSend消息传递学习笔记 - 消息转发.md in Resources */,
 				A262CC1D2160CD440050D6BC /* 15033138971502.jpg in Resources */,
@@ -806,31 +704,20 @@
 				A262CC1E2160CD440050D6BC /* handle_addr_new.png in Resources */,
 				A262CB712160CCCA0050D6BC /* 浅谈Associated Objects.md in Resources */,
 				A262CC192160CD440050D6BC /* 15033138825661.jpg in Resources */,
-				A27469B5216BB2C60059E2C9 /* 一些指令.md in Resources */,
 				A262CC122160CD440050D6BC /* eventloop-flow.png in Resources */,
 				A262CB732160CCCA0050D6BC /* load 方法全程跟踪.md in Resources */,
 				A262CB742160CCCA0050D6BC /* 浅谈 block（2） - 截获变量方式.md in Resources */,
-				A22F00882170D5630047FADB /* iOS传感器.md in Resources */,
-				A27469C7216CBD730059E2C9 /* Blog.md in Resources */,
 				A262CB7C2160CCCA0050D6BC /* SDWebImage Source Probe - WebCache.md in Resources */,
 				A262CC1A2160CD440050D6BC /* agreement_new.png in Resources */,
 				A2930B632104A08E006520FF /* Assets.xcassets in Resources */,
 				A262CBE02160CD440050D6BC /* Mach-O 文件格式探索.md in Resources */,
 				A262CB782160CCCA0050D6BC /* 复用的精妙 - UITableView 复用技术原理分析.md in Resources */,
 				A262CBE12160CD440050D6BC /* Swift Probe - Optional.md in Resources */,
-				A22F009A2171832E0047FADB /* iOS蓝牙.md in Resources */,
-				A27469BF216C92CD0059E2C9 /* NSDictionary实现原理.md in Resources */,
 				A262CC152160CD440050D6BC /* handshake-time.png in Resources */,
-				A262CC3C216110870050D6BC /* iOS面试题.md in Resources */,
 				A262CC182160CD440050D6BC /* 15033139083269.jpg in Resources */,
 				A262CBDF2160CD440050D6BC /* 巧用符号表 - 探求 fishhook 原理（一）.md in Resources */,
 				A262CC112160CD440050D6BC /* Shadowsocks Probe II - TCP 代理过程.md in Resources */,
-				A27469C3216C95F40059E2C9 /* Block底层实现原理.md in Resources */,
 				A262CB7A2160CCCA0050D6BC /* SDWebImage Source Probe - Downloader.md in Resources */,
-				A27469DA216CC6F00059E2C9 /* 复盘流程.png in Resources */,
-				A27469B3216B76B20059E2C9 /* iOS启动流程.md in Resources */,
-				A27469C5216C974B0059E2C9 /* Category.md in Resources */,
-				A22F0097217180FF0047FADB /* iOS加密.md in Resources */,
 				A262CC102160CD440050D6BC /* Shadowsocks Probe I - Socks5 与 EventLoop 事件分发.md in Resources */,
 				A262CB722160CCCA0050D6BC /* weak 弱引用的实现方式.md in Resources */,
 				A262CB702160CCCA0050D6BC /* objc_msgSend消息传递学习笔记 - 对象方法消息传递流程.md in Resources */,

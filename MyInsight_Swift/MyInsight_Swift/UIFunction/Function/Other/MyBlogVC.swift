@@ -28,7 +28,7 @@ class MyBlogVC: BaseVC {
         // 清空多余cell
         self.tableView.tableFooterView = UIView(frame: CGRect.zero)
         
-        self.dataArray = ["iOS面试题", "一些", "SDWebImage原理", "一些指令", "多线程", "NSDictionary实现原理", "Block底层实现原理", "model", "Category", "Blog", "iOS面试之道"]
+        self.dataArray = []
     }
     
     /*
