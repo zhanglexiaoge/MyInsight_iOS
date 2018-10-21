@@ -9,7 +9,6 @@
 #import "SeniorVC.h"
 #import <SWRevealViewController.h>
 #import <Masonry.h>
-#import "OpenCVVC.h" // OpenCV
 #import "FFmpegVC.h" // FFmpegVC
 #import "IJKPlayerVC.h"
 #import "AudioVC.h"
@@ -26,7 +25,6 @@
 @end
 
 static const NSString *SocketStr = @"Socket通讯";
-static const NSString *OpenCVStr = @"OpenCV";
 static const NSString *FFmpegStr = @"FFmpeg";
 static const NSString *OpenGLStr = @"OpenGL";
 // ijkplayer
@@ -72,7 +70,7 @@ static const NSString *BarrageRendererStr = @"弹幕渲染器";
 
 // 处理数据
 - (void)handleTableViewData {
-    self.dataArray = @[CoreFoundationStr, SocketStr, OpenCVStr, FFmpegStr, IJKPlayerStr, AudioStr, VideoStr, OpenGLStr, BarrageRendererStr];
+    self.dataArray = @[CoreFoundationStr, SocketStr, FFmpegStr, IJKPlayerStr, AudioStr, VideoStr, OpenGLStr, BarrageRendererStr];
 }
 
 #pragma mark - 创建TableView
@@ -128,12 +126,6 @@ static const NSString *BarrageRendererStr = @"弹幕渲染器";
         SocketVC *socketVC = [[SocketVC alloc] init];
         socketVC.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:socketVC animated:YES];
-    }
-    if ([cellString isEqual:OpenCVStr]) {
-        // OpenCV
-        OpenCVVC *openCVVC = [[UIStoryboard storyboardWithName:@"Home" bundle:NULL] instantiateViewControllerWithIdentifier:@"OpenCVVC"];
-        openCVVC.hidesBottomBarWhenPushed = YES;
-        [self.navigationController pushViewController:openCVVC animated:YES];
     }
     if ([cellString isEqual:OpenGLStr]) {
         // OpenGL

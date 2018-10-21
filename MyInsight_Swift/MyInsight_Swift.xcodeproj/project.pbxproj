@@ -16,7 +16,6 @@
 		A22F0097217180FF0047FADB /* iOS加密.md in Resources */ = {isa = PBXBuildFile; fileRef = A22F0096217180FF0047FADB /* iOS加密.md */; };
 		A22F0098217181020047FADB /* iOS硬件信息.md in Resources */ = {isa = PBXBuildFile; fileRef = A22F008A217178860047FADB /* iOS硬件信息.md */; };
 		A22F009A2171832E0047FADB /* iOS蓝牙.md in Resources */ = {isa = PBXBuildFile; fileRef = A22F00992171832C0047FADB /* iOS蓝牙.md */; };
-		A22F009D21718BA60047FADB /* Android活动.md in Resources */ = {isa = PBXBuildFile; fileRef = A22F009C21718BA60047FADB /* Android活动.md */; };
 		A241BF8320FC78860099E8A5 /* MyInsight_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A241BF8220FC78860099E8A5 /* MyInsight_SwiftTests.swift */; };
 		A241BF8E20FC78860099E8A5 /* MyInsight_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A241BF8D20FC78860099E8A5 /* MyInsight_SwiftUITests.swift */; };
 		A262CB562160C4B90050D6BC /* Vendors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A262CB552160C4B90050D6BC /* Vendors.swift */; };
@@ -134,7 +133,6 @@
 		A22F008A217178860047FADB /* iOS硬件信息.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS硬件信息.md"; sourceTree = "<group>"; };
 		A22F0096217180FF0047FADB /* iOS加密.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS加密.md"; sourceTree = "<group>"; };
 		A22F00992171832C0047FADB /* iOS蓝牙.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS蓝牙.md"; sourceTree = "<group>"; };
-		A22F009C21718BA60047FADB /* Android活动.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Android活动.md"; sourceTree = "<group>"; };
 		A241BF6A20FC78840099E8A5 /* MyInsight_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyInsight_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A241BF7E20FC78860099E8A5 /* MyInsight_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyInsight_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A241BF8220FC78860099E8A5 /* MyInsight_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInsight_SwiftTests.swift; sourceTree = "<group>"; };
@@ -285,14 +283,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A22F009B21718B9B0047FADB /* Android */ = {
-			isa = PBXGroup;
-			children = (
-				A22F009C21718BA60047FADB /* Android活动.md */,
-			);
-			path = Android;
-			sourceTree = "<group>";
-		};
 		A241BF6120FC78840099E8A5 = {
 			isa = PBXGroup;
 			children = (
@@ -349,7 +339,6 @@
 		A262CB542160C48E0050D6BC /* BlogMD */ = {
 			isa = PBXGroup;
 			children = (
-				A22F009B21718B9B0047FADB /* Android */,
 				A262CC3B21610E9E0050D6BC /* MyBlog */,
 				A262CB7E2160CD440050D6BC /* C */,
 				A262CBC62160CD440050D6BC /* Python */,
@@ -831,7 +820,6 @@
 				A262CBE12160CD440050D6BC /* Swift Probe - Optional.md in Resources */,
 				A22F009A2171832E0047FADB /* iOS蓝牙.md in Resources */,
 				A27469BF216C92CD0059E2C9 /* NSDictionary实现原理.md in Resources */,
-				A22F009D21718BA60047FADB /* Android活动.md in Resources */,
 				A262CC152160CD440050D6BC /* handshake-time.png in Resources */,
 				A262CC3C216110870050D6BC /* iOS面试题.md in Resources */,
 				A262CC182160CD440050D6BC /* 15033139083269.jpg in Resources */,

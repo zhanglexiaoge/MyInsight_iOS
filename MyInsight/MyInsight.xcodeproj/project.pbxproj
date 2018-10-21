@@ -176,6 +176,7 @@
 		A2561DCD209AE4F200D4E2E5 /* DrawBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2561DCC209AE4F200D4E2E5 /* DrawBaseVC.m */; };
 		A25748282023059D000F7632 /* CollectionViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A25748272023059D000F7632 /* CollectionViewVC.m */; };
 		A257482B202305B9000F7632 /* TableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A257482A202305B9000F7632 /* TableViewVC.m */; };
+		A257F1DE217C522300146191 /* iOS-FunSDK集成.md in Resources */ = {isa = PBXBuildFile; fileRef = A257F1DD217C522300146191 /* iOS-FunSDK集成.md */; };
 		A25F8BA6215A6A45005D6527 /* MIMovieObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F8BA5215A6A45005D6527 /* MIMovieObject.m */; };
 		A262CC42216388A10050D6BC /* 消愁.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A262CC41216388A10050D6BC /* 消愁.mp3 */; };
 		A268BEFC2106E04300CADD8A /* scrollimage4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A268BEF82106E04300CADD8A /* scrollimage4.jpg */; };
@@ -207,7 +208,6 @@
 		A27983692051108F00FBAD32 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A27983682051108F00FBAD32 /* libsqlite3.0.tbd */; };
 		A27E8725201AC49B003E712C /* CommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A27E8724201AC49B003E712C /* CommonTool.m */; };
 		A27E8728201AC53C003E712C /* 1967.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A27E8727201AC53C003E712C /* 1967.mp3 */; };
-		A27E873B201ACD5E003E712C /* OpenCVVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = A27E8736201ACD5D003E712C /* OpenCVVC.mm */; };
 		A27E873C201ACD5E003E712C /* FFmpegVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A27E873A201ACD5D003E712C /* FFmpegVC.m */; };
 		A27E875C201AD2B2003E712C /* MusicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A27E8757201AD2B2003E712C /* MusicVC.m */; };
 		A27E875D201AD2B2003E712C /* SoundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A27E8758201AD2B2003E712C /* SoundVC.m */; };
@@ -639,6 +639,7 @@
 		A25748272023059D000F7632 /* CollectionViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewVC.m; sourceTree = "<group>"; };
 		A2574829202305B9000F7632 /* TableViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewVC.h; sourceTree = "<group>"; };
 		A257482A202305B9000F7632 /* TableViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewVC.m; sourceTree = "<group>"; };
+		A257F1DD217C522300146191 /* iOS-FunSDK集成.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS-FunSDK集成.md"; sourceTree = "<group>"; };
 		A25F8BA4215A6A45005D6527 /* MIMovieObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIMovieObject.h; sourceTree = "<group>"; };
 		A25F8BA5215A6A45005D6527 /* MIMovieObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIMovieObject.m; sourceTree = "<group>"; };
 		A262CA74215FE4BE0050D6BC /* MyInsight-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyInsight-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -694,8 +695,6 @@
 		A27E8724201AC49B003E712C /* CommonTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonTool.m; sourceTree = "<group>"; };
 		A27E8727201AC53C003E712C /* 1967.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1967.mp3; sourceTree = "<group>"; };
 		A27E8729201AC717003E712C /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
-		A27E8736201ACD5D003E712C /* OpenCVVC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVVC.mm; sourceTree = "<group>"; };
-		A27E8737201ACD5D003E712C /* OpenCVVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVVC.h; sourceTree = "<group>"; };
 		A27E8739201ACD5D003E712C /* FFmpegVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFmpegVC.h; sourceTree = "<group>"; };
 		A27E873A201ACD5D003E712C /* FFmpegVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFmpegVC.m; sourceTree = "<group>"; };
 		A27E8755201AD2B2003E712C /* AudioVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioVC.h; sourceTree = "<group>"; };
@@ -1179,10 +1178,10 @@
 				187BF5E62176C97F00AEC321 /* iOS面试题.md */,
 				187BF5E42176C97F00AEC321 /* Mac常见指令.md */,
 				187BF5E52176C97F00AEC321 /* model.md */,
-				187BF5E72176C97F00AEC321 /* iOS蓝牙.md */,
 				187BF5E92176C97F00AEC321 /* Block底层实现原理.md */,
 				187BF5EA2176C97F00AEC321 /* iOS传感器.md */,
 				187BF5EB2176C97F00AEC321 /* iOS-Category.md */,
+				187BF5E72176C97F00AEC321 /* iOS蓝牙.md */,
 				187BF5EC2176C97F00AEC321 /* Blog.md */,
 				187BF5ED2176C97F00AEC321 /* iOS硬件信息.md */,
 				187BF5EE2176C97F00AEC321 /* 一些.md */,
@@ -1214,6 +1213,7 @@
 				A228FAA0217A234400D26F54 /* iOS制作Framework.md */,
 				A2C3E77F217AB85500D2982F /* iOS区块链.md */,
 				18E2AD7321789902001BA590 /* iOS-Swift.md */,
+				A257F1DD217C522300146191 /* iOS-FunSDK集成.md */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -2018,7 +2018,6 @@
 				A238AEFC215CB6D500A9959A /* IJKPlayer */,
 				A2B9927520623E8B002A73B1 /* OpenGL */,
 				A26B69382155226500AFDAAD /* CoreFoundation */,
-				A27E8735201ACD5D003E712C /* OpenCV */,
 			);
 			path = Senior;
 			sourceTree = "<group>";
@@ -2157,15 +2156,6 @@
 				A2C1AB7C2025A1D80085A653 /* alarm4.m4r */,
 			);
 			path = Music;
-			sourceTree = "<group>";
-		};
-		A27E8735201ACD5D003E712C /* OpenCV */ = {
-			isa = PBXGroup;
-			children = (
-				A27E8737201ACD5D003E712C /* OpenCVVC.h */,
-				A27E8736201ACD5D003E712C /* OpenCVVC.mm */,
-			);
-			path = OpenCV;
 			sourceTree = "<group>";
 		};
 		A27E8738201ACD5D003E712C /* FFmpeg */ = {
@@ -3048,6 +3038,7 @@
 				A22C4DCF1FFC777A0079F7C2 /* pin_head_l.png in Resources */,
 				A22C4DCE1FFC777A0079F7C2 /* route_goal_pin@2x.png in Resources */,
 				A22C4DD41FFC777A0079F7C2 /* via.png in Resources */,
+				A257F1DE217C522300146191 /* iOS-FunSDK集成.md in Resources */,
 				A2C3E786217ABC8600D2982F /* iOS-OpenCV.md in Resources */,
 				A228FAAD217AB2E500D26F54 /* Python算法.md in Resources */,
 				A28ED53D1FD2494800A74551 /* Home.storyboard in Resources */,
@@ -3346,7 +3337,6 @@
 				A2250B1320E10D6800CCBB29 /* NSString+Characters.m in Sources */,
 				A2B992A62068F441002A73B1 /* ChatFileCell.m in Sources */,
 				A26CE48C2018A0AD0012EC69 /* SeniorVC.m in Sources */,
-				A27E873B201ACD5E003E712C /* OpenCVVC.mm in Sources */,
 				187BF6172176C9FF00AEC321 /* BlogsVC.m in Sources */,
 				A2B992972068F3E4002A73B1 /* ChatImageCell.m in Sources */,
 				A2BDD43C205F636C008AD133 /* GCDVC.m in Sources */,

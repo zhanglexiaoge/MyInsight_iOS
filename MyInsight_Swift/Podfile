@@ -13,6 +13,7 @@ target 'MyInsight_Swift' do
   pod 'RealmSwift'
   # 侧边demo MLSideslipView
   # 侧边demo DrawerViewController
+  #pod 'DKChainableAnimationKit' # 动画
   
   # OC
   pod 'SWRevealViewController'

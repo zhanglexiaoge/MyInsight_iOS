@@ -24,13 +24,9 @@
 
 
 ### 参考
-[IOS ＋ 传感器的使用(加速计、陀螺仪、计步器等)](https://www.jianshu.com/p/37a65f683bb9)
-
-[iOS 传感器集锦](http://www.demodashi.com/demo/11712.html)
-
-[iOS中的各种传感器](https://www.jianshu.com/p/a561428df32f)
-
-[iOS中常见的传感器](https://blog.csdn.net/zhyxblog/article/details/78076302)
-
-[iOS开发——高级篇——传感器（加速计、摇一摇、计步器）](https://www.cnblogs.com/chglog/p/4850589.html)
+[IOS ＋ 传感器的使用(加速计、陀螺仪、计步器等)](https://www.jianshu.com/p/37a65f683bb9)        
+[iOS 传感器集锦](http://www.demodashi.com/demo/11712.html)       
+[iOS中的各种传感器](https://www.jianshu.com/p/a561428df32f)        
+[iOS中常见的传感器](https://blog.csdn.net/zhyxblog/article/details/78076302)       
+[iOS开发——高级篇——传感器（加速计、摇一摇、计步器）](https://www.cnblogs.com/chglog/p/4850589.html)       
 
