@@ -1,4 +1,13 @@
-#  多线程
+##  OC-多线程(MultiThread)
+
+###
+
+
+### GCD
+
+
+### NSTheard
+
 <h3>多线程</h3>
 <p>NSThread</p>
 1、创建NSThread的两种方式
@@ -44,8 +53,7 @@ NSOperation 的使用相较于GCD是面向对象的，OC实现的，而GCD应该
 
 
 
-<p>参考：</p>
-
+### 参考:
 [在iOS中有几种方法来解决多线程访问同一个内存地址的互斥同步问题](https://blog.csdn.net/a_ellisa/article/details/51506233)
 [iOS － 关于dispatch_sync(dispatch_get_main_queue(), ^{...;}); 死锁问题的解释](https://blog.csdn.net/icefishlily/article/details/52596802)
 [GCD:嵌套dispatch_async时__block对象的一个内存陷阱](https://blog.csdn.net/fg313071405/article/details/25962939)
@@ -53,3 +61,5 @@ NSOperation 的使用相较于GCD是面向对象的，OC实现的，而GCD应该
 [iOS开发多线程篇—线程安全](https://www.cnblogs.com/wendingding/p/3805841.html)
 
 [iOS开发笔记之五十七——__weak与__strong是如何解决循环引用的](https://blog.csdn.net/lizitao/article/details/54845974)
+
+

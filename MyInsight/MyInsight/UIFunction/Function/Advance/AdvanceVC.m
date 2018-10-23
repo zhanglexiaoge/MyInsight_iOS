@@ -24,6 +24,7 @@
 #import "SensorVC.h" // 传感器
 #import "HardwareInfoVC.h" // 硬件信息
 #import "SystemServiceVC.h" // 系统服务
+#import "LanScanVC.h"
 
 @interface AdvanceVC ()<UITableViewDelegate, UITableViewDataSource>
 // 列表
@@ -49,6 +50,7 @@ static const NSString *PaymentStr = @"支付方式";
 static const NSString *SensorStr = @"传感器";
 static const NSString *HardwareInfoStr = @"硬件信息";
 static const NSString *SystemServiceStr = @"系统服务:短信邮件等";
+static const NSString *LanScanStr = @"局域网扫描器";
 
 @implementation AdvanceVC
 

@@ -15,6 +15,7 @@
 #import "ReferToVC.h"
 #import "UMengVC.h"
 #import "BlogsVC.h" // 博客
+#import "GitHubVC.h"
 
 @interface OtherVC ()<UITableViewDelegate, UITableViewDataSource>
 // 列表
@@ -157,6 +158,13 @@ static const NSString *BlogsStr = @"博客";
         umengVC.title = cellString;
         umengVC.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:umengVC animated:YES];
+    }
+    if ([cellString isEqual:GitHubStr]) {
+        // GitHub
+        GitHubVC *githubVC = [[GitHubVC alloc] init];
+        githubVC.title = cellString;
+        githubVC.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:githubVC animated:YES];
     }
 }
 

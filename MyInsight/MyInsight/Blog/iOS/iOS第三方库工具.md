@@ -63,3 +63,5 @@ CocoaPods常见错误
 [CocoaPods使用总结](https://www.jianshu.com/p/7d0ad4cde012)
 
 [Carthage 的使用——iOS第三方库的管理](https://www.jianshu.com/p/f33972b08648)
+
+[CocoaPods 都做了什么？](https://github.com/Draveness/analyze/blob/master/contents/CocoaPods/CocoaPods%20%E9%83%BD%E5%81%9A%E4%BA%86%E4%BB%80%E4%B9%88%EF%BC%9F.md)

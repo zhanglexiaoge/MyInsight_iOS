@@ -15,6 +15,13 @@
 ### lldb调试
 
 
+### Analyze静态分析
+
+
+### leaks工具
+
+
+### 野指针、空指针
 
 
 
@@ -27,3 +34,6 @@
 [The LLDB Debugger](http://lldb.llvm.org/index.html)
 
 [LLDB 常用命令记录](https://blog.csdn.net/kaihaodir/article/details/51586632)
+
+
+[ios内存优化和解决崩溃问题总结](https://blog.csdn.net/smile_po/article/details/79629058)

@@ -79,6 +79,66 @@
     //测试钥匙串里面的东西，在什么情况下清空
     [self testKeyChain];
     
+    // 系统信息
+    [self deviceSystemInfo];
+}
+
+#pragma mark - 系统信息
+// [UIDevice 系统信息详解](https://www.jianshu.com/p/e1ec44d3f1f0)
+- (void)deviceSystemInfo {
+    //获取当前设备
+    UIDevice *dev = [UIDevice currentDevice];
+    
+    NSLog(@"设备名字: %@", dev.name);
+    NSLog(@"设备类型: %@", dev.model);
+    NSLog(@"本地化模式: %@", dev.localizedModel);
+    NSLog(@"系统名称: %@", dev.systemName);
+    NSLog(@"系统版本: %@", dev.systemVersion);
+    NSLog(@"设备朝向: %ld", dev.orientation);
+    NSLog(@"获取设备的唯一标识UUID: %@", dev.identifierForVendor.UUIDString);
+    
+    // 判断设备种类
+    if (dev.userInterfaceIdiom == UIUserInterfaceIdiomPhone) {
+        NSLog(@"iPhone 设备");
+    } else if (dev.userInterfaceIdiom == UIUserInterfaceIdiomPad) {
+        NSLog(@"iPad 设备");
+    } else if (dev.userInterfaceIdiom == UIUserInterfaceIdiomTV) {
+        NSLog(@"Apple TV设备");
+    } else {
+        NSLog(@"未知设备！！");
+    }
+    
+    // 设置电池是否被监视
+    dev.batteryMonitoringEnabled = YES;
+    
+    // 判断当前电池状态
+    if (dev.batteryState == UIDeviceBatteryStateUnknown) {
+        NSLog(@"不知道的电池类型");
+    } else if (dev.batteryState == UIDeviceBatteryStateUnplugged) {
+        NSLog(@"未充电");
+    } else if (dev.batteryState == UIDeviceBatteryStateCharging) {
+        NSLog(@"正在充电，电量未满");
+    } else if (dev.batteryState == UIDeviceBatteryStateFull) {
+        NSLog(@"正在充电，电量充满");
+    }
+    
+    // 红外线感应
+    dev.proximityMonitoringEnabled = YES;
+    if (dev.proximityState == YES) {
+        NSLog(@"靠近面部");
+    } else {
+        NSLog(@"没有靠近");
+    }
+    
+    // 多任务检测
+    if (dev.isMultitaskingSupported == YES) {
+        NSLog(@"支持多任务!!!");
+    } else {
+        NSLog(@"不支持多任务！！！");
+    }
+    
+    
+    
 }
 
 //创建label
@@ -102,7 +162,7 @@
 }
 
 #pragma mark - 测试钥匙串删除特性
--(void)testKeyChain{
+-(void)testKeyChain {
     
     NSString *touchIDRSAPassword = [SAMKeychain passwordForService:[NSBundle mainBundle].bundleIdentifier account:@"lf"];
     
@@ -125,10 +185,10 @@
 }
 
 #pragma mark - 获取应用安装时间
--(NSString *)getAppCreateTime{
+-(NSString *)getAppCreateTime {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     // 2.存储数据
-    //    [defaults setObject:APPLICATION.currentV forKey:name];
+    //[defaults setObject:APPLICATION.currentV forKey:name];
     NSString *createTime = [defaults stringForKey:@"createTime"];
     
     NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"Info" ofType:@"plist"];
@@ -145,8 +205,7 @@
     return timeStr;
 }
 
-- (NSString *)getFileCreatDateWithPath:(NSString *)path
-{
+- (NSString *)getFileCreatDateWithPath:(NSString *)path {
     NSString *date = nil;
     NSFileManager *fileManager = [NSFileManager defaultManager];
     NSDictionary *fileAttributes = [fileManager attributesOfItemAtPath:path error:nil];
@@ -155,8 +214,7 @@
 }
 
 #pragma mark - 获取设备当前网络IP地址
-- (NSString *)getIPAddress:(BOOL)preferIPv4
-{
+- (NSString *)getIPAddress:(BOOL)preferIPv4 {
     NSArray *searchArray = preferIPv4 ?
     @[ IOS_VPN @"/" IP_ADDR_IPv4, IOS_VPN @"/" IP_ADDR_IPv6, IOS_WIFI @"/" IP_ADDR_IPv4, IOS_WIFI @"/" IP_ADDR_IPv6, IOS_CELLULAR @"/" IP_ADDR_IPv4, IOS_CELLULAR @"/" IP_ADDR_IPv6 ] :
     @[ IOS_VPN @"/" IP_ADDR_IPv6, IOS_VPN @"/" IP_ADDR_IPv4, IOS_WIFI @"/" IP_ADDR_IPv6, IOS_WIFI @"/" IP_ADDR_IPv4, IOS_CELLULAR @"/" IP_ADDR_IPv6, IOS_CELLULAR @"/" IP_ADDR_IPv4 ] ;
@@ -200,8 +258,7 @@
     return NO;
 }
 
-- (NSDictionary *)getIPAddresses
-{
+- (NSDictionary *)getIPAddresses {
     NSMutableDictionary *addresses = [NSMutableDictionary dictionaryWithCapacity:8];
     
     // retrieve the current interfaces - returns 0 on success
