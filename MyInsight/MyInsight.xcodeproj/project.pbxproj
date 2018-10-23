@@ -12,7 +12,7 @@
 		187BF5DE2176C7F100AEC321 /* MarkdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187BF5DA2176C7F000AEC321 /* MarkdownView.swift */; };
 		187BF5DF2176C7F100AEC321 /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5DB2176C7F000AEC321 /* main.css */; };
 		187BF5E02176C7F100AEC321 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5DC2176C7F000AEC321 /* main.js */; };
-		187BF5FC2176C97F00AEC321 /* NSDictionary实现原理.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5E32176C97F00AEC321 /* NSDictionary实现原理.md */; };
+		187BF5FC2176C97F00AEC321 /* OC-NSDictionary.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5E32176C97F00AEC321 /* OC-NSDictionary.md */; };
 		187BF5FD2176C97F00AEC321 /* Mac常见指令.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5E42176C97F00AEC321 /* Mac常见指令.md */; };
 		187BF5FE2176C97F00AEC321 /* iOS数据存储.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5E52176C97F00AEC321 /* iOS数据存储.md */; };
 		187BF5FF2176C97F00AEC321 /* iOS面试题.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5E62176C97F00AEC321 /* iOS面试题.md */; };
@@ -368,7 +368,7 @@
 		A2F00320209B08C800F449EE /* CutOutImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F0031F209B08C800F449EE /* CutOutImageVC.m */; };
 		A2F7D135217E1BB7002B0E7F /* GitHubVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7D134217E1BB7002B0E7F /* GitHubVC.m */; };
 		A2F7D138217EA335002B0E7F /* HTML5.md in Resources */ = {isa = PBXBuildFile; fileRef = A2F7D137217EA335002B0E7F /* HTML5.md */; };
-		A2F7D13B217EA605002B0E7F /* iOS横竖牌.md in Resources */ = {isa = PBXBuildFile; fileRef = A2F7D13A217EA605002B0E7F /* iOS横竖牌.md */; };
+		A2F7D13B217EA605002B0E7F /* iOS横竖屏.md in Resources */ = {isa = PBXBuildFile; fileRef = A2F7D13A217EA605002B0E7F /* iOS横竖屏.md */; };
 		A2F7D13D217EA67A002B0E7F /* Android蓝牙.md in Resources */ = {isa = PBXBuildFile; fileRef = A2F7D13C217EA67A002B0E7F /* Android蓝牙.md */; };
 		A2F7D13F217EA68D002B0E7F /* Android网络请求.md in Resources */ = {isa = PBXBuildFile; fileRef = A2F7D13E217EA68D002B0E7F /* Android网络请求.md */; };
 		A2F7D141217EA6A5002B0E7F /* Android内存管理.md in Resources */ = {isa = PBXBuildFile; fileRef = A2F7D140217EA6A5002B0E7F /* Android内存管理.md */; };
@@ -399,7 +399,7 @@
 		187BF5DA2176C7F000AEC321 /* MarkdownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownView.swift; sourceTree = "<group>"; };
 		187BF5DB2176C7F000AEC321 /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
 		187BF5DC2176C7F000AEC321 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
-		187BF5E32176C97F00AEC321 /* NSDictionary实现原理.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "NSDictionary实现原理.md"; sourceTree = "<group>"; };
+		187BF5E32176C97F00AEC321 /* OC-NSDictionary.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "OC-NSDictionary.md"; sourceTree = "<group>"; };
 		187BF5E42176C97F00AEC321 /* Mac常见指令.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Mac常见指令.md"; sourceTree = "<group>"; };
 		187BF5E52176C97F00AEC321 /* iOS数据存储.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS数据存储.md"; sourceTree = "<group>"; };
 		187BF5E62176C97F00AEC321 /* iOS面试题.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS面试题.md"; sourceTree = "<group>"; };
@@ -1095,7 +1095,7 @@
 		A2F7D134217E1BB7002B0E7F /* GitHubVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHubVC.m; sourceTree = "<group>"; };
 		A2F7D137217EA335002B0E7F /* HTML5.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = HTML5.md; sourceTree = "<group>"; };
 		A2F7D139217EA359002B0E7F /* VUE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VUE.md; sourceTree = "<group>"; };
-		A2F7D13A217EA605002B0E7F /* iOS横竖牌.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS横竖牌.md"; sourceTree = "<group>"; };
+		A2F7D13A217EA605002B0E7F /* iOS横竖屏.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS横竖屏.md"; sourceTree = "<group>"; };
 		A2F7D13C217EA67A002B0E7F /* Android蓝牙.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Android蓝牙.md"; sourceTree = "<group>"; };
 		A2F7D13E217EA68D002B0E7F /* Android网络请求.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Android网络请求.md"; sourceTree = "<group>"; };
 		A2F7D140217EA6A5002B0E7F /* Android内存管理.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Android内存管理.md"; sourceTree = "<group>"; };
@@ -1200,10 +1200,11 @@
 				187BF5F72176C97F00AEC321 /* OC-NSRunLoop.md */,
 				187BF5FB2176C97F00AEC321 /* OC-RunTime.md */,
 				A2C3E787217ACD6500D2982F /* OC-MultiThread.md */,
+				187BF5E32176C97F00AEC321 /* OC-NSDictionary.md */,
 				187BF5EB2176C97F00AEC321 /* OC-Category.md */,
 				187BF5F62176C97F00AEC321 /* iOS加密.md */,
 				187BF5EA2176C97F00AEC321 /* iOS传感器.md */,
-				A2F7D13A217EA605002B0E7F /* iOS横竖牌.md */,
+				A2F7D13A217EA605002B0E7F /* iOS横竖屏.md */,
 				187BF5E72176C97F00AEC321 /* iOS蓝牙.md */,
 				187BF5ED2176C97F00AEC321 /* iOS硬件信息.md */,
 				187BF5F42176C97F00AEC321 /* iOS启动流程.md */,
@@ -1218,7 +1219,6 @@
 				18E2AD4A217857BD001BA590 /* iOS多target.md */,
 				18E2AD4C21785B2B001BA590 /* iOS的OC和Swift混编.md */,
 				18E2AD4E21786A15001BA590 /* iOS代码块CodeSnippet.md */,
-				187BF5E32176C97F00AEC321 /* NSDictionary实现原理.md */,
 				18E2AD5021788500001BA590 /* iOS跨平台.md */,
 				A2C3E783217ABC3A00D2982F /* iOS组件化.md */,
 				A2C3E785217ABC8600D2982F /* iOS-OpenCV.md */,
@@ -3062,7 +3062,7 @@
 			files = (
 				A228FAC3217AB62400D26F54 /* 简历的准备.png in Resources */,
 				187BF6132176C97F00AEC321 /* OC-RunTime.md in Resources */,
-				187BF5FC2176C97F00AEC321 /* NSDictionary实现原理.md in Resources */,
+				187BF5FC2176C97F00AEC321 /* OC-NSDictionary.md in Resources */,
 				A262CC42216388A10050D6BC /* 消愁.mp3 in Resources */,
 				18E2AD72217897D0001BA590 /* iOS的GitHub接口.md in Resources */,
 				187BF5FD2176C97F00AEC321 /* Mac常见指令.md in Resources */,
@@ -3172,7 +3172,7 @@
 				A228FAC1217AB62400D26F54 /* 复盘流程.png in Resources */,
 				A2B992932068F3CA002A73B1 /* ChatTextCell.xib in Resources */,
 				A22C4DC41FFC777A0079F7C2 /* pin_purple_s.png in Resources */,
-				A2F7D13B217EA605002B0E7F /* iOS横竖牌.md in Resources */,
+				A2F7D13B217EA605002B0E7F /* iOS横竖屏.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

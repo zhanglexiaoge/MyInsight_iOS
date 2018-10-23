@@ -45,3 +45,6 @@ iOS面试之道
 
 新功能提示，遮罩提示 
 [GuideMask](https://github.com/muzipiao/GuideMask)
+[程序员取悦女票的正确姿势---Tip1（iOS美容篇）](http://www.demodashi.com/demo/11695.html)
+[Core ML介绍 (Apple机器学习框架)](https://blog.csdn.net/chenhaifeng2016/article/details/72911215)
+[CoreML初学感觉](https://www.jianshu.com/p/9ffdbc054b8a)

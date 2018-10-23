@@ -15,4 +15,6 @@
 
 [MrCode- A simple GitHub iPhone App](https://github.com/haolloyin/MrCode)
 
+[github的api调用](https://blog.csdn.net/dream_flying_bj/article/details/60960888)
 
+[GithubAPI](https://blog.csdn.net/zm714981790/article/details/51325502/)
