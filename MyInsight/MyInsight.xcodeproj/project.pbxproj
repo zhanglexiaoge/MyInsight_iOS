@@ -55,6 +55,9 @@
 		A20D5E111FD147CD000E191D /* TabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D5E101FD147CD000E191D /* TabBarVC.m */; };
 		A20D5E1D1FD14C7A000E191D /* MainRevealVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D5E1C1FD14C7A000E191D /* MainRevealVC.m */; };
 		A20D5E231FD14E37000E191D /* RightRevealVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D5E221FD14E37000E191D /* RightRevealVC.m */; };
+		A215F667217F3BD5004C728D /* OC-进制转换.md in Resources */ = {isa = PBXBuildFile; fileRef = A215F666217F3BCC004C728D /* OC-进制转换.md */; };
+		A215F669217F3D16004C728D /* iOS地图.md in Resources */ = {isa = PBXBuildFile; fileRef = A215F668217F3D16004C728D /* iOS地图.md */; };
+		A215F66D217F668F004C728D /* LCChatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A215F66C217F668F004C728D /* LCChatVC.m */; };
 		A2250B0F20E10C3C00CCBB29 /* EmojiTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A2250B0E20E10C3C00CCBB29 /* EmojiTool.m */; };
 		A2250B1320E10D6800CCBB29 /* NSString+Characters.m in Sources */ = {isa = PBXBuildFile; fileRef = A2250B1220E10D6800CCBB29 /* NSString+Characters.m */; };
 		A2250B1720E112EF00CCBB29 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = A2250B1620E112EF00CCBB29 /* UIImage+Blur.m */; };
@@ -458,6 +461,10 @@
 		A20D5E1C1FD14C7A000E191D /* MainRevealVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainRevealVC.m; sourceTree = "<group>"; };
 		A20D5E211FD14E37000E191D /* RightRevealVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightRevealVC.h; sourceTree = "<group>"; };
 		A20D5E221FD14E37000E191D /* RightRevealVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightRevealVC.m; sourceTree = "<group>"; };
+		A215F666217F3BCC004C728D /* OC-进制转换.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "OC-进制转换.md"; sourceTree = "<group>"; };
+		A215F668217F3D16004C728D /* iOS地图.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS地图.md"; sourceTree = "<group>"; };
+		A215F66B217F668F004C728D /* LCChatVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCChatVC.h; sourceTree = "<group>"; };
+		A215F66C217F668F004C728D /* LCChatVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCChatVC.m; sourceTree = "<group>"; };
 		A2250B0D20E10C3C00CCBB29 /* EmojiTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmojiTool.h; sourceTree = "<group>"; };
 		A2250B0E20E10C3C00CCBB29 /* EmojiTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmojiTool.m; sourceTree = "<group>"; };
 		A2250B1120E10D6800CCBB29 /* NSString+Characters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Characters.h"; sourceTree = "<group>"; };
@@ -1202,10 +1209,12 @@
 				A2C3E787217ACD6500D2982F /* OC-MultiThread.md */,
 				187BF5E32176C97F00AEC321 /* OC-NSDictionary.md */,
 				187BF5EB2176C97F00AEC321 /* OC-Category.md */,
+				A215F666217F3BCC004C728D /* OC-进制转换.md */,
 				187BF5F62176C97F00AEC321 /* iOS加密.md */,
 				187BF5EA2176C97F00AEC321 /* iOS传感器.md */,
 				A2F7D13A217EA605002B0E7F /* iOS横竖屏.md */,
 				187BF5E72176C97F00AEC321 /* iOS蓝牙.md */,
+				A215F668217F3D16004C728D /* iOS地图.md */,
 				187BF5ED2176C97F00AEC321 /* iOS硬件信息.md */,
 				187BF5F42176C97F00AEC321 /* iOS启动流程.md */,
 				187BF5F52176C97F00AEC321 /* iOS面试之道.md */,
@@ -1404,6 +1413,15 @@
 				A26CE4832018A0730012EC69 /* Other */,
 			);
 			path = Function;
+			sourceTree = "<group>";
+		};
+		A215F66A217F667E004C728D /* LCChat */ = {
+			isa = PBXGroup;
+			children = (
+				A215F66B217F668F004C728D /* LCChatVC.h */,
+				A215F66C217F668F004C728D /* LCChatVC.m */,
+			);
+			path = LCChat;
 			sourceTree = "<group>";
 		};
 		A2250B0A20E10BFA00CCBB29 /* EmojiTool */ = {
@@ -2048,6 +2066,7 @@
 			children = (
 				A26CE48A2018A0AD0012EC69 /* SeniorVC.h */,
 				A26CE48B2018A0AD0012EC69 /* SeniorVC.m */,
+				A215F66A217F667E004C728D /* LCChat */,
 				A2B9927120623CF3002A73B1 /* Socket */,
 				A27E8754201AD2B2003E712C /* Audio */,
 				A23D955D21513A6E00295718 /* Video */,
@@ -3081,6 +3100,7 @@
 				A268BEFE2106E04300CADD8A /* scrollimage3.jpg in Resources */,
 				A22C4DD11FFC777A0079F7C2 /* purple_arrow.png in Resources */,
 				A257F1E1217CC23A00146191 /* C算法.md in Resources */,
+				A215F667217F3BD5004C728D /* OC-进制转换.md in Resources */,
 				187BF60C2176C97F00AEC321 /* iOS启动流程.md in Resources */,
 				A2B992AC2068F45B002A73B1 /* ChatTipCell.xib in Resources */,
 				A2EE0F50209BF3E00073495A /* 雪花.png in Resources */,
@@ -3140,6 +3160,7 @@
 				A228FAB8217AB50E00D26F54 /* Java算法.md in Resources */,
 				A28ED5411FD2495F00A74551 /* Mine.storyboard in Resources */,
 				187BF5FE2176C97F00AEC321 /* iOS数据存储.md in Resources */,
+				A215F669217F3D16004C728D /* iOS地图.md in Resources */,
 				A2C3E788217ACD6500D2982F /* OC-MultiThread.md in Resources */,
 				18DE2D2221771D65005C64C9 /* iOS第三方库工具.md in Resources */,
 				18E2AD4B217857BD001BA590 /* iOS多target.md in Resources */,
@@ -3377,6 +3398,7 @@
 				A2E9DA312091D3FB0061B1E7 /* RSAUtil.m in Sources */,
 				A26CE4AC201971DC0012EC69 /* MapsVC.m in Sources */,
 				A236ED532139493100BF9189 /* ZhiHuDailyVC.m in Sources */,
+				A215F66D217F668F004C728D /* LCChatVC.m in Sources */,
 				A2E642F72152463A009CADE9 /* CrossVC.m in Sources */,
 				A2F002F9209AFC5200F449EE /* BasicDrawingVC.m in Sources */,
 				A2D884F420897942005116A6 /* RunLoopVC.m in Sources */,

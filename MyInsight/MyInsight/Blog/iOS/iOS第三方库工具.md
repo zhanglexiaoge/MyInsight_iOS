@@ -34,6 +34,9 @@
 更新制定的仓库
 `pod update ** --verbose --no-repo-update`
 
+禁止升级 CocoaPods 的 spec 仓库，否则会卡在 Analyzing dependencies，非常慢
+`pod update --verbose --no-repo-update`
+
 更新CocoaPods版本
 
 删除CocoaPods仓库

@@ -16,6 +16,7 @@
 #import "SocketVC.h"
 #import "OpenGLVC.h"
 #import "CoreFoundationVC.h"
+#import "LCChatVC.h"
 
 @interface SeniorVC ()<UITableViewDelegate, UITableViewDataSource>
 // 列表
@@ -34,6 +35,7 @@ static const NSString *AudioStr = @"Audio音频";
 static const NSString *VideoStr = @"Video视频";
 static const NSString *CoreFoundationStr = @"Core Foundation";
 static const NSString *BarrageRendererStr = @"弹幕渲染器";
+static const NSString *LCChatStr = @"LCChat";
 
 @implementation SeniorVC
 
@@ -70,7 +72,7 @@ static const NSString *BarrageRendererStr = @"弹幕渲染器";
 
 // 处理数据
 - (void)handleTableViewData {
-    self.dataArray = @[CoreFoundationStr, SocketStr, FFmpegStr, IJKPlayerStr, AudioStr, VideoStr, OpenGLStr, BarrageRendererStr];
+    self.dataArray = @[CoreFoundationStr, SocketStr, FFmpegStr, IJKPlayerStr, AudioStr, VideoStr, OpenGLStr, BarrageRendererStr, LCChatStr];
 }
 
 #pragma mark - 创建TableView
@@ -159,8 +161,15 @@ static const NSString *BarrageRendererStr = @"弹幕渲染器";
     }
     if ([cellString isEqual:BarrageRendererStr]) {
         // 弹幕渲染器
-        
     }
+    if ([cellString isEqual:LCChatStr]) {
+        // LCChat聊天
+        LCChatVC *lcchatVC = [[LCChatVC alloc] init];
+        lcchatVC.hidesBottomBarWhenPushed = YES;
+        lcchatVC.title = cellString;
+        [self.navigationController pushViewController:lcchatVC animated:YES];
+    }
+    
 }
 
 #pragma mark - 代码约束布局

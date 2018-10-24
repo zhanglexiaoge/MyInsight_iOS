@@ -10,8 +10,9 @@
 #import <GoogleMaps/GoogleMaps.h> //引入谷歌地图
 
 
-
 @interface GoogleMapVC ()
+
+@property (nonatomic, strong) GMSMapView *mapView;
 
 @end
 
@@ -26,6 +27,21 @@
     [super viewDidLoad];
     
     self.title = @"谷歌地图";
+    
+    // 添加key
+    [GMSServices provideAPIKey:@"AIzaSyDKmAScomiLmWFnoajhSlPqbmNf8xuQB0Y"];
+    
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:22.290664 longitude:114.195304 zoom:14];
+    self.mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
+    self.view = self.mapView;
+    GMSMarker *marker = [[GMSMarker alloc] init];
+    marker.position = CLLocationCoordinate2DMake(22.290664, 114.195304);
+    marker.title = @"香港";
+    marker.snippet = @"Hong Kong";
+    marker.map = self.mapView;
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

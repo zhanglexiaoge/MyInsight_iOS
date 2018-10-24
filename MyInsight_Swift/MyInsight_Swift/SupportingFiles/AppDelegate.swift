@@ -17,6 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     public func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         debugPrint("程序启动完成")
         
+        // 设置3D Touch
+        self.setup3DTouch()
+        
         // 判断应用是否是第一次启动
         self.isRightFirstLaunched()
         
@@ -43,6 +46,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
             self.window?.rootViewController = mainRevealVC
         }
+    }
+    
+    func setup3DTouch() {
+        debugPrint("你说是啥就是啥")
+        // Swift开发之3DTouch实用演练 http://www.sohu.com/a/200417763_208051
+        let homeIcon = UIApplicationShortcutIcon(type: UIApplicationShortcutIcon.IconType.compose)
+        let homeItem = UIApplicationShortcutItem(type: "homeAnchor", localizedTitle: "首页", localizedSubtitle: "点击进入首页", icon: homeIcon, userInfo: nil)
+        
+        let playIcon = UIApplicationShortcutIcon(type: UIApplicationShortcutIcon.IconType.play)
+        let playItem = UIApplicationShortcutItem(type: "homeAnchor", localizedTitle: "播放", localizedSubtitle: "开始点播了", icon: playIcon, userInfo: nil)
+        
+        let userIcon = UIApplicationShortcutIcon(type: UIApplicationShortcutIcon.IconType.search)
+        let userItem = UIApplicationShortcutItem(type: "homeAnchor", localizedTitle: "用户名", localizedSubtitle: "你爸爸是谁", icon: userIcon, userInfo: nil)
+        
+        UIApplication.shared.shortcutItems = [homeItem, playItem, userItem]
     }
     
     func applicationWillResignActive(_ application: UIApplication) {
