@@ -6,6 +6,17 @@
 
 ### 下载工具 Wget
 
+### Aria2
+aria2是Linux下一个命令行下轻量级，多协议，多来源的高速下载工具。
+安装：sudo apt-get install aria2
+使用说明：
+#简单使用：只需要加上下载链接即可
+aria2c ${link}
+#分段下载
+aria2c -s ${link}
+
+Aria2在百度云环境下可以不限速下载，传送Aria2 - 可能是现在下载百度云资料速度最快的方式。
+
 
 
 
