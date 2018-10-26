@@ -80,7 +80,6 @@
 		A228FAC1217AB62400D26F54 /* 复盘流程.png in Resources */ = {isa = PBXBuildFile; fileRef = A228FABD217AB62400D26F54 /* 复盘流程.png */; };
 		A228FAC2217AB62400D26F54 /* 面试流程图.png in Resources */ = {isa = PBXBuildFile; fileRef = A228FABE217AB62400D26F54 /* 面试流程图.png */; };
 		A228FAC3217AB62400D26F54 /* 简历的准备.png in Resources */ = {isa = PBXBuildFile; fileRef = A228FABF217AB62400D26F54 /* 简历的准备.png */; };
-		A22C4D7F1FFB1BB00079F7C2 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A22C4D7E1FFB1BB00079F7C2 /* libjpeg.a */; };
 		A22C4D811FFB1C3F0079F7C2 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A22C4D801FFB1C3F0079F7C2 /* libc++.tbd */; };
 		A22C4D831FFB1C4E0079F7C2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22C4D821FFB1C4E0079F7C2 /* AVFoundation.framework */; };
 		A22C4D851FFB1C570079F7C2 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22C4D841FFB1C570079F7C2 /* CoreImage.framework */; };
@@ -348,6 +347,7 @@
 		A2E4E7232004BFDF00EC3D63 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E4E71C2004BFDE00EC3D63 /* libswscale.a */; };
 		A2E642F72152463A009CADE9 /* CrossVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E642F62152463A009CADE9 /* CrossVC.m */; };
 		A2E643102152812D009CADE9 /* GaodeMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E6430F2152812D009CADE9 /* GaodeMapVC.m */; };
+		A2E98DB321801F33008354CE /* OC-算法.md in Resources */ = {isa = PBXBuildFile; fileRef = A2E98DB221801F33008354CE /* OC-算法.md */; };
 		A2E9DA1F2091BD0E0061B1E7 /* NSString+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E9DA1E2091BD0E0061B1E7 /* NSString+AES.m */; };
 		A2E9DA222091BD210061B1E7 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E9DA212091BD210061B1E7 /* NSData+AES.m */; };
 		A2E9DA2B2091C50A0061B1E7 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E9DA2A2091C50A0061B1E7 /* NSData+AES256.m */; };
@@ -497,7 +497,6 @@
 		A228FABD217AB62400D26F54 /* 复盘流程.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "复盘流程.png"; sourceTree = "<group>"; };
 		A228FABE217AB62400D26F54 /* 面试流程图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "面试流程图.png"; sourceTree = "<group>"; };
 		A228FABF217AB62400D26F54 /* 简历的准备.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "简历的准备.png"; sourceTree = "<group>"; };
-		A22C4D7E1FFB1BB00079F7C2 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
 		A22C4D801FFB1C3F0079F7C2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		A22C4D821FFB1C4E0079F7C2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A22C4D841FFB1C570079F7C2 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
@@ -1057,6 +1056,7 @@
 		A2E642F62152463A009CADE9 /* CrossVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrossVC.m; sourceTree = "<group>"; };
 		A2E6430E2152812D009CADE9 /* GaodeMapVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaodeMapVC.h; sourceTree = "<group>"; };
 		A2E6430F2152812D009CADE9 /* GaodeMapVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaodeMapVC.m; sourceTree = "<group>"; };
+		A2E98DB221801F33008354CE /* OC-算法.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "OC-算法.md"; sourceTree = "<group>"; };
 		A2E9DA1D2091BD0E0061B1E7 /* NSString+AES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+AES.h"; sourceTree = "<group>"; };
 		A2E9DA1E2091BD0E0061B1E7 /* NSString+AES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES.m"; sourceTree = "<group>"; };
 		A2E9DA202091BD210061B1E7 /* NSData+AES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
@@ -1128,7 +1128,6 @@
 				A2E4E7202004BFDF00EC3D63 /* libavformat.a in Frameworks */,
 				A2E4E71D2004BFDF00EC3D63 /* libavutil.a in Frameworks */,
 				A2E4E7212004BFDF00EC3D63 /* libavdevice.a in Frameworks */,
-				A22C4D7F1FFB1BB00079F7C2 /* libjpeg.a in Frameworks */,
 				A2E4E71E2004BFDF00EC3D63 /* libavfilter.a in Frameworks */,
 				A2E4E7222004BFDF00EC3D63 /* libswresample.a in Frameworks */,
 				A2E4E71F2004BFDF00EC3D63 /* libavcodec.a in Frameworks */,
@@ -1203,6 +1202,7 @@
 				18DE2D1F217713E3005C64C9 /* GIT工具.md */,
 				A2C3E781217ABBCA00D2982F /* SVN工具.md */,
 				187BF5E42176C97F00AEC321 /* Mac常见指令.md */,
+				A2E98DB221801F33008354CE /* OC-算法.md */,
 				187BF5E92176C97F00AEC321 /* OC-Block.md */,
 				187BF5F72176C97F00AEC321 /* OC-NSRunLoop.md */,
 				187BF5FB2176C97F00AEC321 /* OC-RunTime.md */,
@@ -1550,17 +1550,8 @@
 				A27E8726201AC53C003E712C /* Music */,
 				A2E4E69F2004BFDD00EC3D63 /* FFmpeg-iOS */,
 				A22C4DA61FFC77790079F7C2 /* YahooMap */,
-				A22C4D7B1FFB1B890079F7C2 /* OpenCV */,
 			);
 			path = Vendors;
-			sourceTree = "<group>";
-		};
-		A22C4D7B1FFB1B890079F7C2 /* OpenCV */ = {
-			isa = PBXGroup;
-			children = (
-				A22C4D7E1FFB1BB00079F7C2 /* libjpeg.a */,
-			);
-			path = OpenCV;
 			sourceTree = "<group>";
 		};
 		A22C4DA61FFC77790079F7C2 /* YahooMap */ = {
@@ -3131,6 +3122,7 @@
 				A22C4DD21FFC777A0079F7C2 /* pin_purple_s@2x.png in Resources */,
 				A22C4DC01FFC777A0079F7C2 /* route_pin.png in Resources */,
 				A2CDD262208EC6D7006DF86E /* CATransition2.png in Resources */,
+				A2E98DB321801F33008354CE /* OC-算法.md in Resources */,
 				187BF6042176C97F00AEC321 /* OC-Category.md in Resources */,
 				187BF6052176C97F00AEC321 /* Blog.md in Resources */,
 				A22C4DC91FFC777A0079F7C2 /* compass48@2x.png in Resources */,

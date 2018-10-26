@@ -1,4 +1,4 @@
-# MyInsight_iOS
+## MyInsight_iOS
 
 ### OC Demo名字**有鹿(A-Deer)**
 
@@ -22,16 +22,6 @@
 生命周期、RunTime、协议
 
 ## <a id=""></a>基础
-
-<br>
-
-<img src="./Image/IMG_2442.png" width="40%">|
-
-<br>
-
-<img src="./Image/IMG_2442.png" width="40%">
-<br>
-<br>
 
 进阶：
 
