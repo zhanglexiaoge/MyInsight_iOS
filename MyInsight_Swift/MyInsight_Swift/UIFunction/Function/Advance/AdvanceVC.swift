@@ -36,7 +36,17 @@ class AdvanceVC: BaseVC {
         // 左右button
         self.navigationItem.leftBarButtonItem = UIBarButtonItem.init(title: "左边", style: UIBarButtonItem.Style.plain, target: self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:))) //revealToggle(_:)
         self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(title: "右边", style: UIBarButtonItem.Style.plain, target: self.revealViewController(), action: #selector(SWRevealViewController.rightRevealToggle(_:)))
-        
+
+
+		// 按位取数
+		debugPrint(38&0b00000001)
+		debugPrint(38&0b00000010)
+		debugPrint(38&0b00000100)
+		debugPrint(38&0b00001000)
+		debugPrint(38&0b00010000)
+		debugPrint(38&0b00100000)
+		debugPrint(38&0b01000000)
+		debugPrint(38&0b10000000)
         
     }
 
