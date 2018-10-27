@@ -11,6 +11,7 @@ import SWRevealViewController
 
 class AdvanceVC: BaseVC {
 
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         // 抽屉
@@ -33,37 +34,61 @@ class AdvanceVC: BaseVC {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // 左右button
-        self.navigationItem.leftBarButtonItem = UIBarButtonItem.init(title: "左边", style: UIBarButtonItem.Style.plain, target: self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:))) //revealToggle(_:)
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(title: "右边", style: UIBarButtonItem.Style.plain, target: self.revealViewController(), action: #selector(SWRevealViewController.rightRevealToggle(_:)))
-
-
-		// 按位取数
-		debugPrint(38&0b00000001)
-		debugPrint(38&0b00000010)
-		debugPrint(38&0b00000100)
-		debugPrint(38&0b00001000)
-		debugPrint(38&0b00010000)
-		debugPrint(38&0b00100000)
-		debugPrint(38&0b01000000)
-		debugPrint(38&0b10000000)
+        // 设置导航栏
+        naviBarSetting()
+        
+        
         
     }
 
+    // 设置导航栏
+    func naviBarSetting() -> Void {
+        // 左右button
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem.init(title: "左边", style: UIBarButtonItem.Style.plain, target: self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:))) //revealToggle(_:)
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(title: "右边", style: UIBarButtonItem.Style.plain, target: self.revealViewController(), action: #selector(SWRevealViewController.rightRevealToggle(_:)))
+    }
+    
+    
+    
+    
+    
+    
+    
+
+}
+
+extension AdvanceVC {
+    func bitConvert() -> Void {
+        // swift进制间的转换
+        // 按位取数
+        debugPrint(38&0b00000001)
+        debugPrint(38&0b00000010)
+        debugPrint(38&0b00000100)
+        debugPrint(38&0b00001000)
+        debugPrint(38&0b00010000)
+        debugPrint(38&0b00100000)
+        debugPrint(38&0b01000000)
+        debugPrint(38&0b10000000)
+    }
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
+    
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
 }
+
+
+
