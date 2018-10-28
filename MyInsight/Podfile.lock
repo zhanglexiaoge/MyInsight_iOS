@@ -135,7 +135,7 @@ DEPENDENCIES:
   - WXDevtool
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - AFNetworking
     - AMap3DMap
     - AMapFoundation
@@ -203,4 +203,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: e5c902c876be5b51f949607e78db643e7894a543
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3

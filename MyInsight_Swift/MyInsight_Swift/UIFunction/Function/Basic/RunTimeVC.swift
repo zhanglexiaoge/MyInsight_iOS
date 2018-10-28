@@ -17,6 +17,10 @@ class RunTimeVC: BaseVC {
         // 时间格式化转换
         timeConvert()
         
+        let string1: String = "12356789"
+        debugPrint(string1.suffix(4))
+        
+        
     }
     
     
