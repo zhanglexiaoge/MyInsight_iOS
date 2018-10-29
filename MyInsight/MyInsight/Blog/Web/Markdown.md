@@ -125,6 +125,20 @@ u=702257389,1274025419&fm=27&gp=0.jpg "区块链")
 blockchain
 上传本地图片直接点击导航栏的图片标志，选择图片即可
 
+### 图片链接
+
+<img src="../images/iOS/复盘流程.png" width="100" height="100" />
+<div align=center>
+</div>
+
+<!---->简历的准备
+<img src="../images/iOS/简历的准备.png" width="100" height="100" />
+
+<div align=center>
+![复盘流程](./images/iOS/简历的准备.png)
+</div>
+
+
 六、超链接
 
 语法：
@@ -292,3 +306,5 @@ cond(no)->op
 
 ### 参考
 [markdown基本语法](https://www.jianshu.com/p/191d1e21f7ed)			
+
+

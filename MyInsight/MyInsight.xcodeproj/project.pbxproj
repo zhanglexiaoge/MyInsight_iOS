@@ -55,6 +55,7 @@
 		A20D5E111FD147CD000E191D /* TabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D5E101FD147CD000E191D /* TabBarVC.m */; };
 		A20D5E1D1FD14C7A000E191D /* MainRevealVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D5E1C1FD14C7A000E191D /* MainRevealVC.m */; };
 		A20D5E231FD14E37000E191D /* RightRevealVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D5E221FD14E37000E191D /* RightRevealVC.m */; };
+		A214706C2186E9EA005596FF /* Poetry.md in Resources */ = {isa = PBXBuildFile; fileRef = A214706B2186E9EA005596FF /* Poetry.md */; };
 		A215F667217F3BD5004C728D /* OC-进制转换.md in Resources */ = {isa = PBXBuildFile; fileRef = A215F666217F3BCC004C728D /* OC-进制转换.md */; };
 		A215F669217F3D16004C728D /* iOS地图.md in Resources */ = {isa = PBXBuildFile; fileRef = A215F668217F3D16004C728D /* iOS地图.md */; };
 		A215F66D217F668F004C728D /* LCChatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A215F66C217F668F004C728D /* LCChatVC.m */; };
@@ -467,6 +468,7 @@
 		A20D5E1C1FD14C7A000E191D /* MainRevealVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainRevealVC.m; sourceTree = "<group>"; };
 		A20D5E211FD14E37000E191D /* RightRevealVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightRevealVC.h; sourceTree = "<group>"; };
 		A20D5E221FD14E37000E191D /* RightRevealVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightRevealVC.m; sourceTree = "<group>"; };
+		A214706B2186E9EA005596FF /* Poetry.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Poetry.md; sourceTree = "<group>"; };
 		A215F666217F3BCC004C728D /* OC-进制转换.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "OC-进制转换.md"; sourceTree = "<group>"; };
 		A215F668217F3D16004C728D /* iOS地图.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS地图.md"; sourceTree = "<group>"; };
 		A215F66B217F668F004C728D /* LCChatVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCChatVC.h; sourceTree = "<group>"; };
@@ -1205,6 +1207,7 @@
 				A228FAB3217AB4B000D26F54 /* Java */,
 				A2F7D136217EA317002B0E7F /* Web */,
 				A228FAB4217AB4B000D26F54 /* Linux */,
+				A214706A2186E9CB005596FF /* Essays */,
 			);
 			path = Blog;
 			sourceTree = "<group>";
@@ -1427,6 +1430,14 @@
 				A26CE4832018A0730012EC69 /* Other */,
 			);
 			path = Function;
+			sourceTree = "<group>";
+		};
+		A214706A2186E9CB005596FF /* Essays */ = {
+			isa = PBXGroup;
+			children = (
+				A214706B2186E9EA005596FF /* Poetry.md */,
+			);
+			path = Essays;
 			sourceTree = "<group>";
 		};
 		A215F66A217F667E004C728D /* LCChat */ = {
@@ -3198,6 +3209,7 @@
 				A22C4DCC1FFC777A0079F7C2 /* goal@2x.png in Resources */,
 				A2C3E780217AB85500D2982F /* iOS区块链.md in Resources */,
 				A22C4DC51FFC777A0079F7C2 /* pin_red_s@2x.png in Resources */,
+				A214706C2186E9EA005596FF /* Poetry.md in Resources */,
 				A2930B502104906D006520FF /* meinv.jpg in Resources */,
 				A22C51D92185B11C00A1E8E8 /* class_rw_t结构.png in Resources */,
 				A2C1AB7D2025A1D80085A653 /* alarm4.m4r in Resources */,
