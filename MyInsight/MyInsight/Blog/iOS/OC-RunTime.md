@@ -7,9 +7,9 @@
 * OC的动态性就是由Runtime来支撑和实现的，Runtime是一套C语言的API，封装了很多动态性相关的函数
 * 平时编写的OC代码，底层都是转换成了Runtime API进行调用
 
-###### 第一部分：isa
+##### 第一部分：isa
 
-###### 前一篇：[iOS-对象、isa和SuperClass]()
+###### 前一篇：[iOS-对象、isa和SuperClass](https://www.jianshu.com/p/4ae681091e2a)
 
 * 按位与（&），同为1才为1
 * 按位或（|），只要有1就是1
@@ -58,29 +58,29 @@ uintptr_t extra_rc          : 19;
 * 2.has_assoc
 是否有设置过关联对象，如果没有，释放时会更快
 
-3.has_cxx_dtor
+* 3.has_cxx_dtor
 是否有C++的析构函数（.cxx_destruct），如果没有，释放时会更快
 
-4.shiftcls
+* 4.shiftcls
 存储着Class、Meta-Class对象的内存地址信息
 
-5.magic
+* 5.magic
 用于在调试时分辨对象是否未完成初始化
 
-6.weakly_referenced
+* 6.weakly_referenced
 是否有被弱引用指向过，如果没有，释放时会更快
 
-7.deallocating
+* 7.deallocating
 对象是否正在释放
 
-8.extra_rc
+* 8.extra_rc
 里面存储的值是引用计数器减1
 
-9.has_sidetable_rc
+* 9.has_sidetable_rc
 引用计数器是否过大无法存储在isa中
 如果为1，那么引用计数会存储在一个叫SideTable的类的属性中
 
-释放对象调用的方法
+###### 释放对象调用的方法
 ```
 /***********************************************************************
 * objc_destructInstance
@@ -108,94 +108,113 @@ return obj;
 ```
 
 代码可以看出释放对象回判断是否有C++函数和关联对象，如果有会进一步做释放工作。
-知识点：
+##### 知识点：
 
-Class、meta-class 对象的地址值（二进制）最后2位为000
-通过isa指针可以知道是否有关联对象、是否被弱引用过
+* Class、meta-class 对象的地址值（二进制）最后2位为000
+* 通过isa指针可以知道是否有关联对象、是否被弱引用过
 
-Class是结构体结构
+###### Class是结构体结构
+
+<img src="../images/iOS/Class结构.png" width="100" height="100" />
 Class结构
-![Class结构](./image/iOS/Class结构.png  "Class结构")
 
-class_rw_t
+###### class_rw_t
 class_rw_t里面的methods、properties、protocols是二维数组，是可读可写的，包含了类的初始内容、分类的内容
+
+<img src="../images/iOS/class_rw_t结构.png" width="100" height="100" />
 class_rw_t结构
 
-class_ro_t
+###### class_ro_t
 class_ro_t里面的baseMethodList、baseProtocols、ivars、baseProperties是一维数组，是只读的，包含了类的初始内容
+
+<img src="../images/iOS/class_ro_t结构.png" width="100" height="100" />
 class_ro_t结构
 
-第二部分：Runtime-方法
-Q：简述method_t
+#### 第二部分：Runtime-方法
+##### Q：简述method_t
 
 method_t是对方法\函数的封装
 
-源码展示：
-
+###### 源码展示：
+```
 struct method_t {
 SEL name;//函数名
 const char *types;//编码（返回值类型、参数类型）
 IMP imp;//指向函数的指针（函数地址）
 }
+```
 
-1.SEL
+###### 1.SEL
 
-SEL代表方法\函数名，一般叫做选择器，底层结构跟char *类似
-可以通过@selector()和sel_registerName()获得
-可以通过sel_getName()和NSStringFromSelector()转成字符串
-不同类中相同名字的方法，所对应的方法选择器是相同的
+* SEL代表方法\函数名，一般叫做选择器，底层结构跟char *类似
+* 可以通过@selector()和sel_registerName()获得
+* 可以通过sel_getName()和NSStringFromSelector()转成字符串
+* 不同类中相同名字的方法，所对应的方法选择器是相同的
 
+```
 typedef struct objc_selector*SEL;
+```
 
-2.IMP
+###### 2.IMP
 IMP代表函数的具体实现
 
+```
 typedef id_Nullable (*IMP) (id_Nonnull,SEl_Nonnull,...);
+```
 
-3.types
+###### 3.types
 types包含了函数返回值、参数编码的字符串
+
+![返回参数](../images/iOS/返回参数.png "返回参数")
+
 返回参数
 
 函数类型：
-- (int)test:(int)age height:(float)height;
+`- (int)test:(int)age height:(float)height;`
 types显示内容
-"i24@0:8i16f20"
+`"i24@0:8i16f20"`
 
 types返回内容逐字解释：
 
-i：表示返回值 int
-@：表示id类型
-“：”：表示SEL
-f：表示 float
-24：表示总共占中24个字节，id(8)+SEL(8)+int(4)+float(4) = 24
-0：表示id类型从0字节开始
-8：表示SEL类型从8字节开始
-16：表示age（int）参数从16字节开始
-120：表示height（float）参数从20字节开始
+* i：表示返回值 int
+* @：表示id类型
+* “：”：表示SEL
+* f：表示 float
+* 24：表示总共占中24个字节，id(8)+SEL(8)+int(4)+float(4) = 24
+* 0：表示id类型从0字节开始
+* 8：表示SEL类型从8字节开始
+* 16：表示age（int）参数从16字节开始
+* 120：表示height（float）参数从20字节开始
 
 iOS中提供了一个叫做@encode的指令，可以将具体的类型表示成字符串编码，如下：
-TypeEncoding编码表
-TypeEncoding编码表
-Q：什么是方法缓存？
 
-Class内部结构中有个方法缓存（cache_t），用散列表（哈希表）来缓存曾经调用过的方法，可以提高方法的查找速度。
+![TypeEncoding编码表](../images/iOS/TypeEncoding编码表1.png "TypeEncoding编码表")
+TypeEncoding编码表
+![TypeEncoding编码表](../images/iOS/TypeEncoding编码表2.png "TypeEncoding编码表")
+TypeEncoding编码表
+
+##### Q：什么是方法缓存？
+
+Class内部结构中有个方法缓存（cache_t），用`散列表（哈希表）`来缓存曾经调用过的方法，可以提高方法的查找速度。
+![cache_t结构](../images/iOS/cache_t结构.png "cache_t结构")
+
 cache_t结构
 
-Q：什么是散列表缓存？
+##### Q：什么是散列表缓存？
 
-在缓存和取值时有个策略：@selector(personTest) & _mask = 索引值
-根据这种策略把方法缓存到列表中，如果索引值相同就索引值-1，如果减少到0，就从_mask开始存放
-在取值时根据这种策略来直接找到索引值，判断该索引值存放的key是否相同，相同取出IMP；不相同，查找索引值-1 -> 0 ->_mask -> _mask-1 -> ··· 直到找到相同的key，取出IMP
-优点：牺牲内存空间换取读取时间，效率高
-一旦数组扩容，就会把缓存清掉，扩容数组容量 = 旧数组容量 * 2
-可自行参考其他博客查看
+* 在缓存和取值时有个策略：`@selector(personTest) & _mask = 索引值`
+根据这种策略把方法缓存到列表中，如果索引值相同就`索引值-1`，如果减少到0，就从`_mask`开始存放
+* 在取值时根据这种策略来直接找到索引值，判断该索引值存放的key是否相同，相同取出IMP；不相同，查找`索引值-1 -> 0 ->_mask -> _mask-1 -> ···` 直到找到相同的key，取出IMP
+* 优点：牺牲内存空间换取读取时间，效率高
+* 一旦数组扩容，就会把缓存清掉，扩容数组容量 = 旧数组容量 * 2
+* 可自行参考其他博客查看
 
-第三部分：Runtime-objc_msgSend
+### 第三部分：Runtime-objc_msgSend
 
 objc_msgSend执行流程分为三大阶段：消息发送、动态方法解析、消息转发
 
-Runtime源码解读流程
-
+##### Runtime源码解读流程
+```
 objc-msg-arm64.s
 ENTRY _objc_msgSend
 b.le    LNilOrTagged
@@ -220,32 +239,37 @@ ENTRY __objc_msgForward
 
 Core Foundation
 __forwarding__（不开源）
+```
 
-3.1 消息发送
+##### 3.1 消息发送
+
+![消息发送执行流程](../images/iOS/消息发送执行流程.png "消息发送执行流程")
 消息发送执行流程
 
-receiver通过isa指针找到receiverClass
-receiverClass通过superclass指针找到superClass
-如果是从class_rw_t中查找方法
+* receiver通过isa指针找到receiverClass
+* receiverClass通过superclass指针找到superClass
+* 如果是从class_rw_t中查找方法
 1.已经排序的，二分查找
 2.没有排序的，遍历查找
 
-3.2 动态解析
+##### 3.2 动态解析
+
+![动态解析流程](../images/iOS/动态解析流程.png "动态解析流程")
 动态解析流程
 
 开发者可以实现以下方法，来动态添加方法实现
 
-+resolveInstanceMethod:添加对象方法
-+resolveClassMethod:添加类方法
+* +resolveInstanceMethod:添加对象方法
+* +resolveClassMethod:添加类方法
 
 动态解析过后，会重新走“消息发送”的流程
 
-“从receiverClass的cache中查找方法”这一步开始执行
+* “从receiverClass的cache中查找方法”这一步开始执行
 
-Q：Runtime动态添加方法的几种方式？
+#### Q：Runtime动态添加方法的几种方式？
 
-Runtime方式
-
+###### Runtime方式
+```
 - (void)other{
 NSLog(@"%s",__func__);
 }
@@ -259,9 +283,9 @@ return YES;
 }
 return [super resolveInstanceMethod:sel];
 }
-
+```
 OC 方式
-
+```
 - (void)other{
 NSLog(@"%s",__func__);
 }
@@ -286,9 +310,9 @@ return YES;
 }
 return [super resolveInstanceMethod:sel];
 }
-
+```
 C 方法
-
+```
 void c_other(id self, SEL _cmd)
 {
 NSLog(@"c_other - %@ - %@", self, NSStringFromSelector(_cmd));
@@ -305,9 +329,9 @@ return YES;
 }
 return [super resolveInstanceMethod:sel];
 }
-
+```
 动态添加类方法
-
+```
 void c_other(id self, SEL _cmd)
 {
 NSLog(@"c_other - %@ - %@", self, NSStringFromSelector(_cmd));
@@ -323,12 +347,12 @@ return YES;
 }
 return [super resolveClassMethod:sel];
 }
-
-Q：dynamic修饰变量的含义？
+```
+##### Q：dynamic修饰变量的含义？
 
 @dynamic是告诉编译器不用自动生成getter和setter的实现，等到运行时再添加方法实现
 提醒编译器不要自动生成setter和getter的实现、不要自动生成成员变量
-
+```
 @interface Person : NSObject
 @property (nonatomic, assign) int age;
 @end
@@ -336,12 +360,13 @@ Q：dynamic修饰变量的含义？
 @implementation Person
 @dynamic age;
 @end
-
-3.3 消息转发
+```
+##### 3.3 消息转发
+![消息转发执行流程](../images/iOS/消息转发执行流程.png "消息转发执行流程")
 消息转发执行流程
 
 消息转发底层汇编转OC（某位大神制作）
-
+```
 int __forwarding__(void *frameStackPointer, int isStret) {
 id receiver = *(id *)frameStackPointer;
 SEL sel = *(SEL *)(frameStackPointer + 8);
@@ -377,9 +402,9 @@ if (class_respondsToSelector(receiverClass,@selector(doesNotRecognizeSelector:))
 // The point of no return.
 kill(getpid(), 9);
 }
-
-3.3.1 指派其他对象的方法来完成Person中test方法的调用
-
+```
+##### 3.3.1 指派其他对象的方法来完成Person中test方法的调用
+```
 - (id)forwardingTargetForSelector:(SEL)aSelector
 {
 if (aSelector == @selector(test)) {
@@ -388,9 +413,9 @@ return [[Cat alloc] init];
 }
 return [super forwardingTargetForSelector:aSelector];
 }
-
-3.3.2 未实现forwardingTargetForSelector，消息转发
-
+```
+##### 3.3.2 未实现forwardingTargetForSelector，消息转发
+```
 // 方法签名：返回值类型、参数类型
 - (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector
 {
@@ -414,9 +439,9 @@ return [super methodSignatureForSelector:aSelector];
 //    anInvocation.target 方法调用者
 //    anInvocation.selector 方法名
 //    [anInvocation getArgument:NULL atIndex:0]
-
-3.3.3 处理类方法的消息转发
-
+```
+##### 3.3.3 处理类方法的消息转发
+```
 + (id)forwardingTargetForSelector:(SEL)aSelector
 {
 if (aSelector == @selector(test))
@@ -437,10 +462,10 @@ return [super methodSignatureForSelector:aSelector];
 {
 NSLog(@"1123");
 }
-
+```
 对类方法消息转发可采用类对象，不一定要使用元类对象
 原因：消息转发objc_msgSend只看消息接收者和方法名
-
+```
 + (id)forwardingTargetForSelector:(SEL)aSelector
 {
 // objc_msgSend([[MJCat alloc] init], @selector(test))
@@ -449,10 +474,10 @@ if (aSelector == @selector(test))
 return [[MJCat alloc] init];
 return [super forwardingTargetForSelector:aSelector];
 }
-
-第四部分：Runtime-super/class
-Q：下列代码输出结果是什么？
-
+```
+#### 第四部分：Runtime-super/class
+##### Q：下列代码输出结果是什么？
+```
 - (instancetype)init{
 if (self = [super init]) {
 NSLog(@"[self class] = %@",[self class]);
@@ -463,31 +488,32 @@ NSLog(@"[super superclass] = %@",[super superclass]);
 }
 return self;
 }
-
+```
 输出结果：
-[self class] = Student
-[self superclass] = Person
-[super class] = Student
-[super superclass] = Person
+>[self class] = Student
+>[self superclass] = Person
+>[super class] = Student
+>[super superclass] = Person
 
 理解下super的调用
-[super message]的底层实现
-1.消息接收者仍然是子类对象
-2.从父类开始查找方法的实现
-3.super:消息接收者仍然是当前类对象，只是从父类查找方法的实现
 
-class和superclass
+**[super message]的底层实现**
+  1.消息接收者仍然是子类对象
+  2.从父类开始查找方法的实现
+  3.super:消息接收者仍然是当前类对象，只是从父类查找方法的实现
+
+**class和superclass**
 1.方法实现在NSObject上
 2.class方法作用:返回当前对象的类对象
 3.superclass方法作用:返回当前对象的父类对象
-
+```
 struct objc_super {
 __unsafe_unretained _Nonnull id receiver; // 消息接收者
 __unsafe_unretained _Nonnull Class super_class; // 消息接收者的父类
 };
-
-Q：下列代码输出结果？
-
+```
+##### Q：下列代码输出结果？
+```
 BOOL res1 = [[NSObject class] isKindOfClass:[NSObject class]];
 BOOL res2 = [[NSObject class] isMemberOfClass:[NSObject class]];
 
@@ -496,17 +522,18 @@ BOOL res4 = [[Person class] isMemberOfClass:[Person class]];
 BOOL res5 = [[Person class] isMemberOfClass:[NSObject class]];
 
 NSLog(@"r1:%d r2:%d r3:%d r4:%d r5:%d",res1,res2,res3,res4,res5);
-
+```
 输出结果：
+>
 r1:1 r2:0 r3:0 r4:0 r5:0
 
--isMemberOfClass：直接返回两个类是否相等
--isKindOfClass：判断调用方法类是否是传入方法的子类。
-+isMemberOfClass：判断调用类的元类是否相等
-+isKindOfClass：判断调用类的元类是否是传入类的子类。
+* -isMemberOfClass：直接返回两个类是否相等
+* -isKindOfClass：判断调用方法类是否是传入方法的子类。
+* +isMemberOfClass：判断调用类的元类是否相等
+* +isKindOfClass：判断调用类的元类是否是传入类的子类。
 
 NSObject.mm部分源码
-
+```
 + (void)load {
 }
 
@@ -572,22 +599,22 @@ if (tcls == self) return YES;
 }
 return NO;
 }
+```
+##### Q：super的本质？
 
-Q：super的本质？
-
-super调用，底层会转换为objc_msgSendSuper2函数的调用，接收2个参数：struct objc_super2 和 SEL
-
+super调用，底层会转换为objc_msgSendSuper2函数的调用，接收2个参数：`struct objc_super2` 和 `SEL`
+```
 struct objc_super2 {
 id receiver;//是消息接收者
 Class current_class;//是receiver的Class对象
 
 };
-
-第五部分：Runtime-API应用
-Q：消息转发应用于哪里？
+```
+#### 第五部分：Runtime-API应用
+##### Q：消息转发应用于哪里？
 
 代码示例：
-
+```
 - (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector
 {
 // 本来能调用的方法
@@ -604,16 +631,16 @@ return [NSMethodSignature signatureWithObjCTypes:"v@:"];
 //处理传错方法或未实现的方法
 NSLog(@"找不到%@方法", NSStringFromSelector(anInvocation.selector));
 }
+```
+##### Q：项目中Runtime应用？
 
-Q：项目中Runtime应用？
+* 可用统计和处理传错方法或未实现的方法
+* 利用关联对象（AssociatedObject）给分类添加属性
+* 遍历类的所有成员变量（修改textfield的占位文字颜色、字典转模型、自动归档解档）
+* 交换方法实现（交换系统的方法）
+* 利用消息转发机制解决方法找不到的异常问题
 
-可用统计和处理传错方法或未实现的方法
-利用关联对象（AssociatedObject）给分类添加属性
-遍历类的所有成员变量（修改textfield的占位文字颜色、字典转模型、自动归档解档）
-交换方法实现（交换系统的方法）
-利用消息转发机制解决方法找不到的异常问题
-
-1.Runtime-API-类
+##### 1.Runtime-API-类
 
 动态创建一个类（参数：父类，类名，额外的内存空间）
 Class objc_allocateClassPair(Class superclass, const char *name, size_t extraBytes)
@@ -638,7 +665,8 @@ BOOL class_isMetaClass(Class cls)
 
 获取父类
 Class class_getSuperclass(Class cls)
-2.Runtime-API-成员变量
+
+##### 2.Runtime-API-成员变量
 
 获取一个实例变量信息
 Ivar class_getInstanceVariable(Class cls, const char *name)
@@ -657,7 +685,8 @@ BOOL class_addIvar(Class cls, const char * name, size_t size, uint8_t alignment,
 获取成员变量的相关信息
 const char *ivar_getName(Ivar v)
 const char *ivar_getTypeEncoding(Ivar v)
-3.Runtime-API-属性
+
+##### 3.Runtime-API-属性
 
 获取一个属性
 objc_property_t class_getProperty(Class cls, const char *name)
@@ -676,7 +705,8 @@ unsigned int attributeCount)
 获取属性的一些信息
 const char *property_getName(objc_property_t property)
 const char *property_getAttributes(objc_property_t property)
-4.Runtime-API-方法
+
+##### 4.Runtime-API-方法
 
 获得一个实例方法、类方法
 Method class_getInstanceMethod(Class cls, SEL name)
@@ -712,23 +742,24 @@ SEL sel_registerName(const char *str)
 IMP imp_implementationWithBlock(id block)
 id imp_getBlock(IMP anImp)
 BOOL imp_removeBlock(IMP anImp)
-Q：如何交换方法？
 
-void method_exchangeImplementations(Method m1, Method m2)
+##### Q：如何交换方法？
 
-方法交换操作,实际是把method_t的IMP交换了
-自己的方法交换系统的方法（hook）：自己的Method需要再次调用自己的Method（已经是系统方法了）
-获取方法时候一定要选择当前类的真实类来获取方法（class_getInstanceMethod）
-类簇：NSString、NSArray、NSDictionary，真实类型是其他类型
+**void method_exchangeImplementations(Method m1, Method m2)**
 
-补充：LLVM的中间代码（IR）
+* 方法交换操作,实际是把method_t的IMP交换了
+* 自己的方法交换系统的方法（hook）：自己的Method需要再次调用自己的Method（已经是系统方法了）
+* 获取方法时候一定要选择当前类的真实类来获取方法（class_getInstanceMethod）
+* 类簇：NSString、NSArray、NSDictionary，真实类型是其他类型
+
+##### 补充：LLVM的中间代码（IR）
 
 Objective-C在变为机器代码之前，会被LLVM编译器转换为中间代码（Intermediate Representation）
 
 可以使用以下命令行指令生成中间代码
-clang -emit-llvm -S main.m
+`clang -emit-llvm -S main.m`
 
-语法简介:
+**语法简介:**
 @ - 全局变量
 % - 局部变量
 alloca - 在当前执行的函数的堆栈帧中分配内存，当该函数返回到其调用者时，将自动释放内存

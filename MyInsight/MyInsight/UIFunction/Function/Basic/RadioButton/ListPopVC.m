@@ -60,6 +60,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     NSLog(@"%zd",indexPath.row);
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 #pragma mark 重写 preferredContentSize, 返回 popover 的大小
 /**

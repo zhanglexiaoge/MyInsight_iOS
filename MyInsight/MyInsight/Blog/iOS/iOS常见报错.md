@@ -52,3 +52,8 @@ sip(724,0x1068eeb80) malloc: *** error for object 0x280dc2c10: pointer being fre
 sip(724,0x1068eeb80) malloc: *** set a breakpoint in malloc_error_break to debug
 sip(724,0x16dbab000) malloc: Heap corruption detected, free list is damaged at 0x280dbfff0
 *** Incorrect guard value: 0
+
+
+### 参考：
+[深入iOS系统底层之crash解决方法介绍](https://www.jianshu.com/p/cf0945f9c1f8)
+

@@ -395,6 +395,11 @@ strong是强引用，是ARC新引入的对象变量属性，简单讲strong等�
 
 
 
+### 参考：
+[iOS面试笔试题（2018年8月）](https://www.jianshu.com/p/f441188cad49)
+[面试官自述：面向高级开发人员的iOS面试问题](https://www.jianshu.com/p/66d6a8b89aa5)
+[iOS 开发刷题系列三：NSString 引用计数](https://www.jianshu.com/p/ae4976ca92eb)
+[iOS高级开发面试题整理](https://www.jianshu.com/c/c75e45b08d4b)
+[iOS 面试宝典 没有比这更全的了（持续更新）](https://www.jianshu.com/p/3b7f3f596bcb?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
 
-
-
+[InterviewQuestion](https://github.com/muzipiao/iOS-InterviewQuestion-collection)
