@@ -78,6 +78,7 @@
 		A2930B7F2104B19F006520FF /* BasicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2930B7E2104B19F006520FF /* BasicVC.swift */; };
 		A2930B812104B1D1006520FF /* CommonTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2930B802104B1D1006520FF /* CommonTool.swift */; };
 		A2930B852105FF94006520FF /* RealmStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2930B842105FF94006520FF /* RealmStore.swift */; };
+		E2A5E605218853EE0081B454 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A5E604218853EE0081B454 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,6 +182,7 @@
 		A9CB2AFDBCE902DE69FFC3A4 /* Pods-MyInsight_SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_SwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_SwiftUITests/Pods-MyInsight_SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		ADB4EA70B82CF0E7F97618C5 /* Pods_MyInsight_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyInsight_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75E0E3F706CCB45F5D2FA5A /* Pods-MyInsight_SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_SwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_SwiftTests/Pods-MyInsight_SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		E2A5E604218853EE0081B454 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		E417E39331C1C2C2D15B4B0C /* Pods-MyInsight_SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_SwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_SwiftUITests/Pods-MyInsight_SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -493,6 +495,7 @@
 				A2930B802104B1D1006520FF /* CommonTool.swift */,
 				A2930B842105FF94006520FF /* RealmStore.swift */,
 				A262CC272160DBDD0050D6BC /* BaseVC.swift */,
+				E2A5E603218853950081B454 /* Model */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -564,6 +567,14 @@
 				A2930B7A2104B181006520FF /* SeniorVC.swift */,
 			);
 			path = Senior;
+			sourceTree = "<group>";
+		};
+		E2A5E603218853950081B454 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2A5E604218853EE0081B454 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -830,6 +841,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2A5E605218853EE0081B454 /* Model.swift in Sources */,
 				A262CC4421646F620050D6BC /* MyBlogVC.swift in Sources */,
 				A2930B812104B1D1006520FF /* CommonTool.swift in Sources */,
 				A262CC37216104520050D6BC /* MarkdownView.swift in Sources */,
