@@ -371,6 +371,9 @@
 		A2E9DA2E2091C5580061B1E7 /* NSString+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E9DA2D2091C5580061B1E7 /* NSString+AES256.m */; };
 		A2E9DA312091D3FB0061B1E7 /* RSAUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E9DA2F2091D3FA0061B1E7 /* RSAUtil.m */; };
 		A2E9DA34209CB6A20061B1E7 /* EncryptUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E9DA33209CB6A20061B1E7 /* EncryptUtils.m */; };
+		A2EAF8DD218B53F200324F7F /* 正确解耦.png in Resources */ = {isa = PBXBuildFile; fileRef = A2EAF8DA218B53F100324F7F /* 正确解耦.png */; };
+		A2EAF8DE218B53F200324F7F /* 错误解耦.png in Resources */ = {isa = PBXBuildFile; fileRef = A2EAF8DB218B53F100324F7F /* 错误解耦.png */; };
+		A2EAF8DF218B53F200324F7F /* 耦合严重.png in Resources */ = {isa = PBXBuildFile; fileRef = A2EAF8DC218B53F200324F7F /* 耦合严重.png */; };
 		A2EE0F50209BF3E00073495A /* 雪花.png in Resources */ = {isa = PBXBuildFile; fileRef = A2EE0F4F209BF3E00073495A /* 雪花.png */; };
 		A2F002F9209AFC5200F449EE /* BasicDrawingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F002F8209AFC5200F449EE /* BasicDrawingVC.m */; };
 		A2F002FC209AFCA400F449EE /* DownloadProgressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F002FB209AFCA400F449EE /* DownloadProgressVC.m */; };
@@ -1107,6 +1110,9 @@
 		A2E9DA302091D3FA0061B1E7 /* RSAUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAUtil.h; sourceTree = "<group>"; };
 		A2E9DA32209CB6A20061B1E7 /* EncryptUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptUtils.h; sourceTree = "<group>"; };
 		A2E9DA33209CB6A20061B1E7 /* EncryptUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptUtils.m; sourceTree = "<group>"; };
+		A2EAF8DA218B53F100324F7F /* 正确解耦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "正确解耦.png"; sourceTree = "<group>"; };
+		A2EAF8DB218B53F100324F7F /* 错误解耦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "错误解耦.png"; sourceTree = "<group>"; };
+		A2EAF8DC218B53F200324F7F /* 耦合严重.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耦合严重.png"; sourceTree = "<group>"; };
 		A2EE0F4F209BF3E00073495A /* 雪花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雪花.png"; sourceTree = "<group>"; };
 		A2F002F7209AFC5200F449EE /* BasicDrawingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicDrawingVC.h; sourceTree = "<group>"; };
 		A2F002F8209AFC5200F449EE /* BasicDrawingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicDrawingVC.m; sourceTree = "<group>"; };
@@ -1587,6 +1593,9 @@
 		A228FABB217AB62400D26F54 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				A2EAF8DB218B53F100324F7F /* 错误解耦.png */,
+				A2EAF8DC218B53F200324F7F /* 耦合严重.png */,
+				A2EAF8DA218B53F100324F7F /* 正确解耦.png */,
 				E2662EE5218ACC2D003353DA /* AppID-AccessWiFiInfomation.png */,
 				E2662EE6218ACC2D003353DA /* Xcode-AccessWiFiInfomation.png */,
 				A2147079218747D8005596FF /* 消息转发执行流程.png */,
@@ -3195,6 +3204,7 @@
 				A22C4DD31FFC777A0079F7C2 /* yback.png in Resources */,
 				A20D5DFB1FD14549000E191D /* LaunchScreen.storyboard in Resources */,
 				A22C4DD21FFC777A0079F7C2 /* pin_purple_s@2x.png in Resources */,
+				A2EAF8DE218B53F200324F7F /* 错误解耦.png in Resources */,
 				A22C4DC01FFC777A0079F7C2 /* route_pin.png in Resources */,
 				A2CDD262208EC6D7006DF86E /* CATransition2.png in Resources */,
 				A2E98DB321801F33008354CE /* OC-算法.md in Resources */,
@@ -3229,6 +3239,7 @@
 				A214707221874566005596FF /* TypeEncoding编码表2.png in Resources */,
 				A228FAB8217AB50E00D26F54 /* Java算法.md in Resources */,
 				A214707E21875620005596FF /* iOS-OpenGL.md in Resources */,
+				A2EAF8DF218B53F200324F7F /* 耦合严重.png in Resources */,
 				A28ED5411FD2495F00A74551 /* Mine.storyboard in Resources */,
 				187BF5FE2176C97F00AEC321 /* iOS数据存储.md in Resources */,
 				A22C51D72185B11C00A1E8E8 /* Class结构.png in Resources */,
@@ -3260,6 +3271,7 @@
 				A22C51D92185B11C00A1E8E8 /* class_rw_t结构.png in Resources */,
 				A2C1AB7D2025A1D80085A653 /* alarm4.m4r in Resources */,
 				A2C3E782217ABBCA00D2982F /* SVN工具.md in Resources */,
+				A2EAF8DD218B53F200324F7F /* 正确解耦.png in Resources */,
 				A22C4DC11FFC777A0079F7C2 /* pin_head_s.png in Resources */,
 				A2B9928E2068F3A6002A73B1 /* ChatListCell.xib in Resources */,
 				A20D5E001FD14549000E191D /* Main.storyboard in Resources */,
