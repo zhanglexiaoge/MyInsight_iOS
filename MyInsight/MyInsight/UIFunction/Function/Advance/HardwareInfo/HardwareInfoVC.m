@@ -14,6 +14,7 @@
 #import <sys/sysctl.h>
 #import <sys/stat.h>
 #import <CoreTelephony/CTTelephonyNetworkInfo.h>
+#import <SystemConfiguration/CaptiveNetwork.h>
 #import <CoreTelephony/CTCarrier.h>
 #import <AddressBook/AddressBook.h>
 #import <arpa/inet.h>
@@ -76,6 +77,8 @@
     //应用创建实际和更新时间
     self.labelArray[13].text = [NSString stringWithFormat:@"App创建和更新时间：%@",[self getAppCreateTime]];
     
+    NSLog(@"获取设备的Wi-Fi名称：%@", [self ssid]);
+    
     //测试钥匙串里面的东西，在什么情况下清空
     [self testKeyChain];
     
@@ -137,8 +140,21 @@
         NSLog(@"不支持多任务！！！");
     }
     
-    
-    
+}
+
+/*
+ * 获取当前链接的 ssid
+ */
+- (NSString *)ssid {
+    NSArray *interfaces = (__bridge_transfer NSArray *)CNCopySupportedInterfaces();
+    for (NSString *interface in interfaces) {
+        NSDictionary *networkInfo = (__bridge_transfer NSDictionary *)CNCopyCurrentNetworkInfo((__bridge CFStringRef)interface);
+        NSString *ssid = networkInfo[(__bridge_transfer NSString *)kCNNetworkInfoKeySSID];
+        if (ssid.length > 0) {
+            return ssid;
+        }
+    }
+    return nil;
 }
 
 //创建label

@@ -212,6 +212,11 @@ http://blog.cnbang.net/tech/3080/
 http://limboy.me/tech/2016/03/10/mgj-components.html
 
 
+### 项目重构利器:把项目中的导入依赖（Import Dependancies）图示化
+项目 objc_dep 主页在：https://github.com/nst/objc_dep
+[Objective-C 项目重构利器：把项目中的导入依赖（Import Dependancies）图示化](https://segmentfault.com/a/1190000000361642)
+
+
 ### 参考
 
 [iOS组件化方案选型](https://www.jianshu.com/p/f6907156cc70)

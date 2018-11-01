@@ -392,6 +392,8 @@
 		A2F7D13D217EA67A002B0E7F /* Android蓝牙.md in Resources */ = {isa = PBXBuildFile; fileRef = A2F7D13C217EA67A002B0E7F /* Android蓝牙.md */; };
 		A2F7D13F217EA68D002B0E7F /* Android网络请求.md in Resources */ = {isa = PBXBuildFile; fileRef = A2F7D13E217EA68D002B0E7F /* Android网络请求.md */; };
 		A2F7D141217EA6A5002B0E7F /* Android内存管理.md in Resources */ = {isa = PBXBuildFile; fileRef = A2F7D140217EA6A5002B0E7F /* Android内存管理.md */; };
+		E2662EE7218ACC2E003353DA /* AppID-AccessWiFiInfomation.png in Resources */ = {isa = PBXBuildFile; fileRef = E2662EE5218ACC2D003353DA /* AppID-AccessWiFiInfomation.png */; };
+		E2662EE8218ACC2E003353DA /* Xcode-AccessWiFiInfomation.png in Resources */ = {isa = PBXBuildFile; fileRef = E2662EE6218ACC2D003353DA /* Xcode-AccessWiFiInfomation.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1144,6 +1146,8 @@
 		A2F7D140217EA6A5002B0E7F /* Android内存管理.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Android内存管理.md"; sourceTree = "<group>"; };
 		B34F5016CAA45D7BD71933A9 /* Pods-MyInsightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsightTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsightTests/Pods-MyInsightTests.release.xcconfig"; sourceTree = "<group>"; };
 		D110F761EC3A481896E9E0EB /* libPods-MyInsight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyInsight.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2662EE5218ACC2D003353DA /* AppID-AccessWiFiInfomation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppID-AccessWiFiInfomation.png"; sourceTree = "<group>"; };
+		E2662EE6218ACC2D003353DA /* Xcode-AccessWiFiInfomation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Xcode-AccessWiFiInfomation.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1583,6 +1587,8 @@
 		A228FABB217AB62400D26F54 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				E2662EE5218ACC2D003353DA /* AppID-AccessWiFiInfomation.png */,
+				E2662EE6218ACC2D003353DA /* Xcode-AccessWiFiInfomation.png */,
 				A2147079218747D8005596FF /* 消息转发执行流程.png */,
 				A21470772187471D005596FF /* 动态解析流程.png */,
 				A2147075218746B8005596FF /* 消息发送执行流程.png */,
@@ -3149,6 +3155,7 @@
 				187BF6002176C97F00AEC321 /* iOS蓝牙.md in Resources */,
 				A228FAC2217AB62400D26F54 /* 面试流程图.png in Resources */,
 				A228FAB1217AB39100D26F54 /* PythonWeb框架.md in Resources */,
+				E2662EE8218ACC2E003353DA /* Xcode-AccessWiFiInfomation.png in Resources */,
 				187BF6032176C97F00AEC321 /* iOS传感器.md in Resources */,
 				A27E8728201AC53C003E712C /* 1967.mp3 in Resources */,
 				A268BEFE2106E04300CADD8A /* scrollimage3.jpg in Resources */,
@@ -3194,6 +3201,7 @@
 				187BF6042176C97F00AEC321 /* OC-Category.md in Resources */,
 				187BF6052176C97F00AEC321 /* Blog.md in Resources */,
 				A22C4DC91FFC777A0079F7C2 /* compass48@2x.png in Resources */,
+				E2662EE7218ACC2E003353DA /* AppID-AccessWiFiInfomation.png in Resources */,
 				18C176332178189C00F630E3 /* iOS常见报错.md in Resources */,
 				A2930B5221049071006520FF /* beijing.png in Resources */,
 				A2147076218746B9005596FF /* 消息发送执行流程.png in Resources */,

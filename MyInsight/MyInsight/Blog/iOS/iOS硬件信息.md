@@ -39,6 +39,102 @@ APP安装时间及更新时间：可用沙盒文件(例如info.plist)创建时�
 
 
 
+### 获取连接的Wi-Fi名称
+
+获取WiFi的SSID的方法如下：
+OC
+```
+#import <SystemConfiguration/CaptiveNetwork.h>
+
++ (NSString *)wifiSSID {
+NSString *ssid = nil;
+NSArray *ifs = (__bridge_transfer id)CNCopySupportedInterfaces();
+for (NSString *ifnam in ifs) {
+NSDictionary *info = (__bridge_transfer id)CNCopyCurrentNetworkInfo((__bridge CFStringRef)ifnam);
+if (info[@"SSID"]) {
+ssid = info[@"SSID"];
+}
+}    return ssid;
+}
+```
+```
+- (NSString *)getWifiNamed {
+
+NSArray *ifs = ( NSArray *)CNCopySupportedInterfaces();
+
+if (!ifs) {
+
+return nil;
+
+}
+
+NSString *WiFiName = nil;
+
+for (NSString *ifnam in ifs) {
+
+NSDictionary *info = ( NSDictionary *)CNCopyCurrentNetworkInfo((__bridge CFStringRef)ifnam);
+
+if (info && [info count]) {
+
+// 这里其实对应的有三个key:kCNNetworkInfoKeySSID、kCNNetworkInfoKeyBSSID、kCNNetworkInfoKeySSIDData，
+
+// 不过它们都是CFStringRef类型的
+
+WiFiName = [info objectForKey:(__bridge NSString *)kCNNetworkInfoKeySSID];
+
+//            WiFiName = [info objectForKey:@"SSID"];
+
+break;
+
+}
+
+}
+
+return WiFiName;
+
+}
+```
+Swift
+```
+private func fetchNetInfo() -> [String : AnyObject]{
+
+let interfaceNames = CNCopySupportedInterfaces()
+var SSIDInfo = [String : AnyObject]()
+guard interfaceNames != nil else {
+return SSIDInfo
+}
+for interface in interfaceNames as! [CFString] {
+print("Looking up SSID info for \(interface)") // en0
+if let info = CNCopyCurrentNetworkInfo(interface as CFString){
+SSIDInfo = info as! [String : AnyObject]
+}
+for d in SSIDInfo.keys {
+print("\(d): \(SSIDInfo[d]!)")
+}
+if SSIDInfo.count > 0{
+break
+}
+}
+return SSIDInfo
+
+}
+```
+
+iOS12中无法获取到Wi-Fi的SSID，通过查看官方文档，发现文档中增加了Important字样的描述：
+>
+Important
+To use this function in iOS 12 and later, enable the Access WiFi Information capability for your app in Xcode. When you enable this capability, Xcode automatically adds the Access WiFi Information entitlement to your entitlements file and App ID.
+重要描述
+在iOS 12+中使用此方法需要在Xcode中为应用授权获取WiFi信息的能力。授权后，Xcode会自动在App ID和应用的权限列表中增加获取WiFi信息的权限。
+
+* 解决方案：Xcode -> [Project Name] -> Targets -> [Target Name] -> Capabilities -> Access WiFi Information -> ON
+
+1、appid中勾选Access WiFi Infomation
+![AppID-AccessWiFiInfomation](../images/iOS/AppID-AccessWiFiInfomation.png "AppID-AccessWiFiInfomation")
+
+2、xCode中Capabilities中，激活Access WiFi Infomation项。
+![Xcode-AccessWiFiInfomation](../images/iOS/Xcode-AccessWiFiInfomation.png "Xcode-AccessWiFiInfomation")
+
 
 
 

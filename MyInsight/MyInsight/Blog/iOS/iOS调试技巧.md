@@ -37,3 +37,5 @@
 
 
 [ios内存优化和解决崩溃问题总结](https://blog.csdn.net/smile_po/article/details/79629058)
+
+[iOS各种调试技巧豪华套餐](http://www.cnblogs.com/daiweilai/p/4421340.html)
