@@ -121,6 +121,7 @@ return SSIDInfo
 ```
 
 iOS12中无法获取到Wi-Fi的SSID，通过查看官方文档，发现文档中增加了Important字样的描述：
+
 >
 Important
 To use this function in iOS 12 and later, enable the Access WiFi Information capability for your app in Xcode. When you enable this capability, Xcode automatically adds the Access WiFi Information entitlement to your entitlements file and App ID.
