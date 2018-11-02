@@ -16,6 +16,8 @@
 @property (nonatomic, strong) RadioButton *testButton;
 // 弹出菜单button
 @property (nonatomic, strong) UIButton *listButton;
+// 弹出提示框button
+@property (nonatomic,strong) UIButton *popButton;
 //
 @property (nonatomic, strong) ListPopVC *listPopVC;
 
@@ -70,7 +72,35 @@
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"列表" style:UIBarButtonItemStylePlain target:self action:@selector(rightBarButtonAction:)];
     
+    
+    // 弹出Pop消息按钮
+    self.popButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:self.popButton];
+    [self.popButton setTitle:@"弹出" forState:UIControlStateNormal];
+    self.popButton.backgroundColor = UIColor.orangeColor;
+    [self.popButton mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerY.equalTo(self.view.mas_centerY).multipliedBy(1.8f);
+        make.left.equalTo(self.view.mas_left).offset(40.0f);
+        make.right.equalTo(self.view.mas_right).offset(-35.0f);
+        make.height.offset(40.0f);
+    }];
+    [self.popButton addTarget:self action:@selector(popButtonAction:) forControlEvents:UIControlEventTouchUpInside];
 }
+
+
+- (void)popButtonAction:(UIButton *)button {
+    UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:@"提示" message:@"弹出提示框" preferredStyle:UIAlertControllerStyleAlert];
+    [self presentViewController:alertVC animated:YES completion:^{
+        // 多线程延时
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            [alertVC dismissViewControllerAnimated:YES completion:nil];
+                    NSLog(@"%@", [NSThread currentThread]);
+            
+                });
+    }];
+    
+}
+
 
 - (void)rightBarButtonAction:(UIBarButtonItem *)button {
     //初始化 VC
