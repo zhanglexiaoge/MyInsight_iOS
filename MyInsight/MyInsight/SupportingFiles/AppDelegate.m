@@ -47,9 +47,9 @@
     // Window可见
     [self.window makeKeyAndVisible];
     // 设置Flurry应用检测
-    [self setupFlurry];
+    //[self setupFlurry];
     // 友盟
-    [self setupUMeng];
+    //[self setupUMeng];
     
     //bug统计
     /*
@@ -58,7 +58,7 @@
      App Key：8e548e20-1e53-4ec9-a7ca-630df98c12f2
      文档:https://bugly.qq.com/docs/user-guide/advance-features-ios/?v=20180709165613
      */
-    [Bugly startWithAppId:@"5b54003dca"];
+    //[Bugly startWithAppId:@"5b54003dca"];
     
     return YES;
 }
