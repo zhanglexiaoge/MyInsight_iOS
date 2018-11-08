@@ -7,44 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		187AFE48217730C500C83677 /* iOS进制转换.md in Resources */ = {isa = PBXBuildFile; fileRef = 187AFE47217730C500C83677 /* iOS进制转换.md */; };
 		187BF5DD2176C7F100AEC321 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5D92176C7F000AEC321 /* index.html */; };
 		187BF5DE2176C7F100AEC321 /* MarkdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187BF5DA2176C7F000AEC321 /* MarkdownView.swift */; };
 		187BF5DF2176C7F100AEC321 /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5DB2176C7F000AEC321 /* main.css */; };
 		187BF5E02176C7F100AEC321 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5DC2176C7F000AEC321 /* main.js */; };
-		187BF5FC2176C97F00AEC321 /* OC-NSDictionary.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5E32176C97F00AEC321 /* OC-NSDictionary.md */; };
-		187BF5FD2176C97F00AEC321 /* Mac常见指令.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5E42176C97F00AEC321 /* Mac常见指令.md */; };
-		187BF5FE2176C97F00AEC321 /* iOS数据存储.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5E52176C97F00AEC321 /* iOS数据存储.md */; };
-		187BF5FF2176C97F00AEC321 /* iOS面试题.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5E62176C97F00AEC321 /* iOS面试题.md */; };
-		187BF6002176C97F00AEC321 /* iOS蓝牙.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5E72176C97F00AEC321 /* iOS蓝牙.md */; };
-		187BF6022176C97F00AEC321 /* OC-Block.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5E92176C97F00AEC321 /* OC-Block.md */; };
-		187BF6032176C97F00AEC321 /* iOS传感器.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5EA2176C97F00AEC321 /* iOS传感器.md */; };
-		187BF6042176C97F00AEC321 /* OC-Category.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5EB2176C97F00AEC321 /* OC-Category.md */; };
-		187BF6052176C97F00AEC321 /* Blog.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5EC2176C97F00AEC321 /* Blog.md */; };
-		187BF6062176C97F00AEC321 /* iOS硬件信息.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5ED2176C97F00AEC321 /* iOS硬件信息.md */; };
-		187BF60C2176C97F00AEC321 /* iOS启动流程.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5F42176C97F00AEC321 /* iOS启动流程.md */; };
-		187BF60D2176C97F00AEC321 /* iOS面试之道.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5F52176C97F00AEC321 /* iOS面试之道.md */; };
-		187BF60E2176C97F00AEC321 /* iOS加密.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5F62176C97F00AEC321 /* iOS加密.md */; };
-		187BF60F2176C97F00AEC321 /* OC-NSRunLoop.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5F72176C97F00AEC321 /* OC-NSRunLoop.md */; };
-		187BF6102176C97F00AEC321 /* iOS设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5F82176C97F00AEC321 /* iOS设计模式.md */; };
-		187BF6112176C97F00AEC321 /* iOS网络请求.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5F92176C97F00AEC321 /* iOS网络请求.md */; };
-		187BF6122176C97F00AEC321 /* iOS图片缓存.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5FA2176C97F00AEC321 /* iOS图片缓存.md */; };
-		187BF6132176C97F00AEC321 /* OC-RunTime.md in Resources */ = {isa = PBXBuildFile; fileRef = 187BF5FB2176C97F00AEC321 /* OC-RunTime.md */; };
 		187BF6172176C9FF00AEC321 /* BlogsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BF6162176C9FF00AEC321 /* BlogsVC.m */; };
 		187BF61A2176CC6C00AEC321 /* MDBlogsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BF6192176CC6C00AEC321 /* MDBlogsVC.m */; };
-		18C176332178189C00F630E3 /* iOS常见报错.md in Resources */ = {isa = PBXBuildFile; fileRef = 18C176322178189C00F630E3 /* iOS常见报错.md */; };
-		18DE2D20217713E3005C64C9 /* GIT工具.md in Resources */ = {isa = PBXBuildFile; fileRef = 18DE2D1F217713E3005C64C9 /* GIT工具.md */; };
-		18DE2D2221771D65005C64C9 /* iOS第三方库工具.md in Resources */ = {isa = PBXBuildFile; fileRef = 18DE2D2121771D65005C64C9 /* iOS第三方库工具.md */; };
-		18E2AD4B217857BD001BA590 /* iOS多target.md in Resources */ = {isa = PBXBuildFile; fileRef = 18E2AD4A217857BD001BA590 /* iOS多target.md */; };
-		18E2AD4D21785B2B001BA590 /* iOS的OC和Swift混编.md in Resources */ = {isa = PBXBuildFile; fileRef = 18E2AD4C21785B2B001BA590 /* iOS的OC和Swift混编.md */; };
-		18E2AD4F21786A15001BA590 /* iOS代码块CodeSnippet.md in Resources */ = {isa = PBXBuildFile; fileRef = 18E2AD4E21786A15001BA590 /* iOS代码块CodeSnippet.md */; };
-		18E2AD5121788500001BA590 /* iOS跨平台.md in Resources */ = {isa = PBXBuildFile; fileRef = 18E2AD5021788500001BA590 /* iOS跨平台.md */; };
-		18E2AD72217897D0001BA590 /* iOS的GitHub接口.md in Resources */ = {isa = PBXBuildFile; fileRef = 18E2AD71217897CF001BA590 /* iOS的GitHub接口.md */; };
-		18E2AD7421789902001BA590 /* iOS-Swift.md in Resources */ = {isa = PBXBuildFile; fileRef = 18E2AD7321789902001BA590 /* iOS-Swift.md */; };
 		5646242E551402D83E5DDEC4 /* libPods-MyInsightTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1048AA554877EFDC9A3C520A /* libPods-MyInsightTests.a */; };
 		6F9CFB2BFF1D334595CC4C63 /* libPods-MyInsightUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AABD5D3CA8DF36493A18039 /* libPods-MyInsightUITests.a */; };
 		A207108B214D09E8000D1710 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A207108A214D09E8000D1710 /* Student.m */; };
-		A208251D2179CC1F00465995 /* iOS调试技巧.md in Resources */ = {isa = PBXBuildFile; fileRef = A208251C2179CC1F00465995 /* iOS调试技巧.md */; };
 		A20D5D881FCFFB37000E191D /* MyInsightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D5D871FCFFB37000E191D /* MyInsightTests.m */; };
 		A20D5D931FCFFB37000E191D /* MyInsightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D5D921FCFFB37000E191D /* MyInsightUITests.m */; };
 		A20D5DFB1FD14549000E191D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20D5DEE1FD14549000E191D /* LaunchScreen.storyboard */; };
@@ -55,19 +26,6 @@
 		A20D5E111FD147CD000E191D /* TabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D5E101FD147CD000E191D /* TabBarVC.m */; };
 		A20D5E1D1FD14C7A000E191D /* MainRevealVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D5E1C1FD14C7A000E191D /* MainRevealVC.m */; };
 		A20D5E231FD14E37000E191D /* RightRevealVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D5E221FD14E37000E191D /* RightRevealVC.m */; };
-		A214706C2186E9EA005596FF /* Poetry.md in Resources */ = {isa = PBXBuildFile; fileRef = A214706B2186E9EA005596FF /* Poetry.md */; };
-		A214706E218743FD005596FF /* 返回参数.png in Resources */ = {isa = PBXBuildFile; fileRef = A214706D218743FD005596FF /* 返回参数.png */; };
-		A214707121874566005596FF /* TypeEncoding编码表1.png in Resources */ = {isa = PBXBuildFile; fileRef = A214706F21874566005596FF /* TypeEncoding编码表1.png */; };
-		A214707221874566005596FF /* TypeEncoding编码表2.png in Resources */ = {isa = PBXBuildFile; fileRef = A214707021874566005596FF /* TypeEncoding编码表2.png */; };
-		A2147074218745F2005596FF /* cache_t结构.png in Resources */ = {isa = PBXBuildFile; fileRef = A2147073218745F2005596FF /* cache_t结构.png */; };
-		A2147076218746B9005596FF /* 消息发送执行流程.png in Resources */ = {isa = PBXBuildFile; fileRef = A2147075218746B8005596FF /* 消息发送执行流程.png */; };
-		A21470782187471D005596FF /* 动态解析流程.png in Resources */ = {isa = PBXBuildFile; fileRef = A21470772187471D005596FF /* 动态解析流程.png */; };
-		A214707A218747D8005596FF /* 消息转发执行流程.png in Resources */ = {isa = PBXBuildFile; fileRef = A2147079218747D8005596FF /* 消息转发执行流程.png */; };
-		A214707C218752D1005596FF /* iOS-APP优化.md in Resources */ = {isa = PBXBuildFile; fileRef = A214707B218752D1005596FF /* iOS-APP优化.md */; };
-		A214707E21875620005596FF /* iOS-OpenGL.md in Resources */ = {isa = PBXBuildFile; fileRef = A214707D21875620005596FF /* iOS-OpenGL.md */; };
-		A214708021875A28005596FF /* iOS布局.md in Resources */ = {isa = PBXBuildFile; fileRef = A214707F21875A28005596FF /* iOS布局.md */; };
-		A215F667217F3BD5004C728D /* OC-进制转换.md in Resources */ = {isa = PBXBuildFile; fileRef = A215F666217F3BCC004C728D /* OC-进制转换.md */; };
-		A215F669217F3D16004C728D /* iOS地图.md in Resources */ = {isa = PBXBuildFile; fileRef = A215F668217F3D16004C728D /* iOS地图.md */; };
 		A215F66D217F668F004C728D /* LCChatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A215F66C217F668F004C728D /* LCChatVC.m */; };
 		A2250B0F20E10C3C00CCBB29 /* EmojiTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A2250B0E20E10C3C00CCBB29 /* EmojiTool.m */; };
 		A2250B1320E10D6800CCBB29 /* NSString+Characters.m in Sources */ = {isa = PBXBuildFile; fileRef = A2250B1220E10D6800CCBB29 /* NSString+Characters.m */; };
@@ -78,19 +36,6 @@
 		A2250B2520E1554900CCBB29 /* CancasModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A2250B2420E1554900CCBB29 /* CancasModel.m */; };
 		A2250B2820E155A300CCBB29 /* MIBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = A2250B2720E155A300CCBB29 /* MIBezierPath.m */; };
 		A2250B2B20E155ED00CCBB29 /* DrawPaletteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2250B2A20E155ED00CCBB29 /* DrawPaletteVC.m */; };
-		A228FA9B217A1EE500D26F54 /* iOS统计工具.md in Resources */ = {isa = PBXBuildFile; fileRef = A228FA9A217A1EE500D26F54 /* iOS统计工具.md */; };
-		A228FA9E217A227500D26F54 /* CPP设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = A228FA9D217A227500D26F54 /* CPP设计模式.md */; };
-		A228FAA1217A234400D26F54 /* iOS制作Framework.md in Resources */ = {isa = PBXBuildFile; fileRef = A228FAA0217A234400D26F54 /* iOS制作Framework.md */; };
-		A228FAAD217AB2E500D26F54 /* Python算法.md in Resources */ = {isa = PBXBuildFile; fileRef = A228FAAC217AB2E500D26F54 /* Python算法.md */; };
-		A228FAAF217AB37100D26F54 /* Python爬虫.md in Resources */ = {isa = PBXBuildFile; fileRef = A228FAAE217AB37100D26F54 /* Python爬虫.md */; };
-		A228FAB1217AB39100D26F54 /* PythonWeb框架.md in Resources */ = {isa = PBXBuildFile; fileRef = A228FAB0217AB39100D26F54 /* PythonWeb框架.md */; };
-		A228FAB6217AB4F700D26F54 /* Linxu常见指令.md in Resources */ = {isa = PBXBuildFile; fileRef = A228FAB5217AB4F700D26F54 /* Linxu常见指令.md */; };
-		A228FAB8217AB50E00D26F54 /* Java算法.md in Resources */ = {isa = PBXBuildFile; fileRef = A228FAB7217AB50E00D26F54 /* Java算法.md */; };
-		A228FABA217AB52C00D26F54 /* Android学习之旅.md in Resources */ = {isa = PBXBuildFile; fileRef = A228FAB9217AB52C00D26F54 /* Android学习之旅.md */; };
-		A228FAC0217AB62400D26F54 /* 系统设计题的框架.png in Resources */ = {isa = PBXBuildFile; fileRef = A228FABC217AB62400D26F54 /* 系统设计题的框架.png */; };
-		A228FAC1217AB62400D26F54 /* 复盘流程.png in Resources */ = {isa = PBXBuildFile; fileRef = A228FABD217AB62400D26F54 /* 复盘流程.png */; };
-		A228FAC2217AB62400D26F54 /* 面试流程图.png in Resources */ = {isa = PBXBuildFile; fileRef = A228FABE217AB62400D26F54 /* 面试流程图.png */; };
-		A228FAC3217AB62400D26F54 /* 简历的准备.png in Resources */ = {isa = PBXBuildFile; fileRef = A228FABF217AB62400D26F54 /* 简历的准备.png */; };
 		A22C4D811FFB1C3F0079F7C2 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A22C4D801FFB1C3F0079F7C2 /* libc++.tbd */; };
 		A22C4D831FFB1C4E0079F7C2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22C4D821FFB1C4E0079F7C2 /* AVFoundation.framework */; };
 		A22C4D851FFB1C570079F7C2 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22C4D841FFB1C570079F7C2 /* CoreImage.framework */; };
@@ -127,10 +72,6 @@
 		A22C4DD41FFC777A0079F7C2 /* via.png in Resources */ = {isa = PBXBuildFile; fileRef = A22C4DBD1FFC77790079F7C2 /* via.png */; };
 		A22C4DD51FFC777A0079F7C2 /* route_start_pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22C4DBE1FFC77790079F7C2 /* route_start_pin@2x.png */; };
 		A22C51D121859AD100A1E8E8 /* BinaryTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A22C51D021859AD100A1E8E8 /* BinaryTreeNode.m */; };
-		A22C51D32185A70E00A1E8E8 /* Markdown.md in Resources */ = {isa = PBXBuildFile; fileRef = A22C51D22185A70E00A1E8E8 /* Markdown.md */; };
-		A22C51D72185B11C00A1E8E8 /* Class结构.png in Resources */ = {isa = PBXBuildFile; fileRef = A22C51D42185B11C00A1E8E8 /* Class结构.png */; };
-		A22C51D82185B11C00A1E8E8 /* class_ro_t结构.png in Resources */ = {isa = PBXBuildFile; fileRef = A22C51D52185B11C00A1E8E8 /* class_ro_t结构.png */; };
-		A22C51D92185B11C00A1E8E8 /* class_rw_t结构.png in Resources */ = {isa = PBXBuildFile; fileRef = A22C51D62185B11C00A1E8E8 /* class_rw_t结构.png */; };
 		A22C51DC2185DD4000A1E8E8 /* ListPopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A22C51DB2185DD4000A1E8E8 /* ListPopVC.m */; };
 		A22F0080216F90C90047FADB /* SensorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A22F007F216F90C90047FADB /* SensorVC.m */; };
 		A22F0082216F930B0047FADB /* Advance.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22F0081216F930B0047FADB /* Advance.storyboard */; };
@@ -193,8 +134,6 @@
 		A2561DCD209AE4F200D4E2E5 /* DrawBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2561DCC209AE4F200D4E2E5 /* DrawBaseVC.m */; };
 		A25748282023059D000F7632 /* CollectionViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A25748272023059D000F7632 /* CollectionViewVC.m */; };
 		A257482B202305B9000F7632 /* TableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A257482A202305B9000F7632 /* TableViewVC.m */; };
-		A257F1DE217C522300146191 /* iOS-FunSDK集成.md in Resources */ = {isa = PBXBuildFile; fileRef = A257F1DD217C522300146191 /* iOS-FunSDK集成.md */; };
-		A257F1E1217CC23A00146191 /* C算法.md in Resources */ = {isa = PBXBuildFile; fileRef = A257F1E0217CC23A00146191 /* C算法.md */; };
 		A257F1E5217CD42200146191 /* LanScanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A257F1E4217CD42200146191 /* LanScanVC.m */; };
 		A25F8BA6215A6A45005D6527 /* MIMovieObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A25F8BA5215A6A45005D6527 /* MIMovieObject.m */; };
 		A262CC42216388A10050D6BC /* 消愁.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A262CC41216388A10050D6BC /* 消愁.mp3 */; };
@@ -288,11 +227,6 @@
 		A2BDD442205F639E008AD133 /* LockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BDD441205F639E008AD133 /* LockVC.m */; };
 		A2BFE05A214FB5220043E665 /* MyThread.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BFE059214FB5220043E665 /* MyThread.m */; };
 		A2C1AB7D2025A1D80085A653 /* alarm4.m4r in Resources */ = {isa = PBXBuildFile; fileRef = A2C1AB7C2025A1D80085A653 /* alarm4.m4r */; };
-		A2C3E780217AB85500D2982F /* iOS区块链.md in Resources */ = {isa = PBXBuildFile; fileRef = A2C3E77F217AB85500D2982F /* iOS区块链.md */; };
-		A2C3E782217ABBCA00D2982F /* SVN工具.md in Resources */ = {isa = PBXBuildFile; fileRef = A2C3E781217ABBCA00D2982F /* SVN工具.md */; };
-		A2C3E784217ABC3A00D2982F /* iOS组件化.md in Resources */ = {isa = PBXBuildFile; fileRef = A2C3E783217ABC3A00D2982F /* iOS组件化.md */; };
-		A2C3E786217ABC8600D2982F /* iOS-OpenCV.md in Resources */ = {isa = PBXBuildFile; fileRef = A2C3E785217ABC8600D2982F /* iOS-OpenCV.md */; };
-		A2C3E788217ACD6500D2982F /* OC-MultiThread.md in Resources */ = {isa = PBXBuildFile; fileRef = A2C3E787217ACD6500D2982F /* OC-MultiThread.md */; };
 		A2C84E8020AA78F9000FD685 /* FileSharedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C84E7F20AA78F9000FD685 /* FileSharedVC.m */; };
 		A2C84E8220AA7A5A000FD685 /* testPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2C84E8120AA7A5A000FD685 /* testPic.jpg */; };
 		A2C84E8C20AD3589000FD685 /* BlueToothDataVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C84E8B20AD3589000FD685 /* BlueToothDataVC.m */; };
@@ -364,16 +298,12 @@
 		A2E4E7232004BFDF00EC3D63 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E4E71C2004BFDE00EC3D63 /* libswscale.a */; };
 		A2E642F72152463A009CADE9 /* CrossVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E642F62152463A009CADE9 /* CrossVC.m */; };
 		A2E643102152812D009CADE9 /* GaodeMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E6430F2152812D009CADE9 /* GaodeMapVC.m */; };
-		A2E98DB321801F33008354CE /* OC-算法.md in Resources */ = {isa = PBXBuildFile; fileRef = A2E98DB221801F33008354CE /* OC-算法.md */; };
 		A2E9DA1F2091BD0E0061B1E7 /* NSString+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E9DA1E2091BD0E0061B1E7 /* NSString+AES.m */; };
 		A2E9DA222091BD210061B1E7 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E9DA212091BD210061B1E7 /* NSData+AES.m */; };
 		A2E9DA2B2091C50A0061B1E7 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E9DA2A2091C50A0061B1E7 /* NSData+AES256.m */; };
 		A2E9DA2E2091C5580061B1E7 /* NSString+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E9DA2D2091C5580061B1E7 /* NSString+AES256.m */; };
 		A2E9DA312091D3FB0061B1E7 /* RSAUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E9DA2F2091D3FA0061B1E7 /* RSAUtil.m */; };
 		A2E9DA34209CB6A20061B1E7 /* EncryptUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E9DA33209CB6A20061B1E7 /* EncryptUtils.m */; };
-		A2EAF8DD218B53F200324F7F /* 正确解耦.png in Resources */ = {isa = PBXBuildFile; fileRef = A2EAF8DA218B53F100324F7F /* 正确解耦.png */; };
-		A2EAF8DE218B53F200324F7F /* 错误解耦.png in Resources */ = {isa = PBXBuildFile; fileRef = A2EAF8DB218B53F100324F7F /* 错误解耦.png */; };
-		A2EAF8DF218B53F200324F7F /* 耦合严重.png in Resources */ = {isa = PBXBuildFile; fileRef = A2EAF8DC218B53F200324F7F /* 耦合严重.png */; };
 		A2EE0F50209BF3E00073495A /* 雪花.png in Resources */ = {isa = PBXBuildFile; fileRef = A2EE0F4F209BF3E00073495A /* 雪花.png */; };
 		A2F002F9209AFC5200F449EE /* BasicDrawingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F002F8209AFC5200F449EE /* BasicDrawingVC.m */; };
 		A2F002FC209AFCA400F449EE /* DownloadProgressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F002FB209AFCA400F449EE /* DownloadProgressVC.m */; };
@@ -390,13 +320,6 @@
 		A2F0031D209B08B200F449EE /* ScreenShotVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F0031C209B08B200F449EE /* ScreenShotVC.m */; };
 		A2F00320209B08C800F449EE /* CutOutImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F0031F209B08C800F449EE /* CutOutImageVC.m */; };
 		A2F7D135217E1BB7002B0E7F /* GitHubVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7D134217E1BB7002B0E7F /* GitHubVC.m */; };
-		A2F7D138217EA335002B0E7F /* HTML5.md in Resources */ = {isa = PBXBuildFile; fileRef = A2F7D137217EA335002B0E7F /* HTML5.md */; };
-		A2F7D13B217EA605002B0E7F /* iOS横竖屏.md in Resources */ = {isa = PBXBuildFile; fileRef = A2F7D13A217EA605002B0E7F /* iOS横竖屏.md */; };
-		A2F7D13D217EA67A002B0E7F /* Android蓝牙.md in Resources */ = {isa = PBXBuildFile; fileRef = A2F7D13C217EA67A002B0E7F /* Android蓝牙.md */; };
-		A2F7D13F217EA68D002B0E7F /* Android网络请求.md in Resources */ = {isa = PBXBuildFile; fileRef = A2F7D13E217EA68D002B0E7F /* Android网络请求.md */; };
-		A2F7D141217EA6A5002B0E7F /* Android内存管理.md in Resources */ = {isa = PBXBuildFile; fileRef = A2F7D140217EA6A5002B0E7F /* Android内存管理.md */; };
-		E2662EE7218ACC2E003353DA /* AppID-AccessWiFiInfomation.png in Resources */ = {isa = PBXBuildFile; fileRef = E2662EE5218ACC2D003353DA /* AppID-AccessWiFiInfomation.png */; };
-		E2662EE8218ACC2E003353DA /* Xcode-AccessWiFiInfomation.png in Resources */ = {isa = PBXBuildFile; fileRef = E2662EE6218ACC2D003353DA /* Xcode-AccessWiFiInfomation.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -419,42 +342,14 @@
 /* Begin PBXFileReference section */
 		0AABD5D3CA8DF36493A18039 /* libPods-MyInsightUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyInsightUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1048AA554877EFDC9A3C520A /* libPods-MyInsightTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyInsightTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		187AFE47217730C500C83677 /* iOS进制转换.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS进制转换.md"; sourceTree = "<group>"; };
 		187BF5D92176C7F000AEC321 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		187BF5DA2176C7F000AEC321 /* MarkdownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownView.swift; sourceTree = "<group>"; };
 		187BF5DB2176C7F000AEC321 /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
 		187BF5DC2176C7F000AEC321 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
-		187BF5E32176C97F00AEC321 /* OC-NSDictionary.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "OC-NSDictionary.md"; sourceTree = "<group>"; };
-		187BF5E42176C97F00AEC321 /* Mac常见指令.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Mac常见指令.md"; sourceTree = "<group>"; };
-		187BF5E52176C97F00AEC321 /* iOS数据存储.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS数据存储.md"; sourceTree = "<group>"; };
-		187BF5E62176C97F00AEC321 /* iOS面试题.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS面试题.md"; sourceTree = "<group>"; };
-		187BF5E72176C97F00AEC321 /* iOS蓝牙.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS蓝牙.md"; sourceTree = "<group>"; };
-		187BF5E92176C97F00AEC321 /* OC-Block.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "OC-Block.md"; sourceTree = "<group>"; };
-		187BF5EA2176C97F00AEC321 /* iOS传感器.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS传感器.md"; sourceTree = "<group>"; };
-		187BF5EB2176C97F00AEC321 /* OC-Category.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "OC-Category.md"; sourceTree = "<group>"; };
-		187BF5EC2176C97F00AEC321 /* Blog.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Blog.md; sourceTree = "<group>"; };
-		187BF5ED2176C97F00AEC321 /* iOS硬件信息.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS硬件信息.md"; sourceTree = "<group>"; };
-		187BF5F42176C97F00AEC321 /* iOS启动流程.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS启动流程.md"; sourceTree = "<group>"; };
-		187BF5F52176C97F00AEC321 /* iOS面试之道.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS面试之道.md"; sourceTree = "<group>"; };
-		187BF5F62176C97F00AEC321 /* iOS加密.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS加密.md"; sourceTree = "<group>"; };
-		187BF5F72176C97F00AEC321 /* OC-NSRunLoop.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "OC-NSRunLoop.md"; sourceTree = "<group>"; };
-		187BF5F82176C97F00AEC321 /* iOS设计模式.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS设计模式.md"; sourceTree = "<group>"; };
-		187BF5F92176C97F00AEC321 /* iOS网络请求.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS网络请求.md"; sourceTree = "<group>"; };
-		187BF5FA2176C97F00AEC321 /* iOS图片缓存.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS图片缓存.md"; sourceTree = "<group>"; };
-		187BF5FB2176C97F00AEC321 /* OC-RunTime.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "OC-RunTime.md"; sourceTree = "<group>"; };
 		187BF6152176C9FF00AEC321 /* BlogsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlogsVC.h; sourceTree = "<group>"; };
 		187BF6162176C9FF00AEC321 /* BlogsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogsVC.m; sourceTree = "<group>"; };
 		187BF6182176CC6C00AEC321 /* MDBlogsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDBlogsVC.h; sourceTree = "<group>"; };
 		187BF6192176CC6C00AEC321 /* MDBlogsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDBlogsVC.m; sourceTree = "<group>"; };
-		18C176322178189C00F630E3 /* iOS常见报错.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS常见报错.md"; sourceTree = "<group>"; };
-		18DE2D1F217713E3005C64C9 /* GIT工具.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "GIT工具.md"; sourceTree = "<group>"; };
-		18DE2D2121771D65005C64C9 /* iOS第三方库工具.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS第三方库工具.md"; sourceTree = "<group>"; };
-		18E2AD4A217857BD001BA590 /* iOS多target.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS多target.md"; sourceTree = "<group>"; };
-		18E2AD4C21785B2B001BA590 /* iOS的OC和Swift混编.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS的OC和Swift混编.md"; sourceTree = "<group>"; };
-		18E2AD4E21786A15001BA590 /* iOS代码块CodeSnippet.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS代码块CodeSnippet.md"; sourceTree = "<group>"; };
-		18E2AD5021788500001BA590 /* iOS跨平台.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS跨平台.md"; sourceTree = "<group>"; };
-		18E2AD71217897CF001BA590 /* iOS的GitHub接口.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS的GitHub接口.md"; sourceTree = "<group>"; };
-		18E2AD7321789902001BA590 /* iOS-Swift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS-Swift.md"; sourceTree = "<group>"; };
 		1EBB57A4D51C93564AD02166 /* Pods-MyInsightUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsightUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsightUITests/Pods-MyInsightUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4075EEE77E46716D6816D005 /* Pods-MyInsight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight/Pods-MyInsight.debug.xcconfig"; sourceTree = "<group>"; };
 		54BB9D4AD19B12DC9B439E91 /* Pods-MyInsightUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsightUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsightUITests/Pods-MyInsightUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -462,7 +357,6 @@
 		86049EE3A04849AE05357E50 /* Pods-MyInsightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsightTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsightTests/Pods-MyInsightTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A2071089214D09E8000D1710 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		A207108A214D09E8000D1710 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
-		A208251C2179CC1F00465995 /* iOS调试技巧.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS调试技巧.md"; sourceTree = "<group>"; };
 		A20D5D6B1FCFFB37000E191D /* MyInsight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyInsight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20D5D831FCFFB37000E191D /* MyInsightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyInsightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20D5D871FCFFB37000E191D /* MyInsightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyInsightTests.m; sourceTree = "<group>"; };
@@ -483,19 +377,6 @@
 		A20D5E1C1FD14C7A000E191D /* MainRevealVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainRevealVC.m; sourceTree = "<group>"; };
 		A20D5E211FD14E37000E191D /* RightRevealVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightRevealVC.h; sourceTree = "<group>"; };
 		A20D5E221FD14E37000E191D /* RightRevealVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightRevealVC.m; sourceTree = "<group>"; };
-		A214706B2186E9EA005596FF /* Poetry.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Poetry.md; sourceTree = "<group>"; };
-		A214706D218743FD005596FF /* 返回参数.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回参数.png"; sourceTree = "<group>"; };
-		A214706F21874566005596FF /* TypeEncoding编码表1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TypeEncoding编码表1.png"; sourceTree = "<group>"; };
-		A214707021874566005596FF /* TypeEncoding编码表2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TypeEncoding编码表2.png"; sourceTree = "<group>"; };
-		A2147073218745F2005596FF /* cache_t结构.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cache_t结构.png"; sourceTree = "<group>"; };
-		A2147075218746B8005596FF /* 消息发送执行流程.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息发送执行流程.png"; sourceTree = "<group>"; };
-		A21470772187471D005596FF /* 动态解析流程.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "动态解析流程.png"; sourceTree = "<group>"; };
-		A2147079218747D8005596FF /* 消息转发执行流程.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息转发执行流程.png"; sourceTree = "<group>"; };
-		A214707B218752D1005596FF /* iOS-APP优化.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS-APP优化.md"; sourceTree = "<group>"; };
-		A214707D21875620005596FF /* iOS-OpenGL.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS-OpenGL.md"; sourceTree = "<group>"; };
-		A214707F21875A28005596FF /* iOS布局.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS布局.md"; sourceTree = "<group>"; };
-		A215F666217F3BCC004C728D /* OC-进制转换.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "OC-进制转换.md"; sourceTree = "<group>"; };
-		A215F668217F3D16004C728D /* iOS地图.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS地图.md"; sourceTree = "<group>"; };
 		A215F66B217F668F004C728D /* LCChatVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCChatVC.h; sourceTree = "<group>"; };
 		A215F66C217F668F004C728D /* LCChatVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCChatVC.m; sourceTree = "<group>"; };
 		A2250B0D20E10C3C00CCBB29 /* EmojiTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmojiTool.h; sourceTree = "<group>"; };
@@ -516,20 +397,6 @@
 		A2250B2720E155A300CCBB29 /* MIBezierPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIBezierPath.m; sourceTree = "<group>"; };
 		A2250B2920E155ED00CCBB29 /* DrawPaletteVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawPaletteVC.h; sourceTree = "<group>"; };
 		A2250B2A20E155ED00CCBB29 /* DrawPaletteVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawPaletteVC.m; sourceTree = "<group>"; };
-		A228FA9A217A1EE500D26F54 /* iOS统计工具.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS统计工具.md"; sourceTree = "<group>"; };
-		A228FA9D217A227500D26F54 /* CPP设计模式.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "CPP设计模式.md"; sourceTree = "<group>"; };
-		A228FA9F217A22C800D26F54 /* CPP算法.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "CPP算法.md"; sourceTree = "<group>"; };
-		A228FAA0217A234400D26F54 /* iOS制作Framework.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS制作Framework.md"; sourceTree = "<group>"; };
-		A228FAAC217AB2E500D26F54 /* Python算法.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Python算法.md"; sourceTree = "<group>"; };
-		A228FAAE217AB37100D26F54 /* Python爬虫.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Python爬虫.md"; sourceTree = "<group>"; };
-		A228FAB0217AB39100D26F54 /* PythonWeb框架.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "PythonWeb框架.md"; sourceTree = "<group>"; };
-		A228FAB5217AB4F700D26F54 /* Linxu常见指令.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Linxu常见指令.md"; sourceTree = "<group>"; };
-		A228FAB7217AB50E00D26F54 /* Java算法.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Java算法.md"; sourceTree = "<group>"; };
-		A228FAB9217AB52C00D26F54 /* Android学习之旅.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Android学习之旅.md"; sourceTree = "<group>"; };
-		A228FABC217AB62400D26F54 /* 系统设计题的框架.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "系统设计题的框架.png"; sourceTree = "<group>"; };
-		A228FABD217AB62400D26F54 /* 复盘流程.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "复盘流程.png"; sourceTree = "<group>"; };
-		A228FABE217AB62400D26F54 /* 面试流程图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "面试流程图.png"; sourceTree = "<group>"; };
-		A228FABF217AB62400D26F54 /* 简历的准备.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "简历的准备.png"; sourceTree = "<group>"; };
 		A22C4D801FFB1C3F0079F7C2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		A22C4D821FFB1C4E0079F7C2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A22C4D841FFB1C570079F7C2 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
@@ -567,10 +434,6 @@
 		A22C4DBE1FFC77790079F7C2 /* route_start_pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "route_start_pin@2x.png"; sourceTree = "<group>"; };
 		A22C51CF21859AD100A1E8E8 /* BinaryTreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTreeNode.h; sourceTree = "<group>"; };
 		A22C51D021859AD100A1E8E8 /* BinaryTreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryTreeNode.m; sourceTree = "<group>"; };
-		A22C51D22185A70E00A1E8E8 /* Markdown.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Markdown.md; sourceTree = "<group>"; };
-		A22C51D42185B11C00A1E8E8 /* Class结构.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Class结构.png"; sourceTree = "<group>"; };
-		A22C51D52185B11C00A1E8E8 /* class_ro_t结构.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "class_ro_t结构.png"; sourceTree = "<group>"; };
-		A22C51D62185B11C00A1E8E8 /* class_rw_t结构.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "class_rw_t结构.png"; sourceTree = "<group>"; };
 		A22C51DA2185DD4000A1E8E8 /* ListPopVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListPopVC.h; sourceTree = "<group>"; };
 		A22C51DB2185DD4000A1E8E8 /* ListPopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListPopVC.m; sourceTree = "<group>"; };
 		A22F007E216F90C90047FADB /* SensorVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SensorVC.h; sourceTree = "<group>"; };
@@ -690,8 +553,6 @@
 		A25748272023059D000F7632 /* CollectionViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewVC.m; sourceTree = "<group>"; };
 		A2574829202305B9000F7632 /* TableViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewVC.h; sourceTree = "<group>"; };
 		A257482A202305B9000F7632 /* TableViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewVC.m; sourceTree = "<group>"; };
-		A257F1DD217C522300146191 /* iOS-FunSDK集成.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS-FunSDK集成.md"; sourceTree = "<group>"; };
-		A257F1E0217CC23A00146191 /* C算法.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "C算法.md"; sourceTree = "<group>"; };
 		A257F1E3217CD42200146191 /* LanScanVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LanScanVC.h; sourceTree = "<group>"; };
 		A257F1E4217CD42200146191 /* LanScanVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanScanVC.m; sourceTree = "<group>"; };
 		A25F8BA4215A6A45005D6527 /* MIMovieObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIMovieObject.h; sourceTree = "<group>"; };
@@ -857,11 +718,6 @@
 		A2BFE058214FB5220043E665 /* MyThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyThread.h; sourceTree = "<group>"; };
 		A2BFE059214FB5220043E665 /* MyThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyThread.m; sourceTree = "<group>"; };
 		A2C1AB7C2025A1D80085A653 /* alarm4.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = alarm4.m4r; sourceTree = "<group>"; };
-		A2C3E77F217AB85500D2982F /* iOS区块链.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS区块链.md"; sourceTree = "<group>"; };
-		A2C3E781217ABBCA00D2982F /* SVN工具.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "SVN工具.md"; sourceTree = "<group>"; };
-		A2C3E783217ABC3A00D2982F /* iOS组件化.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS组件化.md"; sourceTree = "<group>"; };
-		A2C3E785217ABC8600D2982F /* iOS-OpenCV.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS-OpenCV.md"; sourceTree = "<group>"; };
-		A2C3E787217ACD6500D2982F /* OC-MultiThread.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "OC-MultiThread.md"; sourceTree = "<group>"; };
 		A2C84E7E20AA78F9000FD685 /* FileSharedVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileSharedVC.h; sourceTree = "<group>"; };
 		A2C84E7F20AA78F9000FD685 /* FileSharedVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileSharedVC.m; sourceTree = "<group>"; };
 		A2C84E8120AA7A5A000FD685 /* testPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testPic.jpg; sourceTree = "<group>"; };
@@ -1097,7 +953,6 @@
 		A2E642F62152463A009CADE9 /* CrossVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrossVC.m; sourceTree = "<group>"; };
 		A2E6430E2152812D009CADE9 /* GaodeMapVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaodeMapVC.h; sourceTree = "<group>"; };
 		A2E6430F2152812D009CADE9 /* GaodeMapVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaodeMapVC.m; sourceTree = "<group>"; };
-		A2E98DB221801F33008354CE /* OC-算法.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "OC-算法.md"; sourceTree = "<group>"; };
 		A2E9DA1D2091BD0E0061B1E7 /* NSString+AES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+AES.h"; sourceTree = "<group>"; };
 		A2E9DA1E2091BD0E0061B1E7 /* NSString+AES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES.m"; sourceTree = "<group>"; };
 		A2E9DA202091BD210061B1E7 /* NSData+AES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
@@ -1110,9 +965,6 @@
 		A2E9DA302091D3FA0061B1E7 /* RSAUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAUtil.h; sourceTree = "<group>"; };
 		A2E9DA32209CB6A20061B1E7 /* EncryptUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptUtils.h; sourceTree = "<group>"; };
 		A2E9DA33209CB6A20061B1E7 /* EncryptUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptUtils.m; sourceTree = "<group>"; };
-		A2EAF8DA218B53F100324F7F /* 正确解耦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "正确解耦.png"; sourceTree = "<group>"; };
-		A2EAF8DB218B53F100324F7F /* 错误解耦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "错误解耦.png"; sourceTree = "<group>"; };
-		A2EAF8DC218B53F200324F7F /* 耦合严重.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "耦合严重.png"; sourceTree = "<group>"; };
 		A2EE0F4F209BF3E00073495A /* 雪花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雪花.png"; sourceTree = "<group>"; };
 		A2F002F7209AFC5200F449EE /* BasicDrawingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicDrawingVC.h; sourceTree = "<group>"; };
 		A2F002F8209AFC5200F449EE /* BasicDrawingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicDrawingVC.m; sourceTree = "<group>"; };
@@ -1144,16 +996,8 @@
 		A2F0031F209B08C800F449EE /* CutOutImageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CutOutImageVC.m; sourceTree = "<group>"; };
 		A2F7D133217E1BB7002B0E7F /* GitHubVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitHubVC.h; sourceTree = "<group>"; };
 		A2F7D134217E1BB7002B0E7F /* GitHubVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHubVC.m; sourceTree = "<group>"; };
-		A2F7D137217EA335002B0E7F /* HTML5.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = HTML5.md; sourceTree = "<group>"; };
-		A2F7D139217EA359002B0E7F /* VUE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VUE.md; sourceTree = "<group>"; };
-		A2F7D13A217EA605002B0E7F /* iOS横竖屏.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS横竖屏.md"; sourceTree = "<group>"; };
-		A2F7D13C217EA67A002B0E7F /* Android蓝牙.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Android蓝牙.md"; sourceTree = "<group>"; };
-		A2F7D13E217EA68D002B0E7F /* Android网络请求.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Android网络请求.md"; sourceTree = "<group>"; };
-		A2F7D140217EA6A5002B0E7F /* Android内存管理.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Android内存管理.md"; sourceTree = "<group>"; };
 		B34F5016CAA45D7BD71933A9 /* Pods-MyInsightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsightTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsightTests/Pods-MyInsightTests.release.xcconfig"; sourceTree = "<group>"; };
 		D110F761EC3A481896E9E0EB /* libPods-MyInsight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyInsight.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2662EE5218ACC2D003353DA /* AppID-AccessWiFiInfomation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppID-AccessWiFiInfomation.png"; sourceTree = "<group>"; };
-		E2662EE6218ACC2D003353DA /* Xcode-AccessWiFiInfomation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Xcode-AccessWiFiInfomation.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1223,74 +1067,6 @@
 				187BF5DC2176C7F000AEC321 /* main.js */,
 			);
 			path = MarkdownView;
-			sourceTree = "<group>";
-		};
-		187BF5E12176C8C200AEC321 /* Blog */ = {
-			isa = PBXGroup;
-			children = (
-				A228FAA2217AB15D00D26F54 /* images */,
-				187BF5E22176C97F00AEC321 /* iOS */,
-				A228FAAB217AB2CE00D26F54 /* Python */,
-				A228FA9C217A227500D26F54 /* CPP */,
-				A257F1DF217CC22300146191 /* C */,
-				A228FAB2217AB4B000D26F54 /* Android */,
-				A228FAB3217AB4B000D26F54 /* Java */,
-				A2F7D136217EA317002B0E7F /* Web */,
-				A228FAB4217AB4B000D26F54 /* Linux */,
-				A214706A2186E9CB005596FF /* Essays */,
-			);
-			path = Blog;
-			sourceTree = "<group>";
-		};
-		187BF5E22176C97F00AEC321 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				187BF5EC2176C97F00AEC321 /* Blog.md */,
-				18DE2D1F217713E3005C64C9 /* GIT工具.md */,
-				A2C3E781217ABBCA00D2982F /* SVN工具.md */,
-				187BF5E42176C97F00AEC321 /* Mac常见指令.md */,
-				A2E98DB221801F33008354CE /* OC-算法.md */,
-				187BF5E92176C97F00AEC321 /* OC-Block.md */,
-				187BF5F72176C97F00AEC321 /* OC-NSRunLoop.md */,
-				187BF5FB2176C97F00AEC321 /* OC-RunTime.md */,
-				A2C3E787217ACD6500D2982F /* OC-MultiThread.md */,
-				187BF5E32176C97F00AEC321 /* OC-NSDictionary.md */,
-				187BF5EB2176C97F00AEC321 /* OC-Category.md */,
-				A215F666217F3BCC004C728D /* OC-进制转换.md */,
-				187BF5F62176C97F00AEC321 /* iOS加密.md */,
-				187BF5EA2176C97F00AEC321 /* iOS传感器.md */,
-				A2F7D13A217EA605002B0E7F /* iOS横竖屏.md */,
-				187BF5E72176C97F00AEC321 /* iOS蓝牙.md */,
-				A215F668217F3D16004C728D /* iOS地图.md */,
-				A214707F21875A28005596FF /* iOS布局.md */,
-				187BF5ED2176C97F00AEC321 /* iOS硬件信息.md */,
-				187BF5F42176C97F00AEC321 /* iOS启动流程.md */,
-				187BF5F52176C97F00AEC321 /* iOS面试之道.md */,
-				187BF5E52176C97F00AEC321 /* iOS数据存储.md */,
-				187BF5F82176C97F00AEC321 /* iOS设计模式.md */,
-				187BF5F92176C97F00AEC321 /* iOS网络请求.md */,
-				187BF5FA2176C97F00AEC321 /* iOS图片缓存.md */,
-				18DE2D2121771D65005C64C9 /* iOS第三方库工具.md */,
-				187AFE47217730C500C83677 /* iOS进制转换.md */,
-				18C176322178189C00F630E3 /* iOS常见报错.md */,
-				18E2AD4A217857BD001BA590 /* iOS多target.md */,
-				18E2AD4C21785B2B001BA590 /* iOS的OC和Swift混编.md */,
-				18E2AD4E21786A15001BA590 /* iOS代码块CodeSnippet.md */,
-				18E2AD5021788500001BA590 /* iOS跨平台.md */,
-				A2C3E783217ABC3A00D2982F /* iOS组件化.md */,
-				A2C3E785217ABC8600D2982F /* iOS-OpenCV.md */,
-				A214707D21875620005596FF /* iOS-OpenGL.md */,
-				18E2AD71217897CF001BA590 /* iOS的GitHub接口.md */,
-				A208251C2179CC1F00465995 /* iOS调试技巧.md */,
-				A228FA9A217A1EE500D26F54 /* iOS统计工具.md */,
-				A228FAA0217A234400D26F54 /* iOS制作Framework.md */,
-				A2C3E77F217AB85500D2982F /* iOS区块链.md */,
-				18E2AD7321789902001BA590 /* iOS-Swift.md */,
-				A257F1DD217C522300146191 /* iOS-FunSDK集成.md */,
-				A214707B218752D1005596FF /* iOS-APP优化.md */,
-				187BF5E62176C97F00AEC321 /* iOS面试题.md */,
-			);
-			path = iOS;
 			sourceTree = "<group>";
 		};
 		187BF6142176C9E700AEC321 /* Blogs */ = {
@@ -1364,7 +1140,6 @@
 		A20D5D6D1FCFFB37000E191D /* MyInsight */ = {
 			isa = PBXGroup;
 			children = (
-				187BF5E12176C8C200AEC321 /* Blog */,
 				A27E8722201AC471003E712C /* General */,
 				A20D5DF61FD14549000E191D /* UIFunction */,
 				A20D5DF41FD14549000E191D /* StoryBoard */,
@@ -1465,14 +1240,6 @@
 			path = Function;
 			sourceTree = "<group>";
 		};
-		A214706A2186E9CB005596FF /* Essays */ = {
-			isa = PBXGroup;
-			children = (
-				A214706B2186E9EA005596FF /* Poetry.md */,
-			);
-			path = Essays;
-			sourceTree = "<group>";
-		};
 		A215F66A217F667E004C728D /* LCChat */ = {
 			isa = PBXGroup;
 			children = (
@@ -1534,86 +1301,6 @@
 				A2250B2720E155A300CCBB29 /* MIBezierPath.m */,
 			);
 			path = DrawingBoard;
-			sourceTree = "<group>";
-		};
-		A228FA9C217A227500D26F54 /* CPP */ = {
-			isa = PBXGroup;
-			children = (
-				A228FA9D217A227500D26F54 /* CPP设计模式.md */,
-				A228FA9F217A22C800D26F54 /* CPP算法.md */,
-			);
-			path = CPP;
-			sourceTree = "<group>";
-		};
-		A228FAA2217AB15D00D26F54 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				A228FABB217AB62400D26F54 /* iOS */,
-			);
-			path = images;
-			sourceTree = "<group>";
-		};
-		A228FAAB217AB2CE00D26F54 /* Python */ = {
-			isa = PBXGroup;
-			children = (
-				A228FAAC217AB2E500D26F54 /* Python算法.md */,
-				A228FAAE217AB37100D26F54 /* Python爬虫.md */,
-				A228FAB0217AB39100D26F54 /* PythonWeb框架.md */,
-			);
-			path = Python;
-			sourceTree = "<group>";
-		};
-		A228FAB2217AB4B000D26F54 /* Android */ = {
-			isa = PBXGroup;
-			children = (
-				A228FAB9217AB52C00D26F54 /* Android学习之旅.md */,
-				A2F7D13C217EA67A002B0E7F /* Android蓝牙.md */,
-				A2F7D13E217EA68D002B0E7F /* Android网络请求.md */,
-				A2F7D140217EA6A5002B0E7F /* Android内存管理.md */,
-			);
-			path = Android;
-			sourceTree = "<group>";
-		};
-		A228FAB3217AB4B000D26F54 /* Java */ = {
-			isa = PBXGroup;
-			children = (
-				A228FAB7217AB50E00D26F54 /* Java算法.md */,
-			);
-			path = Java;
-			sourceTree = "<group>";
-		};
-		A228FAB4217AB4B000D26F54 /* Linux */ = {
-			isa = PBXGroup;
-			children = (
-				A228FAB5217AB4F700D26F54 /* Linxu常见指令.md */,
-			);
-			path = Linux;
-			sourceTree = "<group>";
-		};
-		A228FABB217AB62400D26F54 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				A2EAF8DB218B53F100324F7F /* 错误解耦.png */,
-				A2EAF8DC218B53F200324F7F /* 耦合严重.png */,
-				A2EAF8DA218B53F100324F7F /* 正确解耦.png */,
-				E2662EE5218ACC2D003353DA /* AppID-AccessWiFiInfomation.png */,
-				E2662EE6218ACC2D003353DA /* Xcode-AccessWiFiInfomation.png */,
-				A2147079218747D8005596FF /* 消息转发执行流程.png */,
-				A21470772187471D005596FF /* 动态解析流程.png */,
-				A2147075218746B8005596FF /* 消息发送执行流程.png */,
-				A2147073218745F2005596FF /* cache_t结构.png */,
-				A214706F21874566005596FF /* TypeEncoding编码表1.png */,
-				A214707021874566005596FF /* TypeEncoding编码表2.png */,
-				A214706D218743FD005596FF /* 返回参数.png */,
-				A22C51D52185B11C00A1E8E8 /* class_ro_t结构.png */,
-				A22C51D62185B11C00A1E8E8 /* class_rw_t结构.png */,
-				A22C51D42185B11C00A1E8E8 /* Class结构.png */,
-				A228FABC217AB62400D26F54 /* 系统设计题的框架.png */,
-				A228FABD217AB62400D26F54 /* 复盘流程.png */,
-				A228FABE217AB62400D26F54 /* 面试流程图.png */,
-				A228FABF217AB62400D26F54 /* 简历的准备.png */,
-			);
-			path = iOS;
 			sourceTree = "<group>";
 		};
 		A22C4D7A1FFB1B680079F7C2 /* Vendors */ = {
@@ -2035,14 +1722,6 @@
 				A2DDDC56208B072C00DC7A4A /* View */,
 			);
 			path = TableView;
-			sourceTree = "<group>";
-		};
-		A257F1DF217CC22300146191 /* C */ = {
-			isa = PBXGroup;
-			children = (
-				A257F1E0217CC23A00146191 /* C算法.md */,
-			);
-			path = C;
 			sourceTree = "<group>";
 		};
 		A257F1E2217CD40800146191 /* LanScan */ = {
@@ -3014,16 +2693,6 @@
 			path = GitHub;
 			sourceTree = "<group>";
 		};
-		A2F7D136217EA317002B0E7F /* Web */ = {
-			isa = PBXGroup;
-			children = (
-				A2F7D137217EA335002B0E7F /* HTML5.md */,
-				A2F7D139217EA359002B0E7F /* VUE.md */,
-				A22C51D22185A70E00A1E8E8 /* Markdown.md */,
-			);
-			path = Web;
-			sourceTree = "<group>";
-		};
 		BC4E574407F0D74F905E6702 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -3148,142 +2817,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A228FAC3217AB62400D26F54 /* 简历的准备.png in Resources */,
-				187BF6132176C97F00AEC321 /* OC-RunTime.md in Resources */,
-				187BF5FC2176C97F00AEC321 /* OC-NSDictionary.md in Resources */,
 				A262CC42216388A10050D6BC /* 消愁.mp3 in Resources */,
-				18E2AD72217897D0001BA590 /* iOS的GitHub接口.md in Resources */,
-				187BF5FD2176C97F00AEC321 /* Mac常见指令.md in Resources */,
 				A2DDDC5F208B084A00DC7A4A /* FoldTableViewCell.xib in Resources */,
 				187BF5DF2176C7F100AEC321 /* main.css in Resources */,
-				187BF6062176C97F00AEC321 /* iOS硬件信息.md in Resources */,
-				A2F7D13F217EA68D002B0E7F /* Android网络请求.md in Resources */,
 				A2B992A72068F441002A73B1 /* ChatFileCell.xib in Resources */,
-				187BF5FF2176C97F00AEC321 /* iOS面试题.md in Resources */,
 				A22F0082216F930B0047FADB /* Advance.storyboard in Resources */,
-				187BF6002176C97F00AEC321 /* iOS蓝牙.md in Resources */,
-				A228FAC2217AB62400D26F54 /* 面试流程图.png in Resources */,
-				A228FAB1217AB39100D26F54 /* PythonWeb框架.md in Resources */,
-				E2662EE8218ACC2E003353DA /* Xcode-AccessWiFiInfomation.png in Resources */,
-				187BF6032176C97F00AEC321 /* iOS传感器.md in Resources */,
 				A27E8728201AC53C003E712C /* 1967.mp3 in Resources */,
 				A268BEFE2106E04300CADD8A /* scrollimage3.jpg in Resources */,
 				A22C4DD11FFC777A0079F7C2 /* purple_arrow.png in Resources */,
-				A257F1E1217CC23A00146191 /* C算法.md in Resources */,
-				A214707C218752D1005596FF /* iOS-APP优化.md in Resources */,
-				A215F667217F3BD5004C728D /* OC-进制转换.md in Resources */,
-				A2147074218745F2005596FF /* cache_t结构.png in Resources */,
-				A214707121874566005596FF /* TypeEncoding编码表1.png in Resources */,
-				187BF60C2176C97F00AEC321 /* iOS启动流程.md in Resources */,
 				A2B992AC2068F45B002A73B1 /* ChatTipCell.xib in Resources */,
 				A2EE0F50209BF3E00073495A /* 雪花.png in Resources */,
-				18E2AD4F21786A15001BA590 /* iOS代码块CodeSnippet.md in Resources */,
-				187BF60E2176C97F00AEC321 /* iOS加密.md in Resources */,
-				187BF6102176C97F00AEC321 /* iOS设计模式.md in Resources */,
 				A20D5DFC1FD14549000E191D /* Assets.xcassets in Resources */,
-				187BF6022176C97F00AEC321 /* OC-Block.md in Resources */,
 				A22C4DD51FFC777A0079F7C2 /* route_start_pin@2x.png in Resources */,
-				A228FAAF217AB37100D26F54 /* Python爬虫.md in Resources */,
 				A2CDD256208DD022006DF86E /* 小新.jpg in Resources */,
 				A22C4DCF1FFC777A0079F7C2 /* pin_head_l.png in Resources */,
 				A22C4DCE1FFC777A0079F7C2 /* route_goal_pin@2x.png in Resources */,
 				A22C4DD41FFC777A0079F7C2 /* via.png in Resources */,
-				A257F1DE217C522300146191 /* iOS-FunSDK集成.md in Resources */,
-				A2C3E786217ABC8600D2982F /* iOS-OpenCV.md in Resources */,
-				A228FAAD217AB2E500D26F54 /* Python算法.md in Resources */,
 				A28ED53D1FD2494800A74551 /* Home.storyboard in Resources */,
-				A228FAB6217AB4F700D26F54 /* Linxu常见指令.md in Resources */,
-				A2F7D13D217EA67A002B0E7F /* Android蓝牙.md in Resources */,
-				A228FABA217AB52C00D26F54 /* Android学习之旅.md in Resources */,
-				A22C51D32185A70E00A1E8E8 /* Markdown.md in Resources */,
 				A22C4DCD1FFC777A0079F7C2 /* via@2x.png in Resources */,
 				A2C84E8220AA7A5A000FD685 /* testPic.jpg in Resources */,
 				A22C4DC61FFC777A0079F7C2 /* route_start_pin.png in Resources */,
-				18E2AD7421789902001BA590 /* iOS-Swift.md in Resources */,
-				A214707A218747D8005596FF /* 消息转发执行流程.png in Resources */,
 				A22C4DD31FFC777A0079F7C2 /* yback.png in Resources */,
 				A20D5DFB1FD14549000E191D /* LaunchScreen.storyboard in Resources */,
 				A22C4DD21FFC777A0079F7C2 /* pin_purple_s@2x.png in Resources */,
-				A2EAF8DE218B53F200324F7F /* 错误解耦.png in Resources */,
 				A22C4DC01FFC777A0079F7C2 /* route_pin.png in Resources */,
 				A2CDD262208EC6D7006DF86E /* CATransition2.png in Resources */,
-				A2E98DB321801F33008354CE /* OC-算法.md in Resources */,
-				187BF6042176C97F00AEC321 /* OC-Category.md in Resources */,
-				187BF6052176C97F00AEC321 /* Blog.md in Resources */,
 				A22C4DC91FFC777A0079F7C2 /* compass48@2x.png in Resources */,
-				E2662EE7218ACC2E003353DA /* AppID-AccessWiFiInfomation.png in Resources */,
-				18C176332178189C00F630E3 /* iOS常见报错.md in Resources */,
 				A2930B5221049071006520FF /* beijing.png in Resources */,
-				A2147076218746B9005596FF /* 消息发送执行流程.png in Resources */,
-				A2F7D141217EA6A5002B0E7F /* Android内存管理.md in Resources */,
 				A22C4DD01FFC777A0079F7C2 /* pin_red_s.png in Resources */,
 				A2B992A22068F42F002A73B1 /* ChatVideoCell.xib in Resources */,
 				A22C4DC71FFC777A0079F7C2 /* route_goal_pin.png in Resources */,
-				18E2AD4D21785B2B001BA590 /* iOS的OC和Swift混编.md in Resources */,
 				A241BF6020F740C30099E8A5 /* Quartz.pdf in Resources */,
 				A2B9929D2068F40D002A73B1 /* ChatAudioCell.xib in Resources */,
 				A22C4DC81FFC777A0079F7C2 /* pin_green_s@2x.png in Resources */,
 				A2CDD253208DC64A006DF86E /* CoreAnimation.storyboard in Resources */,
-				A2F7D138217EA335002B0E7F /* HTML5.md in Resources */,
-				187BF6122176C97F00AEC321 /* iOS图片缓存.md in Resources */,
 				A268BEFC2106E04300CADD8A /* scrollimage4.jpg in Resources */,
 				A2D884A520872322005116A6 /* BluetoothCell.xib in Resources */,
 				A268BEFF2106E04300CADD8A /* scrollimage2.jpg in Resources */,
 				187BF5DD2176C7F100AEC321 /* index.html in Resources */,
-				187BF60F2176C97F00AEC321 /* OC-NSRunLoop.md in Resources */,
 				A22C4DC21FFC777A0079F7C2 /* goal.png in Resources */,
 				187BF5E02176C7F100AEC321 /* main.js in Resources */,
-				A228FAA1217A234400D26F54 /* iOS制作Framework.md in Resources */,
-				A208251D2179CC1F00465995 /* iOS调试技巧.md in Resources */,
 				A22C4DCB1FFC777A0079F7C2 /* route_pin@2x.png in Resources */,
-				A214707221874566005596FF /* TypeEncoding编码表2.png in Resources */,
-				A228FAB8217AB50E00D26F54 /* Java算法.md in Resources */,
-				A214707E21875620005596FF /* iOS-OpenGL.md in Resources */,
-				A2EAF8DF218B53F200324F7F /* 耦合严重.png in Resources */,
 				A28ED5411FD2495F00A74551 /* Mine.storyboard in Resources */,
-				187BF5FE2176C97F00AEC321 /* iOS数据存储.md in Resources */,
-				A22C51D72185B11C00A1E8E8 /* Class结构.png in Resources */,
-				A215F669217F3D16004C728D /* iOS地图.md in Resources */,
-				A2C3E788217ACD6500D2982F /* OC-MultiThread.md in Resources */,
-				18DE2D2221771D65005C64C9 /* iOS第三方库工具.md in Resources */,
-				18E2AD4B217857BD001BA590 /* iOS多target.md in Resources */,
 				A241BF5920F73DB60099E8A5 /* QuartzDraw.storyboard in Resources */,
 				A2CDD258208DD3CA006DF86E /* 卡哇伊.jpg in Resources */,
-				187BF6112176C97F00AEC321 /* iOS网络请求.md in Resources */,
-				187AFE48217730C500C83677 /* iOS进制转换.md in Resources */,
-				A228FAC0217AB62400D26F54 /* 系统设计题的框架.png in Resources */,
-				18DE2D20217713E3005C64C9 /* GIT工具.md in Resources */,
 				A22C4DCA1FFC777A0079F7C2 /* compass48.png in Resources */,
 				A268BEFD2106E04300CADD8A /* scrollimage1.jpg in Resources */,
-				18E2AD5121788500001BA590 /* iOS跨平台.md in Resources */,
-				A228FA9B217A1EE500D26F54 /* iOS统计工具.md in Resources */,
-				A214708021875A28005596FF /* iOS布局.md in Resources */,
 				A2B992982068F3E4002A73B1 /* ChatImageCell.xib in Resources */,
-				A228FA9E217A227500D26F54 /* CPP设计模式.md in Resources */,
 				A22C4DC31FFC777A0079F7C2 /* pin_green_s.png in Resources */,
-				A2C3E784217ABC3A00D2982F /* iOS组件化.md in Resources */,
-				A22C51D82185B11C00A1E8E8 /* class_ro_t结构.png in Resources */,
 				A22C4DCC1FFC777A0079F7C2 /* goal@2x.png in Resources */,
-				A2C3E780217AB85500D2982F /* iOS区块链.md in Resources */,
 				A22C4DC51FFC777A0079F7C2 /* pin_red_s@2x.png in Resources */,
-				A214706C2186E9EA005596FF /* Poetry.md in Resources */,
 				A2930B502104906D006520FF /* meinv.jpg in Resources */,
-				A22C51D92185B11C00A1E8E8 /* class_rw_t结构.png in Resources */,
 				A2C1AB7D2025A1D80085A653 /* alarm4.m4r in Resources */,
-				A2C3E782217ABBCA00D2982F /* SVN工具.md in Resources */,
-				A2EAF8DD218B53F200324F7F /* 正确解耦.png in Resources */,
 				A22C4DC11FFC777A0079F7C2 /* pin_head_s.png in Resources */,
 				A2B9928E2068F3A6002A73B1 /* ChatListCell.xib in Resources */,
 				A20D5E001FD14549000E191D /* Main.storyboard in Resources */,
-				187BF60D2176C97F00AEC321 /* iOS面试之道.md in Resources */,
 				A2CDD261208EC6D7006DF86E /* CATransition1.png in Resources */,
 				A2CDD260208EC6D7006DF86E /* CATransition3.png in Resources */,
-				A228FAC1217AB62400D26F54 /* 复盘流程.png in Resources */,
 				A2B992932068F3CA002A73B1 /* ChatTextCell.xib in Resources */,
-				A214706E218743FD005596FF /* 返回参数.png in Resources */,
 				A22C4DC41FFC777A0079F7C2 /* pin_purple_s.png in Resources */,
-				A21470782187471D005596FF /* 动态解析流程.png in Resources */,
-				A2F7D13B217EA605002B0E7F /* iOS横竖屏.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
