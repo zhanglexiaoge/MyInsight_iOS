@@ -1,0 +1,6 @@
+framework module TestStoryboardAndConectionFramewrok {
+  umbrella header "TestStoryboardAndConectionFramewrok.h"
+
+  export *
+  module * { export * }
+}

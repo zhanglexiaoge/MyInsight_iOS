@@ -1,0 +1,6 @@
+framework module MergeProjectFramework {
+  umbrella header "MergeProjectFramework.h"
+
+  export *
+  module * { export * }
+}
