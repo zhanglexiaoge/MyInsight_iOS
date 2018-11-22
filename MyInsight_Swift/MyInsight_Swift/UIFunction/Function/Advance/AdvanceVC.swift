@@ -37,7 +37,46 @@ class AdvanceVC: BaseVC {
         // 设置导航栏
         naviBarSetting()
         
+        //debugPrint(self.decTobin(number: 451))
         
+//        debugPrint(451 & (0x1 << 0) >> 0)
+//        debugPrint(451 & (0x1 << 1) >> 1)
+//        debugPrint(451 & (0x1 << 2) >> 2)
+//        debugPrint(451 & (0x1 << 3) >> 3)
+//        debugPrint(451 & (0x1 << 4) >> 4)
+//        debugPrint(451 & (0x1 << 5) >> 5)
+//        debugPrint(451 & (0x1 << 6) >> 6)
+//        debugPrint(451 & (0x1 << 7) >> 7)
+        
+        // 分割成二进制
+        debugPrint(String(451, radix: 2))
+        
+//
+        let zifuchuang = String(451, radix: 2)
+
+        //debugPrint(zifuchuang.suffix(3))
+        debugPrint(zifuchuang[zifuchuang.index(zifuchuang.startIndex, offsetBy: 0)])
+        debugPrint(zifuchuang[zifuchuang.index(zifuchuang.startIndex, offsetBy: 1)])
+        debugPrint(zifuchuang[zifuchuang.index(zifuchuang.startIndex, offsetBy: 2)])
+        debugPrint(zifuchuang[zifuchuang.index(zifuchuang.startIndex, offsetBy: 3)])
+        debugPrint(zifuchuang[zifuchuang.index(zifuchuang.startIndex, offsetBy: 4)])
+        debugPrint(zifuchuang[zifuchuang.index(zifuchuang.startIndex, offsetBy: 5)])
+        debugPrint(zifuchuang[zifuchuang.index(zifuchuang.startIndex, offsetBy: 6)])
+        debugPrint(zifuchuang[zifuchuang.index(zifuchuang.startIndex, offsetBy: 7)])
+        debugPrint(zifuchuang[zifuchuang.index(zifuchuang.startIndex, offsetBy: 8)])
+//
+//        debugPrint("?????????????????????")
+//        debugPrint(zifuchuang[zifuchuang.index(zifuchuang.endIndex, offsetBy: -1)])
+//        debugPrint(zifuchuang[zifuchuang.index(zifuchuang.endIndex, offsetBy: -2)])
+//        debugPrint(zifuchuang[zifuchuang.index(zifuchuang.endIndex, offsetBy: -3)])
+//        debugPrint(zifuchuang[zifuchuang.index(zifuchuang.endIndex, offsetBy: -4)])
+//        debugPrint(zifuchuang[zifuchuang.index(zifuchuang.endIndex, offsetBy: -5)])
+//        debugPrint(zifuchuang[zifuchuang.index(zifuchuang.endIndex, offsetBy: -6)])
+//        debugPrint(zifuchuang[zifuchuang.index(zifuchuang.endIndex, offsetBy: -7)])
+//        debugPrint(zifuchuang[zifuchuang.index(zifuchuang.endIndex, offsetBy: -8)])
+//        debugPrint(zifuchuang[zifuchuang.index(zifuchuang.endIndex, offsetBy: -9)])
+//
+//        debugPrint("#####################")
         
     }
 
@@ -61,16 +100,28 @@ extension AdvanceVC {
     func bitConvert() -> Void {
         // swift进制间的转换
         // 按位取数
-        debugPrint(38&0b00000001)
-        debugPrint(38&0b00000010)
-        debugPrint(38&0b00000100)
-        debugPrint(38&0b00001000)
-        debugPrint(38&0b00010000)
-        debugPrint(38&0b00100000)
-        debugPrint(38&0b01000000)
-        debugPrint(38&0b10000000)
+//        debugPrint(38&0b00000001)
+//        debugPrint(38&0b00000010)
+//        debugPrint(38&0b00000100)
+//        debugPrint(38&0b00001000)
+//        debugPrint(38&0b00010000)
+//        debugPrint(38&0b00100000)
+//        debugPrint(38&0b01000000)
+//        debugPrint(38&0b10000000)
+        
     }
     
+    
+    func decTobin(number:Int) -> String {
+        var num = number
+        var str = ""
+        while num > 0 {
+            str = "\(num % 2)" + str
+            debugPrint(str)
+            num /= 2
+        }
+        return str
+    }
     
     
     override func didReceiveMemoryWarning() {
