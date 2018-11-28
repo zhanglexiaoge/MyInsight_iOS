@@ -11,6 +11,7 @@ target 'MyInsight_Swift' do
   pod 'SnapKit'   # 代码约束布局
   # pod 'MMDrawerController' # 抽屉 swift写的
   pod 'RealmSwift'
+  pod 'SQLite.swift' # Swift下SQLite数据库
   # 侧边demo MLSideslipView
   # 侧边demo DrawerViewController
   #pod 'DKChainableAnimationKit' # 动画

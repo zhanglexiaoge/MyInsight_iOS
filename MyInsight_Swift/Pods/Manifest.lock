@@ -6,20 +6,25 @@ PODS:
   - RealmSwift (3.10.0):
     - Realm (= 3.10.0)
   - SnapKit (4.0.0)
+  - SQLite.swift (0.11.5):
+    - SQLite.swift/standard (= 0.11.5)
+  - SQLite.swift/standard (0.11.5)
   - SWRevealViewController (2.3.0)
 
 DEPENDENCIES:
   - Alamofire
   - RealmSwift
   - SnapKit
+  - SQLite.swift
   - SWRevealViewController
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - Alamofire
     - Realm
     - RealmSwift
     - SnapKit
+    - SQLite.swift
     - SWRevealViewController
 
 SPEC CHECKSUMS:
@@ -27,8 +32,9 @@ SPEC CHECKSUMS:
   Realm: 85ab9e4f779d66f6e9ffeb118dc25b7f130c96ac
   RealmSwift: 69121c8b86d0ae005fb779efdb10e606732e1c74
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
   SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
 
-PODFILE CHECKSUM: de1d6b64499a6a31d8f0d56e129bba0e5e429f73
+PODFILE CHECKSUM: 753eba8554d9f20f41574f18fd179eed60af8d01
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
