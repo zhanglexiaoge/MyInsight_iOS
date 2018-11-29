@@ -36,6 +36,12 @@ class SeniorVC: BaseVC {
         self.navigationItem.leftBarButtonItem = UIBarButtonItem.init(title: "左边", style: UIBarButtonItem.Style.plain, target: self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:))) //revealToggle(_:)
         self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(title: "右边", style: UIBarButtonItem.Style.plain, target: self.revealViewController(), action: #selector(SWRevealViewController.rightRevealToggle(_:)))
         
+        
+        
+        let name: [String : Any] = ["name": 9, "age": "age"] 
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
