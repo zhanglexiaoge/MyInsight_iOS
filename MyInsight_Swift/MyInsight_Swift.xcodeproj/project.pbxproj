@@ -79,12 +79,6 @@
 		A2930B812104B1D1006520FF /* CommonTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2930B802104B1D1006520FF /* CommonTool.swift */; };
 		A2930B852105FF94006520FF /* RealmStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2930B842105FF94006520FF /* RealmStore.swift */; };
 		E2A5E605218853EE0081B454 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A5E604218853EE0081B454 /* Model.swift */; };
-		E2FE9A4D21A0124200CFDBC9 /* SMLKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FE9A4B21A0124200CFDBC9 /* SMLKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2FE9A5021A0124200CFDBC9 /* SMLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FE9A4921A0124200CFDBC9 /* SMLKit.framework */; };
-		E2FE9A5121A0124200CFDBC9 /* SMLKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E2FE9A4921A0124200CFDBC9 /* SMLKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E2FE9A6121A0128800CFDBC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FE9A6021A0128800CFDBC9 /* Main.storyboard */; };
-		E2FE9A6321A012C600CFDBC9 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9A6221A012C600CFDBC9 /* TestClass.swift */; };
-		E2FE9A6521A0149C00CFDBC9 /* SMLBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E2FE9A6421A0149C00CFDBC9 /* SMLBundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,13 +96,6 @@
 			remoteGlobalIDString = A241BF6920FC78840099E8A5;
 			remoteInfo = MyInsight_Swift;
 		};
-		E2FE9A4E21A0124200CFDBC9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A241BF6220FC78840099E8A5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E2FE9A4821A0124200CFDBC9;
-			remoteInfo = SMLKit;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -118,7 +105,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E2FE9A5121A0124200CFDBC9 /* SMLKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,14 +196,6 @@
 		ADB4EA70B82CF0E7F97618C5 /* Pods_MyInsight_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyInsight_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75E0E3F706CCB45F5D2FA5A /* Pods-MyInsight_SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_SwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_SwiftTests/Pods-MyInsight_SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		E2A5E604218853EE0081B454 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		E2FE9A4921A0124200CFDBC9 /* SMLKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SMLKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2FE9A4B21A0124200CFDBC9 /* SMLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMLKit.h; sourceTree = "<group>"; };
-		E2FE9A4C21A0124200CFDBC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2FE9A5A21A0126A00CFDBC9 /* SMLBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMLBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2FE9A5C21A0126A00CFDBC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2FE9A6021A0128800CFDBC9 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		E2FE9A6221A012C600CFDBC9 /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
-		E2FE9A6421A0149C00CFDBC9 /* SMLBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SMLBundle.bundle; sourceTree = "<group>"; };
 		E417E39331C1C2C2D15B4B0C /* Pods-MyInsight_SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_SwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_SwiftUITests/Pods-MyInsight_SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -226,7 +204,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2FE9A5021A0124200CFDBC9 /* SMLKit.framework in Frameworks */,
 				54F0EEDE1BBD82A319DED67B /* Pods_MyInsight_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,20 +221,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				959EE1C5FEB44C844968DD51 /* Pods_MyInsight_SwiftUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2FE9A4621A0124200CFDBC9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2FE9A5721A0126A00CFDBC9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,8 +254,6 @@
 			isa = PBXGroup;
 			children = (
 				A241BF6C20FC78840099E8A5 /* MyInsight_Swift */,
-				E2FE9A4A21A0124200CFDBC9 /* SMLKit */,
-				E2FE9A5B21A0126A00CFDBC9 /* SMLBundle */,
 				A241BF8120FC78860099E8A5 /* MyInsight_SwiftTests */,
 				A241BF8C20FC78860099E8A5 /* MyInsight_SwiftUITests */,
 				A241BF6B20FC78840099E8A5 /* Products */,
@@ -307,8 +268,6 @@
 				A241BF6A20FC78840099E8A5 /* MyInsight_Swift.app */,
 				A241BF7E20FC78860099E8A5 /* MyInsight_SwiftTests.xctest */,
 				A241BF8920FC78860099E8A5 /* MyInsight_SwiftUITests.xctest */,
-				E2FE9A4921A0124200CFDBC9 /* SMLKit.framework */,
-				E2FE9A5A21A0126A00CFDBC9 /* SMLBundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -631,38 +590,7 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		E2FE9A4A21A0124200CFDBC9 /* SMLKit */ = {
-			isa = PBXGroup;
-			children = (
-				E2FE9A4B21A0124200CFDBC9 /* SMLKit.h */,
-				E2FE9A6221A012C600CFDBC9 /* TestClass.swift */,
-				E2FE9A6421A0149C00CFDBC9 /* SMLBundle.bundle */,
-				E2FE9A4C21A0124200CFDBC9 /* Info.plist */,
-			);
-			path = SMLKit;
-			sourceTree = "<group>";
-		};
-		E2FE9A5B21A0126A00CFDBC9 /* SMLBundle */ = {
-			isa = PBXGroup;
-			children = (
-				E2FE9A6021A0128800CFDBC9 /* Main.storyboard */,
-				E2FE9A5C21A0126A00CFDBC9 /* Info.plist */,
-			);
-			path = SMLBundle;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		E2FE9A4421A0124200CFDBC9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2FE9A4D21A0124200CFDBC9 /* SMLKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		A241BF6920FC78840099E8A5 /* MyInsight_Swift */ = {
@@ -679,7 +607,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				E2FE9A4F21A0124200CFDBC9 /* PBXTargetDependency */,
 			);
 			name = MyInsight_Swift;
 			productName = MyInsight_Swift;
@@ -724,41 +651,6 @@
 			productReference = A241BF8920FC78860099E8A5 /* MyInsight_SwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		E2FE9A4821A0124200CFDBC9 /* SMLKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E2FE9A5221A0124200CFDBC9 /* Build configuration list for PBXNativeTarget "SMLKit" */;
-			buildPhases = (
-				E2FE9A4421A0124200CFDBC9 /* Headers */,
-				E2FE9A4521A0124200CFDBC9 /* Sources */,
-				E2FE9A4621A0124200CFDBC9 /* Frameworks */,
-				E2FE9A4721A0124200CFDBC9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SMLKit;
-			productName = SMLKit;
-			productReference = E2FE9A4921A0124200CFDBC9 /* SMLKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E2FE9A5921A0126A00CFDBC9 /* SMLBundle */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E2FE9A5D21A0126A00CFDBC9 /* Build configuration list for PBXNativeTarget "SMLBundle" */;
-			buildPhases = (
-				E2FE9A5621A0126A00CFDBC9 /* Sources */,
-				E2FE9A5721A0126A00CFDBC9 /* Frameworks */,
-				E2FE9A5821A0126A00CFDBC9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SMLBundle;
-			productName = SMLBundle;
-			productReference = E2FE9A5A21A0126A00CFDBC9 /* SMLBundle.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -783,13 +675,6 @@
 						LastSwiftMigration = 1000;
 						TestTargetID = A241BF6920FC78840099E8A5;
 					};
-					E2FE9A4821A0124200CFDBC9 = {
-						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
-					};
-					E2FE9A5921A0126A00CFDBC9 = {
-						CreatedOnToolsVersion = 10.1;
-					};
 				};
 			};
 			buildConfigurationList = A241BF6520FC78840099E8A5 /* Build configuration list for PBXProject "MyInsight_Swift" */;
@@ -808,8 +693,6 @@
 				A241BF6920FC78840099E8A5 /* MyInsight_Swift */,
 				A241BF7D20FC78860099E8A5 /* MyInsight_SwiftTests */,
 				A241BF8820FC78860099E8A5 /* MyInsight_SwiftUITests */,
-				E2FE9A4821A0124200CFDBC9 /* SMLKit */,
-				E2FE9A5921A0126A00CFDBC9 /* SMLBundle */,
 			);
 		};
 /* End PBXProject section */
@@ -879,22 +762,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2FE9A4721A0124200CFDBC9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2FE9A6521A0149C00CFDBC9 /* SMLBundle.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2FE9A5821A0126A00CFDBC9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2FE9A6121A0128800CFDBC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1030,21 +897,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2FE9A4521A0124200CFDBC9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2FE9A6321A012C600CFDBC9 /* TestClass.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2FE9A5621A0126A00CFDBC9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1057,11 +909,6 @@
 			isa = PBXTargetDependency;
 			target = A241BF6920FC78840099E8A5 /* MyInsight_Swift */;
 			targetProxy = A241BF8A20FC78860099E8A5 /* PBXContainerItemProxy */;
-		};
-		E2FE9A4F21A0124200CFDBC9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E2FE9A4821A0124200CFDBC9 /* SMLKit */;
-			targetProxy = E2FE9A4E21A0124200CFDBC9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1309,115 +1156,6 @@
 			};
 			name = Release;
 		};
-		E2FE9A5321A0124200CFDBC9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = LYW4U2TVKK;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SMLKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.happylong.SMLKit;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E2FE9A5421A0124200CFDBC9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = LYW4U2TVKK;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SMLKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.happylong.SMLKit;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E2FE9A5E21A0126A00CFDBC9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = LYW4U2TVKK;
-				INFOPLIST_FILE = SMLBundle/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.happylong.SMLBundle;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 1;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		E2FE9A5F21A0126A00CFDBC9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = LYW4U2TVKK;
-				INFOPLIST_FILE = SMLBundle/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.happylong.SMLBundle;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 1;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1453,24 +1191,6 @@
 			buildConfigurations = (
 				A241BF9920FC78860099E8A5 /* Debug */,
 				A241BF9A20FC78860099E8A5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E2FE9A5221A0124200CFDBC9 /* Build configuration list for PBXNativeTarget "SMLKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E2FE9A5321A0124200CFDBC9 /* Debug */,
-				E2FE9A5421A0124200CFDBC9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E2FE9A5D21A0126A00CFDBC9 /* Build configuration list for PBXNativeTarget "SMLBundle" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E2FE9A5E21A0126A00CFDBC9 /* Debug */,
-				E2FE9A5F21A0126A00CFDBC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -9,7 +9,6 @@
 import UIKit
 import SWRevealViewController
 import SnapKit
-import SMLKit
 
 class OtherVC: BaseVC {
     // 声明变量
@@ -118,11 +117,6 @@ extension OtherVC: UITableViewDelegate, UITableViewDataSource {
 //            myBlogVC.hidesBottomBarWhenPushed = true
 //            self.navigationController?.pushViewController(myBlogVC, animated: true)
             
-            let testVC = TestClass.backViewController()
-            testVC.hidesBottomBarWhenPushed = true
-            testVC.view.backgroundColor = UIColor.white
-            testVC.title = "测试SDK"
-            self.navigationController?.pushViewController(testVC, animated: true)
             
         }
     }

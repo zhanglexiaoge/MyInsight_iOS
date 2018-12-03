@@ -38,7 +38,24 @@ class SeniorVC: BaseVC {
         
         
         
-        let name: [String : Any] = ["name": 9, "age": "age"] 
+        //let name: [String : Any] = ["name": 9, "age": "age"]
+        
+        var dicArr: [[String: Any]] = [["name":"lili"], ["name":"laotie"], ["name":"maiomiao"], ["name":"xiaoma"],]
+        
+        dicArr.removeAll { (obj:[String: Any]) -> Bool in
+            //debugPrint("字典", obj)
+            
+            if obj["name"] as! String == "lili" {
+                // 删除
+                return true
+            } else {
+                // 不删除
+                return false
+            }
+            
+        }
+        
+        debugPrint("删除后的字典", dicArr)
         
         
         
