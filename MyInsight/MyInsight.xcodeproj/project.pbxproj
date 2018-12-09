@@ -16,6 +16,7 @@
 		5646242E551402D83E5DDEC4 /* libPods-MyInsightTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1048AA554877EFDC9A3C520A /* libPods-MyInsightTests.a */; };
 		6F9CFB2BFF1D334595CC4C63 /* libPods-MyInsightUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AABD5D3CA8DF36493A18039 /* libPods-MyInsightUITests.a */; };
 		A207108B214D09E8000D1710 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A207108A214D09E8000D1710 /* Student.m */; };
+		A20CA54221BBC15C002140C7 /* 凭什么说-刘心.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A20CA54121BBC15C002140C7 /* 凭什么说-刘心.mp3 */; };
 		A20D5D881FCFFB37000E191D /* MyInsightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D5D871FCFFB37000E191D /* MyInsightTests.m */; };
 		A20D5D931FCFFB37000E191D /* MyInsightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A20D5D921FCFFB37000E191D /* MyInsightUITests.m */; };
 		A20D5DFB1FD14549000E191D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20D5DEE1FD14549000E191D /* LaunchScreen.storyboard */; };
@@ -357,6 +358,7 @@
 		86049EE3A04849AE05357E50 /* Pods-MyInsightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsightTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsightTests/Pods-MyInsightTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A2071089214D09E8000D1710 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		A207108A214D09E8000D1710 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		A20CA54121BBC15C002140C7 /* 凭什么说-刘心.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "凭什么说-刘心.mp3"; sourceTree = "<group>"; };
 		A20D5D6B1FCFFB37000E191D /* MyInsight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyInsight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20D5D831FCFFB37000E191D /* MyInsightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyInsightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20D5D871FCFFB37000E191D /* MyInsightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyInsightTests.m; sourceTree = "<group>"; };
@@ -1953,6 +1955,7 @@
 		A27E8726201AC53C003E712C /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				A20CA54121BBC15C002140C7 /* 凭什么说-刘心.mp3 */,
 				A262CC41216388A10050D6BC /* 消愁.mp3 */,
 				A27E8727201AC53C003E712C /* 1967.mp3 */,
 				A2C1AB7C2025A1D80085A653 /* alarm4.m4r */,
@@ -2827,6 +2830,7 @@
 				A22C4DD11FFC777A0079F7C2 /* purple_arrow.png in Resources */,
 				A2B992AC2068F45B002A73B1 /* ChatTipCell.xib in Resources */,
 				A2EE0F50209BF3E00073495A /* 雪花.png in Resources */,
+				A20CA54221BBC15C002140C7 /* 凭什么说-刘心.mp3 in Resources */,
 				A20D5DFC1FD14549000E191D /* Assets.xcassets in Resources */,
 				A22C4DD51FFC777A0079F7C2 /* route_start_pin@2x.png in Resources */,
 				A2CDD256208DD022006DF86E /* 小新.jpg in Resources */,
