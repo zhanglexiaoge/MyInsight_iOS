@@ -14,7 +14,6 @@
 #import "CrossVC.h"
 #import "ReferToVC.h"
 #import "UMengVC.h"
-#import "BlogsVC.h" // 博客
 #import "GitHubVC.h"
 
 @interface OtherVC ()<UITableViewDelegate, UITableViewDataSource>
@@ -35,7 +34,6 @@ static const NSString *CrossStr = @"跨平台";
 static const NSString *ReferToStr = @"鸣谢:借鉴参考的仓库";
 static const NSString *GitHubStr = @"GitHub";
 static const NSString *UMengStr = @"友盟UMeng";
-static const NSString *BlogsStr = @"博客";
 
 @implementation OtherVC
 
@@ -70,7 +68,7 @@ static const NSString *BlogsStr = @"博客";
 
 // 处理数据
 - (void)handleTableViewData {
-    self.dataArray = @[BlogsStr, ReferToStr, BaiSiBuDeJieStr, QiuShiBaiKeStr, MeiZhiStr, ZhiHuDailyStr, ChatUIStr, XinHuaStr, CrossStr, UMengStr, GitHubStr];
+    self.dataArray = @[ReferToStr, BaiSiBuDeJieStr, QiuShiBaiKeStr, MeiZhiStr, ZhiHuDailyStr, ChatUIStr, XinHuaStr, CrossStr, UMengStr, GitHubStr];
 }
 
 #pragma mark - 创建TableView
@@ -116,13 +114,6 @@ static const NSString *BlogsStr = @"博客";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // 获取cell的字符串
     NSString *cellString = [self.dataArray objectAtIndex:indexPath.row];
-	if ([cellString isEqual:BlogsStr]) {
-		// 博客
-		BlogsVC *blogsVC = [[BlogsVC alloc] init];
-		blogsVC.hidesBottomBarWhenPushed = YES;
-		blogsVC.title = cellString;
-		[self.navigationController pushViewController:blogsVC animated:YES];
-	}
     if ([cellString isEqual:ReferToStr]) {
         // 借鉴参考的仓库链接
         ReferToVC *referToVC = [[ReferToVC alloc] init];
