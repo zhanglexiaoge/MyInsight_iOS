@@ -40,6 +40,8 @@ target 'MyInsight' do
   pod 'UMCShare/Social/AlipayShare' # 集成支付宝
   # 友盟推送
   pod 'UMCPush'
+  # 信鸽推送
+  pod 'QQ_XGPush'
 
   # 键盘管理
   pod 'IQKeyboardManager'

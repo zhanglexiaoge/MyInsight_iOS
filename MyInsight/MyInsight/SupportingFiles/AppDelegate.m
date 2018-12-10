@@ -16,6 +16,7 @@
 #import <UMCommon/UMCommon.h> //友盟
 //#import <LCChatKit.h>
 #import <Bugly/Bugly.h> // Bug统计工具
+#import <XGPush.h> // 信鸽推送
 
 /*
  友盟API
@@ -51,6 +52,8 @@
     // 友盟
     //[self setupUMeng];
     
+    [self initXGPush];
+    
     //bug统计
     /*
      产品名称：有鹿
@@ -62,6 +65,7 @@
     
     return YES;
 }
+
 
 #pragma mark - 是否是第一次加载
 - (void)isRightFirstLaunched {
@@ -86,6 +90,12 @@
         NSLog(@"不是第一次启动");
     }
 }
+
+#pragma mark - 初始化信鸽推送
+- (void)initXGPush {
+    //[[XGPush defaultManager] startXGWithAppID:<#(uint32_t)#> appKey:<#(nonnull NSString *)#> delegate:<#(nullable id<XGPushDelegate>)#>];
+}
+
 
 #pragma mark - 启动广告
 - (void)showAdvertiserView {
