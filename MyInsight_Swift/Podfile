@@ -21,6 +21,9 @@ target 'MyInsight_Swift' do
   
   # 数据库
   #
+  pod 'GRDB.swift'
+  ### 画图工具 Sketch
+  
   
   # MarkDown
 #  pod 'MarkdownView'
