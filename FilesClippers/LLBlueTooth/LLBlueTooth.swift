@@ -74,6 +74,9 @@ extension LLBlueTooth: CBCentralManagerDelegate {
     private func centralManager(_ central: CBCentralManager, didConnect peripheral: CBPeripheral) {
         // 连接上蓝牙设备
         
+        // 设置代理
+        peripheral.delegate = self
+        
     }
     
     private func centralManager(_ central: CBCentralManager, didFailToConnect peripheral: CBPeripheral, error: Error?) {
@@ -86,8 +89,61 @@ extension LLBlueTooth: CBCentralManagerDelegate {
 
 }
 
-
-
+// 实现蓝牙设备代理
+extension LLBlueTooth: CBPeripheralDelegate {
+    public func peripheralDidUpdateName(_ peripheral: CBPeripheral) {
+        
+    }
+    
+    public func peripheral(_ peripheral: CBPeripheral, didReadRSSI RSSI: NSNumber, error: Error?) {
+        
+    }
+    
+    // 发现服务
+    public func peripheral(_ peripheral: CBPeripheral, didDiscoverServices error: Error?) {
+        
+    }
+    
+    public func peripheral(_ peripheral: CBPeripheral, didDiscoverIncludedServicesFor service: CBService, error: Error?) {
+        
+    }
+    
+    // 发现特征
+    public func peripheral(_ peripheral: CBPeripheral, didDiscoverCharacteristicsFor service: CBService, error: Error?) {
+        
+    }
+    
+    // 更新订阅
+    public func peripheral(_ peripheral: CBPeripheral, didUpdateNotificationStateFor characteristic: CBCharacteristic, error: Error?) {
+        
+    }
+    
+    // 更新值
+    public func peripheral(_ peripheral: CBPeripheral, didUpdateValueFor characteristic: CBCharacteristic, error: Error?) {
+        
+    }
+    
+    // 更新描述
+    public func peripheral(_ peripheral: CBPeripheral, didUpdateValueFor descriptor: CBDescriptor, error: Error?) {
+        
+    }
+    
+    public func peripheralIsReady(toSendWriteWithoutResponse peripheral: CBPeripheral) {
+        
+    }
+    
+    public func peripheral(_ peripheral: CBPeripheral, didWriteValueFor descriptor: CBDescriptor, error: Error?) {
+        
+    }
+    
+    public func peripheral(_ peripheral: CBPeripheral, didWriteValueFor characteristic: CBCharacteristic, error: Error?) {
+        
+    }
+    
+    public func peripheral(_ peripheral: CBPeripheral, didOpen channel: CBL2CAPChannel?, error: Error?) {
+        
+    }
+}
 
 
 
