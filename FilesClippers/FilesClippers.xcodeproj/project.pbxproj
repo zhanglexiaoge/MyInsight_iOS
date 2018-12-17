@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C01FF8583BE9B5206A54976 /* Pods_FilesClippers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1B8727B072F06F4743C73E /* Pods_FilesClippers.framework */; };
+		8D60B0B962BE69E804008BF8 /* Pods_LLBlueTooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99F708392A4D8FA19349506 /* Pods_LLBlueTooth.framework */; };
 		E2A8593A21C499F300ED73E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A8593921C499F300ED73E7 /* AppDelegate.swift */; };
 		E2A8593C21C499F300ED73E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A8593B21C499F300ED73E7 /* ViewController.swift */; };
 		E2A8593F21C499F300ED73E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A8593D21C499F300ED73E7 /* Main.storyboard */; };
@@ -43,6 +45,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A1B8727B072F06F4743C73E /* Pods_FilesClippers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FilesClippers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC217768DAC68A837DEE68B /* Pods-LLBlueTooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLBlueTooth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLBlueTooth/Pods-LLBlueTooth.debug.xcconfig"; sourceTree = "<group>"; };
+		9D21901C2AF8212AAD894265 /* Pods-LLBlueTooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLBlueTooth.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLBlueTooth/Pods-LLBlueTooth.release.xcconfig"; sourceTree = "<group>"; };
+		C3494CB8185A5107277F51FE /* Pods-FilesClippers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilesClippers.release.xcconfig"; path = "Pods/Target Support Files/Pods-FilesClippers/Pods-FilesClippers.release.xcconfig"; sourceTree = "<group>"; };
+		D46B3CD668C863C2E04F8086 /* Pods-FilesClippers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilesClippers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FilesClippers/Pods-FilesClippers.debug.xcconfig"; sourceTree = "<group>"; };
+		D99F708392A4D8FA19349506 /* Pods_LLBlueTooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLBlueTooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A8593621C499F300ED73E7 /* FilesClippers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilesClippers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A8593921C499F300ED73E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2A8593B21C499F300ED73E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +70,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2A8595721C49AE400ED73E7 /* LLBlueTooth.framework in Frameworks */,
+				4C01FF8583BE9B5206A54976 /* Pods_FilesClippers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,18 +78,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D60B0B962BE69E804008BF8 /* Pods_LLBlueTooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A691857C05A2F3A00E0F583 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D46B3CD668C863C2E04F8086 /* Pods-FilesClippers.debug.xcconfig */,
+				C3494CB8185A5107277F51FE /* Pods-FilesClippers.release.xcconfig */,
+				3FC217768DAC68A837DEE68B /* Pods-LLBlueTooth.debug.xcconfig */,
+				9D21901C2AF8212AAD894265 /* Pods-LLBlueTooth.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E2A8592D21C499F300ED73E7 = {
 			isa = PBXGroup;
 			children = (
 				E2A8593821C499F300ED73E7 /* FilesClippers */,
 				E2A8595121C49AE400ED73E7 /* LLBlueTooth */,
 				E2A8593721C499F300ED73E7 /* Products */,
+				2A691857C05A2F3A00E0F583 /* Pods */,
+				F33103B89186A83E172F890F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +139,15 @@
 			path = LLBlueTooth;
 			sourceTree = "<group>";
 		};
+		F33103B89186A83E172F890F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A1B8727B072F06F4743C73E /* Pods_FilesClippers.framework */,
+				D99F708392A4D8FA19349506 /* Pods_LLBlueTooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -134,6 +166,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2A8594821C499F300ED73E7 /* Build configuration list for PBXNativeTarget "FilesClippers" */;
 			buildPhases = (
+				9E5228228CEEBD5FC9B2C1BB /* [CP] Check Pods Manifest.lock */,
 				E2A8593221C499F300ED73E7 /* Sources */,
 				E2A8593321C499F300ED73E7 /* Frameworks */,
 				E2A8593421C499F300ED73E7 /* Resources */,
@@ -153,6 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2A8595921C49AE400ED73E7 /* Build configuration list for PBXNativeTarget "LLBlueTooth" */;
 			buildPhases = (
+				432E398E471B0EF572368FE0 /* [CP] Check Pods Manifest.lock */,
 				E2A8594B21C49AE400ED73E7 /* Headers */,
 				E2A8594C21C49AE400ED73E7 /* Sources */,
 				E2A8594D21C49AE400ED73E7 /* Frameworks */,
@@ -224,6 +258,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		432E398E471B0EF572368FE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LLBlueTooth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E5228228CEEBD5FC9B2C1BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FilesClippers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E2A8593221C499F300ED73E7 /* Sources */ = {
@@ -391,6 +464,7 @@
 		};
 		E2A8594921C499F300ED73E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D46B3CD668C863C2E04F8086 /* Pods-FilesClippers.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -410,6 +484,7 @@
 		};
 		E2A8594A21C499F300ED73E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3494CB8185A5107277F51FE /* Pods-FilesClippers.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -429,6 +504,7 @@
 		};
 		E2A8595A21C49AE400ED73E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC217768DAC68A837DEE68B /* Pods-LLBlueTooth.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -459,6 +535,7 @@
 		};
 		E2A8595B21C49AE400ED73E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D21901C2AF8212AAD894265 /* Pods-LLBlueTooth.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
