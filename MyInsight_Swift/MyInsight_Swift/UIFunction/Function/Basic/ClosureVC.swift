@@ -19,7 +19,18 @@ class ClosureVC: BaseVC {
         
         creatTableView()
         
+        self.perform(#selector(nameSettter), with: nil, afterDelay: 3.0)
+        
     }
+    
+    
+    @objc func nameSettter() -> Void {
+        debugPrint("执行测试方法")
+    }
+    
+    
+    
+    
     
     func creatTableView() -> Void {
         //
@@ -62,6 +73,12 @@ extension ClosureVC: UITableViewDelegate, UITableViewDataSource{
         let cell = tableView.dequeueReusableCell(withIdentifier: "UITableViewCell", for: indexPath)
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // 取消执行方法
+        NSObject.cancelPreviousPerformRequests(withTarget: self)
+    }
+    
     
     // 设置可编辑
     func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
