@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PushKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -22,6 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // 判断应用是否是第一次启动
         self.isRightFirstLaunched()
+        
+        // 注册VOIP
+        self.voipRegistration()
         
         return true
     }
@@ -76,10 +80,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         debugPrint("DidEnterBackground 程序进入后台")
     }
     
-    
-    
-    
-    
+    func voipRegistration() -> Void {
+        // dispatch_get_main_queue
+        let mainQueue = DispatchQueue.main
+        let voipRegistry: PKPushRegistry = PKPushRegistry(queue: mainQueue)
+        
+        voipRegistry.delegate = self
+        voipRegistry.desiredPushTypes = [PKPushType.voIP]
+    }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
         // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
@@ -96,5 +104,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         debugPrint("WillTerminate 程序退出")
     }
     
+}
+
+// VOIP 推送
+extension AppDelegate: PKPushRegistryDelegate {
+    /*
+     [iOS后台唤醒实战：微信收款到账语音提醒技术总结](https://www.jianshu.com/p/68eed9442d2c)
+     [Voice Over IP (VoIP) Best Practices](https://developer.apple.com/library/archive/documentation/Performance/Conceptual/EnergyGuide-iOS/OptimizeVoIP.html)
+     */
+    func pushRegistry(_ registry: PKPushRegistry, didUpdate pushCredentials: PKPushCredentials, for type: PKPushType) {
+        
+    }
+    
+    func pushRegistry(_ registry: PKPushRegistry, didReceiveIncomingPushWith payload: PKPushPayload, for type: PKPushType) {
+        
+    }
+    
+    func pushRegistry(_ registry: PKPushRegistry, didReceiveIncomingPushWith payload: PKPushPayload, for type: PKPushType, completion: @escaping () -> Void) {
+        
+    }
 }
 
