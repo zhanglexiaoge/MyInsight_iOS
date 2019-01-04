@@ -664,6 +664,11 @@
 					A241BF6920FC78840099E8A5 = {
 						CreatedOnToolsVersion = 9.4.1;
 						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					A241BF7D20FC78860099E8A5 = {
 						CreatedOnToolsVersion = 9.4.1;
