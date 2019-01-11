@@ -216,6 +216,8 @@ extension VideoCaptureVC: AVCaptureFileOutputRecordingDelegate {
  [AVFoundation之AVCapture音视频采集与写入](https://www.jianshu.com/p/ebbba2670d00)
  [视频采集demo](https://github.com/AnnieAri/AVCaptureDemo)
  
+ [iOS 上的相机捕捉 swift](https://www.cnblogs.com/Hakim/p/6606067.html)
+ 
  [Swift – 开启前置相机并拍照](http://www.jobyme88.com/?st_ai=swift-%e5%bc%80%e5%90%af%e5%89%8d%e7%bd%ae%e7%9b%b8%e6%9c%ba%e5%b9%b6%e6%8b%8d%e7%85%a7)
  [Swift – 开启前置相机并拍照](https://blog.csdn.net/muerbingsha/article/details/80460088)
  */
