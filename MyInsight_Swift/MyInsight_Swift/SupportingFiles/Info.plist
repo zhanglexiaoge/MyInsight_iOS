@@ -48,5 +48,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSCameraUsageDescription</key>
+    <string>录像,所有允许吧</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>录音,所以允许吧</string>
 </dict>
 </plist>

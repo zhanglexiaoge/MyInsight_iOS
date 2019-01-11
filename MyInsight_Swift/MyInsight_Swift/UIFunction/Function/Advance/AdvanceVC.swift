@@ -10,7 +10,11 @@ import UIKit
 import SWRevealViewController
 
 class AdvanceVC: BaseVC {
-
+    
+    // 声明变量
+    let tableview = UITableView()
+    // 数组
+    var dataArray = Array<String>()
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -78,6 +82,18 @@ class AdvanceVC: BaseVC {
 //
 //        debugPrint("#####################")
         
+        
+        // 初始化tableview
+        self.view.addSubview(self.tableview)
+        self.tableview.frame = self.view.bounds;
+        self.tableview.delegate = self
+        self.tableview.dataSource = self
+        // 注册cell
+        self.tableview.register(UITableViewCell.classForCoder(), forCellReuseIdentifier: "cell")
+        // 清空多余cell
+        self.tableview.tableFooterView = UIView(frame: CGRect.zero)
+        
+        dataArray = ["视频采集"]
     }
 
     // 设置导航栏
@@ -86,15 +102,48 @@ class AdvanceVC: BaseVC {
         self.navigationItem.leftBarButtonItem = UIBarButtonItem.init(title: "左边", style: UIBarButtonItem.Style.plain, target: self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:))) //revealToggle(_:)
         self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(title: "右边", style: UIBarButtonItem.Style.plain, target: self.revealViewController(), action: #selector(SWRevealViewController.rightRevealToggle(_:)))
     }
-    
-    
-    
-    
-    
-    
-    
 
 }
+
+
+//MARK: - 实现协议
+extension AdvanceVC: UITableViewDelegate, UITableViewDataSource {
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    // cell行数目
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return dataArray.count
+    }
+    // 生成cell
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: "cell")
+        // label赋值
+        cell.textLabel?.text = dataArray[indexPath.row]
+        // 箭头
+        cell.accessoryType = UITableViewCell.AccessoryType.disclosureIndicator
+        
+        return cell
+    }
+    // 选中cell
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let cellStr: String = self.dataArray[indexPath.row]
+        
+        // VideoCapture
+        
+        if cellStr == "视频采集" {
+            // RunTime运行时
+            let videoCaptureVC: VideoCaptureVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "VideoCaptureVC") as! VideoCaptureVC
+            videoCaptureVC.title = "视频采集"
+            videoCaptureVC.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(videoCaptureVC, animated: true)
+        }
+        
+    }
+}
+
+
 
 extension AdvanceVC {
     func bitConvert() -> Void {
