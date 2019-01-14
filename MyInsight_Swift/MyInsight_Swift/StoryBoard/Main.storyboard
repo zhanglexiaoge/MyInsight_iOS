@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,26 +14,23 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyInsight_Swift" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    <view key="view" contentMode="scaleToFill" id="D5T-32-RMd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Epz-4d-ZRA"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="159" y="134"/>
         </scene>
         <!--Video CaptureVC-->
         <scene sceneID="iEp-IO-k2Q">
             <objects>
                 <viewController storyboardIdentifier="VideoCaptureVC" id="skz-of-Dxu" customClass="VideoCaptureVC" customModule="MyInsight_Swift" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="njg-7v-QM8"/>
-                        <viewControllerLayoutGuide type="bottom" id="dbU-X4-zOI"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="o8f-RH-HPY">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z7U-pX-D7J">
@@ -62,12 +59,50 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="npB-5U-occ"/>
+                        <viewLayoutGuide key="safeArea" id="cw8-oj-zqx"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gg7-eJ-9qQ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="967" y="106"/>
+            <point key="canvasLocation" x="921" y="134"/>
+        </scene>
+        <!--Camera FaceVC-->
+        <scene sceneID="9cM-LO-6Lz">
+            <objects>
+                <viewController storyboardIdentifier="CameraFaceVC" id="1V0-Jt-A3l" customClass="CameraFaceVC" customModule="MyInsight_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AAj-Dy-boA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d3g-4W-f1y">
+                                <rect key="frame" x="15" y="292" width="384" height="384"/>
+                                <color key="backgroundColor" red="0.41960784309999999" green="0.2156862745" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="d3g-4W-f1y" secondAttribute="height" multiplier="1:1" id="x1j-NI-fC9"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="Z0T-bv-crG"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSA-vk-tq6">
+                                <rect key="frame" x="303" y="40" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="d3g-4W-f1y" firstAttribute="leading" secondItem="gay-Ti-1yX" secondAttribute="leading" constant="15" id="0nT-uO-5Am"/>
+                            <constraint firstItem="gay-Ti-1yX" firstAttribute="bottom" secondItem="d3g-4W-f1y" secondAttribute="bottom" constant="60" id="2Ib-TH-kpJ"/>
+                            <constraint firstItem="gay-Ti-1yX" firstAttribute="trailing" secondItem="d3g-4W-f1y" secondAttribute="trailing" constant="15" id="XLe-98-u1v"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gay-Ti-1yX"/>
+                    </view>
+                    <connections>
+                        <outlet property="previewView" destination="d3g-4W-f1y" id="Pub-tI-BVF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Ab-Xx-40v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1664" y="131"/>
         </scene>
     </scenes>
 </document>
