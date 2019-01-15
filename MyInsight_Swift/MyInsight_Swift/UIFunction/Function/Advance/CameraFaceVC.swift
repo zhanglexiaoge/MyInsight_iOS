@@ -91,13 +91,12 @@ class CameraFaceVC: UIViewController {
 
 extension CameraFaceVC: AVCaptureMetadataOutputObjectsDelegate {
     func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
-        debugPrint("")
-        for face in metadataObjects {
-            let faceObj = face as? AVMetadataFaceObject
-            print("相机人脸的数据::: \(faceObj!)")
-        }
+        debugPrint("照相机.... \(metadataObjects) ")
         
-        // faceDelegate?.handleOutput(didDetect: metadataObjects, previewLayer: previewLayer)
+        guard metadataObjects.count != 0 else {
+            debugPrint("人脸识别数组元素个数为0")
+            return
+        }
         
         handleOutput(didDetect: metadataObjects, previewLayer: previewLayer)
         
