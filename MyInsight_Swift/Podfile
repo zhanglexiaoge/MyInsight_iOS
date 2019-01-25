@@ -16,6 +16,8 @@ target 'MyInsight_Swift' do
   # 侧边demo DrawerViewController
   #pod 'DKChainableAnimationKit' # 动画
   
+  pod 'CryptoSwift'
+  
   # OC
   pod 'SWRevealViewController'
   
