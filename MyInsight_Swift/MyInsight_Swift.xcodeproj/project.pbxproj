@@ -13,46 +13,6 @@
 		A241BF8320FC78860099E8A5 /* MyInsight_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A241BF8220FC78860099E8A5 /* MyInsight_SwiftTests.swift */; };
 		A241BF8E20FC78860099E8A5 /* MyInsight_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A241BF8D20FC78860099E8A5 /* MyInsight_SwiftUITests.swift */; };
 		A262CB562160C4B90050D6BC /* Vendors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A262CB552160C4B90050D6BC /* Vendors.swift */; };
-		A262CB6D2160CCCA0050D6BC /* AutoLayout 中的线性规划 - Simplex 算法.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CB592160CCCA0050D6BC /* AutoLayout 中的线性规划 - Simplex 算法.md */; };
-		A262CB6E2160CCCA0050D6BC /* 用 isa 承载对象的类信息.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CB5B2160CCCA0050D6BC /* 用 isa 承载对象的类信息.md */; };
-		A262CB6F2160CCCA0050D6BC /* objc_msgSend消息传递学习笔记 - 消息转发.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CB5C2160CCCA0050D6BC /* objc_msgSend消息传递学习笔记 - 消息转发.md */; };
-		A262CB702160CCCA0050D6BC /* objc_msgSend消息传递学习笔记 - 对象方法消息传递流程.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CB5D2160CCCA0050D6BC /* objc_msgSend消息传递学习笔记 - 对象方法消息传递流程.md */; };
-		A262CB712160CCCA0050D6BC /* 浅谈Associated Objects.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CB5E2160CCCA0050D6BC /* 浅谈Associated Objects.md */; };
-		A262CB722160CCCA0050D6BC /* weak 弱引用的实现方式.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CB5F2160CCCA0050D6BC /* weak 弱引用的实现方式.md */; };
-		A262CB732160CCCA0050D6BC /* load 方法全程跟踪.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CB602160CCCA0050D6BC /* load 方法全程跟踪.md */; };
-		A262CB742160CCCA0050D6BC /* 浅谈 block（2） - 截获变量方式.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CB612160CCCA0050D6BC /* 浅谈 block（2） - 截获变量方式.md */; };
-		A262CB752160CCCA0050D6BC /* 浅谈 block（1） - clang 改写后的 block 结构.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CB622160CCCA0050D6BC /* 浅谈 block（1） - clang 改写后的 block 结构.md */; };
-		A262CB762160CCCA0050D6BC /* CFArray 的历史渊源及实现原理.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CB642160CCCA0050D6BC /* CFArray 的历史渊源及实现原理.md */; };
-		A262CB772160CCCA0050D6BC /* Run Loop 记录与源码注释.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CB652160CCCA0050D6BC /* Run Loop 记录与源码注释.md */; };
-		A262CB782160CCCA0050D6BC /* 复用的精妙 - UITableView 复用技术原理分析.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CB662160CCCA0050D6BC /* 复用的精妙 - UITableView 复用技术原理分析.md */; };
-		A262CB792160CCCA0050D6BC /* 从经典问题来看 Copy 方法.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CB672160CCCA0050D6BC /* 从经典问题来看 Copy 方法.md */; };
-		A262CB7A2160CCCA0050D6BC /* SDWebImage Source Probe - Downloader.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CB692160CCCA0050D6BC /* SDWebImage Source Probe - Downloader.md */; };
-		A262CB7B2160CCCA0050D6BC /* SDWebImage Source Probe - Operation.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CB6A2160CCCA0050D6BC /* SDWebImage Source Probe - Operation.md */; };
-		A262CB7C2160CCCA0050D6BC /* SDWebImage Source Probe - WebCache.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CB6B2160CCCA0050D6BC /* SDWebImage Source Probe - WebCache.md */; };
-		A262CB7D2160CCCA0050D6BC /* SDWebImage Source Probe - Manager.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CB6C2160CCCA0050D6BC /* SDWebImage Source Probe - Manager.md */; };
-		A262CBDE2160CD440050D6BC /* 验证试验 - 探求 fishhook 原理（二）.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CB802160CD440050D6BC /* 验证试验 - 探求 fishhook 原理（二）.md */; };
-		A262CBDF2160CD440050D6BC /* 巧用符号表 - 探求 fishhook 原理（一）.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CB812160CD440050D6BC /* 巧用符号表 - 探求 fishhook 原理（一）.md */; };
-		A262CBE02160CD440050D6BC /* Mach-O 文件格式探索.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CB832160CD440050D6BC /* Mach-O 文件格式探索.md */; };
-		A262CBE12160CD440050D6BC /* Swift Probe - Optional.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CB852160CD440050D6BC /* Swift Probe - Optional.md */; };
-		A262CC102160CD440050D6BC /* Shadowsocks Probe I - Socks5 与 EventLoop 事件分发.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CBC82160CD440050D6BC /* Shadowsocks Probe I - Socks5 与 EventLoop 事件分发.md */; };
-		A262CC112160CD440050D6BC /* Shadowsocks Probe II - TCP 代理过程.md in Resources */ = {isa = PBXBuildFile; fileRef = A262CBC92160CD440050D6BC /* Shadowsocks Probe II - TCP 代理过程.md */; };
-		A262CC122160CD440050D6BC /* eventloop-flow.png in Resources */ = {isa = PBXBuildFile; fileRef = A262CBCC2160CD440050D6BC /* eventloop-flow.png */; };
-		A262CC132160CD440050D6BC /* IO-muti-road.png in Resources */ = {isa = PBXBuildFile; fileRef = A262CBCD2160CD440050D6BC /* IO-muti-road.png */; };
-		A262CC142160CD440050D6BC /* visit-apple.com.re.png in Resources */ = {isa = PBXBuildFile; fileRef = A262CBCE2160CD440050D6BC /* visit-apple.com.re.png */; };
-		A262CC152160CD440050D6BC /* handshake-time.png in Resources */ = {isa = PBXBuildFile; fileRef = A262CBCF2160CD440050D6BC /* handshake-time.png */; };
-		A262CC162160CD440050D6BC /* patriotic-networ-2.png in Resources */ = {isa = PBXBuildFile; fileRef = A262CBD02160CD440050D6BC /* patriotic-networ-2.png */; };
-		A262CC172160CD440050D6BC /* whats-shadowsocks-041.png in Resources */ = {isa = PBXBuildFile; fileRef = A262CBD12160CD440050D6BC /* whats-shadowsocks-041.png */; };
-		A262CC182160CD440050D6BC /* 15033139083269.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A262CBD32160CD440050D6BC /* 15033139083269.jpg */; };
-		A262CC192160CD440050D6BC /* 15033138825661.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A262CBD42160CD440050D6BC /* 15033138825661.jpg */; };
-		A262CC1A2160CD440050D6BC /* agreement_new.png in Resources */ = {isa = PBXBuildFile; fileRef = A262CBD52160CD440050D6BC /* agreement_new.png */; };
-		A262CC1B2160CD440050D6BC /* TCPRelay.description.png in Resources */ = {isa = PBXBuildFile; fileRef = A262CBD62160CD440050D6BC /* TCPRelay.description.png */; };
-		A262CC1C2160CD440050D6BC /* Agreement.png in Resources */ = {isa = PBXBuildFile; fileRef = A262CBD72160CD440050D6BC /* Agreement.png */; };
-		A262CC1D2160CD440050D6BC /* 15033138971502.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A262CBD82160CD440050D6BC /* 15033138971502.jpg */; };
-		A262CC1E2160CD440050D6BC /* handle_addr_new.png in Resources */ = {isa = PBXBuildFile; fileRef = A262CBD92160CD440050D6BC /* handle_addr_new.png */; };
-		A262CC1F2160CD440050D6BC /* STAGE.png in Resources */ = {isa = PBXBuildFile; fileRef = A262CBDA2160CD440050D6BC /* STAGE.png */; };
-		A262CC202160CD440050D6BC /* handle_addr.png in Resources */ = {isa = PBXBuildFile; fileRef = A262CBDB2160CD440050D6BC /* handle_addr.png */; };
-		A262CC212160CD440050D6BC /* handle_event.png in Resources */ = {isa = PBXBuildFile; fileRef = A262CBDC2160CD440050D6BC /* handle_event.png */; };
-		A262CC222160CD440050D6BC /* ss-event-stage-relationship.svg in Resources */ = {isa = PBXBuildFile; fileRef = A262CBDD2160CD440050D6BC /* ss-event-stage-relationship.svg */; };
 		A262CC242160D0C40050D6BC /* MarkDownBlogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A262CC232160D0C40050D6BC /* MarkDownBlogVC.swift */; };
 		A262CC262160D10E0050D6BC /* BlogListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A262CC252160D10E0050D6BC /* BlogListVC.swift */; };
 		A262CC282160DBDD0050D6BC /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A262CC272160DBDD0050D6BC /* BaseVC.swift */; };
@@ -127,46 +87,6 @@
 		A241BF8D20FC78860099E8A5 /* MyInsight_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInsight_SwiftUITests.swift; sourceTree = "<group>"; };
 		A241BF8F20FC78860099E8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A262CB552160C4B90050D6BC /* Vendors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vendors.swift; sourceTree = "<group>"; };
-		A262CB592160CCCA0050D6BC /* AutoLayout 中的线性规划 - Simplex 算法.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "AutoLayout 中的线性规划 - Simplex 算法.md"; sourceTree = "<group>"; };
-		A262CB5B2160CCCA0050D6BC /* 用 isa 承载对象的类信息.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "用 isa 承载对象的类信息.md"; sourceTree = "<group>"; };
-		A262CB5C2160CCCA0050D6BC /* objc_msgSend消息传递学习笔记 - 消息转发.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "objc_msgSend消息传递学习笔记 - 消息转发.md"; sourceTree = "<group>"; };
-		A262CB5D2160CCCA0050D6BC /* objc_msgSend消息传递学习笔记 - 对象方法消息传递流程.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "objc_msgSend消息传递学习笔记 - 对象方法消息传递流程.md"; sourceTree = "<group>"; };
-		A262CB5E2160CCCA0050D6BC /* 浅谈Associated Objects.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "浅谈Associated Objects.md"; sourceTree = "<group>"; };
-		A262CB5F2160CCCA0050D6BC /* weak 弱引用的实现方式.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "weak 弱引用的实现方式.md"; sourceTree = "<group>"; };
-		A262CB602160CCCA0050D6BC /* load 方法全程跟踪.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "load 方法全程跟踪.md"; sourceTree = "<group>"; };
-		A262CB612160CCCA0050D6BC /* 浅谈 block（2） - 截获变量方式.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "浅谈 block（2） - 截获变量方式.md"; sourceTree = "<group>"; };
-		A262CB622160CCCA0050D6BC /* 浅谈 block（1） - clang 改写后的 block 结构.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "浅谈 block（1） - clang 改写后的 block 结构.md"; sourceTree = "<group>"; };
-		A262CB642160CCCA0050D6BC /* CFArray 的历史渊源及实现原理.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "CFArray 的历史渊源及实现原理.md"; sourceTree = "<group>"; };
-		A262CB652160CCCA0050D6BC /* Run Loop 记录与源码注释.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Run Loop 记录与源码注释.md"; sourceTree = "<group>"; };
-		A262CB662160CCCA0050D6BC /* 复用的精妙 - UITableView 复用技术原理分析.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "复用的精妙 - UITableView 复用技术原理分析.md"; sourceTree = "<group>"; };
-		A262CB672160CCCA0050D6BC /* 从经典问题来看 Copy 方法.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "从经典问题来看 Copy 方法.md"; sourceTree = "<group>"; };
-		A262CB692160CCCA0050D6BC /* SDWebImage Source Probe - Downloader.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "SDWebImage Source Probe - Downloader.md"; sourceTree = "<group>"; };
-		A262CB6A2160CCCA0050D6BC /* SDWebImage Source Probe - Operation.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "SDWebImage Source Probe - Operation.md"; sourceTree = "<group>"; };
-		A262CB6B2160CCCA0050D6BC /* SDWebImage Source Probe - WebCache.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "SDWebImage Source Probe - WebCache.md"; sourceTree = "<group>"; };
-		A262CB6C2160CCCA0050D6BC /* SDWebImage Source Probe - Manager.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "SDWebImage Source Probe - Manager.md"; sourceTree = "<group>"; };
-		A262CB802160CD440050D6BC /* 验证试验 - 探求 fishhook 原理（二）.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "验证试验 - 探求 fishhook 原理（二）.md"; sourceTree = "<group>"; };
-		A262CB812160CD440050D6BC /* 巧用符号表 - 探求 fishhook 原理（一）.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "巧用符号表 - 探求 fishhook 原理（一）.md"; sourceTree = "<group>"; };
-		A262CB832160CD440050D6BC /* Mach-O 文件格式探索.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Mach-O 文件格式探索.md"; sourceTree = "<group>"; };
-		A262CB852160CD440050D6BC /* Swift Probe - Optional.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Swift Probe - Optional.md"; sourceTree = "<group>"; };
-		A262CBC82160CD440050D6BC /* Shadowsocks Probe I - Socks5 与 EventLoop 事件分发.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Shadowsocks Probe I - Socks5 与 EventLoop 事件分发.md"; sourceTree = "<group>"; };
-		A262CBC92160CD440050D6BC /* Shadowsocks Probe II - TCP 代理过程.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Shadowsocks Probe II - TCP 代理过程.md"; sourceTree = "<group>"; };
-		A262CBCC2160CD440050D6BC /* eventloop-flow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eventloop-flow.png"; sourceTree = "<group>"; };
-		A262CBCD2160CD440050D6BC /* IO-muti-road.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IO-muti-road.png"; sourceTree = "<group>"; };
-		A262CBCE2160CD440050D6BC /* visit-apple.com.re.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visit-apple.com.re.png"; sourceTree = "<group>"; };
-		A262CBCF2160CD440050D6BC /* handshake-time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "handshake-time.png"; sourceTree = "<group>"; };
-		A262CBD02160CD440050D6BC /* patriotic-networ-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "patriotic-networ-2.png"; sourceTree = "<group>"; };
-		A262CBD12160CD440050D6BC /* whats-shadowsocks-041.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whats-shadowsocks-041.png"; sourceTree = "<group>"; };
-		A262CBD32160CD440050D6BC /* 15033139083269.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15033139083269.jpg; sourceTree = "<group>"; };
-		A262CBD42160CD440050D6BC /* 15033138825661.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15033138825661.jpg; sourceTree = "<group>"; };
-		A262CBD52160CD440050D6BC /* agreement_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agreement_new.png; sourceTree = "<group>"; };
-		A262CBD62160CD440050D6BC /* TCPRelay.description.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TCPRelay.description.png; sourceTree = "<group>"; };
-		A262CBD72160CD440050D6BC /* Agreement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Agreement.png; sourceTree = "<group>"; };
-		A262CBD82160CD440050D6BC /* 15033138971502.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15033138971502.jpg; sourceTree = "<group>"; };
-		A262CBD92160CD440050D6BC /* handle_addr_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handle_addr_new.png; sourceTree = "<group>"; };
-		A262CBDA2160CD440050D6BC /* STAGE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = STAGE.png; sourceTree = "<group>"; };
-		A262CBDB2160CD440050D6BC /* handle_addr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handle_addr.png; sourceTree = "<group>"; };
-		A262CBDC2160CD440050D6BC /* handle_event.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handle_event.png; sourceTree = "<group>"; };
-		A262CBDD2160CD440050D6BC /* ss-event-stage-relationship.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ss-event-stage-relationship.svg"; sourceTree = "<group>"; };
 		A262CC232160D0C40050D6BC /* MarkDownBlogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkDownBlogVC.swift; sourceTree = "<group>"; };
 		A262CC252160D10E0050D6BC /* BlogListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListVC.swift; sourceTree = "<group>"; };
 		A262CC272160DBDD0050D6BC /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
@@ -279,7 +199,6 @@
 		A241BF6C20FC78840099E8A5 /* MyInsight_Swift */ = {
 			isa = PBXGroup;
 			children = (
-				A262CB542160C48E0050D6BC /* BlogMD */,
 				A2930B5B2104A08E006520FF /* General */,
 				A2930B5C2104A08E006520FF /* UIFunction */,
 				A2930B542104A08E006520FF /* StoryBoard */,
@@ -305,165 +224,6 @@
 				A241BF8F20FC78860099E8A5 /* Info.plist */,
 			);
 			path = MyInsight_SwiftUITests;
-			sourceTree = "<group>";
-		};
-		A262CB542160C48E0050D6BC /* BlogMD */ = {
-			isa = PBXGroup;
-			children = (
-				A262CB7E2160CD440050D6BC /* C */,
-				A262CBC62160CD440050D6BC /* Python */,
-				A262CB842160CD440050D6BC /* Swift */,
-				A262CB572160CCCA0050D6BC /* Objective-C */,
-			);
-			path = BlogMD;
-			sourceTree = "<group>";
-		};
-		A262CB572160CCCA0050D6BC /* Objective-C */ = {
-			isa = PBXGroup;
-			children = (
-				A262CB582160CCCA0050D6BC /* UIKit */,
-				A262CB5A2160CCCA0050D6BC /* Runtime */,
-				A262CB632160CCCA0050D6BC /* Foundation */,
-				A262CB682160CCCA0050D6BC /* SDWebImage */,
-			);
-			path = "Objective-C";
-			sourceTree = "<group>";
-		};
-		A262CB582160CCCA0050D6BC /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				A262CB592160CCCA0050D6BC /* AutoLayout 中的线性规划 - Simplex 算法.md */,
-			);
-			path = UIKit;
-			sourceTree = "<group>";
-		};
-		A262CB5A2160CCCA0050D6BC /* Runtime */ = {
-			isa = PBXGroup;
-			children = (
-				A262CB5B2160CCCA0050D6BC /* 用 isa 承载对象的类信息.md */,
-				A262CB5C2160CCCA0050D6BC /* objc_msgSend消息传递学习笔记 - 消息转发.md */,
-				A262CB5D2160CCCA0050D6BC /* objc_msgSend消息传递学习笔记 - 对象方法消息传递流程.md */,
-				A262CB5E2160CCCA0050D6BC /* 浅谈Associated Objects.md */,
-				A262CB5F2160CCCA0050D6BC /* weak 弱引用的实现方式.md */,
-				A262CB602160CCCA0050D6BC /* load 方法全程跟踪.md */,
-				A262CB612160CCCA0050D6BC /* 浅谈 block（2） - 截获变量方式.md */,
-				A262CB622160CCCA0050D6BC /* 浅谈 block（1） - clang 改写后的 block 结构.md */,
-			);
-			path = Runtime;
-			sourceTree = "<group>";
-		};
-		A262CB632160CCCA0050D6BC /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				A262CB642160CCCA0050D6BC /* CFArray 的历史渊源及实现原理.md */,
-				A262CB652160CCCA0050D6BC /* Run Loop 记录与源码注释.md */,
-				A262CB662160CCCA0050D6BC /* 复用的精妙 - UITableView 复用技术原理分析.md */,
-				A262CB672160CCCA0050D6BC /* 从经典问题来看 Copy 方法.md */,
-			);
-			path = Foundation;
-			sourceTree = "<group>";
-		};
-		A262CB682160CCCA0050D6BC /* SDWebImage */ = {
-			isa = PBXGroup;
-			children = (
-				A262CB692160CCCA0050D6BC /* SDWebImage Source Probe - Downloader.md */,
-				A262CB6A2160CCCA0050D6BC /* SDWebImage Source Probe - Operation.md */,
-				A262CB6B2160CCCA0050D6BC /* SDWebImage Source Probe - WebCache.md */,
-				A262CB6C2160CCCA0050D6BC /* SDWebImage Source Probe - Manager.md */,
-			);
-			path = SDWebImage;
-			sourceTree = "<group>";
-		};
-		A262CB7E2160CD440050D6BC /* C */ = {
-			isa = PBXGroup;
-			children = (
-				A262CB7F2160CD440050D6BC /* fishhook */,
-				A262CB822160CD440050D6BC /* mach-o */,
-			);
-			path = C;
-			sourceTree = "<group>";
-		};
-		A262CB7F2160CD440050D6BC /* fishhook */ = {
-			isa = PBXGroup;
-			children = (
-				A262CB802160CD440050D6BC /* 验证试验 - 探求 fishhook 原理（二）.md */,
-				A262CB812160CD440050D6BC /* 巧用符号表 - 探求 fishhook 原理（一）.md */,
-			);
-			path = fishhook;
-			sourceTree = "<group>";
-		};
-		A262CB822160CD440050D6BC /* mach-o */ = {
-			isa = PBXGroup;
-			children = (
-				A262CB832160CD440050D6BC /* Mach-O 文件格式探索.md */,
-			);
-			path = "mach-o";
-			sourceTree = "<group>";
-		};
-		A262CB842160CD440050D6BC /* Swift */ = {
-			isa = PBXGroup;
-			children = (
-				A262CB852160CD440050D6BC /* Swift Probe - Optional.md */,
-			);
-			path = Swift;
-			sourceTree = "<group>";
-		};
-		A262CBC62160CD440050D6BC /* Python */ = {
-			isa = PBXGroup;
-			children = (
-				A262CBC72160CD440050D6BC /* Shadowsocks */,
-			);
-			path = Python;
-			sourceTree = "<group>";
-		};
-		A262CBC72160CD440050D6BC /* Shadowsocks */ = {
-			isa = PBXGroup;
-			children = (
-				A262CBC82160CD440050D6BC /* Shadowsocks Probe I - Socks5 与 EventLoop 事件分发.md */,
-				A262CBC92160CD440050D6BC /* Shadowsocks Probe II - TCP 代理过程.md */,
-				A262CBCA2160CD440050D6BC /* media */,
-			);
-			path = Shadowsocks;
-			sourceTree = "<group>";
-		};
-		A262CBCA2160CD440050D6BC /* media */ = {
-			isa = PBXGroup;
-			children = (
-				A262CBCB2160CD440050D6BC /* 15024138759233 */,
-				A262CBD22160CD440050D6BC /* 15027549268791 */,
-			);
-			path = media;
-			sourceTree = "<group>";
-		};
-		A262CBCB2160CD440050D6BC /* 15024138759233 */ = {
-			isa = PBXGroup;
-			children = (
-				A262CBCC2160CD440050D6BC /* eventloop-flow.png */,
-				A262CBCD2160CD440050D6BC /* IO-muti-road.png */,
-				A262CBCE2160CD440050D6BC /* visit-apple.com.re.png */,
-				A262CBCF2160CD440050D6BC /* handshake-time.png */,
-				A262CBD02160CD440050D6BC /* patriotic-networ-2.png */,
-				A262CBD12160CD440050D6BC /* whats-shadowsocks-041.png */,
-			);
-			path = 15024138759233;
-			sourceTree = "<group>";
-		};
-		A262CBD22160CD440050D6BC /* 15027549268791 */ = {
-			isa = PBXGroup;
-			children = (
-				A262CBD32160CD440050D6BC /* 15033139083269.jpg */,
-				A262CBD42160CD440050D6BC /* 15033138825661.jpg */,
-				A262CBD52160CD440050D6BC /* agreement_new.png */,
-				A262CBD62160CD440050D6BC /* TCPRelay.description.png */,
-				A262CBD72160CD440050D6BC /* Agreement.png */,
-				A262CBD82160CD440050D6BC /* 15033138971502.jpg */,
-				A262CBD92160CD440050D6BC /* handle_addr_new.png */,
-				A262CBDA2160CD440050D6BC /* STAGE.png */,
-				A262CBDB2160CD440050D6BC /* handle_addr.png */,
-				A262CBDC2160CD440050D6BC /* handle_event.png */,
-				A262CBDD2160CD440050D6BC /* ss-event-stage-relationship.svg */,
-			);
-			path = 15027549268791;
 			sourceTree = "<group>";
 		};
 		A262CC29216101130050D6BC /* MarkdownView */ = {
@@ -713,51 +473,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A262CC202160CD440050D6BC /* handle_addr.png in Resources */,
 				A262CC36216104520050D6BC /* index.html in Resources */,
-				A262CC1F2160CD440050D6BC /* STAGE.png in Resources */,
-				A262CB7D2160CCCA0050D6BC /* SDWebImage Source Probe - Manager.md in Resources */,
-				A262CC142160CD440050D6BC /* visit-apple.com.re.png in Resources */,
-				A262CB6D2160CCCA0050D6BC /* AutoLayout 中的线性规划 - Simplex 算法.md in Resources */,
-				A262CB762160CCCA0050D6BC /* CFArray 的历史渊源及实现原理.md in Resources */,
-				A262CB772160CCCA0050D6BC /* Run Loop 记录与源码注释.md in Resources */,
-				A262CC222160CD440050D6BC /* ss-event-stage-relationship.svg in Resources */,
-				A262CBDE2160CD440050D6BC /* 验证试验 - 探求 fishhook 原理（二）.md in Resources */,
 				A2930B612104A08E006520FF /* Main.storyboard in Resources */,
 				A262CC38216104520050D6BC /* main.css in Resources */,
-				A262CC212160CD440050D6BC /* handle_event.png in Resources */,
-				A262CB792160CCCA0050D6BC /* 从经典问题来看 Copy 方法.md in Resources */,
-				A262CB7B2160CCCA0050D6BC /* SDWebImage Source Probe - Operation.md in Resources */,
-				A262CC162160CD440050D6BC /* patriotic-networ-2.png in Resources */,
-				A262CC1C2160CD440050D6BC /* Agreement.png in Resources */,
-				A262CB6F2160CCCA0050D6BC /* objc_msgSend消息传递学习笔记 - 消息转发.md in Resources */,
-				A262CC1D2160CD440050D6BC /* 15033138971502.jpg in Resources */,
-				A262CC172160CD440050D6BC /* whats-shadowsocks-041.png in Resources */,
-				A262CB752160CCCA0050D6BC /* 浅谈 block（1） - clang 改写后的 block 结构.md in Resources */,
-				A262CB6E2160CCCA0050D6BC /* 用 isa 承载对象的类信息.md in Resources */,
-				A262CC132160CD440050D6BC /* IO-muti-road.png in Resources */,
 				A262CC39216104520050D6BC /* main.js in Resources */,
-				A262CC1E2160CD440050D6BC /* handle_addr_new.png in Resources */,
-				A262CB712160CCCA0050D6BC /* 浅谈Associated Objects.md in Resources */,
-				A262CC192160CD440050D6BC /* 15033138825661.jpg in Resources */,
-				A262CC122160CD440050D6BC /* eventloop-flow.png in Resources */,
-				A262CB732160CCCA0050D6BC /* load 方法全程跟踪.md in Resources */,
-				A262CB742160CCCA0050D6BC /* 浅谈 block（2） - 截获变量方式.md in Resources */,
-				A262CB7C2160CCCA0050D6BC /* SDWebImage Source Probe - WebCache.md in Resources */,
-				A262CC1A2160CD440050D6BC /* agreement_new.png in Resources */,
 				A2930B632104A08E006520FF /* Assets.xcassets in Resources */,
-				A262CBE02160CD440050D6BC /* Mach-O 文件格式探索.md in Resources */,
-				A262CB782160CCCA0050D6BC /* 复用的精妙 - UITableView 复用技术原理分析.md in Resources */,
-				A262CBE12160CD440050D6BC /* Swift Probe - Optional.md in Resources */,
-				A262CC152160CD440050D6BC /* handshake-time.png in Resources */,
-				A262CC182160CD440050D6BC /* 15033139083269.jpg in Resources */,
-				A262CBDF2160CD440050D6BC /* 巧用符号表 - 探求 fishhook 原理（一）.md in Resources */,
-				A262CC112160CD440050D6BC /* Shadowsocks Probe II - TCP 代理过程.md in Resources */,
-				A262CB7A2160CCCA0050D6BC /* SDWebImage Source Probe - Downloader.md in Resources */,
-				A262CC102160CD440050D6BC /* Shadowsocks Probe I - Socks5 与 EventLoop 事件分发.md in Resources */,
-				A262CB722160CCCA0050D6BC /* weak 弱引用的实现方式.md in Resources */,
-				A262CB702160CCCA0050D6BC /* objc_msgSend消息传递学习笔记 - 对象方法消息传递流程.md in Resources */,
-				A262CC1B2160CD440050D6BC /* TCPRelay.description.png in Resources */,
 				A2930B622104A08E006520FF /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
