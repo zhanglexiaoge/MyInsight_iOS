@@ -61,13 +61,13 @@
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         fail(error);
         
-//        if (netWorkManager.reachable == NO) {
-//            NSData *data = [NSData dataWithContentsOfFile:path];
-//            if (data) {
-//
-//                success([NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil]);
-//            }
-//        }
+        //        if (netWorkManager.reachable == NO) {
+        //            NSData *data = [NSData dataWithContentsOfFile:path];
+        //            if (data) {
+        //
+        //                success([NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil]);
+        //            }
+        //        }
     }];
     //[netWorkManager stopMonitoring];
 }
@@ -140,13 +140,13 @@
         if (fail) {
             fail(error);
             
-//            if (netWorkManager.reachable == NO) {
-//                NSData *data = [NSData dataWithContentsOfFile:path];
-//                if (data) {
-//
-//                    success([NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil]);
-//                }
-//            }
+            //            if (netWorkManager.reachable == NO) {
+            //                NSData *data = [NSData dataWithContentsOfFile:path];
+            //                if (data) {
+            //
+            //                    success([NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil]);
+            //                }
+            //            }
         }
     }];
     
@@ -226,7 +226,7 @@
     [manager.responseSerializer setAcceptableContentTypes:[NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/html",@"text/plain", nil]];
     
     NSLog(@"lalalalal :%@", manager.responseSerializer.acceptableContentTypes);
-
+    
     /* 添加请求头 */
     if (header) {
         for (NSString *key in header) {
@@ -252,11 +252,90 @@
     // 发送请求
     [manager DELETE:url
          parameters:body success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        finish(responseObject);
+             finish(responseObject);
+         } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+             enError(error);
+         }];
+    
+}
+
+#pragma mark  上传图片
+/**
+ 上传图片
+ 
+ @param URLString URL
+ @param content 弹框的内容
+ @param parameters 参数体
+ @param uploadDatas 上传图片NSData
+ @param completeSuccess 成功回调
+ @param completeFailure 失败回调
+ */
++ (void)uploadFeedbackImageWithURLString:(NSString *)URLString content:(NSString *)content parameters:(id)parameters uploadDatas:(NSData *)uploadImageData completeSuccess:(void (^)(NSDictionary *respinseDic, id responseObject))completeSuccess completeFailure:(void (^)())completeFailure{
+    NSString *tips = nil;
+    // 展示等待框
+    //    if ([Public isNum:content]) {
+    //        tips = LOAD_STRING(@"net_wait");
+    //    }else {
+    //        tips = content;
+    //    }
+    
+    // 弹框
+    //[ECGCustomAlertView showWaitPopViewWithContent:tips];
+    
+    // 请求的url转码
+    URLString = [URLString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    // 初始化网络请求管理
+    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    // 设置接受类型
+    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json",@"text/json", @"text/html",nil];
+    
+    // 设置超时时间
+    [manager.requestSerializer willChangeValueForKey:@"timeoutInterval"];
+    manager.requestSerializer.timeoutInterval = 20.f;
+    [manager.requestSerializer didChangeValueForKey:@"timeoutInterval"];
+    
+    __weak typeof(self) weakSelf = self;
+    [manager POST:URLString parameters:parameters constructingBodyWithBlock:^(id< AFMultipartFormData >  _Nonnull formData) {
+        
+        NSDateFormatter *formatter=[[NSDateFormatter alloc]init];
+        formatter.dateFormat=@"yyyyMMddHHmmss";
+        NSString *str=[formatter stringFromDate:[NSDate date]];
+        NSString *fileName=[NSString stringWithFormat:@"%@.jpg",str];
+        
+        //[formData appendPartWithFileData:uploadImageData name:@"content_pic" fileName:fileName mimeType:ECGBJKeyJPEG];
+        [formData appendPartWithFileData:uploadImageData name:@"content_pic" fileName:fileName mimeType:[NSString stringWithFormat:@"%@", kUTTypeJPEG]];
+        
+    } progress:^(NSProgress * _Nonnull uploadProgress) {
+        
+    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        
+        // 转换responseObject对象
+        NSDictionary *dict = nil;
+        if ([responseObject isKindOfClass:[NSDictionary class]]) {
+            dict = (NSDictionary *)responseObject;
+        } else {
+            dict = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingAllowFragments error:nil];
+        }
+        
+        // 成功后弹框处理，回调出去
+        //        [weakSelf notDismissedWith:dict responseObject:responseObject complete:^(NSDictionary *respinseDic, id responseObject) {
+        //            completeSuccess(respinseDic,responseObject);
+        //        } failedComplete:^{
+        //            completeFailure();
+        //        }];
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        enError(error);
+        // 网络问题，弹框处理
+        //        [weakSelf notNetconnetNotDismissComplete:^{
+        //            completeFailure();
+        //        }];
     }];
     
 }
+
+
+/*
+ [ios 上传图片file文件格式](https://www.jianshu.com/p/7c51ad62dbc6)
+ */
+
 
 @end
