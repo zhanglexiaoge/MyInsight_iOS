@@ -40,6 +40,8 @@
 		A2930B852105FF94006520FF /* RealmStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2930B842105FF94006520FF /* RealmStore.swift */; };
 		E210313621EC5A12006E6ED1 /* CameraFaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E210313521EC5A12006E6ED1 /* CameraFaceVC.swift */; };
 		E2781A8321E8871C00AA2E05 /* VideoCaptureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2781A8221E8871C00AA2E05 /* VideoCaptureVC.swift */; };
+		E2A1D715221D64CB0085B0A3 /* AudioRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A1D714221D64CB0085B0A3 /* AudioRecordVC.swift */; };
+		E2A1D718221D660B0085B0A3 /* JWAudioRecode.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A1D717221D660B0085B0A3 /* JWAudioRecode.m */; };
 		E2A5E605218853EE0081B454 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A5E604218853EE0081B454 /* Model.swift */; };
 /* End PBXBuildFile section */
 
@@ -119,6 +121,9 @@
 		D75E0E3F706CCB45F5D2FA5A /* Pods-MyInsight_SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_SwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_SwiftTests/Pods-MyInsight_SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		E210313521EC5A12006E6ED1 /* CameraFaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFaceVC.swift; sourceTree = "<group>"; };
 		E2781A8221E8871C00AA2E05 /* VideoCaptureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCaptureVC.swift; sourceTree = "<group>"; };
+		E2A1D714221D64CB0085B0A3 /* AudioRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordVC.swift; sourceTree = "<group>"; };
+		E2A1D716221D660B0085B0A3 /* JWAudioRecode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWAudioRecode.h; sourceTree = "<group>"; };
+		E2A1D717221D660B0085B0A3 /* JWAudioRecode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWAudioRecode.m; sourceTree = "<group>"; };
 		E2A5E604218853EE0081B454 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		E417E39331C1C2C2D15B4B0C /* Pods-MyInsight_SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_SwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_SwiftUITests/Pods-MyInsight_SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -336,6 +341,9 @@
 				A2930B7C2104B192006520FF /* AdvanceVC.swift */,
 				E2781A8221E8871C00AA2E05 /* VideoCaptureVC.swift */,
 				E210313521EC5A12006E6ED1 /* CameraFaceVC.swift */,
+				E2A1D714221D64CB0085B0A3 /* AudioRecordVC.swift */,
+				E2A1D716221D660B0085B0A3 /* JWAudioRecode.h */,
+				E2A1D717221D660B0085B0A3 /* JWAudioRecode.m */,
 			);
 			path = Advance;
 			sourceTree = "<group>";
@@ -592,6 +600,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2A1D718221D660B0085B0A3 /* JWAudioRecode.m in Sources */,
+				E2A1D715221D64CB0085B0A3 /* AudioRecordVC.swift in Sources */,
 				E2A5E605218853EE0081B454 /* Model.swift in Sources */,
 				E2781A8321E8871C00AA2E05 /* VideoCaptureVC.swift in Sources */,
 				A262CC4421646F620050D6BC /* MyBlogVC.swift in Sources */,

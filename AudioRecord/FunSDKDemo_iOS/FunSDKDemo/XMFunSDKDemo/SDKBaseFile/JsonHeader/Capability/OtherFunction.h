@@ -1,0 +1,141 @@
+#pragma once
+#import "FunSDK/JObject.h"
+
+#define JK_OtherFunction "OtherFunction" 
+class OtherFunction : public JObject
+{
+public:
+	JBoolObj		AlterDigitalName;
+	JBoolObj		DownLoadPause;
+	JBoolObj		HddLowSpaceUseMB;
+	JBoolObj		HideDigital;
+	JBoolObj		MusicFilePlay;
+	JBoolObj		NOHDDRECORD;
+	JBoolObj		NotSupportAH;
+	JBoolObj		NotSupportAV;
+	JBoolObj		NotSupportTalk;
+	JBoolObj		SDsupportRecord;
+	JBoolObj		ShowAlarmLevelRegion;
+	JBoolObj		ShowFalseCheckTime;
+	JBoolObj		SupportAbnormitySendMail;
+	JBoolObj		SupportBT;
+	JBoolObj		SupportC7Platform;
+	JBoolObj		SupportCamareStyle;
+	JBoolObj		SupportCameraMotorCtrl;
+	JBoolObj		SupportCfgCloudupgrade;
+	JBoolObj		SupportCloudUpgrade;
+	JBoolObj		SupportCommDataUpload;
+	JBoolObj		SupportCorridorMode;
+	JBoolObj		SupportCustomOemInfo;
+	JBoolObj		SupportDigitalEncode;
+	JBoolObj		SupportDigitalPre;
+	JBoolObj		SupportDimenCode;
+	JBoolObj		SupportEncodeAddBeep;
+	JBoolObj		SupportFTPTest;
+	JBoolObj		SupportFishEye;
+	JBoolObj		SupportImpRecord;
+	JBoolObj		SupportMailTest;
+	JBoolObj		SupportMaxPlayback;
+	JBoolObj		SupportModifyFrontcfg;
+	JBoolObj		SupportNVR;
+	JBoolObj		SupportNetLocalSearch;
+	JBoolObj		SupportOSDInfo;
+	JBoolObj		SupportOnvifClient;
+	JBoolObj		SupportPOS;
+	JBoolObj		SupportPWDSafety;
+	JBoolObj		SupportPlayBackExactSeek;
+	JBoolObj		SupportPtzIdleState;
+	JBoolObj		SupportRTSPClient;
+	JBoolObj		SupportResumePtzState;
+	JBoolObj		SupportSPVMNNasServer;
+	JBoolObj		SupportSetDigIP;
+	JBoolObj		SupportShowConnectStatus;
+	JBoolObj		SupportShowProductType;
+	JBoolObj		SupportSmallChnTitleFont;
+	JBoolObj		SupportSnapCfg;
+	JBoolObj		SupportSnapSchedule;
+	JBoolObj		SupportSplitControl;
+	JBoolObj		SupportStatusLed;
+	JBoolObj		SupportStorageFailReboot;
+	JBoolObj		SupportSwitchResolution;
+	JBoolObj		SupportTextPassword;
+	JBoolObj		SupportTimeZone;
+	JBoolObj		SupportUserProgram;
+	JBoolObj		SupportWIFINVR;
+	JBoolObj		SupportWriteLog;
+	JBoolObj		Supportonviftitle;
+	JBoolObj		SuppportChangeOnvifPort;
+	JBoolObj		TitleAndStateUpload;
+    JBoolObj		SupportIntelligentPlayBack;
+	JBoolObj		USBsupportRecord;
+
+public:
+    OtherFunction(JObject *pParent = NULL, const char *szName = JK_OtherFunction):
+    JObject(pParent,szName),
+	AlterDigitalName(this, "AlterDigitalName"),
+	DownLoadPause(this, "DownLoadPause"),
+	HddLowSpaceUseMB(this, "HddLowSpaceUseMB"),
+	HideDigital(this, "HideDigital"),
+	MusicFilePlay(this, "MusicFilePlay"),
+	NOHDDRECORD(this, "NOHDDRECORD"),
+	NotSupportAH(this, "NotSupportAH"),
+	NotSupportAV(this, "NotSupportAV"),
+	NotSupportTalk(this, "NotSupportTalk"),
+	SDsupportRecord(this, "SDsupportRecord"),
+	ShowAlarmLevelRegion(this, "ShowAlarmLevelRegion"),
+	ShowFalseCheckTime(this, "ShowFalseCheckTime"),
+	SupportAbnormitySendMail(this, "SupportAbnormitySendMail"),
+	SupportBT(this, "SupportBT"),
+	SupportC7Platform(this, "SupportC7Platform"),
+	SupportCamareStyle(this, "SupportCamareStyle"),
+	SupportCameraMotorCtrl(this, "SupportCameraMotorCtrl"),
+	SupportCfgCloudupgrade(this, "SupportCfgCloudupgrade"),
+	SupportCloudUpgrade(this, "SupportCloudUpgrade"),
+	SupportCommDataUpload(this, "SupportCommDataUpload"),
+	SupportCorridorMode(this, "SupportCorridorMode"),
+	SupportCustomOemInfo(this, "SupportCustomOemInfo"),
+	SupportDigitalEncode(this, "SupportDigitalEncode"),
+	SupportDigitalPre(this, "SupportDigitalPre"),
+	SupportDimenCode(this, "SupportDimenCode"),
+	SupportEncodeAddBeep(this, "SupportEncodeAddBeep"),
+	SupportFTPTest(this, "SupportFTPTest"),
+	SupportFishEye(this, "SupportFishEye"),
+	SupportImpRecord(this, "SupportImpRecord"),
+	SupportMailTest(this, "SupportMailTest"),
+	SupportMaxPlayback(this, "SupportMaxPlayback"),
+	SupportModifyFrontcfg(this, "SupportModifyFrontcfg"),
+	SupportNVR(this, "SupportNVR"),
+	SupportNetLocalSearch(this, "SupportNetLocalSearch"),
+	SupportOSDInfo(this, "SupportOSDInfo"),
+	SupportOnvifClient(this, "SupportOnvifClient"),
+	SupportPOS(this, "SupportPOS"),
+	SupportPWDSafety(this, "SupportPWDSafety"),
+	SupportPlayBackExactSeek(this, "SupportPlayBackExactSeek"),
+	SupportPtzIdleState(this, "SupportPtzIdleState"),
+	SupportRTSPClient(this, "SupportRTSPClient"),
+	SupportResumePtzState(this, "SupportResumePtzState"),
+	SupportSPVMNNasServer(this, "SupportSPVMNNasServer"),
+	SupportSetDigIP(this, "SupportSetDigIP"),
+	SupportShowConnectStatus(this, "SupportShowConnectStatus"),
+	SupportShowProductType(this, "SupportShowProductType"),
+	SupportSmallChnTitleFont(this, "SupportSmallChnTitleFont"),
+	SupportSnapCfg(this, "SupportSnapCfg"),
+	SupportSnapSchedule(this, "SupportSnapSchedule"),
+	SupportSplitControl(this, "SupportSplitControl"),
+	SupportStatusLed(this, "SupportStatusLed"),
+	SupportStorageFailReboot(this, "SupportStorageFailReboot"),
+	SupportSwitchResolution(this, "SupportSwitchResolution"),
+	SupportTextPassword(this, "SupportTextPassword"),
+	SupportTimeZone(this, "SupportTimeZone"),
+	SupportUserProgram(this, "SupportUserProgram"),
+	SupportWIFINVR(this, "SupportWIFINVR"),
+	SupportWriteLog(this, "SupportWriteLog"),
+	Supportonviftitle(this, "Supportonviftitle"),
+	SuppportChangeOnvifPort(this, "SuppportChangeOnvifPort"),
+	TitleAndStateUpload(this, "TitleAndStateUpload"),
+    SupportIntelligentPlayBack(this, "SupportIntelligentPlayBack"),
+	USBsupportRecord(this, "USBsupportRecord"){
+	};
+
+    ~OtherFunction(void){};
+};

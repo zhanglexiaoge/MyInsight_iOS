@@ -93,7 +93,7 @@ class AdvanceVC: BaseVC {
         // 清空多余cell
         self.tableview.tableFooterView = UIView(frame: CGRect.zero)
         
-        dataArray = ["视频采集", "相机人脸"]
+        dataArray = ["视频采集", "相机人脸", "音频录音"]
     }
 
     // 设置导航栏
@@ -133,18 +133,23 @@ extension AdvanceVC: UITableViewDelegate, UITableViewDataSource {
         // VideoCapture
         
         if cellStr == "视频采集" {
-            // RunTime运行时
             let videoCaptureVC: VideoCaptureVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "VideoCaptureVC") as! VideoCaptureVC
             videoCaptureVC.title = "视频采集"
             videoCaptureVC.hidesBottomBarWhenPushed = true
             self.navigationController?.pushViewController(videoCaptureVC, animated: true)
         }
         if cellStr == "相机人脸" {
-            // RunTime运行时
             let cameraFaceVC: CameraFaceVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CameraFaceVC") as! CameraFaceVC
             cameraFaceVC.title = "相机人脸"
             cameraFaceVC.hidesBottomBarWhenPushed = true
             self.navigationController?.pushViewController(cameraFaceVC, animated: true)
+        }
+        if cellStr == "音频录音" {
+            //
+            let audioRecordVC: AudioRecordVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "AudioRecordVC") as! AudioRecordVC
+            audioRecordVC.title = "音频录制"
+            audioRecordVC.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(audioRecordVC, animated: true)
         }
         
     }
