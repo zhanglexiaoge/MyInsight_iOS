@@ -90,17 +90,7 @@ typedef struct AQRecorderState {
 
 
 + (void)stopRecording {
-//    NSLog(@"stop recording out\n");//为什么没有显示
-//    if (self.isRecording)
-//    {
-//        self.isRecording = NO;
-//
-//        //停止录音队列和移除缓冲区,以及关闭session，这里无需考虑成功与否
-//        AudioQueueStop(_audioQueue, true);
-//        AudioQueueDispose(_audioQueue, true);//移除缓冲区,true代表立即结束录制，false代表将缓冲区处理完再结束
-//        [[AVAudioSession sharedInstance] setActive:NO error:nil];
-//
-//    }
+
 }
 
 
