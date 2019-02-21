@@ -116,11 +116,17 @@
                                 <rect key="frame" x="156" y="218" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="开始录制"/>
+                                <connections>
+                                    <action selector="startVoiceRecordButtonAction:" destination="kbV-vY-7Ew" eventType="touchUpInside" id="rzW-SM-2mm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ex-v9-5ln">
                                 <rect key="frame" x="156" y="379" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="停止录制"/>
+                                <connections>
+                                    <action selector="stopVoiceRecordButtonAction:" destination="kbV-vY-7Ew" eventType="touchUpInside" id="J1o-hl-q2Q"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

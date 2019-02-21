@@ -11,5 +11,11 @@
 
 @interface JWAudioRecode : NSObject
 
+// 开始录制
+
+
+// 停止录制
+
+
 @end
 

@@ -40,6 +40,7 @@
 		A2930B852105FF94006520FF /* RealmStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2930B842105FF94006520FF /* RealmStore.swift */; };
 		E210313621EC5A12006E6ED1 /* CameraFaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E210313521EC5A12006E6ED1 /* CameraFaceVC.swift */; };
 		E2781A8321E8871C00AA2E05 /* VideoCaptureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2781A8221E8871C00AA2E05 /* VideoCaptureVC.swift */; };
+		E28CD077221EA7150029FDA0 /* AudioUnitRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = E28CD076221EA7150029FDA0 /* AudioUnitRecord.m */; };
 		E2A1D715221D64CB0085B0A3 /* AudioRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A1D714221D64CB0085B0A3 /* AudioRecordVC.swift */; };
 		E2A1D718221D660B0085B0A3 /* JWAudioRecode.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A1D717221D660B0085B0A3 /* JWAudioRecode.m */; };
 		E2A5E605218853EE0081B454 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A5E604218853EE0081B454 /* Model.swift */; };
@@ -121,6 +122,8 @@
 		D75E0E3F706CCB45F5D2FA5A /* Pods-MyInsight_SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_SwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_SwiftTests/Pods-MyInsight_SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		E210313521EC5A12006E6ED1 /* CameraFaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFaceVC.swift; sourceTree = "<group>"; };
 		E2781A8221E8871C00AA2E05 /* VideoCaptureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCaptureVC.swift; sourceTree = "<group>"; };
+		E28CD075221EA7150029FDA0 /* AudioUnitRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioUnitRecord.h; sourceTree = "<group>"; };
+		E28CD076221EA7150029FDA0 /* AudioUnitRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioUnitRecord.m; sourceTree = "<group>"; };
 		E2A1D714221D64CB0085B0A3 /* AudioRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordVC.swift; sourceTree = "<group>"; };
 		E2A1D716221D660B0085B0A3 /* JWAudioRecode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWAudioRecode.h; sourceTree = "<group>"; };
 		E2A1D717221D660B0085B0A3 /* JWAudioRecode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWAudioRecode.m; sourceTree = "<group>"; };
@@ -344,6 +347,8 @@
 				E2A1D714221D64CB0085B0A3 /* AudioRecordVC.swift */,
 				E2A1D716221D660B0085B0A3 /* JWAudioRecode.h */,
 				E2A1D717221D660B0085B0A3 /* JWAudioRecode.m */,
+				E28CD075221EA7150029FDA0 /* AudioUnitRecord.h */,
+				E28CD076221EA7150029FDA0 /* AudioUnitRecord.m */,
 			);
 			path = Advance;
 			sourceTree = "<group>";
@@ -625,6 +630,7 @@
 				A2930B732104B0BE006520FF /* TabBarVC.swift in Sources */,
 				A2930B6B2104AFBB006520FF /* MainRevealVC.swift in Sources */,
 				A262CB562160C4B90050D6BC /* Vendors.swift in Sources */,
+				E28CD077221EA7150029FDA0 /* AudioUnitRecord.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

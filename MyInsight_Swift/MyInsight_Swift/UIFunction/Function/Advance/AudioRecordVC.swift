@@ -13,6 +13,20 @@ class AudioRecordVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.view.backgroundColor = UIColor.white
+        
+    }
+    
+    
+    // MARK: 开始录制
+    @IBAction func startVoiceRecordButtonAction(_ sender: UIButton) {
+        //JWAudioRecode
+    }
+    
+    // MARK: 停止录制
+    @IBAction func stopVoiceRecordButtonAction(_ sender: UIButton) {
+        
+        
         
     }
     
