@@ -15,18 +15,29 @@ class AudioRecordVC: UIViewController {
         
         self.view.backgroundColor = UIColor.white
         
+        let myPlayer: QueuePlayer = QueuePlayer()
+        myPlayer.startPlay()
+        myPlayer.startRecord()
+        myPlayer.recordBack = {(data: Data) in
+            myPlayer.player(with: data)
+        }
+        
     }
     
     
     // MARK: 开始录制
     @IBAction func startVoiceRecordButtonAction(_ sender: UIButton) {
         //JWAudioRecode
+        
+        //AQCapture().startRecord()
+        
+        
     }
     
     // MARK: 停止录制
     @IBAction func stopVoiceRecordButtonAction(_ sender: UIButton) {
         
-        
+        //AQCapture().stopRecord()
         
     }
     
