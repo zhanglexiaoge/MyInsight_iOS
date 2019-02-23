@@ -10,18 +10,23 @@ import UIKit
 
 class AudioRecordVC: UIViewController {
 
+    
+    var liveRecorder = MLRecorder()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.view.backgroundColor = UIColor.white
         
-        let myPlayer: QueuePlayer = QueuePlayer()
-        myPlayer.startPlay()
-        myPlayer.startRecord()
-        myPlayer.recordBack = {(data: Data) in
-            myPlayer.player(with: data)
-        }
+        self.liveRecorder = MLRecorder()
         
+//        let myPlayer: QueuePlayer = QueuePlayer()
+//        myPlayer.startPlay()
+//        myPlayer.startRecord()
+//        myPlayer.recordBack = {(data: Data) in
+//            myPlayer.player(with: data)
+//        }
     }
     
     
@@ -30,7 +35,9 @@ class AudioRecordVC: UIViewController {
         //JWAudioRecode
         
         //AQCapture().startRecord()
+        //MLRecorder().startAudioQueue()
         
+        self.liveRecorder.startAudioQueue()
         
     }
     
@@ -38,7 +45,9 @@ class AudioRecordVC: UIViewController {
     @IBAction func stopVoiceRecordButtonAction(_ sender: UIButton) {
         
         //AQCapture().stopRecord()
+        //MLRecorder().stopAudioQueue()
         
+        self.liveRecorder.stopAudioQueue()
     }
     
 
