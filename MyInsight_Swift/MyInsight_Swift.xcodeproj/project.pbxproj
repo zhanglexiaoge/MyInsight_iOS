@@ -39,7 +39,8 @@
 		A2930B812104B1D1006520FF /* CommonTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2930B802104B1D1006520FF /* CommonTool.swift */; };
 		A2930B852105FF94006520FF /* RealmStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2930B842105FF94006520FF /* RealmStore.swift */; };
 		A2F8F0A2221EF0BF003F2945 /* AQRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F8F0A1221EF0BF003F2945 /* AQRecorder.m */; };
-		A2F8F0A522216812003F2945 /* MLRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F8F0A422216812003F2945 /* MLRecorder.m */; };
+		A2F8F0A522216812003F2945 /* MLRecorder.mm in Sources */ = {isa = PBXBuildFile; fileRef = A2F8F0A422216812003F2945 /* MLRecorder.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A2F8F0AE2222D14A003F2945 /* XDXRecoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = A2F8F0AD2222D149003F2945 /* XDXRecoder.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E210313621EC5A12006E6ED1 /* CameraFaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E210313521EC5A12006E6ED1 /* CameraFaceVC.swift */; };
 		E220D106221F8C2B00C0F10B /* AQCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = E220D105221F8C2B00C0F10B /* AQCapture.m */; };
 		E220D109221F94D900C0F10B /* EYRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = E220D108221F94D900C0F10B /* EYRecord.m */; };
@@ -125,7 +126,9 @@
 		A2F8F0A0221EF0BF003F2945 /* AQRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AQRecorder.h; sourceTree = "<group>"; };
 		A2F8F0A1221EF0BF003F2945 /* AQRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQRecorder.m; sourceTree = "<group>"; };
 		A2F8F0A322216812003F2945 /* MLRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLRecorder.h; sourceTree = "<group>"; };
-		A2F8F0A422216812003F2945 /* MLRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLRecorder.m; sourceTree = "<group>"; };
+		A2F8F0A422216812003F2945 /* MLRecorder.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MLRecorder.mm; sourceTree = "<group>"; };
+		A2F8F0AC2222D149003F2945 /* XDXRecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDXRecoder.h; sourceTree = "<group>"; };
+		A2F8F0AD2222D149003F2945 /* XDXRecoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = XDXRecoder.mm; sourceTree = "<group>"; };
 		A9CB2AFDBCE902DE69FFC3A4 /* Pods-MyInsight_SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_SwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_SwiftUITests/Pods-MyInsight_SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		ADB4EA70B82CF0E7F97618C5 /* Pods_MyInsight_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyInsight_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75E0E3F706CCB45F5D2FA5A /* Pods-MyInsight_SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_SwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_SwiftTests/Pods-MyInsight_SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -365,8 +368,10 @@
 				A2F8F0A0221EF0BF003F2945 /* AQRecorder.h */,
 				A2F8F0A1221EF0BF003F2945 /* AQRecorder.m */,
 				E220D104221F8C2B00C0F10B /* AQCapture.h */,
+				A2F8F0AC2222D149003F2945 /* XDXRecoder.h */,
+				A2F8F0AD2222D149003F2945 /* XDXRecoder.mm */,
 				A2F8F0A322216812003F2945 /* MLRecorder.h */,
-				A2F8F0A422216812003F2945 /* MLRecorder.m */,
+				A2F8F0A422216812003F2945 /* MLRecorder.mm */,
 				E220D10D221F99FB00C0F10B /* AudioUnitRecord.h */,
 				E220D10B221F99FB00C0F10B /* AudioUnitRecord.m */,
 				E220D10C221F99FB00C0F10B /* JWAudioRecode.h */,
@@ -643,6 +648,7 @@
 				E220D112221FCBC900C0F10B /* QueuePlayer.m in Sources */,
 				A262CC262160D10E0050D6BC /* BlogListVC.swift in Sources */,
 				E220D10E221F99FC00C0F10B /* JWAudioRecode.m in Sources */,
+				A2F8F0AE2222D14A003F2945 /* XDXRecoder.mm in Sources */,
 				A262CC242160D0C40050D6BC /* MarkDownBlogVC.swift in Sources */,
 				E210313621EC5A12006E6ED1 /* CameraFaceVC.swift in Sources */,
 				A27469B7216C63F00059E2C9 /* RunTimeVC.swift in Sources */,
@@ -650,7 +656,7 @@
 				A2930B7B2104B181006520FF /* SeniorVC.swift in Sources */,
 				A2930B7F2104B19F006520FF /* BasicVC.swift in Sources */,
 				A2930B712104B068006520FF /* WelcomeVC.swift in Sources */,
-				A2F8F0A522216812003F2945 /* MLRecorder.m in Sources */,
+				A2F8F0A522216812003F2945 /* MLRecorder.mm in Sources */,
 				A2930B7D2104B192006520FF /* AdvanceVC.swift in Sources */,
 				A2930B642104A08E006520FF /* AppDelegate.swift in Sources */,
 				A2930B852105FF94006520FF /* RealmStore.swift in Sources */,

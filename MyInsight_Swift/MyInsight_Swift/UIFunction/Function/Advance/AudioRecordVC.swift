@@ -12,6 +12,7 @@ class AudioRecordVC: UIViewController {
 
     
     var liveRecorder = MLRecorder()
+    var liveRecorder2 = XDXRecorder()
     
     
     override func viewDidLoad() {
@@ -20,6 +21,8 @@ class AudioRecordVC: UIViewController {
         self.view.backgroundColor = UIColor.white
         
         self.liveRecorder = MLRecorder()
+        self.liveRecorder2 = XDXRecorder()
+        
         
 //        let myPlayer: QueuePlayer = QueuePlayer()
 //        myPlayer.startPlay()
@@ -37,8 +40,8 @@ class AudioRecordVC: UIViewController {
         //AQCapture().startRecord()
         //MLRecorder().startAudioQueue()
         
-        self.liveRecorder.startAudioQueue()
-        
+        //self.liveRecorder.startAudioQueue()
+        self.liveRecorder2.startAudioQueue()
     }
     
     // MARK: 停止录制
@@ -47,10 +50,10 @@ class AudioRecordVC: UIViewController {
         //AQCapture().stopRecord()
         //MLRecorder().stopAudioQueue()
         
-        self.liveRecorder.stopAudioQueue()
+        //self.liveRecorder.stopAudioQueue()
+        self.liveRecorder2.stopAudioQueue()
     }
     
-
     /*
     // MARK: - Navigation
 

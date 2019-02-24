@@ -9,6 +9,6 @@
 #import "AQCapture.h"
 #import "QueuePlayer.h"
 #import "MLRecorder.h"
-
+#import "XDXRecoder.h"
 
 
