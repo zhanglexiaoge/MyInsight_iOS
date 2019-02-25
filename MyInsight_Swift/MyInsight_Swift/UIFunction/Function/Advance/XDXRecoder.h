@@ -25,4 +25,6 @@
 - (void)startAudioQueueRecorder;
 - (void)stopAudioQueueRecorder;
 
+- (void)processAudioBuffer:(AudioQueueBufferRef)buffer withQueue:(AudioQueueRef)queue;
+
 @end

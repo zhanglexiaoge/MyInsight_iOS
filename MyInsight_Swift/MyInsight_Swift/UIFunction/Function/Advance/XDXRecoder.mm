@@ -18,8 +18,14 @@ static void inputBufferHandler(void *                                 inUserData
                                const AudioStreamPacketDescription*	  inPacketDesc) {
     XDXRecorder *recoder        = (__bridge XDXRecorder *)inUserData;
     
-    NSLog(@"语音输出.... ");
+    NSLog(@"语音输出.... %@", recoder);
 //    NSLog(@"%@")
+    char * srcData = (char *) inBuffer->mAudioData;
+    int dataSize = inBuffer->mAudioDataByteSize;
+    NSLog(@"%s %d", srcData, dataSize);
+    
+    [recoder processAudioBuffer:inBuffer withQueue:inAQ];
+    
     // 出队
     AudioQueueRef queue = recoder.mQueue;
     if (recoder.isRunning) {
@@ -110,6 +116,10 @@ static void inputBufferHandler(void *                                 inUserData
         AudioQueueDispose(mQueue, true);
         mQueue = NULL;
     }
+}
+
+
+- (void)processAudioBuffer:(AudioQueueBufferRef)buffer withQueue:(AudioQueueRef)queue {
 }
 
 - (void)dealloc {
