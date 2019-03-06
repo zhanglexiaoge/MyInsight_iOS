@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Alamofire
+import AFNetworking
 
 class BaseVC: UIViewController {
 
@@ -19,6 +21,12 @@ class BaseVC: UIViewController {
         self.view.backgroundColor = UIColor.white
         
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItem.Style.plain , target: nil, action: nil)
+        
+        
+        //debugPrint("网络状态::: \(NetworkReachabilityManager()!.isReachable)")
+//        debugPrint("AF网络状态::: \(AFNetworkReachabilityManager.shared().isReachable)")
+        debugPrint("网络状态::: \(AppBackgroundService().isReachable)")
+        
     }
     
 

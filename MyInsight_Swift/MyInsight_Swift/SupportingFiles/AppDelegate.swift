@@ -8,15 +8,21 @@
 
 import UIKit
 import PushKit
+import Alamofire
+import AFNetworking
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     
+    let manager = NetworkReachabilityManager(host: "https://github.com/Alamofire/Alamofire.git")
     // 关键字设置
     public func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         debugPrint("程序启动完成")
+        
+        AFNetworkReachabilityManager.shared().startMonitoring()
+        AppBackgroundService()
         
         // 设置3D Touch
         self.setup3DTouch()

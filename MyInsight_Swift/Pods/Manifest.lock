@@ -1,4 +1,19 @@
 PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
   - Alamofire (4.7.2)
   - CryptoSwift (0.13.1)
   - GRDB.swift (3.5.0)
@@ -14,6 +29,7 @@ PODS:
   - SWRevealViewController (2.3.0)
 
 DEPENDENCIES:
+  - AFNetworking (~> 3.0)
   - Alamofire
   - CryptoSwift
   - GRDB.swift
@@ -24,6 +40,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AFNetworking
     - Alamofire
     - CryptoSwift
     - GRDB.swift
@@ -34,6 +51,7 @@ SPEC REPOS:
     - SWRevealViewController
 
 SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   CryptoSwift: ff68c35a53e03177d31aaa2c1e8b3e010aeed6cb
   GRDB.swift: 225cf9c1354753e92e20c2a1fa2912b924c9da6e
@@ -43,6 +61,6 @@ SPEC CHECKSUMS:
   SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
   SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
 
-PODFILE CHECKSUM: baf0f8bdf96924980411bdb51c43547984e5c598
+PODFILE CHECKSUM: 7f4a7125cbb22b6d179f0dce6c89eecb04a442be
 
 COCOAPODS: 1.5.3

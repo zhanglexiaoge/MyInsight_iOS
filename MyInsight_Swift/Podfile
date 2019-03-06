@@ -8,6 +8,7 @@ target 'MyInsight_Swift' do
 
   # Pods for MyInsight_Swift
   pod 'Alamofire' # 网络请求工具
+  pod 'AFNetworking', '~> 3.0'
   pod 'SnapKit'   # 代码约束布局
   # pod 'MMDrawerController' # 抽屉 swift写的
   pod 'RealmSwift'
