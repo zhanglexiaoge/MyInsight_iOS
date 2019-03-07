@@ -12,9 +12,9 @@ import Alamofire
 class AppBackgroundService: NSObject {
     
     // 监听网络状态
-    var isReachable: Bool {
-        return NetworkReachabilityManager()!.isReachable
-    }
+//    var isReachable: Bool {
+//        return NetworkReachabilityManager()!.isReachable
+//    }
     
     override init() {
         super.init()

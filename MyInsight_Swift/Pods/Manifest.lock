@@ -26,6 +26,7 @@ PODS:
   - SQLite.swift (0.11.5):
     - SQLite.swift/standard (= 0.11.5)
   - SQLite.swift/standard (0.11.5)
+  - SSZipArchive (2.1.4)
   - SWRevealViewController (2.3.0)
 
 DEPENDENCIES:
@@ -36,6 +37,7 @@ DEPENDENCIES:
   - RealmSwift
   - SnapKit
   - SQLite.swift
+  - SSZipArchive
   - SWRevealViewController
 
 SPEC REPOS:
@@ -48,6 +50,7 @@ SPEC REPOS:
     - RealmSwift
     - SnapKit
     - SQLite.swift
+    - SSZipArchive
     - SWRevealViewController
 
 SPEC CHECKSUMS:
@@ -59,8 +62,9 @@ SPEC CHECKSUMS:
   RealmSwift: 69121c8b86d0ae005fb779efdb10e606732e1c74
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+  SSZipArchive: 41455d4b8d2b6ab93990820b50dc697c2554a322
   SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
 
-PODFILE CHECKSUM: 7f4a7125cbb22b6d179f0dce6c89eecb04a442be
+PODFILE CHECKSUM: 5e4fd16e43f71dfd669db9fb38550c0c46ad215b
 
 COCOAPODS: 1.5.3

@@ -20,6 +20,7 @@ target 'MyInsight_Swift' do
   pod 'CryptoSwift'
   
   # OC
+  pod 'SSZipArchive' # 解压缩zip文件
   pod 'SWRevealViewController'
   
   # 数据库

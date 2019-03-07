@@ -21,8 +21,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     public func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         debugPrint("程序启动完成")
         
-        AFNetworkReachabilityManager.shared().startMonitoring()
-        AppBackgroundService()
+        //AFNetworkReachabilityManager.shared().startMonitoring()
+        //AppBackgroundService()
+        
+        let manager = NetworkReachabilityManager(host: "https://github.com/Alamofire/Alamofire.git")
+        
+        manager?.listener = { status in
+            switch status {
+            case .notReachable:
+                print("网络状态判断 notReachable")
+            case .unknown:
+                print("网络状态判断 unknown")
+            case .reachable(.ethernetOrWiFi):
+                print("网络状态判断 ethernetOrWiFi")
+            case .reachable(.wwan):
+                print("网络状态判断 wwan")
+            }
+            
+            // 发送通知
+        }
+        // 开始监听网络
+        manager?.startListening()
+        
         
         // 设置3D Touch
         self.setup3DTouch()

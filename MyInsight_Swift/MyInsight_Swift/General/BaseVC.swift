@@ -25,7 +25,7 @@ class BaseVC: UIViewController {
         
         //debugPrint("网络状态::: \(NetworkReachabilityManager()!.isReachable)")
 //        debugPrint("AF网络状态::: \(AFNetworkReachabilityManager.shared().isReachable)")
-        debugPrint("网络状态::: \(AppBackgroundService().isReachable)")
+        //debugPrint("网络状态::: \(AppBackgroundService().isReachable)")
         
     }
     

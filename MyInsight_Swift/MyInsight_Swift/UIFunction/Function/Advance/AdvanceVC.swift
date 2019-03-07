@@ -93,7 +93,7 @@ class AdvanceVC: BaseVC {
         // 清空多余cell
         self.tableview.tableFooterView = UIView(frame: CGRect.zero)
         
-        dataArray = ["视频采集", "相机人脸", "音频录音"]
+        dataArray = ["视频采集", "相机人脸", "音频录音", "解压缩zip文件", "Ping检测是否有网"]
     }
 
     // 设置导航栏
@@ -150,6 +150,18 @@ extension AdvanceVC: UITableViewDelegate, UITableViewDataSource {
             audioRecordVC.title = "音频录制"
             audioRecordVC.hidesBottomBarWhenPushed = true
             self.navigationController?.pushViewController(audioRecordVC, animated: true)
+        }
+        if cellStr == "解压缩zip文件" {
+            let unZipFileVC = UnZipFileVC()
+            unZipFileVC.title = "解压缩zip文件"
+            unZipFileVC.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(unZipFileVC, animated: true)
+        }
+        if cellStr == "Ping检测是否有网" {
+            let pingReachabilityVC = PingReachabilityVC()
+            pingReachabilityVC.title = "Ping检测是否有网"
+            pingReachabilityVC.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(pingReachabilityVC, animated: true)
         }
         
     }
