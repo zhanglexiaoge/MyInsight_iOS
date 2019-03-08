@@ -163,7 +163,6 @@ extension AdvanceVC: UITableViewDelegate, UITableViewDataSource {
             pingReachabilityVC.hidesBottomBarWhenPushed = true
             self.navigationController?.pushViewController(pingReachabilityVC, animated: true)
         }
-        
     }
 }
 
@@ -181,7 +180,6 @@ extension AdvanceVC {
 //        debugPrint(38&0b00100000)
 //        debugPrint(38&0b01000000)
 //        debugPrint(38&0b10000000)
-        
     }
     
     
