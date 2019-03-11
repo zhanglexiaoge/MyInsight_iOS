@@ -93,7 +93,7 @@ class AdvanceVC: BaseVC {
         // 清空多余cell
         self.tableview.tableFooterView = UIView(frame: CGRect.zero)
         
-        dataArray = ["视频采集", "相机人脸", "音频录音", "解压缩zip文件", "Ping检测是否有网"]
+        dataArray = ["视频采集", "相机人脸", "音频录音", "解压缩zip文件", "Ping检测是否有网", "局域网AlamoFire"]
     }
 
     // 设置导航栏
@@ -162,6 +162,12 @@ extension AdvanceVC: UITableViewDelegate, UITableViewDataSource {
             pingReachabilityVC.title = "Ping检测是否有网"
             pingReachabilityVC.hidesBottomBarWhenPushed = true
             self.navigationController?.pushViewController(pingReachabilityVC, animated: true)
+        }
+        if cellStr == "局域网AlamoFire" {
+            let lanAlamoFireVC = LanAlamoFireVC()
+            lanAlamoFireVC.title = "局域网AlamoFire"
+            lanAlamoFireVC.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(lanAlamoFireVC, animated: true)
         }
     }
 }
