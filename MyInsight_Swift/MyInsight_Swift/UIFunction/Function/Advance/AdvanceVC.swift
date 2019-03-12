@@ -93,7 +93,7 @@ class AdvanceVC: BaseVC {
         // 清空多余cell
         self.tableview.tableFooterView = UIView(frame: CGRect.zero)
         
-        dataArray = ["视频采集", "相机人脸", "音频录音", "解压缩zip文件", "Ping检测是否有网", "局域网AlamoFire"]
+        dataArray = ["视频采集", "相机人脸", "音频录音", "解压缩zip文件", "Ping检测是否有网", "局域网AlamoFire", "PDF看书"]
     }
 
     // 设置导航栏
@@ -168,6 +168,12 @@ extension AdvanceVC: UITableViewDelegate, UITableViewDataSource {
             lanAlamoFireVC.title = "局域网AlamoFire"
             lanAlamoFireVC.hidesBottomBarWhenPushed = true
             self.navigationController?.pushViewController(lanAlamoFireVC, animated: true)
+        }
+        if cellStr == "PDF看书" {
+            let pdfLoaderVC = PDFLoaderVC()
+            pdfLoaderVC.title = "PDF看书"
+            pdfLoaderVC.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(pdfLoaderVC, animated: true)
         }
     }
 }
