@@ -54,6 +54,7 @@
 		E220D10F221F99FC00C0F10B /* AudioUnitRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = E220D10B221F99FB00C0F10B /* AudioUnitRecord.m */; };
 		E220D112221FCBC900C0F10B /* QueuePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E220D111221FCBC900C0F10B /* QueuePlayer.m */; };
 		E2781A8321E8871C00AA2E05 /* VideoCaptureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2781A8221E8871C00AA2E05 /* VideoCaptureVC.swift */; };
+		E283B81222367DB400568C9D /* PDFLoaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E283B81122367DB400568C9D /* PDFLoaderVC.swift */; };
 		E2A1D715221D64CB0085B0A3 /* AudioRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A1D714221D64CB0085B0A3 /* AudioRecordVC.swift */; };
 		E2A5E605218853EE0081B454 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A5E604218853EE0081B454 /* Model.swift */; };
 /* End PBXBuildFile section */
@@ -157,6 +158,7 @@
 		E220D110221FCBC900C0F10B /* QueuePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueuePlayer.h; sourceTree = "<group>"; };
 		E220D111221FCBC900C0F10B /* QueuePlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueuePlayer.m; sourceTree = "<group>"; };
 		E2781A8221E8871C00AA2E05 /* VideoCaptureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCaptureVC.swift; sourceTree = "<group>"; };
+		E283B81122367DB400568C9D /* PDFLoaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFLoaderVC.swift; sourceTree = "<group>"; };
 		E2A1D714221D64CB0085B0A3 /* AudioRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordVC.swift; sourceTree = "<group>"; };
 		E2A5E604218853EE0081B454 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		E417E39331C1C2C2D15B4B0C /* Pods-MyInsight_SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_SwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_SwiftUITests/Pods-MyInsight_SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -382,6 +384,7 @@
 				E2183AA822363D7A00823240 /* LanAlamoFireVC.swift */,
 				E215DF0122321FED00FF39EE /* weex_lan.zip */,
 				E20CDF382231383C002FA919 /* PingReachabilityVC.swift */,
+				E283B81122367DB400568C9D /* PDFLoaderVC.swift */,
 				E220D110221FCBC900C0F10B /* QueuePlayer.h */,
 				E220D111221FCBC900C0F10B /* QueuePlayer.m */,
 				A2F8F0A0221EF0BF003F2945 /* AQRecorder.h */,
@@ -698,6 +701,7 @@
 				A2930B852105FF94006520FF /* RealmStore.swift in Sources */,
 				A262CC282160DBDD0050D6BC /* BaseVC.swift in Sources */,
 				E20CDF392231383C002FA919 /* PingReachabilityVC.swift in Sources */,
+				E283B81222367DB400568C9D /* PDFLoaderVC.swift in Sources */,
 				A27469B9216C7A920059E2C9 /* ClosureVC.swift in Sources */,
 				A2930B6D2104B00A006520FF /* RearRevealVC.swift in Sources */,
 				A2930B732104B0BE006520FF /* TabBarVC.swift in Sources */,
