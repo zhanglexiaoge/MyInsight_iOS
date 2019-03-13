@@ -28,6 +28,9 @@ target 'MyInsight_Swift' do
   pod 'GRDB.swift'
   ### 画图工具 Sketch
   
+  # PDF
+  pod 'ILPDFKit'
+  
   
   # MarkDown
 #  pod 'MarkdownView'

@@ -17,6 +17,7 @@ PODS:
   - Alamofire (4.7.2)
   - CryptoSwift (0.13.1)
   - GRDB.swift (3.5.0)
+  - ILPDFKit (1.2.5)
   - Realm (3.10.0):
     - Realm/Headers (= 3.10.0)
   - Realm/Headers (3.10.0)
@@ -34,6 +35,7 @@ DEPENDENCIES:
   - Alamofire
   - CryptoSwift
   - GRDB.swift
+  - ILPDFKit
   - RealmSwift
   - SnapKit
   - SQLite.swift
@@ -46,6 +48,7 @@ SPEC REPOS:
     - Alamofire
     - CryptoSwift
     - GRDB.swift
+    - ILPDFKit
     - Realm
     - RealmSwift
     - SnapKit
@@ -58,6 +61,7 @@ SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   CryptoSwift: ff68c35a53e03177d31aaa2c1e8b3e010aeed6cb
   GRDB.swift: 225cf9c1354753e92e20c2a1fa2912b924c9da6e
+  ILPDFKit: ccccf31fd5a7992275798bec02e055fdc39e3b14
   Realm: 85ab9e4f779d66f6e9ffeb118dc25b7f130c96ac
   RealmSwift: 69121c8b86d0ae005fb779efdb10e606732e1c74
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
@@ -65,6 +69,6 @@ SPEC CHECKSUMS:
   SSZipArchive: 41455d4b8d2b6ab93990820b50dc697c2554a322
   SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
 
-PODFILE CHECKSUM: 5e4fd16e43f71dfd669db9fb38550c0c46ad215b
+PODFILE CHECKSUM: 72a0faefef7c17e5ae5bb4962e1a3684f2154cca
 
 COCOAPODS: 1.5.3
