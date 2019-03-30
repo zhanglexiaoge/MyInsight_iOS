@@ -16,7 +16,7 @@ target 'MyInsight_Swift' do
   # 侧边demo MLSideslipView
   # 侧边demo DrawerViewController
   #pod 'DKChainableAnimationKit' # 动画
-  
+  pod 'WeexSDK'
   pod 'CryptoSwift'
   
   # OC

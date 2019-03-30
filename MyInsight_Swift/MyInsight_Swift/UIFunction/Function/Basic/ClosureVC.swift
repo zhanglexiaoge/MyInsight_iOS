@@ -19,6 +19,9 @@ class ClosureVC: BaseVC {
         
         creatTableView()
         
+        debugPrint("\(String(describing: Int("0001234")))")
+        
+        
         self.perform(#selector(nameSettter), with: nil, afterDelay: 3.0)
         
     }
