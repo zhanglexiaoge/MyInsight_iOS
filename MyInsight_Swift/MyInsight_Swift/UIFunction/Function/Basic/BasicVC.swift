@@ -12,6 +12,8 @@ import SWRevealViewController
 class BasicVC: BaseVC {
     let RunTimeStr = "RunTime"
     let ClosureStr = "Closure"
+    let GRDBStr = "GRDB数据库"
+    
     
     // 声明变量
     let tableview = UITableView()
@@ -64,7 +66,7 @@ class BasicVC: BaseVC {
         // 清空多余cell
         self.tableview.tableFooterView = UIView(frame: CGRect.zero)
         
-        dataArray = [RunTimeStr, ClosureStr]
+        dataArray = [RunTimeStr, ClosureStr, GRDBStr]
         
     }
     
@@ -122,6 +124,13 @@ extension BasicVC: UITableViewDelegate, UITableViewDataSource {
             closureVC.title = ClosureStr
             closureVC.hidesBottomBarWhenPushed = true
             self.navigationController?.pushViewController(closureVC, animated: true)
+        }
+        if cellStr == GRDBStr {
+            // GRDB数据库
+            let grdbVC = GRDBVC()
+            grdbVC.title = GRDBStr
+            grdbVC.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(grdbVC, animated: true)
         }
         
         
