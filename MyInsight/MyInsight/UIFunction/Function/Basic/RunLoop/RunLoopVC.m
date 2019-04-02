@@ -30,7 +30,28 @@
     self.timers = [NSMutableDictionary dictionary];
     self.threads = [NSMutableDictionary dictionary];
     
-    [self aaaa];
+    //[self aaaa];
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        //同时苹果还提供了一个操作 Common 标记的字符串：kCFRunLoopCommonModes (NSRunLoopCommonModes)，你可以用这个字符串来操作 Common Items，或标记一个 Mode 为 "Common"。使用时注意区分这个字符串和其他 mode name。
+        //commonModeItems
+        //这里使用的模式是：NSRunLoopCommonModes，这个模式等效于NSDefaultRunLoopMode和NSEventTrackingRunLoopMode的结合。
+        //运行在此模式下 commonModeItems 内 每当 RunLoop 的内容发生变化时，RunLoop 都会自动将 commonModeItems 里的 Source/Observer/Timer 同步到具有 "Common" 标记的所有Mode里。由于主线程的 RunLoop 里有两个预置的 Mode：kCFRunLoopDefaultMode 和 UITrackingRunLoopMode。这两个 Mode 都已经被标记为"Common"属性。
+        //所以NSRunLoopCommonModes此模式会处理 来自UITrackingRunLoopMode和NSDefaultRunLoopMode内的时间
+        
+        //设置主线程的运行模式为NSRunLoopCommonModes 主线程可以接受来自NSDefaultRunLoopMode和UITrackingRunLoopMode模式下的事件
+        //[[NSRunLoop currentRunLoop] runMode:NSRunLoopCommonModes beforeDate:[NSDate distantFuture]];
+        @autoreleasepool {
+            [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
+        }
+    });
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        @autoreleasepool {
+            [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
+        }
+    });
+    
 }
 
 - (void)aaaa {
