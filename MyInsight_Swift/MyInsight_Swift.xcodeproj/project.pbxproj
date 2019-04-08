@@ -47,6 +47,7 @@
 		E20CDF392231383C002FA919 /* PingReachabilityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20CDF382231383C002FA919 /* PingReachabilityVC.swift */; };
 		E20F180C222FD20C00ECF51C /* AppBackgroundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20F180B222FD20C00ECF51C /* AppBackgroundService.swift */; };
 		E210313621EC5A12006E6ED1 /* CameraFaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E210313521EC5A12006E6ED1 /* CameraFaceVC.swift */; };
+		E2131630225AFEAF0058674B /* CryptoAESVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E213162F225AFEAF0058674B /* CryptoAESVC.swift */; };
 		E215DF0222321FEE00FF39EE /* weex_lan.zip in Resources */ = {isa = PBXBuildFile; fileRef = E215DF0122321FED00FF39EE /* weex_lan.zip */; };
 		E2183AA922363D7A00823240 /* LanAlamoFireVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2183AA822363D7A00823240 /* LanAlamoFireVC.swift */; };
 		E220D106221F8C2B00C0F10B /* AQCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = E220D105221F8C2B00C0F10B /* AQCapture.m */; };
@@ -147,6 +148,7 @@
 		E20CDF382231383C002FA919 /* PingReachabilityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingReachabilityVC.swift; sourceTree = "<group>"; };
 		E20F180B222FD20C00ECF51C /* AppBackgroundService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackgroundService.swift; sourceTree = "<group>"; };
 		E210313521EC5A12006E6ED1 /* CameraFaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFaceVC.swift; sourceTree = "<group>"; };
+		E213162F225AFEAF0058674B /* CryptoAESVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAESVC.swift; sourceTree = "<group>"; };
 		E215DF0122321FED00FF39EE /* weex_lan.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = weex_lan.zip; sourceTree = "<group>"; };
 		E2183AA822363D7A00823240 /* LanAlamoFireVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanAlamoFireVC.swift; sourceTree = "<group>"; };
 		E220D104221F8C2B00C0F10B /* AQCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AQCapture.h; sourceTree = "<group>"; };
@@ -361,6 +363,7 @@
 				A27469B6216C63F00059E2C9 /* RunTimeVC.swift */,
 				A27469B8216C7A920059E2C9 /* ClosureVC.swift */,
 				A21C29D62250E75B00B401DE /* GRDBVC.swift */,
+				E213162F225AFEAF0058674B /* CryptoAESVC.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -685,6 +688,7 @@
 				E220D106221F8C2B00C0F10B /* AQCapture.m in Sources */,
 				E2781A8321E8871C00AA2E05 /* VideoCaptureVC.swift in Sources */,
 				A262CC4421646F620050D6BC /* MyBlogVC.swift in Sources */,
+				E2131630225AFEAF0058674B /* CryptoAESVC.swift in Sources */,
 				A2930B812104B1D1006520FF /* CommonTool.swift in Sources */,
 				A262CC37216104520050D6BC /* MarkdownView.swift in Sources */,
 				A2930B792104B171006520FF /* OtherVC.swift in Sources */,

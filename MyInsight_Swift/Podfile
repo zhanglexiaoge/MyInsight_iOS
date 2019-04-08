@@ -17,7 +17,7 @@ target 'MyInsight_Swift' do
   # 侧边demo DrawerViewController
   #pod 'DKChainableAnimationKit' # 动画
   pod 'WeexSDK'
-  pod 'CryptoSwift'
+  pod 'CryptoSwift' # 加密
   
   # OC
   pod 'SSZipArchive' # 解压缩zip文件
