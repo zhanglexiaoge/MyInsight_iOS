@@ -59,6 +59,15 @@ class SeniorVC: BaseVC {
         
         
         
+        
+//        let data = "{"command":"query","from_account":"15989894959","msg_type":"search","from_role":"phone","server_ip":"192.168.31.173","server_port":8101,"xmpp_username":"28ede063da14","displayname":"*gemvary*","flag":"gem45Protocol","data_length":5,"result":"success"}"
+        
+//        Data.init(bytes: UnsafeRawPointer, count: <#T##Int#>)
+        
+        
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

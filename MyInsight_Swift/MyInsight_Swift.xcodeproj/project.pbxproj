@@ -59,6 +59,7 @@
 		E283B81222367DB400568C9D /* PDFLoaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E283B81122367DB400568C9D /* PDFLoaderVC.swift */; };
 		E2A1D715221D64CB0085B0A3 /* AudioRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A1D714221D64CB0085B0A3 /* AudioRecordVC.swift */; };
 		E2A5E605218853EE0081B454 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A5E604218853EE0081B454 /* Model.swift */; };
+		E2AF7064227703DD00451729 /* DataCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF7063227703DD00451729 /* DataCrypto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -165,6 +166,7 @@
 		E283B81122367DB400568C9D /* PDFLoaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFLoaderVC.swift; sourceTree = "<group>"; };
 		E2A1D714221D64CB0085B0A3 /* AudioRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordVC.swift; sourceTree = "<group>"; };
 		E2A5E604218853EE0081B454 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E2AF7063227703DD00451729 /* DataCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCrypto.swift; sourceTree = "<group>"; };
 		E417E39331C1C2C2D15B4B0C /* Pods-MyInsight_SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInsight_SwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyInsight_SwiftUITests/Pods-MyInsight_SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -364,6 +366,7 @@
 				A27469B8216C7A920059E2C9 /* ClosureVC.swift */,
 				A21C29D62250E75B00B401DE /* GRDBVC.swift */,
 				E213162F225AFEAF0058674B /* CryptoAESVC.swift */,
+				E2AF7063227703DD00451729 /* DataCrypto.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -692,6 +695,7 @@
 				A2930B812104B1D1006520FF /* CommonTool.swift in Sources */,
 				A262CC37216104520050D6BC /* MarkdownView.swift in Sources */,
 				A2930B792104B171006520FF /* OtherVC.swift in Sources */,
+				E2AF7064227703DD00451729 /* DataCrypto.swift in Sources */,
 				A2930B6F2104B01D006520FF /* RightRevealVC.swift in Sources */,
 				E220D112221FCBC900C0F10B /* QueuePlayer.m in Sources */,
 				A262CC262160D10E0050D6BC /* BlogListVC.swift in Sources */,

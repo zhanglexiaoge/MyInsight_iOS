@@ -32,6 +32,14 @@ class CryptoAESVC: UIViewController {
     @objc func aesButtonAction(button: UIButton) -> Void {
         debugPrint("加密Button 事件")
         
+        self.aesWithThird()
+        
+        self.aesWithSelf()
+        
+    }
+    
+    // MARK: AES第三方加密
+    func aesWithThird() -> Void {
         /*
          "发送的局域网数据字符串:  {\"command\":\"query\",\"from_account\":\"15989894959\",\"from_role\":\"phone\",\"msg_type\":\"search\"}"
          "发送搜索广播的加密字符串:: oP4/FseG8xpLnOtuwmIRkqzKhU7jpP/SEVc2V8ZQvadDG9yNWugJyTQK8p7AQJa++SYw9icxP3zOt6PG3LBQCgaE3/5SZrepZGt+zlgpbQsDJsH+/ytBg91udUTAiDJ2"
@@ -73,8 +81,27 @@ class CryptoAESVC: UIViewController {
             let decrypted2 = try encryptedBase64?.decryptBase64ToString(cipher: aes)
             print("解密结果2：\(decrypted2!)")
         } catch { }
+    }
+    
+    // MARK: AES加密 自身SDK
+    func aesWithSelf() -> Void {
+        // 原始字符串
+        let str = "{\"msg_type\":\"search\",\"from_account\":\"15989894959\",\"from_role\":\"phone\",\"command\":\"query\"}"
+        // 字符串转换成Data
+        let strdata = str.data(using: String.Encoding.utf8)
+        let jiamiStr = strdata?.aes128_Encrypt(key: "gvy2674201410109")
+        debugPrint("加密后的字符串\(String(describing: jiamiStr))")
+
+        //  解密字符串
+        // base64转data
+        let jiamiiiData = Data(base64Encoded: jiamiStr!)
+        
+        let jiamiData = jiamiStr!.data(using: String.Encoding.utf8)
+        let jiemiStr = jiamiiiData!.aes128_Decrypt(key: "gvy2674201410109")
+        debugPrint("解密后的字符串\(String(describing: jiemiStr))")
         
     }
+    
     
     /*
     // MARK: - Navigation
