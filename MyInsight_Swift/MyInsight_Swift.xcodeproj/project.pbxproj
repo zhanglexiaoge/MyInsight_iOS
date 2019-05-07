@@ -11,6 +11,7 @@
 		54F0EEDE1BBD82A319DED67B /* Pods_MyInsight_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509CB801DC923C2371A0BBEC /* Pods_MyInsight_Swift.framework */; };
 		959EE1C5FEB44C844968DD51 /* Pods_MyInsight_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB4EA70B82CF0E7F97618C5 /* Pods_MyInsight_SwiftUITests.framework */; };
 		A21C29D72250E75B00B401DE /* GRDBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21C29D62250E75B00B401DE /* GRDBVC.swift */; };
+		A22F3EB12281B554007CE92C /* DataCryptoAES.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22F3EB02281B554007CE92C /* DataCryptoAES.swift */; };
 		A241BF8320FC78860099E8A5 /* MyInsight_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A241BF8220FC78860099E8A5 /* MyInsight_SwiftTests.swift */; };
 		A241BF8E20FC78860099E8A5 /* MyInsight_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A241BF8D20FC78860099E8A5 /* MyInsight_SwiftUITests.swift */; };
 		A262CB562160C4B90050D6BC /* Vendors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A262CB552160C4B90050D6BC /* Vendors.swift */; };
@@ -99,6 +100,7 @@
 		509CB801DC923C2371A0BBEC /* Pods_MyInsight_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyInsight_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B695D4DDBCB11B8FBCA2795 /* Pods_MyInsight_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyInsight_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A21C29D62250E75B00B401DE /* GRDBVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRDBVC.swift; sourceTree = "<group>"; };
+		A22F3EB02281B554007CE92C /* DataCryptoAES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCryptoAES.swift; sourceTree = "<group>"; };
 		A241BF6A20FC78840099E8A5 /* MyInsight_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyInsight_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A241BF7E20FC78860099E8A5 /* MyInsight_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyInsight_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A241BF8220FC78860099E8A5 /* MyInsight_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInsight_SwiftTests.swift; sourceTree = "<group>"; };
@@ -367,6 +369,7 @@
 				A21C29D62250E75B00B401DE /* GRDBVC.swift */,
 				E213162F225AFEAF0058674B /* CryptoAESVC.swift */,
 				E2AF7063227703DD00451729 /* DataCrypto.swift */,
+				A22F3EB02281B554007CE92C /* DataCryptoAES.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -700,6 +703,7 @@
 				E220D112221FCBC900C0F10B /* QueuePlayer.m in Sources */,
 				A262CC262160D10E0050D6BC /* BlogListVC.swift in Sources */,
 				E220D10E221F99FC00C0F10B /* JWAudioRecode.m in Sources */,
+				A22F3EB12281B554007CE92C /* DataCryptoAES.swift in Sources */,
 				A2F8F0AE2222D14A003F2945 /* XDXRecoder.mm in Sources */,
 				A262CC242160D0C40050D6BC /* MarkDownBlogVC.swift in Sources */,
 				E210313621EC5A12006E6ED1 /* CameraFaceVC.swift in Sources */,

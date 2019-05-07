@@ -26,6 +26,7 @@ class CryptoAESVC: UIViewController {
         button.setTitle("加密", for: UIControl.State.normal)
         button.addTarget(self, action: #selector(aesButtonAction(button:)), for: UIControl.Event.touchUpInside)
         button.backgroundColor = UIColor.blue
+        
     }
     
     // MARK: 加密button的事件
@@ -37,6 +38,7 @@ class CryptoAESVC: UIViewController {
         self.aesWithSelf()
         
     }
+    
     
     // MARK: AES第三方加密
     func aesWithThird() -> Void {
