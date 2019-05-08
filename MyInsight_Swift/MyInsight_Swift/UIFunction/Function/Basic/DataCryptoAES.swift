@@ -17,9 +17,10 @@ enum SymmetricCryptorError: Error {
 
 class DataCryptoAES: NSObject {
     // properties
-    
+    // 数据加密
     func crypt(string: String, key: String) throws -> Data {
         do {
+            // 字符串转data utf8
             if let data = string.data(using: String.Encoding.utf8) {
                 return try self.cryptoOperation(data, key: key, operation: CCOperation(kCCEncrypt))
             } else { throw SymmetricCryptorError.wrongInputData }
@@ -27,7 +28,7 @@ class DataCryptoAES: NSObject {
             throw(error)
         }
     }
-    
+    // 数据加密
     func crypt(data: Data, key: String) throws -> Data {
         do {
             return try self.cryptoOperation(data, key: key, operation: CCOperation(kCCEncrypt))
@@ -35,7 +36,7 @@ class DataCryptoAES: NSObject {
             throw(error)
         }
     }
-    
+    // 数据解密
     func decrypt(_ data: Data, key: String) throws -> Data  {
         do {
             return try self.cryptoOperation(data, key: key, operation: CCOperation(kCCDecrypt))
