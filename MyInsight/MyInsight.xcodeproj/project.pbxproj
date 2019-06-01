@@ -73,6 +73,7 @@
 		A22F008E21717C900047FADB /* HardwareInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A22F008D21717C900047FADB /* HardwareInfoVC.m */; };
 		A22F009421717E890047FADB /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = A22F009021717E890047FADB /* SAMKeychainQuery.m */; };
 		A22F009521717E890047FADB /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = A22F009321717E890047FADB /* SAMKeychain.m */; };
+		A22F3EB42282893E007CE92C /* EncryptTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A22F3EB32282893E007CE92C /* EncryptTestVC.m */; };
 		A236ED532139493100BF9189 /* ZhiHuDailyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A236ED522139493100BF9189 /* ZhiHuDailyVC.m */; };
 		A238AEFF215CB6E900A9959A /* IJKPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A238AEFE215CB6E900A9959A /* IJKPlayerVC.m */; };
 		A239CE1A208595C30033646A /* MultiTypeFlowLayoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A239CE19208595C30033646A /* MultiTypeFlowLayoutVC.m */; };
@@ -433,6 +434,8 @@
 		A22F009121717E890047FADB /* SAMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychain.h; sourceTree = "<group>"; };
 		A22F009221717E890047FADB /* SAMKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychainQuery.h; sourceTree = "<group>"; };
 		A22F009321717E890047FADB /* SAMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychain.m; sourceTree = "<group>"; };
+		A22F3EB22282893E007CE92C /* EncryptTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptTestVC.h; sourceTree = "<group>"; };
+		A22F3EB32282893E007CE92C /* EncryptTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptTestVC.m; sourceTree = "<group>"; };
 		A236ED512139493100BF9189 /* ZhiHuDailyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZhiHuDailyVC.h; sourceTree = "<group>"; };
 		A236ED522139493100BF9189 /* ZhiHuDailyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhiHuDailyVC.m; sourceTree = "<group>"; };
 		A238AEFD215CB6E900A9959A /* IJKPlayerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJKPlayerVC.h; sourceTree = "<group>"; };
@@ -1580,6 +1583,8 @@
 				A2561DBB2094123400D4E2E5 /* EncryptVC.m */,
 				A2E9DA32209CB6A20061B1E7 /* EncryptUtils.h */,
 				A2E9DA33209CB6A20061B1E7 /* EncryptUtils.m */,
+				A22F3EB22282893E007CE92C /* EncryptTestVC.h */,
+				A22F3EB32282893E007CE92C /* EncryptTestVC.m */,
 				A2E9DA1C2091BCE20061B1E7 /* AES */,
 				A242C1B320902BE400A6A9F7 /* RSA */,
 			);
@@ -3075,6 +3080,7 @@
 				A2D54B4220F37F92009BFF4C /* MIQuiltLayout.m in Sources */,
 				A27E8725201AC49B003E712C /* CommonTool.m in Sources */,
 				A2D884EC20886B96005116A6 /* BaseNaviVC.m in Sources */,
+				A22F3EB42282893E007CE92C /* EncryptTestVC.m in Sources */,
 				A2A77547210F2C5400A11BBC /* WordModel.m in Sources */,
 				A2DDDC1C208ACDC000DC7A4A /* QRCodeVC.m in Sources */,
 				A2CDD24E208DB789006DF86E /* DaoYingVC.m in Sources */,
