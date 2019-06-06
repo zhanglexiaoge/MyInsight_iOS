@@ -15,6 +15,26 @@ class ClosureVC: BaseVC {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        let testStr = "gem45Protocol00152ZIb2uAiJQOnfir88YX9Qe3z1gydyh2nsQ3y5ewESaYh13l/i5hBHTtyjVqApnLtZcNoBBVyI4nw/f+Jr+rJ4SqkT2d1TK7QBtdZ7Q8sMZfcdUWlaAxcEBWmZURpf5bzJ6DxBMGBJjR3D+l2JulCDCg=="
+        
+        // gem45Protocol00152ZIb2uAiJQOnfir88YX9Qe3z1gydyh2nsQ3y5ewESaYh13l/i5hBHTtyjVqApnLtZcNoBBVyI4nw/f+Jr+rJ4SqkT2d1TK7QBtdZ7Q8sMZfcdUWlaAxcEBWmZURpf5bzJ6DxBMGBJjR3D+l2JulCDCg==
+        var array = testStr.components(separatedBy: "gem45Protocol")
+//        array.removeAll { (str) -> Bool in
+//            if str != "" && str.count != 0 {
+//                return false
+//            } else {
+//                return true
+//            }
+//        }
+        
+        debugPrint("解析出来的字符串:")
+        debugPrint(array.count)
+        for str in array {
+            debugPrint("这是什么字符串: \(str)")
+        }
+        
+        
         // 闭包
         
         creatTableView()

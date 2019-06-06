@@ -8,6 +8,7 @@
 
 import UIKit
 import CryptoSwift // 加密解密
+import CommonCrypto
 
 /// AES加密
 class CryptoAESVC: UIViewController {
@@ -27,6 +28,11 @@ class CryptoAESVC: UIViewController {
         button.addTarget(self, action: #selector(aesButtonAction(button:)), for: UIControl.Event.touchUpInside)
         button.backgroundColor = UIColor.blue
         
+        // MD5加密
+        let jiami = "gungunchangjiang"
+        debugPrint("1:\(jiami.bytes.md5().toHexString().lowercased())")
+        debugPrint("2:\(jiami.md5().lowercased())")
+        debugPrint("3:\(self.md5(org: jiami).lowercased())")
     }
     
     // MARK: 加密button的事件
@@ -36,9 +42,25 @@ class CryptoAESVC: UIViewController {
         self.aesWithThird()
         
         self.aesWithSelf()
-        
     }
     
+    
+    func md5(org: String) -> String {
+        let utf8_str = org.cString(using: .utf8)
+        let str_len = CC_LONG(org.lengthOfBytes(using: .utf8))
+        let digest_len = Int(CC_MD5_DIGEST_LENGTH)
+        let result = UnsafeMutablePointer<CUnsignedChar>.allocate(capacity: digest_len)
+        
+        CC_MD5(utf8_str, str_len, result)
+        
+        let str = NSMutableString()
+        for i in 0..<digest_len {
+            str.appendFormat("%02x", result[i])
+        }
+        result.deallocate()
+        
+        return str as String
+    }
     
     // MARK: AES第三方加密
     func aesWithThird() -> Void {
