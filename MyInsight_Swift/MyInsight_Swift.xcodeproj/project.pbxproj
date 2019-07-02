@@ -46,6 +46,7 @@
 		E20CDF31223121A0002FA919 /* UnZipFileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20CDF30223121A0002FA919 /* UnZipFileVC.swift */; };
 		E20CDF372231378A002FA919 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = E20CDF362231378A002FA919 /* SimplePing.m */; };
 		E20CDF392231383C002FA919 /* PingReachabilityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20CDF382231383C002FA919 /* PingReachabilityVC.swift */; };
+		E20E765222C301C800107BAA /* GCDGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E765122C301C800107BAA /* GCDGroupVC.swift */; };
 		E20F180C222FD20C00ECF51C /* AppBackgroundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20F180B222FD20C00ECF51C /* AppBackgroundService.swift */; };
 		E210313621EC5A12006E6ED1 /* CameraFaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E210313521EC5A12006E6ED1 /* CameraFaceVC.swift */; };
 		E2131630225AFEAF0058674B /* CryptoAESVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E213162F225AFEAF0058674B /* CryptoAESVC.swift */; };
@@ -149,6 +150,7 @@
 		E20CDF352231378A002FA919 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
 		E20CDF362231378A002FA919 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
 		E20CDF382231383C002FA919 /* PingReachabilityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingReachabilityVC.swift; sourceTree = "<group>"; };
+		E20E765122C301C800107BAA /* GCDGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDGroupVC.swift; sourceTree = "<group>"; };
 		E20F180B222FD20C00ECF51C /* AppBackgroundService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackgroundService.swift; sourceTree = "<group>"; };
 		E210313521EC5A12006E6ED1 /* CameraFaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFaceVC.swift; sourceTree = "<group>"; };
 		E213162F225AFEAF0058674B /* CryptoAESVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAESVC.swift; sourceTree = "<group>"; };
@@ -364,6 +366,7 @@
 			isa = PBXGroup;
 			children = (
 				A2930B7E2104B19F006520FF /* BasicVC.swift */,
+				E20E765122C301C800107BAA /* GCDGroupVC.swift */,
 				A27469B6216C63F00059E2C9 /* RunTimeVC.swift */,
 				A27469B8216C7A920059E2C9 /* ClosureVC.swift */,
 				A21C29D62250E75B00B401DE /* GRDBVC.swift */,
@@ -687,6 +690,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E20E765222C301C800107BAA /* GCDGroupVC.swift in Sources */,
 				A21C29D72250E75B00B401DE /* GRDBVC.swift in Sources */,
 				E2A1D715221D64CB0085B0A3 /* AudioRecordVC.swift in Sources */,
 				A2F8F0A2221EF0BF003F2945 /* AQRecorder.m in Sources */,

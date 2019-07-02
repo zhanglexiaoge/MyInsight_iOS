@@ -14,7 +14,7 @@ class BasicVC: BaseVC {
     let ClosureStr = "Closure"
     let GRDBStr = "GRDB数据库"
     let AES_Crypto = "AES加密"
-    
+    let GCD_Group = "GCD调度组"
     
     // 声明变量
     let tableview = UITableView()
@@ -67,7 +67,7 @@ class BasicVC: BaseVC {
         // 清空多余cell
         self.tableview.tableFooterView = UIView(frame: CGRect.zero)
         
-        dataArray = [RunTimeStr, ClosureStr, GRDBStr, AES_Crypto]
+        dataArray = [RunTimeStr, ClosureStr, GRDBStr, AES_Crypto, GCD_Group]
         
     }
     
@@ -140,6 +140,12 @@ extension BasicVC: UITableViewDelegate, UITableViewDataSource {
             aesVC.hidesBottomBarWhenPushed = true
             self.navigationController?.pushViewController(aesVC, animated: true)
         }
-        
+        if cellStr == GCD_Group {
+            // GCD调度组
+            let gcdGroupVC = GCDGroupVC()
+            gcdGroupVC.title = GCD_Group
+            gcdGroupVC.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(gcdGroupVC, animated: true)
+        }
     }
 }
