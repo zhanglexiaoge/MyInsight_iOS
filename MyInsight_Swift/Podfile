@@ -35,6 +35,12 @@ target 'MyInsight_Swift' do
   # MarkDown
 #  pod 'MarkdownView'
   #pod 'EFMarkdown' # 编译不通过 先注释掉
+  
+  
+  # 图片加载
+  pod 'SDWebImage'
+  pod 'Kingfisher'
+  
 
   target 'MyInsight_SwiftTests' do
     inherit! :search_paths
