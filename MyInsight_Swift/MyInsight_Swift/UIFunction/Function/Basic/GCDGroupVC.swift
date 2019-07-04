@@ -65,8 +65,13 @@ class GCDGroupVC: UIViewController {
         let gropQueue:DispatchGroup = DispatchGroup.init()
         //
         let queue:DispatchQueue = DispatchQueue.init(label: "handleDataQueue")
+        
+        var strName1 = ""
+        
         gropQueue.enter()
-        self.getInfomation(gropQueue: gropQueue)
+        self.getInfomation(gropQueue: gropQueue) { (strName) in
+            strName1 = strName
+        }
         
         gropQueue.notify(queue: DispatchQueue.main) {
             self.handleDatas()
@@ -76,11 +81,12 @@ class GCDGroupVC: UIViewController {
         /*进行界面处理*/
         gropQueue.notify(queue: queue) {
             self.updateUI()
+            debugPrint("\(strName1)")
         }
         
     }
     
-    func getInfomation(gropQueue: DispatchGroup) -> Void {
+    func getInfomation(gropQueue: DispatchGroup, callback: @escaping ((String) -> Void)) -> Void {
         let requestUrl:String = "https://www.apiopen.top/novelApi"
         Alamofire.request(requestUrl, method: .get).responseJSON { (response) in
             if let json = response.result.value {
@@ -88,9 +94,10 @@ class GCDGroupVC: UIViewController {
                 let array:Array<Any> = jsonDic["data"] as! Array
                 self.allArray.append(array)
                 gropQueue.leave()
-                
+                callback("123")
             } else {
                 gropQueue.leave()
+                callback("aaa")
             }
         }
     }
@@ -98,12 +105,12 @@ class GCDGroupVC: UIViewController {
     
     /*刷新总列表*/
     func updateUI() -> Void {
-        print("更新UI:\(self.allArray)")
+        //print("更新UI:\(self.allArray)")
     }
     
     /*异步线程处理数据*/
     func handleDatas() -> Void {
-        print("处理数据:\(self.allArray)")
+        //print("处理数据:\(self.allArray)")
     }
     
 }
