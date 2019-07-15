@@ -57,6 +57,7 @@
 		E220D10E221F99FC00C0F10B /* JWAudioRecode.m in Sources */ = {isa = PBXBuildFile; fileRef = E220D10A221F99FB00C0F10B /* JWAudioRecode.m */; };
 		E220D10F221F99FC00C0F10B /* AudioUnitRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = E220D10B221F99FB00C0F10B /* AudioUnitRecord.m */; };
 		E220D112221FCBC900C0F10B /* QueuePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E220D111221FCBC900C0F10B /* QueuePlayer.m */; };
+		E23A5EFB22D5CD5D001F0AE7 /* WifiInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23A5EFA22D5CD5D001F0AE7 /* WifiInfoVC.swift */; };
 		E2781A8321E8871C00AA2E05 /* VideoCaptureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2781A8221E8871C00AA2E05 /* VideoCaptureVC.swift */; };
 		E283B81222367DB400568C9D /* PDFLoaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E283B81122367DB400568C9D /* PDFLoaderVC.swift */; };
 		E291C2F422CC89AB0022603D /* LoadGifVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E291C2F322CC89AB0022603D /* LoadGifVC.swift */; };
@@ -167,6 +168,8 @@
 		E220D10D221F99FB00C0F10B /* AudioUnitRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioUnitRecord.h; sourceTree = "<group>"; };
 		E220D110221FCBC900C0F10B /* QueuePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueuePlayer.h; sourceTree = "<group>"; };
 		E220D111221FCBC900C0F10B /* QueuePlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueuePlayer.m; sourceTree = "<group>"; };
+		E23A5EFA22D5CD5D001F0AE7 /* WifiInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiInfoVC.swift; sourceTree = "<group>"; };
+		E23A5EFC22D5CF96001F0AE7 /* MyInsight_Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyInsight_Swift.entitlements; sourceTree = "<group>"; };
 		E2781A8221E8871C00AA2E05 /* VideoCaptureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCaptureVC.swift; sourceTree = "<group>"; };
 		E283B81122367DB400568C9D /* PDFLoaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFLoaderVC.swift; sourceTree = "<group>"; };
 		E291C2F322CC89AB0022603D /* LoadGifVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadGifVC.swift; sourceTree = "<group>"; };
@@ -252,6 +255,7 @@
 		A241BF6C20FC78840099E8A5 /* MyInsight_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				E23A5EFC22D5CF96001F0AE7 /* MyInsight_Swift.entitlements */,
 				A2930B5B2104A08E006520FF /* General */,
 				A2930B5C2104A08E006520FF /* UIFunction */,
 				A2930B542104A08E006520FF /* StoryBoard */,
@@ -376,6 +380,7 @@
 				E2AF7063227703DD00451729 /* DataCrypto.swift */,
 				A22F3EB02281B554007CE92C /* DataCryptoAES.swift */,
 				E291C2F322CC89AB0022603D /* LoadGifVC.swift */,
+				E23A5EFA22D5CD5D001F0AE7 /* WifiInfoVC.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -523,6 +528,9 @@
 						CreatedOnToolsVersion = 9.4.1;
 						LastSwiftMigration = 1000;
 						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 1;
+							};
 							com.apple.BackgroundModes = {
 								enabled = 1;
 							};
@@ -718,6 +726,7 @@
 				A2F8F0AE2222D14A003F2945 /* XDXRecoder.mm in Sources */,
 				A262CC242160D0C40050D6BC /* MarkDownBlogVC.swift in Sources */,
 				E210313621EC5A12006E6ED1 /* CameraFaceVC.swift in Sources */,
+				E23A5EFB22D5CD5D001F0AE7 /* WifiInfoVC.swift in Sources */,
 				E291C2F422CC89AB0022603D /* LoadGifVC.swift in Sources */,
 				A27469B7216C63F00059E2C9 /* RunTimeVC.swift in Sources */,
 				E220D109221F94D900C0F10B /* EYRecord.m in Sources */,
@@ -897,6 +906,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MyInsight_Swift/MyInsight_Swift.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LYW4U2TVKK;
 				ENABLE_BITCODE = NO;
@@ -922,6 +932,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MyInsight_Swift/MyInsight_Swift.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LYW4U2TVKK;
 				ENABLE_BITCODE = NO;

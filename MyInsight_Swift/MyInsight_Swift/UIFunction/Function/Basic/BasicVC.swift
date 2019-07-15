@@ -15,6 +15,7 @@ class BasicVC: BaseVC {
     let GRDBStr = "GRDB数据库"
     let AES_Crypto = "AES加密"
     let GCD_Group = "GCD调度组"
+    let WifiInfo = "WiFi信息"
     
     // 声明变量
     let tableview = UITableView()
@@ -67,7 +68,7 @@ class BasicVC: BaseVC {
         // 清空多余cell
         self.tableview.tableFooterView = UIView(frame: CGRect.zero)
         
-        dataArray = [RunTimeStr, ClosureStr, GRDBStr, AES_Crypto, GCD_Group]
+        dataArray = [RunTimeStr, ClosureStr, GRDBStr, AES_Crypto, GCD_Group, WifiInfo]
         
     }
     
@@ -146,6 +147,13 @@ extension BasicVC: UITableViewDelegate, UITableViewDataSource {
             gcdGroupVC.title = GCD_Group
             gcdGroupVC.hidesBottomBarWhenPushed = true
             self.navigationController?.pushViewController(gcdGroupVC, animated: true)
+        }
+        if cellStr == WifiInfo {
+            // Wi-Fi信息
+            let wifiInfoVC = WifiInfoVC()
+            wifiInfoVC.title = WifiInfo
+            wifiInfoVC.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(wifiInfoVC, animated: true)
         }
     }
 }
