@@ -129,7 +129,7 @@ extension BasicVC: UITableViewDelegate, UITableViewDataSource {
         }
         if cellStr == GRDBStr {
             // GRDB数据库
-            let grdbVC = GRDBVC()
+            let grdbVC: GRDBVC = (UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "GRDBVC") as? GRDBVC)!
             grdbVC.title = GRDBStr
             grdbVC.hidesBottomBarWhenPushed = true
             self.navigationController?.pushViewController(grdbVC, animated: true)

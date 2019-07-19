@@ -23,8 +23,7 @@ target 'MyInsight_Swift' do
   pod 'SSZipArchive' # 解压缩zip文件
   pod 'SWRevealViewController'
   
-  # 数据库
-  #
+  # 数据库 数据库操作
   pod 'GRDB.swift'
   ### 画图工具 Sketch
   
