@@ -29,8 +29,11 @@ typedef NSInteger(^WXJSCallUpdateStyle)(NSString *instanceId,NSString *ref,NSDic
 typedef NSInteger(^WXJSCallAddEvent)(NSString *instanceId,NSString *ref,NSString *event);
 typedef NSInteger(^WXJSCallRemoveEvent)(NSString *instanceId,NSString *ref,NSString *event);
 typedef NSInteger(^WXJSCallCreateFinish)(NSString *instanceId);
+typedef NSInteger(^WXJSCallRefreshFinish)(NSString *instanceId);
+typedef NSInteger(^WXJSCallUpdateFinish)(NSString *instanceId);
 typedef NSInvocation *(^WXJSCallNativeModule)(NSString *instanceId, NSString *moduleName, NSString *methodName, NSArray *args, NSDictionary *options);
 typedef void (^WXJSCallNativeComponent)(NSString *instanceId, NSString *componentRef, NSString *methodName, NSArray *args, NSDictionary *options);
+typedef NSInteger(^WXJSCallUpdateComponentData)(NSString *instanceId, NSString *componentId, NSString *jsonData);
 
 @protocol WXBridgeProtocol <NSObject>
 
@@ -54,16 +57,12 @@ typedef void (^WXJSCallNativeComponent)(NSString *instanceId, NSString *componen
 - (JSValue *)callJSMethod:(NSString *)method args:(NSArray*)args;
 
 /**
- * Register callback when call native tasks occur
- */
-- (void)registerCallNative:(WXJSCallNative)callNative;
-
-/**
  * Reset js engine environment, called when any environment variable is changed.
  */
 - (void)resetEnvironment;
 
 @optional
+
 /**
  * Remove instance's timer.
  */
@@ -73,6 +72,18 @@ typedef void (^WXJSCallNativeComponent)(NSString *instanceId, NSString *componen
  * Called when garbage collection is wanted by sdk.
  */
 - (void)garbageCollect;
+
+@required
+
+/**
+ * Register callback when call __updateComponentData tasks occur. only use for data render
+ */
+- (void)registerCallUpdateComponentData:(WXJSCallUpdateComponentData)callUpdateComponentData;
+
+/**
+ * Register callback when call native tasks occur
+ */
+- (void)registerCallNative:(WXJSCallNative)callNative;
 
 /**
  * Register callback when addElement tasks occur
@@ -98,22 +109,27 @@ typedef void (^WXJSCallNativeComponent)(NSString *instanceId, NSString *componen
  * Register callback when updateAttrs tasks occur
  */
 - (void)registerCallUpdateAttrs:(WXJSCallUpdateAttrs)callUpdateAttrs;
+
 /**
  * Register callback when updateStyle tasks occur
  */
 - (void)registerCallUpdateStyle:(WXJSCallUpdateStyle)callUpdateStyle;
+
 /**
  * Register callback when addEvent tasks occur
  */
 - (void)registerCallAddEvent:(WXJSCallAddEvent)callAddEvent;
+
 /**
  * Register callback when removeEvent tasks occur
  */
 - (void)registerCallRemoveEvent:(WXJSCallRemoveEvent)callRemoveEvent;
+
 /**
  * Register callback when createFinish tasks occur
 */
 - (void)registerCallCreateFinish:(WXJSCallCreateFinish)callCreateFinish;
+
 /**
  * Register callback for global js function `callNativeModule`
  */
@@ -125,6 +141,16 @@ typedef void (^WXJSCallNativeComponent)(NSString *instanceId, NSString *componen
 - (void)registerCallNativeComponent:(WXJSCallNativeComponent)callNativeComponentBlock;
 
 @optional
+
+/**
+ * Register callback when refreshFinish tasks occur
+ */
+- (void)registerCallRefreshFinish:(WXJSCallRefreshFinish)callRefreshFinish;
+
+/**
+ * Register callback when updateFinish tasks occur
+ */
+- (void)registerCallUpdateFinish:(WXJSCallUpdateFinish)callUpdateFinish;
 
 /*
  * Executes the specified JavaScript code, treating the specified URL as its source location.
@@ -148,4 +174,5 @@ typedef void (^WXJSCallNativeComponent)(NSString *instanceId, NSString *componen
  * javaScript runtime context
  */
 - (JSContext*)javaScriptContext;
+
 @end

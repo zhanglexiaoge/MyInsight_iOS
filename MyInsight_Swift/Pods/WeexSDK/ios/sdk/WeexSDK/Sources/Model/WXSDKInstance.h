@@ -23,6 +23,7 @@
 #import "WXResourceResponse.h"
 #import "WXResourceRequest.h"
 #import "WXBridgeProtocol.h"
+#import "WXApmForInstance.h"
 
 extern NSString *const bundleUrlOptionKey;
 
@@ -51,6 +52,11 @@ extern NSString *const bundleUrlOptionKey;
 @property (nonatomic, assign) BOOL needValidate;
 
 /**
+ * Which indicates current instance use backup JS thread run,default value is false.
+ **/
+@property (nonatomic, assign) BOOL useBackupJsThread;
+
+/**
  * The scriptURL of weex bundle.
  **/
 @property (nonatomic, strong) NSURL *scriptURL;
@@ -74,6 +80,16 @@ extern NSString *const bundleUrlOptionKey;
  * Which indicates current instance needs to be prerender or not,default value is false.
  **/
 @property (nonatomic, assign) BOOL needPrerender;
+
+/**
+ * Custom info.
+ **/
+@property (nonatomic, strong) NSDictionary* containerInfo;
+
+/**
+ * Whether this instance is rendered or not. Please MUST not render an instance twice even if you have called destroyInstance.
+ **/
+@property (nonatomic, assign, readonly) BOOL isRendered;
 
 /**
  * The state of current instance.
@@ -139,6 +155,16 @@ typedef NS_ENUM(NSInteger, WXErrorCode) {//error.code
 @property (nonatomic, strong) NSString * bundleType;
 
 /**
+ *  Which decide whether to use data render,default value is false
+ */
+@property (nonatomic, assign, readonly) BOOL dataRender;
+
+/**
+ *  Which decide whether to use binary code render, default value is false
+ */
+@property (nonatomic, assign, readonly) BOOL wlasmRender;
+    
+/**
  *  The callback triggered when the instance fails to render.
  *
  *  @return A block that takes a NSError argument, which is the error occured
@@ -185,6 +211,7 @@ typedef NS_ENUM(NSInteger, WXErrorCode) {//error.code
  */
 @property (nonatomic, copy) BOOL (^onRenderTerminateWhenJSDownloadedFinish)(WXResourceResponse *response,WXResourceRequest *request,NSData *data, NSError* error);
 
+@property(nonatomic,strong) NSDictionary* continerInfo;
 
 /**
  *  the frame of current instance.
@@ -241,7 +268,7 @@ typedef NS_ENUM(NSInteger, WXErrorCode) {//error.code
  *
  * @param data The data the bundle needs when rendered. Defalut is nil.
  **/
-- (void)renderView:(NSString *)source options:(NSDictionary *)options data:(id)data;
+- (void)renderView:(id)source options:(NSDictionary *)options data:(id)data;
 
 /**
  * Reload the js bundle from the current URL and rerender.
@@ -252,6 +279,11 @@ typedef NS_ENUM(NSInteger, WXErrorCode) {//error.code
 - (void)reload:(BOOL)forcedReload;
 
 /**
+ * Refreshes current instance components' layout after setting custom view port/device width.
+ **/
+- (void)reloadLayout;
+
+/**
  * Refreshes current instance with data.
  *
  * @param data The data the bundle needs when rendered.
@@ -259,7 +291,7 @@ typedef NS_ENUM(NSInteger, WXErrorCode) {//error.code
 - (void)refreshInstance:(id)data;
 
 /**
- * Destroys current instance.
+ * Destroys current instance. An instance destroyed should not be used for rendering again, please create another instance.
  **/
 - (void)destroyInstance;
 
@@ -283,6 +315,11 @@ typedef NS_ENUM(NSInteger, WXErrorCode) {//error.code
  */
 - (NSUInteger)numberOfComponents;
 
+/**
+ * Enumerate components using breadth-first search algorithm,
+ must be called on component thread by calling WXPerformBlockOnComponentThread
+ */
+- (void)enumerateComponentsUsingBlock:(void (^)(WXComponent *component, BOOL *stop))block;
 
 /**
  * check whether the module eventName is registered
@@ -308,13 +345,44 @@ typedef NS_ENUM(NSInteger, WXErrorCode) {//error.code
 - (NSURL *)completeURL:(NSString *)url;
 
 /**
+ * jsbundle str ,may be nil (weak)
+ */
+- (NSString*) bundleTemplate;
+
+/**
  * application performance statistics
  */
 @property (nonatomic, strong) NSString *bizType;
 @property (nonatomic, strong) NSString *pageName;
 @property (nonatomic, weak) id pageObject;
+//Deprecated, use @WXApmForInstance
 @property (nonatomic, strong) NSMutableDictionary *performanceDict;
 
+@property (nonatomic ,strong) WXApmForInstance* apmInstance;
+
+/**
+ * Raw css styles are dropped after applied to layout nodes in WeexCore.
+ * If a page needs hot refresh(without recreating instance and reload js) after screen orientation changes or
+ * after setting custom view-port-width/screen-width/, you need to call setPageNeedsRawCssStyles to store all css styles
+ * internally for later use. Or you can use MetaModule's setPageArguments method and provide "reserveCssStyles" as "true" before rendering the page.
+ */
+- (void)setPageKeepRawCssStyles;
+- (void)isKeepingRawCssStyles:(void(^)(BOOL))callback;
+
+/**
+ * Set additional argument value for WeexCore
+ */
+- (void)setPageArgument:(NSString*)key value:(NSString*)value;
+
+/**
+ * Set specific required page width and height to prevent this page using global values.
+ */
+- (void)setPageRequiredWidth:(CGFloat)width height:(CGFloat)height;
+
+/**
+ * Set specific required view port width prevent this page using global value (750px).
+ */
+- (void)setViewportWidth:(CGFloat)width;
 
 /** 
  * Deprecated 

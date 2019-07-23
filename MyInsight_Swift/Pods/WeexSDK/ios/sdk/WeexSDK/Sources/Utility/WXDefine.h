@@ -6,9 +6,9 @@
  * to you under the Apache License, Version 2.0 (the
  * "License"); you may not use this file except in compliance
  * with the License.  You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing,
  * software distributed under the License is distributed on an
  * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
@@ -20,7 +20,7 @@
 #ifndef __WX_DEFINE_H__
 #define __WX_DEFINE_H__
 
-#define WX_SDK_VERSION @"0.19.0"
+#define WX_SDK_VERSION @"0.24.0"
 
 #if defined(__cplusplus)
 #define WX_EXTERN extern "C" __attribute__((visibility("default")))
@@ -89,6 +89,8 @@ parts = [parts subarrayWithRange:(NSRange){0, parts.count - 1}];\
 
 #define WX_BRIDGE_THREAD_NAME @"com.taobao.weex.bridge"
 
+#define WX_BACKUP_BRIDGE_THREAD_NAME @"com.taobao.weex.backup.bridge"
+
 #define WX_FONT_DOWNLOAD_DIR [[WXUtility cacheDirectory] stringByAppendingPathComponent:[NSString stringWithFormat:@"wxdownload"]]
 
 #define WX_EXPORT_METHOD_INTERNAL(method, token) \
@@ -125,8 +127,8 @@ parts = [parts subarrayWithRange:(NSRange){0, parts.count - 1}];\
 #endif
 
 /**
- *  @abstract Compared with system version of current device 
- *  
+ *  @abstract Compared with system version of current device
+ *
  *  @return YES if greater than or equal to the system verison, otherwise, NO.
  *
  */
@@ -183,3 +185,11 @@ return;\
 #endif
 
 #endif
+
+WX_EXTERN_C_BEGIN
+
+NSString* GetWeexSDKVersion(void);
+NSString* GetWeexSDKBuildTime(void);
+unsigned long GetWeexSDKBuildTimestamp(void);
+
+WX_EXTERN_C_END

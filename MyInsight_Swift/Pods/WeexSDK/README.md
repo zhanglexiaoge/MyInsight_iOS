@@ -2,7 +2,7 @@
 
 A framework for building Mobile cross-platform UI.
 
-[![CircleCI](https://circleci.com/gh/alibaba/weex/tree/dev.svg?style=svg&circle-token=b83b047a3a01f6ec26458a455530a5ddc261925f)](https://circleci.com/gh/alibaba/weex/tree/dev)
+[![Build Status](https://travis-ci.org/apache/incubator-weex.svg?branch=master)](https://travis-ci.org/apache/incubator-weex/)
 
 | platform | status |
 | -------- | ------ |
@@ -11,6 +11,8 @@ A framework for building Mobile cross-platform UI.
 | [Mobile Web](https://github.com/weexteam/weex-vue-render) | [![npm version](https://badge.fury.io/js/weex-html5.svg)](https://www.npmjs.com/package/weex-vue-render) |
 
 Support Android 4.1 (API 16), iOS 8.0+ and WebKit 534.30+.
+
+**Note: Please note the above download distribution is only for users' users' convenience. Weex Release is always in the format of [source code](https://weex.apache.org/download/download.html).**
 
 ## For Windows
 
@@ -37,7 +39,7 @@ Please ***INSTALL [Git for Windows](https://git-scm.com/download/win)*** and run
     * `npm install`, install project
     * `./start`
     * Install [Android Environment](http://developer.android.com/training/basics/firstapp/index.html)
-    * Install [NDK](https://developer.android.com/ndk/) r16
+    * Install [NDK](https://developer.android.com/ndk/) r18
     * Install [Cmake](https://cmake.org/download/) 3.9.0+
 * Run playground, In Android Studio
     * Open `android/playground`
@@ -97,14 +99,14 @@ Weex team have developed a [DevTool](https://github.com/weexteam/weex-devtool) t
 
 See more stuff on [this wiki page](https://github.com/alibaba/weex/wiki/Weex-Community)
 
-### Weex Community
-
+## Weex Community
+* [Mailing List](https://weex-project.io/contributing.html#join-in-discussions) Weex Mailing List, where most discussion happens.
 * [StackOverflow](http://stackoverflow.com/questions/tagged/weex): Ask questions about Weex.
 * [SegmentFault (cn)](https://segmentfault.com/t/weex): 中文交流与讨论
 * [FAQ](https://weex.apache.org/faq.html)
 * [Articles (cn)](https://github.com/weexteam/article/issues): Weex 相关文章集合
 * [Telegram Russian Community Group](https://telegram.me/weex_ru)
 
-## Contributing
+### Contributing
 
 See [Weex Contributing Guide](./CONTRIBUTING.md) for more information.

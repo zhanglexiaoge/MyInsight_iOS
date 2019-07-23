@@ -52,7 +52,7 @@ do {\
 
 #define WX_FREE_FLIST(_ppFree, _count) \
 do {\
-    for(int i = 0; i < _count; i++){\
+    for(int i = 0; i < (_count); i++){\
         if(*(_ppFree + i ) != 0) {\
             free(*(_ppFree + i));\
         }\
@@ -77,9 +77,17 @@ do {\
         WX_ENUMBER_CASE(_invocation, idx, _C_FLT, _obj, float, floatValue, _ppFree)\
         WX_ENUMBER_CASE(_invocation, idx, _C_DBL, _obj, double, doubleValue, _ppFree)\
         WX_ENUMBER_CASE(_invocation, idx, _C_BOOL, _obj, bool, boolValue, _ppFree)\
+        WX_ENUMBER_CASE(_invocation, idx, _C_CHR, _obj, char, charValue, _ppFree)\
         default: { [_invocation setArgument:&_obj atIndex:(idx) + 2]; *(_ppFree + idx) = 0; break;}\
     }\
 }while(0)
+
+#define WXPointEqualToPoint __WXPointEqualToPoint
+CG_INLINE bool
+__WXPointEqualToPoint(CGPoint point1, CGPoint point2)
+{
+    return fabs (point1.x - point2.x) < 0.00001 && fabs (point1.y - point2.y) < 0.00001;
+}
 
 #ifdef __cplusplus
 extern "C" {
@@ -130,6 +138,8 @@ _Nonnull SEL WXSwizzledSelectorForSelector(_Nonnull SEL selector);
 + (NSDictionary *_Nonnull)getEnvironment;
 
 + (NSDictionary *_Nonnull)getDebugEnvironment;
+
++ (WXLayoutDirection)getEnvLayoutDirection;
 
 /**
  * @abstract UserAgent Generation
@@ -483,8 +493,12 @@ BOOL WXFloatGreaterThanWithPrecision(CGFloat a,CGFloat b,double precision);
  */
 + (NSData *_Nonnull)base64DictToData:(NSDictionary *_Nullable)base64Dict;
 
-+ (void)setThreadSafeCollectionUsingLock:(BOOL)usingLock;
++ (void)setEnableRTLLayoutDirection:(BOOL)value;
 
-+ (BOOL)threadSafeCollectionUsingLock;
++ (BOOL)enableRTLLayoutDirection;
+
++ (long) getUnixFixTimeMillis;
+
++ (NSArray<NSString *> *_Nullable)extractPropertyNamesOfJSValueObject:(JSValue *_Nullable)jsvalue;
 
 @end

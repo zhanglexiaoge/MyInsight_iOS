@@ -11,4 +11,6 @@
 #import "MLRecorder.h"
 #import "XDXRecoder.h"
 
+#import "WeexModule.h"
+
 #import "SimplePing.h"

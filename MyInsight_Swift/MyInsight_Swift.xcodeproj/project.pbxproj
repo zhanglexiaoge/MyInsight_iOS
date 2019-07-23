@@ -60,6 +60,7 @@
 		E23A5EFB22D5CD5D001F0AE7 /* WifiInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23A5EFA22D5CD5D001F0AE7 /* WifiInfoVC.swift */; };
 		E2781A8321E8871C00AA2E05 /* VideoCaptureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2781A8221E8871C00AA2E05 /* VideoCaptureVC.swift */; };
 		E283B81222367DB400568C9D /* PDFLoaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E283B81122367DB400568C9D /* PDFLoaderVC.swift */; };
+		E290ED8C22E6D82F00BFF002 /* WeexModule.m in Sources */ = {isa = PBXBuildFile; fileRef = E290ED8B22E6D82F00BFF002 /* WeexModule.m */; };
 		E291C2F422CC89AB0022603D /* LoadGifVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E291C2F322CC89AB0022603D /* LoadGifVC.swift */; };
 		E2A1D715221D64CB0085B0A3 /* AudioRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A1D714221D64CB0085B0A3 /* AudioRecordVC.swift */; };
 		E2A5E605218853EE0081B454 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A5E604218853EE0081B454 /* Model.swift */; };
@@ -172,6 +173,8 @@
 		E23A5EFC22D5CF96001F0AE7 /* MyInsight_Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyInsight_Swift.entitlements; sourceTree = "<group>"; };
 		E2781A8221E8871C00AA2E05 /* VideoCaptureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCaptureVC.swift; sourceTree = "<group>"; };
 		E283B81122367DB400568C9D /* PDFLoaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFLoaderVC.swift; sourceTree = "<group>"; };
+		E290ED8A22E6D82F00BFF002 /* WeexModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeexModule.h; sourceTree = "<group>"; };
+		E290ED8B22E6D82F00BFF002 /* WeexModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeexModule.m; sourceTree = "<group>"; };
 		E291C2F322CC89AB0022603D /* LoadGifVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadGifVC.swift; sourceTree = "<group>"; };
 		E2A1D714221D64CB0085B0A3 /* AudioRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordVC.swift; sourceTree = "<group>"; };
 		E2A5E604218853EE0081B454 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -424,6 +427,8 @@
 				E220D105221F8C2B00C0F10B /* AQCapture.m */,
 				E220D107221F94D900C0F10B /* EYRecord.h */,
 				E220D108221F94D900C0F10B /* EYRecord.m */,
+				E290ED8A22E6D82F00BFF002 /* WeexModule.h */,
+				E290ED8B22E6D82F00BFF002 /* WeexModule.m */,
 			);
 			path = Advance;
 			sourceTree = "<group>";
@@ -729,6 +734,7 @@
 				E23A5EFB22D5CD5D001F0AE7 /* WifiInfoVC.swift in Sources */,
 				E291C2F422CC89AB0022603D /* LoadGifVC.swift in Sources */,
 				A27469B7216C63F00059E2C9 /* RunTimeVC.swift in Sources */,
+				E290ED8C22E6D82F00BFF002 /* WeexModule.m in Sources */,
 				E220D109221F94D900C0F10B /* EYRecord.m in Sources */,
 				A2930B7B2104B181006520FF /* SeniorVC.swift in Sources */,
 				E20CDF31223121A0002FA919 /* UnZipFileVC.swift in Sources */,

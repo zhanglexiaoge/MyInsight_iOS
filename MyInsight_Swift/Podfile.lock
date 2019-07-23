@@ -33,7 +33,7 @@ PODS:
   - SQLite.swift/standard (0.11.5)
   - SSZipArchive (2.1.4)
   - SWRevealViewController (2.3.0)
-  - WeexSDK (0.19.0.2)
+  - WeexSDK (0.26.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
@@ -81,8 +81,8 @@ SPEC CHECKSUMS:
   SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
   SSZipArchive: 41455d4b8d2b6ab93990820b50dc697c2554a322
   SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
-  WeexSDK: 0515e386d0eae3400ed8e55f31f198ae35acce44
+  WeexSDK: 55b67d1c411eb28ec1e356f763a335d0ddcc5324
 
-PODFILE CHECKSUM: b6d9383b48f4be81407b1cded3c670e6f345ef21
+PODFILE CHECKSUM: 205dcf2815b1f0284fdc72bc1f1a8c4ce5583e21
 
 COCOAPODS: 1.5.3

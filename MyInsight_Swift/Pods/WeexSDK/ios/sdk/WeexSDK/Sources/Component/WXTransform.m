@@ -245,12 +245,16 @@
         return;
     }
     
-    NSError *error = NULL;
-    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"(\\w+)\\((.+?)\\)"
-                                                                           options:NSRegularExpressionCaseInsensitive
-                                                                             error:&error];
+    static NSRegularExpression* parseRegex = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        NSError *error = NULL;
+        parseRegex = [NSRegularExpression regularExpressionWithPattern:@"(\\w+)\\((.+?)\\)"
+                                                               options:NSRegularExpressionCaseInsensitive
+                                                                 error:&error];
+    });
     
-    NSArray *matches = [regex matchesInString:cssValue options:0 range:NSMakeRange(0, cssValue.length)];
+    NSArray *matches = [parseRegex matchesInString:cssValue options:0 range:NSMakeRange(0, cssValue.length)];
     
     for (NSTextCheckingResult *match in matches) {
         NSString *name = [cssValue substringWithRange:[match rangeAtIndex:1]];
@@ -259,19 +263,9 @@
         SEL method = NSSelectorFromString([NSString stringWithFormat:@"parse%@:", [name capitalizedString]]);
         if ([self respondsToSelector:method]) {
             @try {
-                id<WXConfigCenterProtocol> configCenter = [WXSDKEngine handlerForProtocol:@protocol(WXConfigCenterProtocol)];
-                BOOL parseTransformIfWaitUntilDone = NO;
-                if ([configCenter respondsToSelector:@selector(configForKey:defaultValue:isDefault:)]) {
-                    parseTransformIfWaitUntilDone = [[configCenter configForKey:@"iOS_weex_ext_config.parseTransformIfWaitUntilDone" defaultValue:@(NO) isDefault:NULL] boolValue];
-                }
-                if (parseTransformIfWaitUntilDone) {
-                    [self performSelectorOnMainThread:method withObject:value waitUntilDone:YES];
-                }
-                else{
-                    IMP imp = [self methodForSelector:method];
-                    void (*func)(id, SEL,NSArray *) = (void *)imp;
-                    func(self, method,value);
-                }
+                IMP imp = [self methodForSelector:method];
+                void (*func)(id, SEL,NSArray *) = (void *)imp;
+                func(self, method,value);
             }
             @catch (NSException *exception) {
                 WXLogError(@"WXTransform exception:%@", [exception reason]);
@@ -407,12 +401,12 @@
 
 - (void)parseScalex:(NSArray *)value
 {
-    [self parseScale:@[value[0], @1]];
+	_scaleX = [value[0] doubleValue];
 }
 
 - (void)parseScaley:(NSArray *)value
 {
-    [self parseScale:@[@1, value[0]]];
+	_scaleY = [value[0] doubleValue];
 }
 
 // Angle in radians
