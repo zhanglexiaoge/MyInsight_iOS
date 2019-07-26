@@ -23,6 +23,9 @@ class GRDBVC: UIViewController {
     // MARK: 创建数据库
     @IBAction func createTableAction(_ sender: UIButton) {
         debugPrint("创建数据库")
+        
+        
+        
     }
     
     // MARK: 添加数据
