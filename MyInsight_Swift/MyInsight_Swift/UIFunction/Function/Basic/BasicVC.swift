@@ -16,11 +16,16 @@ class BasicVC: BaseVC {
     let AES_Crypto = "AES加密"
     let GCD_Group = "GCD调度组"
     let WifiInfo = "WiFi信息"
+    let DatePick = "日期选择"
+    let TimePick = "时间选择"
     
     // 声明变量
     let tableview = UITableView()
     // 数组
-    var dataArray = Array<String>()
+    fileprivate lazy var dataArray = { () -> [String] in
+        let array = [RunTimeStr, ClosureStr, GRDBStr, AES_Crypto, GCD_Group, WifiInfo, DatePick, TimePick]
+        return array
+    }()
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -47,6 +52,9 @@ class BasicVC: BaseVC {
         self.navigationItem.leftBarButtonItem = UIBarButtonItem.init(title: "左边", style: UIBarButtonItem.Style.plain, target: self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:))) //revealToggle(_:)
         self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(title: "右边", style: UIBarButtonItem.Style.plain, target: self.revealViewController(), action: #selector(SWRevealViewController.rightRevealToggle(_:)))
         
+        self.view.backgroundColor = UIColor.white
+        self.tableview.backgroundColor = UIColor.white
+        
         // 可以写swift的一些特性
         let name: String? = "老王"
         
@@ -68,9 +76,45 @@ class BasicVC: BaseVC {
         // 清空多余cell
         self.tableview.tableFooterView = UIView(frame: CGRect.zero)
         
-        dataArray = [RunTimeStr, ClosureStr, GRDBStr, AES_Crypto, GCD_Group, WifiInfo]
+//        dataArray = [RunTimeStr, ClosureStr, GRDBStr, AES_Crypto, GCD_Group, WifiInfo]
+        // 303030434246324335453435
+        // hex值转换十六进制
+        let str: String = String(data: Data(hex: "303030434246324335453435"), encoding: String.Encoding.utf8)!
         
+        debugPrint("转换后的字符串内容", str)
+        
+        var tempStr = ""
+        
+//        for index in 0...5 {
+//            print("\(index) 乘于 5 为：\(index * 5)")
+//            // str = str + string.substring(with: NSMakeRange(0,2)).uppercased()
+//            tempStr = tempStr + str.prefix(upTo: <#T##String.Index#>)
+//        }
+        
+        
+        let x = "000CBF2C5E45"
+        
+        var newText = String()
+        for (index, character) in x.enumerated() {
+            if index != 0 && index % 2 == 0 {
+                newText.append(":")
+            }
+            newText.append(String(character))
+        }
+        print(newText)
+        
+        
+        let s = "000CBF2C5E45"
+        let r = String(s.enumerated().map { $0 > 0 && $0 % 2 == 0 ? [":", $1] : [$1]}.joined())
+        
+        print(r)
     }
+    
+    
+    
+    
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -154,6 +198,26 @@ extension BasicVC: UITableViewDelegate, UITableViewDataSource {
             wifiInfoVC.title = WifiInfo
             wifiInfoVC.hidesBottomBarWhenPushed = true
             self.navigationController?.pushViewController(wifiInfoVC, animated: true)
+        }
+        if cellStr == DatePick {
+            // 日期选择
+            let datePickerVC = DatePickerVC()
+            datePickerVC.hidesBottomBarWhenPushed = true
+            //self.navigationController?.pushViewController(datePickerVC, animated: true)
+            datePickerVC.view.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3)
+            self.present(datePickerVC, animated: true) {
+                
+            }
+        }
+        if cellStr == TimePick {
+            // 时间选择
+            let timePickerVC = TimePickerVC()
+            timePickerVC.hidesBottomBarWhenPushed = true
+            //self.navigationController?.pushViewController(timePickerVC, animated: true)
+            timePickerVC.view.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3)
+            self.present(timePickerVC, animated: true) {
+                
+            }
         }
     }
 }

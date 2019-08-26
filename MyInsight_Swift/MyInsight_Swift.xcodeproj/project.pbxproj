@@ -57,6 +57,8 @@
 		E220D10E221F99FC00C0F10B /* JWAudioRecode.m in Sources */ = {isa = PBXBuildFile; fileRef = E220D10A221F99FB00C0F10B /* JWAudioRecode.m */; };
 		E220D10F221F99FC00C0F10B /* AudioUnitRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = E220D10B221F99FB00C0F10B /* AudioUnitRecord.m */; };
 		E220D112221FCBC900C0F10B /* QueuePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E220D111221FCBC900C0F10B /* QueuePlayer.m */; };
+		E22D6A6F23137FB000537DA7 /* DatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22D6A6E23137FB000537DA7 /* DatePickerVC.swift */; };
+		E22D6A7123137FC700537DA7 /* TimePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22D6A7023137FC700537DA7 /* TimePickerVC.swift */; };
 		E23A5EFB22D5CD5D001F0AE7 /* WifiInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23A5EFA22D5CD5D001F0AE7 /* WifiInfoVC.swift */; };
 		E2781A8321E8871C00AA2E05 /* VideoCaptureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2781A8221E8871C00AA2E05 /* VideoCaptureVC.swift */; };
 		E283B81222367DB400568C9D /* PDFLoaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E283B81122367DB400568C9D /* PDFLoaderVC.swift */; };
@@ -169,6 +171,8 @@
 		E220D10D221F99FB00C0F10B /* AudioUnitRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioUnitRecord.h; sourceTree = "<group>"; };
 		E220D110221FCBC900C0F10B /* QueuePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueuePlayer.h; sourceTree = "<group>"; };
 		E220D111221FCBC900C0F10B /* QueuePlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueuePlayer.m; sourceTree = "<group>"; };
+		E22D6A6E23137FB000537DA7 /* DatePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerVC.swift; sourceTree = "<group>"; };
+		E22D6A7023137FC700537DA7 /* TimePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerVC.swift; sourceTree = "<group>"; };
 		E23A5EFA22D5CD5D001F0AE7 /* WifiInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiInfoVC.swift; sourceTree = "<group>"; };
 		E23A5EFC22D5CF96001F0AE7 /* MyInsight_Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyInsight_Swift.entitlements; sourceTree = "<group>"; };
 		E2781A8221E8871C00AA2E05 /* VideoCaptureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCaptureVC.swift; sourceTree = "<group>"; };
@@ -384,6 +388,8 @@
 				A22F3EB02281B554007CE92C /* DataCryptoAES.swift */,
 				E291C2F322CC89AB0022603D /* LoadGifVC.swift */,
 				E23A5EFA22D5CD5D001F0AE7 /* WifiInfoVC.swift */,
+				E22D6A6E23137FB000537DA7 /* DatePickerVC.swift */,
+				E22D6A7023137FC700537DA7 /* TimePickerVC.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -729,6 +735,7 @@
 				E220D10E221F99FC00C0F10B /* JWAudioRecode.m in Sources */,
 				A22F3EB12281B554007CE92C /* DataCryptoAES.swift in Sources */,
 				A2F8F0AE2222D14A003F2945 /* XDXRecoder.mm in Sources */,
+				E22D6A7123137FC700537DA7 /* TimePickerVC.swift in Sources */,
 				A262CC242160D0C40050D6BC /* MarkDownBlogVC.swift in Sources */,
 				E210313621EC5A12006E6ED1 /* CameraFaceVC.swift in Sources */,
 				E23A5EFB22D5CD5D001F0AE7 /* WifiInfoVC.swift in Sources */,
@@ -745,6 +752,7 @@
 				A2930B642104A08E006520FF /* AppDelegate.swift in Sources */,
 				A2930B852105FF94006520FF /* RealmStore.swift in Sources */,
 				A262CC282160DBDD0050D6BC /* BaseVC.swift in Sources */,
+				E22D6A6F23137FB000537DA7 /* DatePickerVC.swift in Sources */,
 				E20CDF392231383C002FA919 /* PingReachabilityVC.swift in Sources */,
 				E283B81222367DB400568C9D /* PDFLoaderVC.swift in Sources */,
 				A27469B9216C7A920059E2C9 /* ClosureVC.swift in Sources */,
