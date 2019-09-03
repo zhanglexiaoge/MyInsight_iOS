@@ -108,12 +108,29 @@ class BasicVC: BaseVC {
         let r = String(s.enumerated().map { $0 > 0 && $0 % 2 == 0 ? [":", $1] : [$1]}.joined())
         
         print(r)
+        
+        
+        
+        let ssss = String(64, radix: 2, uppercase: true)
+        debugPrint("这是什么？", ssss)
+        
+        debugPrint("准备转换的数据", strtol(ssss, nil, 2))
+        
+        var testStrr = "001101" //String(strtol(ssss, nil, 2))
+        
+        
+        for _ in 1...7-testStrr.count {
+            testStrr = "0" + testStrr
+        }
+        debugPrint("解析后的字符串", testStrr)
+        debugPrint("准备转换的数据", strtol(testStrr, nil, 2))
+        
+        
+        // 转换时间戳
+        let nowDate = CLongLong(round(Date().timeIntervalSince1970 * 1000)) //Int(Date().timeIntervalSince1970)
+        debugPrint("当前的时间戳", nowDate)
+        debugPrint("当前的时间戳字符串", nowDate.description)
     }
-    
-    
-    
-    
-    
     
     
     override func didReceiveMemoryWarning() {
@@ -204,7 +221,16 @@ extension BasicVC: UITableViewDelegate, UITableViewDataSource {
             let datePickerVC = DatePickerVC()
             datePickerVC.hidesBottomBarWhenPushed = true
             //self.navigationController?.pushViewController(datePickerVC, animated: true)
+            
             datePickerVC.view.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3)
+            datePickerVC.datePickerBlock = { limitDate in
+//                debugPrint("时间日期选择器返回的闭包", limitDate)
+//                let dateFormatter = DateFormatter.init()
+//                dateFormatter.dateFormat = "yyyy年MM月dd日"
+//                dateFormatter.timeZone = TimeZone.current
+//                let timeStr2: String = dateFormatter.string(from: limitDate)
+//                debugPrint("当前时区的时间", timeStr2)
+            }
             self.present(datePickerVC, animated: true) {
                 
             }
@@ -215,6 +241,18 @@ extension BasicVC: UITableViewDelegate, UITableViewDataSource {
             timePickerVC.hidesBottomBarWhenPushed = true
             //self.navigationController?.pushViewController(timePickerVC, animated: true)
             timePickerVC.view.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3)
+            
+            timePickerVC.timePickerBlock = { beginTime, endTime in
+                debugPrint("开始时间， 结束时间", beginTime, endTime)
+                let dateFormatter = DateFormatter.init()
+                dateFormatter.dateFormat = "HH:mm"
+                dateFormatter.timeZone = TimeZone.current
+                let timeStr1: String = dateFormatter.string(from: beginTime)
+                let timeStr2: String = dateFormatter.string(from: endTime)
+                debugPrint("打印时间1", timeStr1)
+                debugPrint("打印时间2", timeStr2)
+            }
+            
             self.present(timePickerVC, animated: true) {
                 
             }

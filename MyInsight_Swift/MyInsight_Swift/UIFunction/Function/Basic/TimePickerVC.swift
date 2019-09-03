@@ -63,6 +63,9 @@ class TimePickerVC: UIViewController {
     }()
     
     
+    /// 闭包返回值
+    var timePickerBlock:((_ beginTime: Date, _ endTime: Date) -> Void)?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -97,6 +100,9 @@ class TimePickerVC: UIViewController {
     // 确定按钮的方法
     @objc func confirmButtonAction(button: UIButton) -> Void {
         debugPrint("确定按钮动作方法", self.beginTimePicker.date, self.endTimePicker.date)
+        if (self.timePickerBlock != nil) {
+            self.timePickerBlock!(self.beginTimePicker.date, self.endTimePicker.date)
+        }
         self.dismiss(animated: true, completion: nil)
     }
     

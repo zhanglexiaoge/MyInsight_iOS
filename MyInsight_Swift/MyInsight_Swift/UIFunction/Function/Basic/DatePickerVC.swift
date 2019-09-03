@@ -43,7 +43,6 @@ class DatePickerVC: UIViewController {
         return button
     }()
     
-    
     // 时间选择器~
     var datePicker: UIDatePicker = {
         let datePicker = UIDatePicker()
@@ -52,6 +51,9 @@ class DatePickerVC: UIViewController {
         datePicker.datePickerMode = UIDatePicker.Mode.date
         return datePicker
     }()
+    
+    /// 闭包返回值
+    var datePickerBlock:((_ limitDate: Date) -> Void)?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -85,6 +87,11 @@ class DatePickerVC: UIViewController {
     // 确定按钮的方法
     @objc func confirmButtonAction(button: UIButton) -> Void {
         debugPrint("确定按钮动作方法", self.datePicker.date)
+        
+        if (self.datePickerBlock != nil) {
+            self.datePickerBlock!(self.datePicker.date)
+        }
+        
         self.dismiss(animated: true, completion: nil)
     }
     
