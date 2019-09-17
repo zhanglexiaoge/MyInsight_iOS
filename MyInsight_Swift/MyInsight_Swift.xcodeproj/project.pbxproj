@@ -57,6 +57,7 @@
 		E220D10E221F99FC00C0F10B /* JWAudioRecode.m in Sources */ = {isa = PBXBuildFile; fileRef = E220D10A221F99FB00C0F10B /* JWAudioRecode.m */; };
 		E220D10F221F99FC00C0F10B /* AudioUnitRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = E220D10B221F99FB00C0F10B /* AudioUnitRecord.m */; };
 		E220D112221FCBC900C0F10B /* QueuePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E220D111221FCBC900C0F10B /* QueuePlayer.m */; };
+		E229C4652330FEF200883406 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E229C4642330FEF200883406 /* DataManager.swift */; };
 		E22D6A6F23137FB000537DA7 /* DatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22D6A6E23137FB000537DA7 /* DatePickerVC.swift */; };
 		E22D6A7123137FC700537DA7 /* TimePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22D6A7023137FC700537DA7 /* TimePickerVC.swift */; };
 		E23A5EFB22D5CD5D001F0AE7 /* WifiInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23A5EFA22D5CD5D001F0AE7 /* WifiInfoVC.swift */; };
@@ -171,6 +172,7 @@
 		E220D10D221F99FB00C0F10B /* AudioUnitRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioUnitRecord.h; sourceTree = "<group>"; };
 		E220D110221FCBC900C0F10B /* QueuePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueuePlayer.h; sourceTree = "<group>"; };
 		E220D111221FCBC900C0F10B /* QueuePlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueuePlayer.m; sourceTree = "<group>"; };
+		E229C4642330FEF200883406 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		E22D6A6E23137FB000537DA7 /* DatePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerVC.swift; sourceTree = "<group>"; };
 		E22D6A7023137FC700537DA7 /* TimePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerVC.swift; sourceTree = "<group>"; };
 		E23A5EFA22D5CD5D001F0AE7 /* WifiInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiInfoVC.swift; sourceTree = "<group>"; };
@@ -382,7 +384,7 @@
 				E20E765122C301C800107BAA /* GCDGroupVC.swift */,
 				A27469B6216C63F00059E2C9 /* RunTimeVC.swift */,
 				A27469B8216C7A920059E2C9 /* ClosureVC.swift */,
-				A21C29D62250E75B00B401DE /* GRDBVC.swift */,
+				E229C463233091CE00883406 /* GRDB */,
 				E213162F225AFEAF0058674B /* CryptoAESVC.swift */,
 				E2AF7063227703DD00451729 /* DataCrypto.swift */,
 				A22F3EB02281B554007CE92C /* DataCryptoAES.swift */,
@@ -454,6 +456,15 @@
 				E20CDF362231378A002FA919 /* SimplePing.m */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		E229C463233091CE00883406 /* GRDB */ = {
+			isa = PBXGroup;
+			children = (
+				A21C29D62250E75B00B401DE /* GRDBVC.swift */,
+				E229C4642330FEF200883406 /* DataManager.swift */,
+			);
+			path = GRDB;
 			sourceTree = "<group>";
 		};
 		E2A5E603218853950081B454 /* Model */ = {
@@ -761,6 +772,7 @@
 				E20F180C222FD20C00ECF51C /* AppBackgroundService.swift in Sources */,
 				E2183AA922363D7A00823240 /* LanAlamoFireVC.swift in Sources */,
 				A2930B6B2104AFBB006520FF /* MainRevealVC.swift in Sources */,
+				E229C4652330FEF200883406 /* DataManager.swift in Sources */,
 				A262CB562160C4B90050D6BC /* Vendors.swift in Sources */,
 				E20CDF372231378A002FA919 /* SimplePing.m in Sources */,
 				E220D10F221F99FC00C0F10B /* AudioUnitRecord.m in Sources */,
