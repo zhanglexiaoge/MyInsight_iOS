@@ -34,5 +34,8 @@ class DataManager: NSObject {
  GRDB.swift as a Solution for iOS Database
  https://www.netguru.com/codestories/grdb.swift-as-a-solution-for-ios-database
  
+ Swift - 第三方SQLite库FMDB使用详解4（实体类与数据库表的关联映射）
+ https://www.hangge.com/blog/cache/detail_2318.html
+ 
  */
 
