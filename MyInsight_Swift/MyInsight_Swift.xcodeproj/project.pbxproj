@@ -60,6 +60,7 @@
 		E229C4652330FEF200883406 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E229C4642330FEF200883406 /* DataManager.swift */; };
 		E22D6A6F23137FB000537DA7 /* DatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22D6A6E23137FB000537DA7 /* DatePickerVC.swift */; };
 		E22D6A7123137FC700537DA7 /* TimePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22D6A7023137FC700537DA7 /* TimePickerVC.swift */; };
+		E235B78D2331CBAD00F886B6 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E235B78C2331CBAD00F886B6 /* UserEntity.swift */; };
 		E23A5EFB22D5CD5D001F0AE7 /* WifiInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23A5EFA22D5CD5D001F0AE7 /* WifiInfoVC.swift */; };
 		E2781A8321E8871C00AA2E05 /* VideoCaptureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2781A8221E8871C00AA2E05 /* VideoCaptureVC.swift */; };
 		E283B81222367DB400568C9D /* PDFLoaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E283B81122367DB400568C9D /* PDFLoaderVC.swift */; };
@@ -175,6 +176,7 @@
 		E229C4642330FEF200883406 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		E22D6A6E23137FB000537DA7 /* DatePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerVC.swift; sourceTree = "<group>"; };
 		E22D6A7023137FC700537DA7 /* TimePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerVC.swift; sourceTree = "<group>"; };
+		E235B78C2331CBAD00F886B6 /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
 		E23A5EFA22D5CD5D001F0AE7 /* WifiInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiInfoVC.swift; sourceTree = "<group>"; };
 		E23A5EFC22D5CF96001F0AE7 /* MyInsight_Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyInsight_Swift.entitlements; sourceTree = "<group>"; };
 		E2781A8221E8871C00AA2E05 /* VideoCaptureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCaptureVC.swift; sourceTree = "<group>"; };
@@ -463,6 +465,7 @@
 			children = (
 				A21C29D62250E75B00B401DE /* GRDBVC.swift */,
 				E229C4642330FEF200883406 /* DataManager.swift */,
+				E235B78C2331CBAD00F886B6 /* UserEntity.swift */,
 			);
 			path = GRDB;
 			sourceTree = "<group>";
@@ -750,6 +753,7 @@
 				A262CC242160D0C40050D6BC /* MarkDownBlogVC.swift in Sources */,
 				E210313621EC5A12006E6ED1 /* CameraFaceVC.swift in Sources */,
 				E23A5EFB22D5CD5D001F0AE7 /* WifiInfoVC.swift in Sources */,
+				E235B78D2331CBAD00F886B6 /* UserEntity.swift in Sources */,
 				E291C2F422CC89AB0022603D /* LoadGifVC.swift in Sources */,
 				A27469B7216C63F00059E2C9 /* RunTimeVC.swift in Sources */,
 				E290ED8C22E6D82F00BFF002 /* WeexModule.m in Sources */,

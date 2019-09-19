@@ -10,19 +10,38 @@ import GRDB
 
 class DataManager: NSObject {
 
-    /// 初始化
-    var dbPool: DatabasePool?
-    var dbQueue: DatabaseQueue?
+    let kSmartHomeDBName = "smartHome_1.db"
     
+    // 创建单例
+    private static let manger: DataManager = DataManager()
+    // 返回单例
+    class func shareManger() -> DataManager {
+        return manger
+    }
     
-//    func didChangesss() -> Void {
-//        do {
-//            dbPool = try DatabasePool(path: path)
-//            dbQueue = try DatabaseQueue(path: path)
-//        }catch {
-//
-//        }
-//    }
+    // 数据库地址
+    lazy var dbPath: String = {
+        // 根据传入的数据库名称拼接数据库的路径
+        let filePath = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).first?.appending("/\(kSmartHomeDBName)")
+        
+        print("数据库地址：", filePath as Any)
+        return filePath!
+    }()
+    
+    /// 数据库 用于对数据库进行操作
+    lazy var dbPool: DatabasePool = {
+        let db = try! DatabasePool(path: dbPath)
+        return db
+    }()
+    
+    /// 数据库 用于多线程事务处理
+    lazy var dbQueue: DatabaseQueue = {
+        let db = try! DatabaseQueue(path: dbPath)
+        return db
+    }()
+    
+    /// 数据库表升级
+    
 }
 
 /*
