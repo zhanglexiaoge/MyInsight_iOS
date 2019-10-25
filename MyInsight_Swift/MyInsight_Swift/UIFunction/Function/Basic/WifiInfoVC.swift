@@ -24,7 +24,22 @@ class WifiInfoVC: UIViewController {
         debugPrint("当前的Wi-Fi名字:\(ssid)")
         let address = self.GetIPAddresses()
         debugPrint("当前的Wi-Fi地址: \(String(describing: address))")
+        
+        
+        let button = UIButton(type: .custom)
+        button.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
+        self.view.addSubview(button)
+        //button.isEnabled = true
+        button.addTarget(self, action: #selector(buttonAction), for: UIControl.Event.touchUpInside)
+        button.backgroundColor = UIColor.gray
+        
     }
+    
+    @objc func buttonAction() -> Void {
+        debugPrint("这是什么字符串??? ")
+        debugPrint("UUID字符串", UUID().uuidString)
+    }
+    
     
     // 获取Wi-Fi名称
     func getUsedSSID() -> String {
