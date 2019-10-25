@@ -130,6 +130,58 @@ class BasicVC: BaseVC {
         let nowDate = CLongLong(round(Date().timeIntervalSince1970 * 1000)) //Int(Date().timeIntervalSince1970)
         debugPrint("当前的时间戳", nowDate)
         debugPrint("当前的时间戳字符串", nowDate.description)
+        
+//        debugPrint(<#T##items: Any...##Any#>)
+        
+        debugPrint("核对车牌是否正确", self.checkCarID(carID: "龙A23444"))
+        debugPrint("核对车牌是否正确", self.checkCarID(carID: "粤A234I4"))
+        debugPrint("核对车牌是否正确", self.checkCarID(carID: "粤A234O4"))
+        debugPrint("核对车牌是否正确", self.checkCarID(carID: "粤A2B444"))
+        
+    }
+    
+    
+    
+    /*
+     +(BOOL)checkCarID:(NSString *)carID;
+     {
+         if (carID.length==7) {
+            //普通汽车，7位字符，不包含I和O，避免与数字1和0混淆
+            NSString *carRegex = @"^[\u4e00-\u9fa5]{1}[a-hj-np-zA-HJ-NP-Z]{1}[a-hj-np-zA-HJ-NP-Z0-9]{4}[a-hj-np-zA-HJ-NP-Z0-9\u4e00-\u9fa5]$";
+            NSPredicate *carTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",carRegex];
+            return [carTest evaluateWithObject:carID];
+         }else if(carID.length==8){
+            //新能源车,8位字符，第一位：省份简称（1位汉字），第二位：发牌机关代号（1位字母）;
+            //小型车，第三位：只能用字母D或字母F，第四位：字母或者数字，后四位：必须使用数字;([DF][A-HJ-NP-Z0-9][0-9]{4})
+            //大型车3-7位：必须使用数字，后一位：只能用字母D或字母F。([0-9]{5}[DF])
+            NSString *carRegex = @"^[\u4e00-\u9fa5]{1}[a-hj-np-zA-HJ-NP-Z]{1}([0-9]{5}[d|f|D|F]|[d|f|D|F][a-hj-np-zA-HJ-NP-Z0-9][0-9]{4})$";
+            NSPredicate *carTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",carRegex];
+            return [carTest evaluateWithObject:carID];
+         }
+         return NO;
+     }
+     */
+    
+    
+    func checkCarID(carID: String) -> Bool {
+        if carID.count == 7 {
+            // 普通汽车，7位字符，不包含I和O，避免与数字1和0混淆
+            // ^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领A-Z]{1}[A-Z]{1}[A-Z0-9]{4}[A-Z0-9挂学警港澳]{1}$
+            
+            let carRegex: String = "^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领A-Z]{1}[a-hj-np-zA-HJ-NP-Z]{1}[a-hj-np-zA-HJ-NP-Z0-9]{4}[a-hj-np-zA-HJ-NP-Z0-9挂学警港澳]$"
+            //let carRegex: String = "^[\\u4e00-\\u9fa5]{1}[a-hj-np-zA-HJ-NP-Z]{1}[a-hj-np-zA-HJ-NP-Z0-9]{4}[a-hj-np-zA-HJ-NP-Z0-9\\u4e00-\\u9fa5]$"
+            let carTest =  NSPredicate(format: "SELF MATCHES %@", carRegex)
+            return carTest.evaluate(with: carID)
+        } else if carID.count == 8 {
+            //新能源车,8位字符，第一位：省份简称（1位汉字），第二位：发牌机关代号（1位字母）;
+            //小型车，第三位：只能用字母D或字母F，第四位：字母或者数字，后四位：必须使用数字;([DF][A-HJ-NP-Z0-9][0-9]{4})
+            //大型车3-7位：必须使用数字，后一位：只能用字母D或字母F。([0-9]{5}[DF])
+            let carRegex: String = "^[\\u4e00-\\u9fa5]{1}[a-hj-np-zA-HJ-NP-Z]{1}([0-9]{5}[d|f|D|F]|[d|f|D|F][a-hj-np-zA-HJ-NP-Z0-9][0-9]{4})$"
+            let carTest =  NSPredicate(format: "SELF MATCHES %@", carRegex)
+            return carTest.evaluate(with: carID)
+        }
+        
+        return false
     }
     
     
